@@ -1,0 +1,160 @@
+Query         CXCL17[22-119] 
+Match_columns 98
+No_of_seqs    71 out of 122
+Neff          2.80687
+Searched_HMMs 92111
+Date          Tue Aug  1 16:54:12 2023
+Command       /scratch/alphafold/alphafold-conda/bin/hhsearch -i /tmp/tmpxwvqcedf/query.a3m -o /tmp/tmpxwvqcedf/output.hhr -maxseq 1000000 -d /scratch/alphafold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1PNB_A NAPIN IA AND IB, ALBUMI  38.9      29 0.00032   21.6   0.0   11   78-88     14-24  (31)
+  2 2DS2_C Sweet protein mabinlin-  36.6      34 0.00037   21.6   0.0   11   78-88     14-24  (33)
+  3 1KIG_L FACTOR XA, ANTICOAGULAN  23.1      82 0.00089   13.3   0.0   12   50-61     38-49  (51)
+  4 4Z4P_A MLL4; transferase, SET   22.5      86 0.00093   19.3   0.0   21   52-72    145-165 (166)
+  5 3GA8_A HTH-type transcriptiona  15.6 1.5E+02  0.0017   17.1   0.0   24   40-63     25-49  (78)
+  6 4JYV_L Factor VII light chain   15.2 1.6E+02  0.0017   13.4   0.0   15   50-64     40-54  (55)
+  7 4JZE_L Factor VIIa (Heavy Chai  15.2 1.6E+02  0.0017   13.4   0.0   15   50-64     40-54  (55)
+  8 5L2Y_L Coagulation factor VII   15.2 1.6E+02  0.0017   13.4   0.0   15   50-64     40-54  (55)
+  9 5CNL_A IcmL-like; type IV secr  11.6 2.4E+02  0.0026   21.2   0.0   22   44-65    129-150 (155)
+ 10 1N6C_A SET domain-containing p  11.4 2.4E+02  0.0027   20.6   0.0   15   26-40    275-289 (297)
+
+No 1
+>1PNB_A NAPIN IA AND IB, ALBUMIN; NMR {Brassica napus} SCOP: a.52.1.3
+Probab=38.95  E-value=29  Score=21.58  Aligned_cols=11  Identities=64%  Similarity=1.201  Sum_probs=8.7  Template_Neff=2.700
+
+Q CXCL17[22-119]   78 HSRACQQFLKQ   88 (98)
+Q Consensus        78 ~sraCqqFlkq   88 (98)
+                      +-+|||+||.+
+T Consensus        14 hLRaCQ~wi~~   24 (31)
+T 1PNB_A           14 HLRACQQWIRQ   24 (31)
+T ss_dssp             CCSTTHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            45799999864
+
+
+No 2
+>2DS2_C Sweet protein mabinlin-2 chain A; PLANT PROTEIN, SEED STORAGE PROTEIN; 1.7A {Capparis masaikai}
+Probab=36.56  E-value=34  Score=21.62  Aligned_cols=11  Identities=45%  Similarity=1.005  Sum_probs=8.7  Template_Neff=2.500
+
+Q CXCL17[22-119]   78 HSRACQQFLKQ   88 (98)
+Q Consensus        78 ~sraCqqFlkq   88 (98)
+                      +-+|||+|+.+
+T Consensus        14 hLRACQ~wirk   24 (33)
+T 2DS2_C           14 RLRACQRFIHR   24 (33)
+T ss_dssp             GGHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            45799999865
+
+
+No 3
+>1KIG_L FACTOR XA, ANTICOAGULANT PEPTIDE; GLYCOPROTEIN, SERINE PROTEASE, PLASMA, BLOOD; 3.0A {Bos taurus} SCOP: g.3.11.1
+Probab=23.13  E-value=82  Score=13.29  Aligned_cols=12  Identities=25%  Similarity=0.786  Sum_probs=8.4  Template_Neff=14.700
+
+Q CXCL17[22-119]   50 PKKQCPCDHFKG   61 (98)
+Q Consensus        50 PkkqCPCDh~K~   61 (98)
+                      +...|||+.++.
+T Consensus        38 ~~~~~~~~~~~~   49 (51)
+T 1KIG_L           38 STERFPCGKFTQ   49 (51)
+T ss_dssp             ECSSSCTTCCCC
+T ss_pred             cCCCCCCCCeec
+Confidence            456799988753
+
+
+No 4
+>4Z4P_A MLL4; transferase, SET Domain Methyltransferase; HET: SAH; 2.2A {Homo sapiens}
+Probab=22.53  E-value=86  Score=19.32  Aligned_cols=21  Identities=24%  Similarity=0.539  Sum_probs=15.3  Template_Neff=13.000
+
+Q CXCL17[22-119]   52 KQCPCDHFKGNVKKTRHQRHH   72 (98)
+Q Consensus        52 kqCPCDh~K~~~KKtrh~rhh   72 (98)
+                      ..|.|+...-..+..-+..||
+T Consensus       145 ~~c~c~~~~~~~~~~~~~~~~  165 (166)
+T 4Z4P_A          145 IPCHCGAWNCRKWMKGHHHHH  165 (166)
+T ss_dssp             EECCCCCTTCCSEESCCC---
+T ss_pred             ccccCCCCccCcccccCCCCC
+Confidence            579999999988888776665
+
+
+No 5
+>3GA8_A HTH-type transcriptional regulator MqsA (YgiT/B3021); helix-turn-helix, Zn-binding protein, DNA-binding, Transcription; HET: PE4; 1.7A {Escherichia coli K-12}
+Probab=15.63  E-value=1.5e+02  Score=17.11  Aligned_cols=24  Identities=21%  Similarity=0.360  Sum_probs=17.4  Template_Neff=11.100
+
+Q CXCL17[22-119]   40 RRKFMTVSGLPKKQCP-CDHFKGNV   63 (98)
+Q Consensus        40 krk~m~v~~~PkkqCP-CDh~K~~~   63 (98)
+                      ++..+.+...|...|+ |+..-...
+T Consensus        25 ~~~~~~~~~~~~~~C~~Cg~~~~~~   49 (78)
+T 3GA8_A           25 RGRKTVLKGIHGLYCVHCEESIMNK   49 (78)
+T ss_dssp             TTEEEEEEEEEEEEETTTCCEECCH
+T ss_pred             CCEEEEEcCceeeEeCCCCCEeeCH
+Confidence            4455677788999999 99865533
+
+
+No 6
+>4JYV_L Factor VII light chain ; GLYCOPROTEIN, HYDROLASE, SERINE PROTEASE, PLASMA; HET: SO4, 1OJ, GOL; 2.19A {Homo sapiens}
+Probab=15.16  E-value=1.6e+02  Score=13.40  Aligned_cols=15  Identities=27%  Similarity=0.472  Sum_probs=9.8  Template_Neff=13.800
+
+Q CXCL17[22-119]   50 PKKQCPCDHFKGNVK   64 (98)
+Q Consensus        50 PkkqCPCDh~K~~~K   64 (98)
+                      +...|||+.++...+
+T Consensus        40 ~~~~~~~~~~~~~~~   54 (55)
+T 4JYV_L           40 PTVEYPCGKIPILEK   54 (55)
+T ss_dssp             ECSSSCTTCCHHHHT
+T ss_pred             eCccCCCCCCccccC
+Confidence            356788888765443
+
+
+No 7
+>4JZE_L Factor VIIa (Heavy Chain) (E.C.3.4.21.21); glycoprotein, serine protease, plasma, blood; HET: 1NK, SO4, GOL; 1.52A {Homo sapiens}
+Probab=15.16  E-value=1.6e+02  Score=13.40  Aligned_cols=15  Identities=27%  Similarity=0.472  Sum_probs=9.8  Template_Neff=13.800
+
+Q CXCL17[22-119]   50 PKKQCPCDHFKGNVK   64 (98)
+Q Consensus        50 PkkqCPCDh~K~~~K   64 (98)
+                      +...|||+.++...+
+T Consensus        40 ~~~~~~~~~~~~~~~   54 (55)
+T 4JZE_L           40 PTVEYPCGKIPILEK   54 (55)
+T ss_dssp             ECSSSCTTCCHHHHC
+T ss_pred             eCccCCCCCCccccC
+Confidence            356788888765443
+
+
+No 8
+>5L2Y_L Coagulation factor VII (Heavy Chain); Glycoprotein, hydrolase, serine protease, plasma; HET: 70D, GOL, SO4; 1.82A {Homo sapiens}
+Probab=15.16  E-value=1.6e+02  Score=13.40  Aligned_cols=15  Identities=27%  Similarity=0.472  Sum_probs=9.8  Template_Neff=13.800
+
+Q CXCL17[22-119]   50 PKKQCPCDHFKGNVK   64 (98)
+Q Consensus        50 PkkqCPCDh~K~~~K   64 (98)
+                      +...|||+.++...+
+T Consensus        40 ~~~~~~~~~~~~~~~   54 (55)
+T 5L2Y_L           40 PTVEYPCGKIPILEK   54 (55)
+T ss_dssp             ECSSSCTTCCHHHHC
+T ss_pred             eCccCCCCCCccccC
+Confidence            356788888765443
+
+
+No 9
+>5CNL_A IcmL-like; type IV secretion system, protein; HET: PGE, SO4, PEG, MSE; 2.65A {Legionella pneumophila subsp. pneumophila}
+Probab=11.65  E-value=2.4e+02  Score=21.19  Aligned_cols=22  Identities=27%  Similarity=0.401  Sum_probs=7.1  Template_Neff=7.800
+
+Q CXCL17[22-119]   44 MTVSGLPKKQCPCDHFKGNVKK   65 (98)
+Q Consensus        44 m~v~~~PkkqCPCDh~K~~~KK   65 (98)
+                      ...+..+..+|||..--|+.|.
+T Consensus       129 ~~~~~~~~~~~~~~~~~~~~~~  150 (155)
+T 5CNL_A          129 QSTPISPPCQCKIEETPGNTKQ  150 (155)
+T ss_dssp             EEEEECCCCCC-----------
+T ss_pred             EEccCCCCCcCcccCCCCCCCC
+Confidence            3455556689999988887764
+
+
+No 10
+>1N6C_A SET domain-containing protein 7; PROTEIN-LIGAND COMPLEX, TRANSFERASE; HET: SAM; 2.3A {Homo sapiens} SCOP: b.76.2.1, b.85.7.1
+Probab=11.35  E-value=2.4e+02  Score=20.58  Aligned_cols=15  Identities=13%  Similarity=0.390  Sum_probs=11.7  Template_Neff=11.600
+
+Q CXCL17[22-119]   26 GQECECKDWFLRAPR   40 (98)
+Q Consensus        26 ~QeCeCkDwflrapk   40 (98)
+                      ...|+|.+||.....
+T Consensus       275 ~~~~~~~~~~~~~~~  289 (297)
+T 1N6C_A          275 KSGPEAPEWYQVELK  289 (297)
+T ss_dssp             TTCSCCCHHHHHHHH
+T ss_pred             CCCCCCCHHHHHHHH
+Confidence            567999999987654
+
+

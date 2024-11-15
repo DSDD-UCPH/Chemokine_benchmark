@@ -1,0 +1,528 @@
+# STOCKHOLM 1.0
+#=GF ID chain_B-i1
+#=GF AU jackhmmer (HMMER 3.3.2)
+
+#=GS sp|Q6UXB2|CXL17_HUMAN/22-119           DE [subseq from] C-X-C motif chemokine 17 OS=Homo sapiens OX=9606 GN=CXCL17 PE=1 SV=1
+#=GS tr|G3QEQ3|G3QEQ3_GORGO/22-119          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Gorilla gorilla gorilla OX=9595 GN=CXCL17 PE=4 SV=1
+#=GS tr|G1RII2|G1RII2_NOMLE/22-119          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Nomascus leucogenys OX=61853 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2R8Z5Y3|A0A2R8Z5Y3_PANPA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Pan paniscus OX=9597 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6D2XI88|A0A6D2XI88_PANTR/22-119  DE [subseq from] CXCL17 isoform 1 OS=Pan troglodytes OX=9598 GN=CK820_G0030569 PE=4 SV=1
+#=GS tr|H2QGG7|H2QGG7_PANTR/22-119          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Pan troglodytes OX=9598 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A0A0MWN4|A0A0A0MWN4_PAPAN/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Papio anubis OX=9555 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A0D9S176|A0A0D9S176_CHLSB/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Chlorocebus sabaeus OX=60711 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8D2FV81|A0A8D2FV81_THEGE/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Theropithecus gelada OX=9565 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K6L964|A0A2K6L964_RHIBE/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Rhinopithecus bieti OX=61621 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K5VQK7|A0A2K5VQK7_MACFA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Macaca fascicularis OX=9541 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K6CE26|A0A2K6CE26_MACNE/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Macaca nemestrina OX=9545 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8J8YAN1|A0A8J8YAN1_MACMU/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Macaca mulatta OX=9544 GN=EGK_10684 PE=4 SV=1
+#=GS tr|F7EWH0|F7EWH0_MACMU/22-119          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Macaca mulatta OX=9544 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K5YG25|A0A2K5YG25_MANLE/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Mandrillus leucophaeus OX=9568 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6D2XTN5|A0A6D2XTN5_PONAB/22-119  DE [subseq from] CXCL17 isoform 1 OS=Pongo abelii OX=9601 GN=CR201_G0054634 PE=4 SV=1
+#=GS tr|A0A8I5T9I4|A0A8I5T9I4_PONAB/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Pongo abelii OX=9601 PE=4 SV=1
+#=GS tr|A0A8C9LS07|A0A8C9LS07_9PRIM/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Piliocolobus tephrosceles OX=591936 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K5J518|A0A2K5J518_COLAP/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Colobus angolensis palliatus OX=336983 PE=4 SV=1
+#=GS tr|A0A2K5NDE8|A0A2K5NDE8_CERAT/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Cercocebus atys OX=9531 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K6PII8|A0A2K6PII8_RHIRO/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Rhinopithecus roxellana OX=61622 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K5EJ57|A0A2K5EJ57_AOTNA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Aotus nancymaae OX=37293 GN=CXCL17 PE=4 SV=1
+#=GS tr|F7DM35|F7DM35_CALJA/22-119          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Callithrix jacchus OX=9483 GN=CXCL17 PE=4 SV=2
+#=GS tr|A0A2K6TQQ2|A0A2K6TQQ2_SAIBB/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Saimiri boliviensis boliviensis OX=39432 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K5QSN6|A0A2K5QSN6_CEBIM/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Cebus imitator OX=2715852 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J3FIP4|A0A6J3FIP4_SAPAP/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Sapajus apella OX=9515 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A337SWE4|A0A337SWE4_FELCA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Felis catus OX=9685 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A667HSV1|A0A667HSV1_LYNCA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Lynx canadensis OX=61383 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J1XLU3|A0A6J1XLU3_ACIJB/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Acinonyx jubatus OX=32536 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6P6H5M5|A0A6P6H5M5_PUMCO/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Puma concolor OX=9696 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2K6ERT1|A0A2K6ERT1_PROCO/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Propithecus coquereli OX=379532 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A485MDS2|A0A485MDS2_LYNPA/22-119  DE [subseq from] Vegf co-regulated chemokine 1-like OS=Lynx pardinus OX=191816 GN=LYPA_23C021699 PE=4 SV=1
+#=GS tr|A0A6P4UUQ7|A0A6P4UUQ7_PANPR/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Panthera pardus OX=9691 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C8WUN2|A0A8C8WUN2_PANLE/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Panthera leo OX=9689 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C9JNB4|A0A8C9JNB4_PANTA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Panthera tigris altaica OX=74533 GN=CXCL17 PE=4 SV=1
+#=GS tr|G1PVB6|G1PVB6_MYOLU/22-118          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Myotis lucifugus OX=59463 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A3Q2HTQ3|A0A3Q2HTQ3_HORSE/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Equus caballus OX=9796 PE=4 SV=2
+#=GS tr|A0A8C5Y3C7|A0A8C5Y3C7_MICMU/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Microcebus murinus OX=30608 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2Y9HKW8|A0A2Y9HKW8_NEOSC/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Neomonachus schauinslandi OX=29088 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A673VSJ5|A0A673VSJ5_SURSU/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Suricata suricatta OX=37032 PE=4 SV=1
+#=GS tr|A0A2Y9TBG3|A0A2Y9TBG3_PHYMC/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Physeter macrocephalus OX=9755 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A3Q7URX3|A0A3Q7URX3_VULVU/22-120  DE [subseq from] C-X-C motif chemokine 17 OS=Vulpes vulpes OX=9627 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A811ZUJ2|A0A811ZUJ2_NYCPR/22-120  DE [subseq from] (raccoon dog) hypothetical protein OS=Nyctereutes procyonoides OX=34880 GN=NYPRO_LOCUS25366 PE=4 SV=1
+#=GS tr|A0A384DLG4|A0A384DLG4_URSMA/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Ursus maritimus OX=29073 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A3Q7VJ80|A0A3Q7VJ80_URSAR/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Ursus arctos horribilis OX=116960 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A7J8C6W6|A0A7J8C6W6_MOLMO/23-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Molossus molossus OX=27622 GN=HJG59_003535 PE=4 SV=1
+#=GS tr|A0A7J7SAN9|A0A7J7SAN9_MYOMY/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Myotis myotis OX=51298 GN=mMyoMyo1_003523 PE=4 SV=1
+#=GS tr|A0A8B8W013|A0A8B8W013_BALMU/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Balaenoptera musculus OX=9771 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8B7QAD2|A0A8B7QAD2_HIPAR/23-119  DE [subseq from] C-X-C motif chemokine 17 OS=Hipposideros armiger OX=186990 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A341DBJ7|A0A341DBJ7_NEOAA/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Neophocaena asiaeorientalis asiaeorientalis OX=1706337 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C9C896|A0A8C9C896_PHOSS/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Phocoena sinus OX=42100 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C0MAV2|A0A8C0MAV2_CANLF/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Canis lupus familiaris OX=9615 PE=4 SV=1
+#=GS tr|A0A8I3MC88|A0A8I3MC88_CANLF/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Canis lupus familiaris OX=9615 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A383YZ12|A0A383YZ12_BALAS/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Balaenoptera acutorostrata scammoni OX=310752 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A452T2Z8|A0A452T2Z8_URSMA/26-121  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Ursus maritimus OX=29073 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C6AVE1|A0A8C6AVE1_MONMO/23-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Monodon monoceros OX=40151 GN=CXCL17 PE=4 SV=1
+#=GS tr|G1LEE3|G1LEE3_AILME/22-119          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Ailuropoda melanoleuca OX=9646 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A3Q7MES7|A0A3Q7MES7_CALUR/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Callorhinus ursinus OX=34884 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J2F2B9|A0A6J2F2B9_ZALCA/22-119  DE [subseq from] C-X-C motif chemokine 17 isoform X1 OS=Zalophus californianus OX=9704 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A7J7SIC8|A0A7J7SIC8_RHIFE/23-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Rhinolophus ferrumequinum OX=59479 GN=mRhiFer1_003540 PE=4 SV=1
+#=GS tr|A0A2Y9E940|A0A2Y9E940_TRIMA/22-121  DE [subseq from] C-X-C motif chemokine 17 OS=Trichechus manatus latirostris OX=127582 GN=LOC101348725 PE=4 SV=1
+#=GS tr|A0A3Q2HWE2|A0A3Q2HWE2_HORSE/24-117  DE [subseq from] C-X-C motif chemokine 17 OS=Equus caballus OX=9796 PE=4 SV=1
+#=GS tr|A0A7F8Q1H9|A0A7F8Q1H9_LEPWE/5-102   DE [subseq from] C-X-C motif chemokine 17 OS=Leptonychotes weddellii OX=9713 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A340XH93|A0A340XH93_LIPVE/22-119  DE [subseq from] VEGF coregulated chemokine 1 OS=Lipotes vexillifer OX=118797 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C0ST64|A0A8C0ST64_CANLF/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Canis lupus familiaris OX=9615 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2U3WHI5|A0A2U3WHI5_ODORO/22-119  DE [subseq from] VEGF coregulated chemokine 1 OS=Odobenus rosmarus divergens OX=9708 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J2N184|A0A6J2N184_9CHIR/24-119  DE [subseq from] C-X-C motif chemokine 17 OS=Phyllostomus discolor OX=89673 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A0P6J2P1|A0A0P6J2P1_HETGA/22-119  DE [subseq from] VEGF co-regulated chemokine 1 OS=Heterocephalus glaber OX=10181 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A7J7SN81|A0A7J7SN81_PIPKU/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Pipistrellus kuhlii OX=59472 GN=mPipKuh1_003476 PE=4 SV=1
+#=GS tr|A0A6J3QEX7|A0A6J3QEX7_TURTR/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Tursiops truncatus OX=9739 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A7J8CFA9|A0A7J8CFA9_ROUAE/22-117  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Rousettus aegyptiacus OX=9407 GN=HJG63_003533 PE=4 SV=1
+#=GS tr|A0A671FVB0|A0A671FVB0_RHIFE/23-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Rhinolophus ferrumequinum OX=59479 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A091EE70|A0A091EE70_FUKDA/22-119  DE [subseq from] VEGF co-regulated chemokine 1 OS=Fukomys damarensis OX=885580 GN=H920_04992 PE=4 SV=1
+#=GS tr|A0A4X1VXI4|A0A4X1VXI4_PIG/23-119    DE [subseq from] C-X-C motif chemokine 17-like OS=Sus scrofa OX=9823 GN=LOC110260995 PE=4 SV=1
+#=GS tr|A0A5G2QXH3|A0A5G2QXH3_PIG/23-119    DE [subseq from] C-X-C motif chemokine 17 OS=Sus scrofa OX=9823 GN=LOC110260995 PE=4 SV=1
+#=GS tr|G3TGX5|G3TGX5_LOXAF/21-120          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Loxodonta africana OX=9785 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6P3RGN5|A0A6P3RGN5_PTEVA/23-118  DE [subseq from] C-X-C motif chemokine 17 OS=Pteropus vampyrus OX=132908 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A4X1W2Z2|A0A4X1W2Z2_PIG/23-119    DE [subseq from] C-X-C motif chemokine 17-like OS=Sus scrofa OX=9823 GN=LOC100737180 PE=4 SV=1
+#=GS tr|K7GSG9|K7GSG9_PIG/23-119            DE [subseq from] C-X-C motif chemokine 17 OS=Sus scrofa OX=9823 GN=LOC100737180 PE=2 SV=1
+#=GS tr|A0A8B8TI20|A0A8B8TI20_CAMFR/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Camelus ferus OX=419612 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8D0TD95|A0A8D0TD95_PIG/30-123    DE [subseq from] C2H2-type domain-containing protein OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|F1RMX0|F1RMX0_PIG/30-123            DE [subseq from] C2H2-type domain-containing protein OS=Sus scrofa OX=9823 GN=LOC110260995 PE=4 SV=4
+#=GS tr|A0A484H3X1|A0A484H3X1_SOUCH/2-94    DE [subseq from] C-X-C motif chemokine 17 (Fragment) OS=Sousa chinensis OX=103600 GN=DBR06_SOUSAS1610373 PE=4 SV=1
+#=GS tr|A0A4X1W3F2|A0A4X1W3F2_PIG/25-118    DE [subseq from] C-X-C motif chemokine 17-like OS=Sus scrofa OX=9823 GN=LOC110260995 PE=4 SV=1
+#=GS tr|A0A8D1EU01|A0A8D1EU01_PIG/2-94      DE [subseq from] VEGF coregulated chemokine 1 OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|K9IY53|K9IY53_DESRO/24-119          DE [subseq from] Putative vegf co-regulated chemokine 1-like protein OS=Desmodus rotundus OX=9430 PE=2 SV=1
+#=GS tr|A0A1S3ACN0|A0A1S3ACN0_ERIEU/23-119  DE [subseq from] VEGF coregulated chemokine 1 OS=Erinaceus europaeus OX=9365 GN=CXCL17 PE=4 SV=1
+#=GS tr|G1TS22|G1TS22_RABIT/28-122          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Oryctolagus cuniculus OX=9986 GN=CXCL17 PE=4 SV=2
+#=GS tr|A0A6J0B4M5|A0A6J0B4M5_VICPA/12-105  DE [subseq from] C-X-C motif chemokine 17 OS=Vicugna pacos OX=30538 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8U0NFX9|A0A8U0NFX9_MUSPF/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Mustela putorius furo OX=9669 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C2YIT4|A0A8C2YIT4_CHILA/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Chinchilla lanigera OX=34839 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A2Y9L467|A0A2Y9L467_ENHLU/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Enhydra lutris kenyoni OX=391180 GN=LOC111161569 PE=4 SV=1
+#=GS tr|A0A8C0WZR7|A0A8C0WZR7_CASCN/22-118  DE [subseq from] Chemokine (C-X-C motif) ligand 17 OS=Castor canadensis OX=51338 PE=4 SV=1
+#=GS tr|A0A8C7B309|A0A8C7B309_NEOVI/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Neovison vison OX=452646 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J2F694|A0A6J2F694_ZALCA/22-115  DE [subseq from] C-X-C motif chemokine 17 isoform X2 OS=Zalophus californianus OX=9704 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A286XJ59|A0A286XJ59_CAVPO/27-123  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Cavia porcellus OX=10141 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8D2DX45|A0A8D2DX45_SCIVU/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Sciurus vulgaris OX=55149 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8B7V8E4|A0A8B7V8E4_CASCN/6-97    DE [subseq from] C-X-C motif chemokine 17 OS=Castor canadensis OX=51338 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A8C8TLH3|A0A8C8TLH3_PERMB/22-119  DE [subseq from] Chemokine (C-X-C motif) ligand 17 OS=Peromyscus maniculatus bairdii OX=230844 PE=4 SV=1
+#=GS sp|A4IFR0|CXL17_BOVIN/22-118           DE [subseq from] C-X-C motif chemokine 17 OS=Bos taurus OX=9913 GN=CXCL17 PE=3 SV=1
+#=GS tr|A0A4W2EDR7|A0A4W2EDR7_BOBOX/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Bos indicus x Bos taurus OX=30522 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A7J7F835|A0A7J7F835_DICBM/9-99    DE [subseq from] C-X-C motif chemokine 17 OS=Diceros bicornis minor OX=77932 GN=HPG69_018105 PE=4 SV=1
+#=GS sp|Q5UW37|CXL17_MOUSE/22-119           DE [subseq from] C-X-C motif chemokine 17 OS=Mus musculus OX=10090 GN=Cxcl17 PE=2 SV=1
+#=GS tr|A0A8C6A000|A0A8C6A000_MARMA/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Marmota marmota marmota OX=9994 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A1U7R423|A0A1U7R423_MESAU/22-119  DE [subseq from] C-X-C motif chemokine 17 isoform X2 OS=Mesocricetus auratus OX=10036 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A5J5MP00|A0A5J5MP00_MUNRE/1-92    DE [subseq from] C-X-C motif chemokine 17 (Fragment) OS=Muntiacus reevesi OX=9886 GN=FD755_003977 PE=4 SV=1
+#=GS tr|A0A8D2GT61|A0A8D2GT61_UROPR/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Urocitellus parryii OX=9999 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J0VT65|A0A6J0VT65_ODOVR/23-119  DE [subseq from] C-X-C motif chemokine 17 OS=Odocoileus virginianus texanus OX=9880 GN=LOC110123304 PE=4 SV=1
+#=GS tr|A0A8B9XHM4|A0A8B9XHM4_BOSMU/19-113  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Bos mutus grunniens OX=30521 PE=4 SV=1
+#=GS tr|A0A8C9ULG8|A0A8C9ULG8_SPEDA/22-118  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Spermophilus dauricus OX=99837 PE=4 SV=1
+#=GS tr|A0A6P3I8B8|A0A6P3I8B8_BISBI/22-118  DE [subseq from] VEGF coregulated chemokine 1 OS=Bison bison bison OX=43346 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6P5DC82|A0A6P5DC82_BOSIN/22-118  DE [subseq from] C-X-C motif chemokine 17 OS=Bos indicus OX=9915 GN=CXCL17 PE=4 SV=1
+#=GS tr|L8HQ05|L8HQ05_9CETA/5-99            DE [subseq from] VEGF co-regulated chemokine 1 (Fragment) OS=Bos mutus OX=72004 GN=M91_13832 PE=4 SV=1
+#=GS tr|A0A8C6GYQ4|A0A8C6GYQ4_MUSSI/22-119  DE [subseq from] Chemokine (C-X-C motif) ligand 17 OS=Mus spicilegus OX=10103 PE=4 SV=1
+#=GS tr|A0A5N3VKS1|A0A5N3VKS1_MUNMU/1-92    DE [subseq from] C-X-C motif chemokine 17 (Fragment) OS=Muntiacus muntjak OX=9888 GN=FD754_014777 PE=4 SV=1
+#=GS tr|A0A6P5Q0X8|A0A6P5Q0X8_MUSCR/22-119  DE [subseq from] C-X-C motif chemokine 17 OS=Mus caroli OX=10089 GN=Cxcl17 PE=4 SV=1
+#=GS tr|I3MHM7|I3MHM7_ICTTR/19-113          DE [subseq from] C-X-C motif chemokine ligand 17 OS=Ictidomys tridecemlineatus OX=43179 GN=CXCL17 PE=4 SV=2
+#=GS tr|A0A6J0E1D4|A0A6J0E1D4_PERMB/6-99    DE [subseq from] VEGF coregulated chemokine 1 OS=Peromyscus maniculatus bairdii OX=230844 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A5N4DS69|A0A5N4DS69_CAMDR/9-38    DE [subseq from] C-X-C motif chemokine 17 (Fragment) OS=Camelus dromedarius OX=9838 GN=Cadr_000011761 PE=4 SV=1
+#=GS tr|A0A5N4DS69|A0A5N4DS69_CAMDR/55-121  DE [subseq from] C-X-C motif chemokine 17 (Fragment) OS=Camelus dromedarius OX=9838 GN=Cadr_000011761 PE=4 SV=1
+#=GS tr|A0A3Q0CGT9|A0A3Q0CGT9_MESAU/22-120  DE [subseq from] C-X-C motif chemokine 17 isoform X1 OS=Mesocricetus auratus OX=10036 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A6P6DJT0|A0A6P6DJT0_OCTDE/23-119  DE [subseq from] C-X-C motif chemokine 17 isoform X1 OS=Octodon degus OX=10160 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A836CX60|A0A836CX60_SHEEP/93-188  DE [subseq from] C-X-C motif chemokine 17 (Fragment) OS=Ovis aries OX=9940 GN=JEQ12_005379 PE=4 SV=1
+#=GS tr|A0A8C2SH65|A0A8C2SH65_CAPHI/155-250 DE [subseq from] C-X-C motif chemokine 17 OS=Capra hircus OX=9925 PE=4 SV=1
+#=GS tr|A0A3L7H5S1|A0A3L7H5S1_CRIGR/1-93    DE [subseq from] CXCL17 (Fragment) OS=Cricetulus griseus OX=10029 GN=CgPICR_018530 PE=4 SV=1
+#=GS tr|A0A6G1ASQ9|A0A6G1ASQ9_CROCR/1-66    DE [subseq from] CXL17 protein (Fragment) OS=Crocuta crocuta OX=9678 GN=Cxcl17 PE=4 SV=1
+#=GS tr|D4A875|D4A875_RAT/22-119            DE [subseq from] C-X-C motif chemokine ligand 17 OS=Rattus norvegicus OX=10116 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A452FVG1|A0A452FVG1_CAPHI/22-119  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Capra hircus OX=9925 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A1U7U401|A0A1U7U401_CARSF/24-89   DE [subseq from] C-X-C motif chemokine 17 OS=Carlito syrichta OX=1868482 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A4U1EHW6|A0A4U1EHW6_MONMO/35-110  DE [subseq from] C2H2-type domain-containing protein (Fragment) OS=Monodon monoceros OX=40151 GN=EI555_010251 PE=4 SV=1
+#=GS tr|A0A8C4LBK9|A0A8C4LBK9_EQUAS/21-88   DE [subseq from] C-X-C motif chemokine 17 OS=Equus asinus asinus OX=83772 PE=4 SV=1
+#=GS tr|D2HNH7|D2HNH7_AILME/1-66            DE [subseq from] CxC2 domain-containing protein (Fragment) OS=Ailuropoda melanoleuca OX=9646 GN=PANDA_013244 PE=4 SV=1
+#=GS tr|A0A6P6DJQ4|A0A6P6DJQ4_OCTDE/23-115  DE [subseq from] C-X-C motif chemokine 17 isoform X2 OS=Octodon degus OX=10160 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A6A1QJL9|A0A6A1QJL9_BALPH/55-121  DE [subseq from] 60S ribosomal protein L29 (Fragment) OS=Balaenoptera physalus OX=9770 GN=E2I00_010990 PE=4 SV=1
+#=GS tr|A0A8C4KZF8|A0A8C4KZF8_EQUAS/31-111  DE [subseq from] SCY domain-containing protein OS=Equus asinus asinus OX=83772 PE=4 SV=1
+#=GS tr|F7DX64|F7DX64_HORSE/21-88           DE [subseq from] C-X-C motif chemokine ligand 17 OS=Equus caballus OX=9796 GN=CXCL17 PE=4 SV=2
+#=GS tr|A0A8D0WB25|A0A8D0WB25_PIG/23-87     DE [subseq from] C-X-C motif chemokine 17 OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|L9L8U0|L9L8U0_TUPCH/28-93           DE [subseq from] VEGF co-regulated chemokine 1 OS=Tupaia chinensis OX=246437 GN=TREES_T100011467 PE=4 SV=1
+#=GS tr|A0A8D1Z3P0|A0A8D1Z3P0_PIG/21-83     DE [subseq from] C-X-C motif chemokine 17 OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|A0A3Q2GV43|A0A3Q2GV43_HORSE/24-88   DE [subseq from] SCY domain-containing protein OS=Equus caballus OX=9796 PE=4 SV=1
+#=GS tr|A0A8C3WI72|A0A8C3WI72_9CETA/33-112  DE [subseq from] CxC6 domain-containing protein OS=Catagonus wagneri OX=51154 PE=4 SV=1
+#=GS tr|A0A452R4E1|A0A452R4E1_URSAM/26-105  DE [subseq from] cDNA OS=Ursus americanus OX=9643 PE=4 SV=1
+#=GS tr|A0A8C0KLP4|A0A8C0KLP4_CANLU/37-116  DE [subseq from] C-X-C motif chemokine ligand 17 OS=Canis lupus dingo OX=286419 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C4LBY1|A0A8C4LBY1_EQUAS/36-101  DE [subseq from] C-X-C motif chemokine 17 OS=Equus asinus asinus OX=83772 PE=4 SV=1
+#=GS tr|A0A8C3WL05|A0A8C3WL05_9CETA/33-112  DE [subseq from] C-X-C motif chemokine 17 OS=Catagonus wagneri OX=51154 PE=4 SV=1
+#=GS tr|E9Q192|E9Q192_MOUSE/22-93           DE [subseq from] C-X-C motif chemokine 17 OS=Mus musculus OX=10090 GN=Cxcl17 PE=1 SV=1
+#=GS tr|A0A8B7A043|A0A8B7A043_ORYAF/42-123  DE [subseq from] LOW QUALITY PROTEIN: VEGF coregulated chemokine 1 OS=Orycteropus afer afer OX=1230840 GN=CXCL17 PE=4 SV=1
+#=GS tr|Q8R3U6|Q8R3U6_MOUSE/22-91           DE [subseq from] Chemokine (C-X-C motif) ligand 17 OS=Mus musculus OX=10090 GN=Cxcl17 PE=2 SV=1
+#=GS tr|A0A8J6GA61|A0A8J6GA61_MICOH/24-90   DE [subseq from] VEGF coregulated chemokine 1 OS=Microtus ochrogaster OX=79684 GN=LTLLF_170020 PE=4 SV=1
+#=GS tr|A0A8C2QJS8|A0A8C2QJS8_CRIGR/23-104  DE [subseq from] Chemokine (C-X-C motif) ligand 17 OS=Cricetulus griseus OX=10029 PE=4 SV=1
+#=GS tr|A0A6I9KA40|A0A6I9KA40_CHRAS/6-35    DE [subseq from] VEGF coregulated chemokine 1 OS=Chrysochloris asiatica OX=185453 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6I9KA40|A0A6I9KA40_CHRAS/36-66   DE [subseq from] VEGF coregulated chemokine 1 OS=Chrysochloris asiatica OX=185453 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A1A6H2K3|A0A1A6H2K3_NEOLE/6-33    DE [subseq from] Integron gene cassette protein OS=Neotoma lepida OX=56216 GN=A6R68_12809 PE=4 SV=1
+#=GS tr|A0A1A6H2K3|A0A1A6H2K3_NEOLE/35-65   DE [subseq from] Integron gene cassette protein OS=Neotoma lepida OX=56216 GN=A6R68_12809 PE=4 SV=1
+#=GS tr|A0A6J0VTA7|A0A6J0VTA7_ODOVR/10-39   DE [subseq from] LOW QUALITY PROTEIN: C-X-C motif chemokine 17 OS=Odocoileus virginianus texanus OX=9880 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A6J0VTA7|A0A6J0VTA7_ODOVR/40-71   DE [subseq from] LOW QUALITY PROTEIN: C-X-C motif chemokine 17 OS=Odocoileus virginianus texanus OX=9880 GN=CXCL17 PE=4 SV=1
+#=GS tr|X6R584|X6R584_HUMAN/22-57           DE [subseq from] C-X-C motif chemokine 17 OS=Homo sapiens OX=9606 GN=CXCL17 PE=1 SV=1
+#=GS tr|A0A1S3GIK6|A0A1S3GIK6_DIPOR/8-34    DE [subseq from] LOW QUALITY PROTEIN: VEGF coregulated chemokine 1 OS=Dipodomys ordii OX=10020 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A1S3GIK6|A0A1S3GIK6_DIPOR/35-65   DE [subseq from] LOW QUALITY PROTEIN: VEGF coregulated chemokine 1 OS=Dipodomys ordii OX=10020 GN=Cxcl17 PE=4 SV=1
+#=GS tr|A0A2J8QGS4|A0A2J8QGS4_PANTR/22-57   DE [subseq from] CXCL17 isoform 2 OS=Pan troglodytes OX=9598 GN=CK820_G0030569 PE=4 SV=1
+#=GS tr|A0A4U1EKH1|A0A4U1EKH1_MONMO/31-77   DE [subseq from] Ovule protein (Fragment) OS=Monodon monoceros OX=40151 GN=EI555_011271 PE=4 SV=1
+#=GS tr|A0A2J8R2B7|A0A2J8R2B7_PONAB/22-57   DE [subseq from] CXCL17 isoform 2 OS=Pongo abelii OX=9601 GN=CR201_G0054634 PE=4 SV=1
+#=GS tr|S9XT95|S9XT95_CAMFR/97-132          DE [subseq from] Chromobox 8 OS=Camelus ferus OX=419612 GN=CB1_001087001 PE=4 SV=1
+#=GS tr|A0A484H484|A0A484H484_SOUCH/1-34    DE [subseq from] Transposase (Fragment) OS=Sousa chinensis OX=103600 GN=DBR06_SOUSAS1610348 PE=4 SV=1
+#=GS tr|A0A6P5LKR9|A0A6P5LKR9_PHACI/20-113  DE [subseq from] C-X-C motif chemokine 17 isoform X1 OS=Phascolarctos cinereus OX=38626 GN=CXCL17 PE=4 SV=1
+#=GS tr|A0A8C9DEW8|A0A8C9DEW8_PROSS/23-55   DE [subseq from] Ovule protein OS=Prolemur simus OX=1328070 PE=4 SV=1
+#=GS tr|G5AZS0|G5AZS0_HETGA/27-58           DE [subseq from] VEGF co-regulated chemokine 1 OS=Heterocephalus glaber OX=10181 GN=GW7_15438 PE=4 SV=1
+#=GS tr|W5PCN8|W5PCN8_SHEEP/23-53           DE [subseq from] Conopeptide OS=Ovis aries OX=9940 PE=4 SV=1
+#=GS tr|W5PFA4|W5PFA4_SHEEP/22-53           DE [subseq from] Conotoxin OS=Ovis aries OX=9940 PE=4 SV=1
+#=GS tr|A0A8D1EID4|A0A8D1EID4_PIG/21-49     DE [subseq from] Secreted protein OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|A0A8D1RVK3|A0A8D1RVK3_PIG/21-49     DE [subseq from] Secreted protein OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|A0A8D1X0C6|A0A8D1X0C6_PIG/21-49     DE [subseq from] Secreted protein OS=Sus scrofa OX=9823 PE=4 SV=1
+#=GS tr|A0A8D0IWA2|A0A8D0IWA2_PIG/21-49     DE [subseq from] Secreted protein OS=Sus scrofa OX=9823 PE=4 SV=1
+
+chain_B                                        SSLNPGVARGHRDRGQA-SRRWLQE--GGQECECK-DWFLRAPRRKFM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+sp|Q6UXB2|CXL17_HUMAN/22-119                   SSLNPGVARGHRDRGQA-SRRWLQE--GGQECECK-DWFLRAPRRKFM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR sp|Q6UXB2|CXL17_HUMAN/22-119           PP 79***************.*******..********.************..***..**************************************************7
+tr|G3QEQ3|G3QEQ3_GORGO/22-119                  SSLNPGVARGHRDRGQA-SRRWLQE--GGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|G3QEQ3|G3QEQ3_GORGO/22-119          PP 79***************.*******..********.************..***..**************************************************7
+tr|G1RII2|G1RII2_NOMLE/22-119                  SSLNPGVARGHRDRGQA-SRRWLQE--DGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|G1RII2|G1RII2_NOMLE/22-119          PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2R8Z5Y3|A0A2R8Z5Y3_PANPA/22-119          SSLKPGVARGHRDRGQA-SRRWLQE--GGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|A0A2R8Z5Y3|A0A2R8Z5Y3_PANPA/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A6D2XI88|A0A6D2XI88_PANTR/22-119          SSLKPGVARGHRDRGQA-SRRWLQE--GGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|A0A6D2XI88|A0A6D2XI88_PANTR/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|H2QGG7|H2QGG7_PANTR/22-119                  SSLKPGVARGHRDRGQA-SRRWLQE--GGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|H2QGG7|H2QGG7_PANTR/22-119          PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A0A0MWN4|A0A0A0MWN4_PAPAN/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A0A0MWN4|A0A0A0MWN4_PAPAN/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A0D9S176|A0A0D9S176_CHLSB/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A0D9S176|A0A0D9S176_CHLSB/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A8D2FV81|A0A8D2FV81_THEGE/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A8D2FV81|A0A8D2FV81_THEGE/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K6L964|A0A2K6L964_RHIBE/22-119          SSLNPGVARGHRDQGQA-SRRWLQE--GGRECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A2K6L964|A0A2K6L964_RHIBE/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K5VQK7|A0A2K5VQK7_MACFA/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQKHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A2K5VQK7|A0A2K5VQK7_MACFA/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K6CE26|A0A2K6CE26_MACNE/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQKHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A2K6CE26|A0A2K6CE26_MACNE/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A8J8YAN1|A0A8J8YAN1_MACMU/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQKHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A8J8YAN1|A0A8J8YAN1_MACMU/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|F7EWH0|F7EWH0_MACMU/22-119                  SSLNPGVARGHRDQGQA-SRKWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQKHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|F7EWH0|F7EWH0_MACMU/22-119          PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K5YG25|A0A2K5YG25_MANLE/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GSQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|A0A2K5YG25|A0A2K5YG25_MANLE/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A6D2XTN5|A0A6D2XTN5_PONAB/22-119          SSLNPGVARSHRNQGQA-SRRWLQE--GGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|A0A6D2XTN5|A0A6D2XTN5_PONAB/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A8I5T9I4|A0A8I5T9I4_PONAB/22-119          SSLNPGVARSHRNQGQA-SRRWLQE--GGQECECK-DWFLRAPRRKLM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFALPL
+#=GR tr|A0A8I5T9I4|A0A8I5T9I4_PONAB/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A8C9LS07|A0A8C9LS07_9PRIM/22-119          SSLNPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDRFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A8C9LS07|A0A8C9LS07_9PRIM/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K5J518|A0A2K5J518_COLAP/22-119          SSLNPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKQNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A2K5J518|A0A2K5J518_COLAP/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K5NDE8|A0A2K5NDE8_CERAT/22-119          SSLNPGVARGHRDQGQA-SRKWLQE--GSQECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKGNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A2K5NDE8|A0A2K5NDE8_CERAT/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K6PII8|A0A2K6PII8_RHIRO/22-119          SSLNPGVARGHRDQGQA-SRRWLQE--GGRECECK-DWFLRAPRRKVM--TVS--GLPKKQCPCDHFKRNVKKTRHQRHHRKPNKHSRACQQFLKQCQLRSFVLPL
+#=GR tr|A0A2K6PII8|A0A2K6PII8_RHIRO/22-119  PP 79***************.*******..********.************..***..**************************************************7
+tr|A0A2K5EJ57|A0A2K5EJ57_AOTNA/22-119          SSPNPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRGPRRKLM--TAS--GLPKKQCPCDHFKGNVKKIRHRRHHRKPNKHSRACQQFLKQCQLTSFALPL
+#=GR tr|A0A2K5EJ57|A0A2K5EJ57_AOTNA/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|F7DM35|F7DM35_CALJA/22-119                  SSPNPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRGPRRKLM--TAS--GLPKKQCPCDHFKGNVKKIRHRRHHRRPNKHSRACQQFLKQCQLTSFALPL
+#=GR tr|F7DM35|F7DM35_CALJA/22-119          PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A2K6TQQ2|A0A2K6TQQ2_SAIBB/22-119          SSPKPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRGPRRKLM--TAS--GLPKKQCPCDHFKGNVKKIRHRRHHRKPNKHSRACQQFLKQCQLTSFALPL
+#=GR tr|A0A2K6TQQ2|A0A2K6TQQ2_SAIBB/22-119  PP 5778*************.*******..********.************..***..**************************************************7
+tr|A0A2K5QSN6|A0A2K5QSN6_CEBIM/22-119          SSPNPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRGPRRKLM--TAS--VLPKKQCPCDHFKGNVKKIRHRRHHRKPNKHSRACQQFLKQCQLTSFALPL
+#=GR tr|A0A2K5QSN6|A0A2K5QSN6_CEBIM/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A6J3FIP4|A0A6J3FIP4_SAPAP/22-119          SSPNPGVARGHRDQGQA-SRRWLQE--GGQECECK-DWFLRGPRRKLM--TAS--VLPKKQCPCDHFKGNVKKIRHRRHHRKPNKHSRACQQFLKQCQLTSFALPL
+#=GR tr|A0A6J3FIP4|A0A6J3FIP4_SAPAP/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A337SWE4|A0A337SWE4_FELCA/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--GLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A337SWE4|A0A337SWE4_FELCA/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A667HSV1|A0A667HSV1_LYNCA/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--GLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A667HSV1|A0A667HSV1_LYNCA/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A6J1XLU3|A0A6J1XLU3_ACIJB/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--GLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A6J1XLU3|A0A6J1XLU3_ACIJB/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A6P6H5M5|A0A6P6H5M5_PUMCO/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--GLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A6P6H5M5|A0A6P6H5M5_PUMCO/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A2K6ERT1|A0A2K6ERT1_PROCO/22-119          SSPNPGVARGHWDQGQA-SRRWLQE--GGQECECK-DWFLRAPKRKLM--TVP--GLPKKQCPCDRFKGKVKKTRQQRHHRKPNKHSRACQQFLKRCQLASFALPL
+#=GR tr|A0A2K6ERT1|A0A2K6ERT1_PROCO/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A485MDS2|A0A485MDS2_LYNPA/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRVPKRKLM--TVP--GLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A485MDS2|A0A485MDS2_LYNPA/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A6P4UUQ7|A0A6P4UUQ7_PANPR/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--RLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A6P4UUQ7|A0A6P4UUQ7_PANPR/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A8C8WUN2|A0A8C8WUN2_PANLE/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--RLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A8C8WUN2|A0A8C8WUN2_PANLE/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A8C9JNB4|A0A8C9JNB4_PANTA/22-119          SSRNPGVARGHRDQRQA-PRRWLQE--GSQECECK-DWFLRAPKRKLM--TVP--RLPKKQCPCDHFKGSVKKTRHQRHHRKPNKHSRACQQFLTRCQLESFALPL
+#=GR tr|A0A8C9JNB4|A0A8C9JNB4_PANTA/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|G1PVB6|G1PVB6_MYOLU/22-118                  -NPNPGVARGHKDKRQA-SGRWLQE--GGQECECK-DWFLRAPKRKLM--AVP--TLPKKQCPCDHLKGNMKKTRHQRHHRKPNKHSRACQQFIKRCQLASFTLPL
+#=GR tr|G1PVB6|G1PVB6_MYOLU/22-118          PP .679*************.*******..********.************..***..**************************************************7
+tr|A0A3Q2HTQ3|A0A3Q2HTQ3_HORSE/22-119          SSPNPGVAKGHRDRHQA-SGRWLQA--GGQECECK-DWLLRAPKRKLM--TVP--GLPQKQCPCDHFKGNVKKTRHRRHHRKPNKRSRACQQFLKRCQLASLALPL
+#=GR tr|A0A3Q2HTQ3|A0A3Q2HTQ3_HORSE/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C5Y3C7|A0A8C5Y3C7_MICMU/22-119          SSPNPGVARGHWDQGQA-SRRWLQE--GGQECECK-DLFLRAPKRKLM--TVP--GLRKKQCPCDRFKGKVKKTRQQRHHRKPNKHSRACQQFLKRCQLASFALPL
+#=GR tr|A0A8C5Y3C7|A0A8C5Y3C7_MICMU/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A2Y9HKW8|A0A2Y9HKW8_NEOSC/22-119          SSPNPGVARGHRDDRQA-PKRWLHE--GGQECECK-DWFLRAPKRKIM--TVP--EMPKKQCPCDQFKARVKKTRHQRHHRKPNKHSRACQEFLKQCQLASFALPL
+#=GR tr|A0A2Y9HKW8|A0A2Y9HKW8_NEOSC/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A673VSJ5|A0A673VSJ5_SURSU/22-119          SSPNAGVARGHRDQRQP-PRRWLLE--GSQECECK-DWFLRAPKRKLM--TVS--ELPKKQCPCDHFKGSVKKTRHQRHHRKPKKHSRACQQFLKRCQLESFALPL
+#=GR tr|A0A673VSJ5|A0A673VSJ5_SURSU/22-119  PP 6789*************.*******..********.************..***..**************************************************7
+tr|A0A2Y9TBG3|A0A2Y9TBG3_PHYMC/22-119          SSSNPGIARGHMDQRQA-SGRWLQD--GGQECECK-DWFLRAPKRKLM--TVP--GLPKKPCPCDHFKGRVKKTRHQRHHKKPTKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A2Y9TBG3|A0A2Y9TBG3_PHYMC/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A3Q7URX3|A0A3Q7URX3_VULVU/22-120          SSPNPGVARGHRDNRQAPSRRRLQE--GGQECECK-DWFLRAHKRKLM--TVP--GMPKKQCPCDHFKANVKKTRNQRHHRKPNKHSRACQEFLKQCQLKSFALPL
+#=GR tr|A0A3Q7URX3|A0A3Q7URX3_VULVU/22-120  PP 688**********9997689*****..********.************..***..**************************************************7
+tr|A0A811ZUJ2|A0A811ZUJ2_NYCPR/22-120          SSPNPGVARGHRDNRQAPSRRRLQE--GGQECECK-DWFLRAHKRKLM--TVP--GMPKKQCPCDHFKANVKKTRNQRHHRKPNKHSRACQEFLKQCQLKSFALPL
+#=GR tr|A0A811ZUJ2|A0A811ZUJ2_NYCPR/22-120  PP 688**********9997689*****..********.************..***..**************************************************7
+tr|A0A384DLG4|A0A384DLG4_URSMA/22-119          SSPNPGVARGQRDHRQA-SKRWLHE--GGQECECK-DWFLRAPKRKLM--TVP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHSRACREFLKQCQLASFALPL
+#=GR tr|A0A384DLG4|A0A384DLG4_URSMA/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A3Q7VJ80|A0A3Q7VJ80_URSAR/22-119          SSPNPGVARGQRDHRQA-SKRWLHE--GGQECECK-DWFLRAPKRKLM--TVP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHSRACREFLKQCQLASFALPL
+#=GR tr|A0A3Q7VJ80|A0A3Q7VJ80_URSAR/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A7J8C6W6|A0A7J8C6W6_MOLMO/23-119          -NPNSGVARGHRDKRQG-SGRWLQE--GGQECECK-DWFLRAPKRKLM--AVP--RLPKKRCPCDHFKGNVKKTRHRRHHRKPNKHFRACQQFIKRCQLASFALPL
+#=GR tr|A0A7J8C6W6|A0A7J8C6W6_MOLMO/23-119  PP .5699************.*******..********.************..***..**************************************************7
+tr|A0A7J7SAN9|A0A7J7SAN9_MYOMY/22-118          -NPNPGVARGHKDKRQA-SGRWLQE--GGQECECK-DWFLRAPKRKLM--AVP--RLPKKQCPCDHLKGNMKKNRHQSHHRKPNKHSRACQQFIKRCQLASFTLPL
+#=GR tr|A0A7J7SAN9|A0A7J7SAN9_MYOMY/22-118  PP .679*************.*******..********.************..***..**************************************************7
+tr|A0A8B8W013|A0A8B8W013_BALMU/22-119          SSSNPGIARGHRDQRQA-PGRWLQD--GGQECECK-DWFLRAPKRKLM--TVP--GLPKKPCPCDHFKGRMKKTRHQRHHKKPTKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A8B8W013|A0A8B8W013_BALMU/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8B7QAD2|A0A8B7QAD2_HIPAR/23-119          -NPNPGVARGHRDKHQA-SGRWLQE--GGQECECK-DWLLRAPRRKLM--ALP--RLPKKQCPCDHVKGNVRKTRHRRHHRKPNKRSRACQQFIKRCQLASFALPL
+#=GR tr|A0A8B7QAD2|A0A8B7QAD2_HIPAR/23-119  PP .679*************.*******..********.************..***..**************************************************7
+tr|A0A341DBJ7|A0A341DBJ7_NEOAA/22-119          SSSNPGIARGHRDQRQA-SGRWLQD--GGQECECK-DWFLRAPERKLM--TVP--RLPKKPCPCDHFKGRVKKTRHQRHHKKPIKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A341DBJ7|A0A341DBJ7_NEOAA/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C9C896|A0A8C9C896_PHOSS/22-119          SSSNPGIARGHRDQRQA-SGRWLQD--GGQECECK-DWFLRAPERKLM--TVP--RLPKKPCPCDHFKGRVKKTRHQRHHKKPIKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A8C9C896|A0A8C9C896_PHOSS/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C0MAV2|A0A8C0MAV2_CANLF/22-119          SSPNPGVARGHRDNRQA-PSRRLQE--DGQECECK-DWFLRAHKRKLI--TVP--GMPKKQCPCDHFKANVKKTRNQRHHRKPNKHSRACQEFLKQCQLKSFALPL
+#=GR tr|A0A8C0MAV2|A0A8C0MAV2_CANLF/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8I3MC88|A0A8I3MC88_CANLF/22-119          SSPNPGVARGHRDNRQA-PSRRLQE--DGQECECK-DWFLRAHKRKLI--TVP--GMPKKQCPCDHFKANVKKTRNQRHHRKPNKHSRACQEFLKQCQLKSFALPL
+#=GR tr|A0A8I3MC88|A0A8I3MC88_CANLF/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A383YZ12|A0A383YZ12_BALAS/22-119          SSSNPGIARGHRDQRQA-SGRWLQD--GGQECECK-DWFLRAPKRKLM--TVP--RLPKKPCPCDHFKGGMKKTRHQRHHKKPTKPSRACQQFLRRCQLASFSLPL
+#=GR tr|A0A383YZ12|A0A383YZ12_BALAS/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A452T2Z8|A0A452T2Z8_URSMA/26-121          --LPPGVARGQRDHRQA-SKRWLHE--GGQECECK-DWFLRAPKRKLM--TVP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHSRACREFLKQCQLASFALPL
+#=GR tr|A0A452T2Z8|A0A452T2Z8_URSMA/26-121  PP ..78*************.*******..********.************..***..**************************************************7
+tr|A0A8C6AVE1|A0A8C6AVE1_MONMO/23-119          -SSNPGIARGHRDQRQA-SGRWLQD--GGQQCECK-DWFLRAPERKLM--TVP--RLPKKPCPCDHFKGRVKKTRHQRHHKKPTKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A8C6AVE1|A0A8C6AVE1_MONMO/23-119  PP .78**************.*******..********.************..***..**************************************************7
+tr|G1LEE3|G1LEE3_AILME/22-119                  SSPNPGVARGHRDHRQA-SKRRLHE--GGQECECK-DWFLRAPKRKLM--TVP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHTRACREFLKQCQLASFALPL
+#=GR tr|G1LEE3|G1LEE3_AILME/22-119          PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A3Q7MES7|A0A3Q7MES7_CALUR/22-119          SSPNPGVARGHRDDRQA-PKRWLHE--EGQECKCK-DWFLRAPKRKIM--TVP--EMPKKQCPCDQYKARVKKTRHQRHHRKPNKHSRACQEFLKQCQLASFALPL
+#=GR tr|A0A3Q7MES7|A0A3Q7MES7_CALUR/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A6J2F2B9|A0A6J2F2B9_ZALCA/22-119          SSPNPGVARGHRDDRQA-PKRWLPE--EGQECKCK-DWFLRAPKRKIM--TVP--EMPKKQCPCDQYKARVKKTRHQRHHRKPNKHSRACQEFLKQCQLASFALPL
+#=GR tr|A0A6J2F2B9|A0A6J2F2B9_ZALCA/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A7J7SIC8|A0A7J7SIC8_RHIFE/23-119          -NPNPEVARDHRDNRQA-SGRWLQE--GGQECECK-DWFLRTPKRKLM--ALP--GVPQKQCPCDHFKGNVKKHRHRRHHRKPNKHSRACQQFIRRCQLASFALPL
+#=GR tr|A0A7J7SIC8|A0A7J7SIC8_RHIFE/23-119  PP .679*************.*******..********.************..***..**************************************************7
+tr|A0A2Y9E940|A0A2Y9E940_TRIMA/22-121          SSPNSGVARGHKDQRQA-SRRWLQE--GSQECECK-DWLLRVPKRKSMALTVP--GSPRKQCPCDHFKGNVKKTRHQRHHRKPTKHSRACQQFLQRCQLASFALPI
+#=GR tr|A0A2Y9E940|A0A2Y9E940_TRIMA/22-121  PP 6789*************.*******..********.**********8644899..*************************************************96
+tr|A0A3Q2HWE2|A0A3Q2HWE2_HORSE/24-117          ----TGVARRHRDQHQT-SGRWLKA--GGQECECK-DWFLRAPKRKPM--TVP--GLPQKRCPCDHFKGNVKKTRHQRHHREPNKHSRACQQFLKRCQLASFSLPL
+#=GR tr|A0A3Q2HWE2|A0A3Q2HWE2_HORSE/24-117  PP ....69***********.*******..********.************..***..**************************************************7
+tr|A0A7F8Q1H9|A0A7F8Q1H9_LEPWE/5-102           --LPPGVARGHRDDRQA-PKRWLHEGEGGQECECK-DWFLRAPKRKIM--TVP--EMPKKQCPCDQFKARVKKTRHQRHHRKPNKHSRACQEFLKQCQLASFALPL
+#=GR tr|A0A7F8Q1H9|A0A7F8Q1H9_LEPWE/5-102   PP ..78*************.*****86337*******.************..***..**************************************************7
+tr|A0A340XH93|A0A340XH93_LIPVE/22-119          SSSNPGIARGHRDQRQA-SGRWLQD--GGQECECK-DWFLRAPKRKLM--TVP--RLPKKPCPCDHFKGRVKKTKHQRHHKKLTKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A340XH93|A0A340XH93_LIPVE/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C0ST64|A0A8C0ST64_CANLF/22-118          SSPNPGVARGHRDNRQA-PSRRLQE--DGQECECK-DWFLRAQ-RKLI--TVP--GMPKKQCPCDHFKANVKKTRNQRHHRKPNKHSRACQEFLKQCQLKSFALPL
+#=GR tr|A0A8C0ST64|A0A8C0ST64_CANLF/22-118  PP 688**************.*******..********.*****95.789*..***..**************************************************7
+tr|A0A2U3WHI5|A0A2U3WHI5_ODORO/22-119          SSPNPGVARGHRDDRQA-PERWLRE--EGQECKCK-DWFLRGPKRKIM--TVP--ETPKKQCPCDQYKASVKKTRHQRHHRKPNKHSRACQEFLKQCQLASFALPL
+#=GR tr|A0A2U3WHI5|A0A2U3WHI5_ODORO/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A6J2N184|A0A6J2N184_9CHIR/24-119          --PSPGVATGQRDRRQA-SGRWIQE--GGQECECK-DWFQRAPTRKLM--AVL--RLPKKQCPCDHFKGNVKKTRHRRHHRKSNKHIRACQEFIKRCQLASFALPL
+#=GR tr|A0A6J2N184|A0A6J2N184_9CHIR/24-119  PP ..58*************.*******..********.************..***..**************************************************7
+tr|A0A0P6J2P1|A0A0P6J2P1_HETGA/22-119          SSPNPGVARGHRDQRQA-SGRWLQE--GGQECECK-DWFLRVPRRKLM--TVP--RLPKKRCPCDHPKVNVKKIRHRRHHKKPNKHLQACQEFLKRCQLASLALPL
+#=GR tr|A0A0P6J2P1|A0A0P6J2P1_HETGA/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A7J7SN81|A0A7J7SN81_PIPKU/22-118          -NPNPGVARGQRDKRQA-SGRWLQE--GGQECECK-DWFLRAPKRKLM--AVP--RLPKKQCPCDHLKGNVKKNNRQRHHRKPNKHYRACQQFIKRCQLASLTLPL
+#=GR tr|A0A7J7SN81|A0A7J7SN81_PIPKU/22-118  PP .679*************.*******..********.************..***..*************************************************97
+tr|A0A6J3QEX7|A0A6J3QEX7_TURTR/22-119          SSSNTGIARGHRDQRQA-SGRWVQD--GGQECECK-DWFLRAPKRKLM--AVP--RLPKKPCPCDHFKGRVKKTRHQRHHKKPTKPSRACQQFLRRCQLANFALPL
+#=GR tr|A0A6J3QEX7|A0A6J3QEX7_TURTR/22-119  PP 6889*************.*******..********.************..***..**************************************************7
+tr|A0A7J8CFA9|A0A7J8CFA9_ROUAE/22-117          -NPNPGVARGHRDQRQS-SGRWLQE--GGQECECK-DWFLRAPKRKLM--AAP--RLPKKQCPCDHFRSNVKKTRHQRH-RKPNKPSRACQQFIKRCQLASFSLPL
+#=GR tr|A0A7J8CFA9|A0A7J8CFA9_ROUAE/22-117  PP .679*************.*******..********.************..***..**********************95.9************************7
+tr|A0A671FVB0|A0A671FVB0_RHIFE/23-118          -NPNPEVARDHRDNRQA-SGRWLQE--GGQECECK-DWFLRTPR-KLM--ALP--GVPQKQCPCDHFKGNVKKHRHRRHHRKPNKHSRACQQFIRRCQLASFALPL
+#=GR tr|A0A671FVB0|A0A671FVB0_RHIFE/23-118  PP .679*************.*******..********.*******6.79*..***..**************************************************7
+tr|A0A091EE70|A0A091EE70_FUKDA/22-119          SSPNTGVARDHRDRRQA-SGRWLQE--GGQECECK-DWFLRVPRRKLM--TVP--RLPKKQCPCDHLKVNVKKIRHRRHQKKPNKHLQACREFLKQCQLRSLALPL
+#=GR tr|A0A091EE70|A0A091EE70_FUKDA/22-119  PP 6789*************.*******..********.************..***..**************************************************7
+tr|A0A4X1VXI4|A0A4X1VXI4_PIG/23-119            -SPNTGIARGHRDLRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|A0A4X1VXI4|A0A4X1VXI4_PIG/23-119    PP .5699************.*******..********.************..***..**************************************************7
+tr|A0A5G2QXH3|A0A5G2QXH3_PIG/23-119            -SPNTGIARGHRDLRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|A0A5G2QXH3|A0A5G2QXH3_PIG/23-119    PP .5699************.*******..********.************..***..**************************************************7
+tr|G3TGX5|G3TGX5_LOXAF/21-120                  SSPNPGVARGHRDQRQA-SRRSLQK--DSQECECK-DWLLGAPKRKSM--TVTVPGLPKKPCPCDHFKGNVKKIRHQRHHKKPNKHSRACQQFLQRCQLASFALPI
+#=GR tr|G3TGX5|G3TGX5_LOXAF/21-120          PP 688**************.*******..********.**********99..75433*************************************************96
+tr|A0A6P3RGN5|A0A6P3RGN5_PTEVA/23-118          -NPNPGVARGHRDKRQA-SRRWLQE--GGQECECK-DWFLRAPKRKVR--AAP--RLPKKQCPCDHFKSNVKKTRHQRH-RKPKKPSRACQQFIKRCQLASFSLPL
+#=GR tr|A0A6P3RGN5|A0A6P3RGN5_PTEVA/23-118  PP .679*************.*******..********.************..***..**********************95.9************************7
+tr|A0A4X1W2Z2|A0A4X1W2Z2_PIG/23-119            -SPNTGIARGHRDPRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|A0A4X1W2Z2|A0A4X1W2Z2_PIG/23-119    PP .5699************.*******..********.************..***..**************************************************7
+tr|K7GSG9|K7GSG9_PIG/23-119                    -SPNTGIARGHRDPRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|K7GSG9|K7GSG9_PIG/23-119            PP .5699************.*******..********.************..***..**************************************************7
+tr|A0A8B8TI20|A0A8B8TI20_CAMFR/22-119          SSPNPGVARGHRDQRQA-SGRRLQE--GAQECDCK-DWFLRASERKLM--TVP--RLPKKPCPCDRFKGRVKKTRHQRHHRSPNKHSRACQQFLRRCQLASFALPL
+#=GR tr|A0A8B8TI20|A0A8B8TI20_CAMFR/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8D0TD95|A0A8D0TD95_PIG/30-123            ----TGIARGHRDLRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|A0A8D0TD95|A0A8D0TD95_PIG/30-123    PP ....69***********.*******..********.************..***..**************************************************7
+tr|F1RMX0|F1RMX0_PIG/30-123                    ----TGIARGHRDLRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|F1RMX0|F1RMX0_PIG/30-123            PP ....69***********.*******..********.************..***..**************************************************7
+tr|A0A484H3X1|A0A484H3X1_SOUCH/2-94            -----GIARGHRDQRQA-SGRWLQD--GGQECECK-DWFLRAPKRKLM--AVP--RLPKKPCPCDHFKGRVKKTRHQRHHKKPTKPSRACQQFLRRCQLANFALPL
+#=GR tr|A0A484H3X1|A0A484H3X1_SOUCH/2-94    PP .....9***********.*******..********.************..***..**************************************************7
+tr|A0A4X1W3F2|A0A4X1W3F2_PIG/25-118            ----TGIARGHRDLRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|A0A4X1W3F2|A0A4X1W3F2_PIG/25-118    PP ....79***********.*******..********.************..***..**************************************************7
+tr|A0A8D1EU01|A0A8D1EU01_PIG/2-94              -----GIARGHRDPRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKTRHQRHHKKQNKPSRACQQFLRRCQLESFSLPL
+#=GR tr|A0A8D1EU01|A0A8D1EU01_PIG/2-94      PP .....9***********.*******..********.************..***..**************************************************7
+tr|K9IY53|K9IY53_DESRO/24-119                  --PSPGVARGQRDQRQA-SGRWIQE--GGQECKCK-DWFLRAAKRKLM--AVP--RLPKKQCPCDHLKANVKKTRHRRHHRKSNKHFRACQEFIKRCQLASFALPL
+#=GR tr|K9IY53|K9IY53_DESRO/24-119          PP ..58*************.*******..********.************..***..**************************************************7
+tr|A0A1S3ACN0|A0A1S3ACN0_ERIEU/23-119          -SPNSGVTRGHRDQRQA-SGRWVQE--GHQECECK-DWLLGAPKRKPM--SAS--GLPKKQCPCDHFKGNMKKIRHPRHHRKSNRHYRACQQFLKQCQLGSFSLPL
+#=GR tr|A0A1S3ACN0|A0A1S3ACN0_ERIEU/23-119  PP .6699************.*******..********.************..***..**************************************************7
+tr|G1TS22|G1TS22_RABIT/28-122                  ---HSGVARGHGDQRQT-SGRWLWE--DGQECECK-GWFLRAPKRKLM--TVP--RLPKKHCPCDHFKGTVKKTRHQKSHRQPNKHSRACQQFLKRCQLASFALPL
+#=GR tr|G1TS22|G1TS22_RABIT/28-122          PP ...67************.*******..********.************..***..**************************************************7
+tr|A0A6J0B4M5|A0A6J0B4M5_VICPA/12-105          ----TGVARGHRDQRQA-SGRRLQE--GAQECDCK-DWFLRASERKLM--TVP--RLPKKPCPCDRFKGRVKKTKHQRHHRSPNKHSRACQQFLRRCQLASFALPL
+#=GR tr|A0A6J0B4M5|A0A6J0B4M5_VICPA/12-105  PP ....69***********.*******..********.************..***..**************************************************7
+tr|A0A8U0NFX9|A0A8U0NFX9_MUSPF/22-119          SSPNPGIARGQRDDRQA-PRTWPHK--GSQECDCK-DWFLRAPKRKLM--AMP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHWRACQEFLKQCQLASFALPL
+#=GR tr|A0A8U0NFX9|A0A8U0NFX9_MUSPF/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C2YIT4|A0A8C2YIT4_CHILA/22-119          SSPNSGVARGRRDQRQA-PRSRLRE--GGQECECK-DWFLRALRRKLM--AVS--RLPKKQCPCDRVKVNVKKSRHQRHHRKPSKHSRACQEFLKQCQLASIALPL
+#=GR tr|A0A8C2YIT4|A0A8C2YIT4_CHILA/22-119  PP 6789*************.*******..********.************..***..**************************************************7
+tr|A0A2Y9L467|A0A2Y9L467_ENHLU/22-119          SSPNPEVARGHRDDRQA-PRTRLHK--GSQECDCK-DWFLRAPKRKLM--SMP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHWRACQEFLKQCQLASFALPL
+#=GR tr|A0A2Y9L467|A0A2Y9L467_ENHLU/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C0WZR7|A0A8C0WZR7_CASCN/22-118          SSPNPGVARGQRNQRQV-SGRWLPV--GSQECECK-DWFLRAPKRKLM--TVP--RLQE-KCPCDHSKGNVKKNRHGRHHRKPNKHSKACQQFLKRCQLASFALPL
+#=GR tr|A0A8C0WZR7|A0A8C0WZR7_CASCN/22-118  PP 688**************.*******..********.************..***..9976.6********************************************7
+tr|A0A8C7B309|A0A8C7B309_NEOVI/22-119          SSPNPGIARGQRDDRQA-PRTRPHK--GSQECDCK-DWFLRAPKRKLM--AMP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHWRACQEFLKQCQLASFALPL
+#=GR tr|A0A8C7B309|A0A8C7B309_NEOVI/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A6J2F694|A0A6J2F694_ZALCA/22-115          SSPNPGVARGHRDDRQA-PKRWLPE--EGQEY-----WFLRAPKRKIM--TVP--EMPKKQCPCDQYKARVKKTRHQRHHRKPNKHSRACQEFLKQCQLASFALPL
+#=GR tr|A0A6J2F694|A0A6J2F694_ZALCA/22-115  PP 688**************.*******..***95.....***********..***..**************************************************7
+tr|A0A286XJ59|A0A286XJ59_CAVPO/27-123          -SPKSGVARAHGEQRQA-SRRWLQE--GSRECECK-DWFQRALRRKPM--TVP--ALPKKQCPCDHLKVNMKKSRHHKHQRKPNKHSRACQEFLKQCQLASIALPL
+#=GR tr|A0A286XJ59|A0A286XJ59_CAVPO/27-123  PP .5678************.*******..********.************..***..**************************************************7
+tr|A0A8D2DX45|A0A8D2DX45_SCIVU/22-119          SSQNPGVARGNRNQHQA-SGRRLVE--GSGDCECK-DWFLRASKRRLM--TVP--RLPKKRCPCDHSTVNVKKTRHQRHHRKSNKHSRTCQQFLKRCQLESFALPL
+#=GR tr|A0A8D2DX45|A0A8D2DX45_SCIVU/22-119  PP 689**************.*******..********.************..***..**************************************************7
+tr|A0A8B7V8E4|A0A8B7V8E4_CASCN/6-97            -----WVARGQRNQRQV-SGRWLPV--GSQECECK-DWFLRAPKRKLM--TVP--RLQE-KCPCDHSKGNVKKNRHGRHHRKPNKHSKACQQFLKRCQLASFALPL
+#=GR tr|A0A8B7V8E4|A0A8B7V8E4_CASCN/6-97    PP .....69**********.*******..********.************..***..9976.6********************************************7
+tr|A0A8C8TLH3|A0A8C8TLH3_PERMB/22-119          SSPNPGVARSHGGQRQA-SRRWLQE--GGQECECR-DWFLRTPKREST--PVL--EPRRKQCPCDHIKGGEKKHRHQKHHRKPNKLSRTCQQFLKRCQLASFALPL
+#=GR tr|A0A8C8TLH3|A0A8C8TLH3_PERMB/22-119  PP 688**************.*******..********.************..***..999***********************************************7
+sp|A4IFR0|CXL17_BOVIN/22-118                   SSSHTGVARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRAPRRTLM--AAP--RLT-KPCPCDHFKGRMKKTRHQRHHRKSNKPSRACQQFLTRCLLESFALPL
+#=GR sp|A4IFR0|CXL17_BOVIN/22-118           PP 56789************.*******..********.************..999..986.68********************************************7
+tr|A0A4W2EDR7|A0A4W2EDR7_BOBOX/22-118          SSSHTGVARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRAPRRTLM--AAP--RLT-KPCPCDHFKGRMKKTRHQRHHRKSNKPSRACQQFLTRCLLESFALPL
+#=GR tr|A0A4W2EDR7|A0A4W2EDR7_BOBOX/22-118  PP 56789************.*******..********.************..999..986.68********************************************7
+tr|A0A7J7F835|A0A7J7F835_DICBM/9-99            ---PTGVARDNRGPDQA-SGRWLQA--GGQEY-----WFLRAPKRKLM--TVP--GLPQKQCPCDHFKGNVKKTRHQRHHRKSNKHSRGCQKFLKQCQLASFALSL
+#=GR tr|A0A7J7F835|A0A7J7F835_DICBM/9-99    PP ...579***********.*******..***95.....***********..***..************************************************975
+sp|Q5UW37|CXL17_MOUSE/22-119                   SSPNPGVARSHGDQHLA-PRRWLLE--GGQECECK-DWFLQAPKRKAT--AVL--GPPRKQCPCDHVKGREKKNRHQKHHRKSQRPSRACQQFLKRCHLASFALPL
+#=GR sp|Q5UW37|CXL17_MOUSE/22-119           PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A8C6A000|A0A8C6A000_MARMA/22-118          -NPNSGVARGNRDQRQA-SGRRLLK--GSQECECK-DWFLRASKKKPM--TAA--GLPKKRCPCDHSTVSVKKTRHRRHHRKSNKHSRACRQFLQRCQLESFALPL
+#=GR tr|A0A8C6A000|A0A8C6A000_MARMA/22-118  PP .5699************.*******..********.************..***..**************************************************7
+tr|A0A1U7R423|A0A1U7R423_MESAU/22-119          SSPNPRVARSHGDQRQA-FGRWLRE--GGQECECR-DWFLRASKRKST--PVL--EPPRKQCPCDHVKGSEKKTRHQKHHRKPNRPSRTCQQFLKRCQLASFALPL
+#=GR tr|A0A1U7R423|A0A1U7R423_MESAU/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A5J5MP00|A0A5J5MP00_MUNRE/1-92            ------VARGQRDQRQA-SGRWLQE--GGQECECQ-DWFLRGPRRTLM--TAP--RLTKKPCPCDHFKGRMKKTRHQRHHRKSNTPSKACQQFLTRCLLESIALPL
+#=GR tr|A0A5J5MP00|A0A5J5MP00_MUNRE/1-92    PP ......79*********.*******..********.************..***..**************************************************7
+tr|A0A8D2GT61|A0A8D2GT61_UROPR/22-118          -NPNSGVARGHRDQRQA-SGRRLLK--SSQECECK-DWFLRASKKKPM--TAA--GLPKKRCPCDHFTVSVKKTRHRRHHKKSNKHFKACRQFLQRCQLESFALPL
+#=GR tr|A0A8D2GT61|A0A8D2GT61_UROPR/22-118  PP .5699************.*******..********.************..***..**************************************************7
+tr|A0A6J0VT65|A0A6J0VT65_ODOVR/23-119          -SSHTAVARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRAPRRTLM--TAP--RLTKKPCPCDHFKGRMKKTRHRRHHRKSNTLSKACQQFLTRCVLETIALPL
+#=GR tr|A0A6J0VT65|A0A6J0VT65_ODOVR/23-119  PP .66789***********.*******..********.************..***..**************************************************7
+tr|A0A8B9XHM4|A0A8B9XHM4_BOSMU/19-113          --LPTGVARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRAPRRTLM--AAP--RLT-KPCPCDRFKGRMKKTRHQRHHRKSNKPSRACQQFLTRCLLESFALPL
+#=GR tr|A0A8B9XHM4|A0A8B9XHM4_BOSMU/19-113  PP ..567************.*******..********.************..999..986.68********************************************7
+tr|A0A8C9ULG8|A0A8C9ULG8_SPEDA/22-118          -NPNSGVARGNRDQRQA-SGRRLLK--GSQECECK-DWFLRASKKKPM--TAA--GLPKKRCPCDHSTVSVKKTRHRRHHKKSNKHSKACRQFLQRCQLESFALPL
+#=GR tr|A0A8C9ULG8|A0A8C9ULG8_SPEDA/22-118  PP .5699************.*******..********.************..***..**************************************************7
+tr|A0A6P3I8B8|A0A6P3I8B8_BISBI/22-118          SSSHTGVARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRAPRRTLM--AAP--RLT-KPCPCDRFKGRMKKTRHQRHHRKSNKPSRACQQFLTRCLLESFALPL
+#=GR tr|A0A6P3I8B8|A0A6P3I8B8_BISBI/22-118  PP 56789************.*******..********.************..999..986.68********************************************7
+tr|A0A6P5DC82|A0A6P5DC82_BOSIN/22-118          SSSHTGVARGQRDQRQA-SGRWLRE--GGQECGCQ-DWFLRAPRRTLM--AXP--RLT-KPCPCDHFKGRMKKTRHQRHHRKSNKPSRACQQFLTRCLLESFALPL
+#=GR tr|A0A6P5DC82|A0A6P5DC82_BOSIN/22-118  PP 56789************.*******..********.************..999..996.68********************************************7
+tr|L8HQ05|L8HQ05_9CETA/5-99                    --LPTGVVRGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRAPRRTLM--AAP--RLT-KPCPCDRFKGRMKKTRHQRHHRKSNKPSRACQQFLTRCLLESFALPL
+#=GR tr|L8HQ05|L8HQ05_9CETA/5-99            PP ..668************.*******..********.************..999..986.68********************************************7
+tr|A0A8C6GYQ4|A0A8C6GYQ4_MUSSI/22-119          SSPNPGVARSHGDQHLA-PRRWLLE--GGQECECK-DWFLQAPKRKAT--AVL--GPPRKQCPCDHVKGREKKNRHQKRHRKSQRPSRACQQFLKRCHLASFALPL
+#=GR tr|A0A8C6GYQ4|A0A8C6GYQ4_MUSSI/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|A0A5N3VKS1|A0A5N3VKS1_MUNMU/1-92            ------VARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRGPRRTLM--TAP--RLTKKPCPCDHFKGRMKKTRHQRHHRKSNTPSKACQQFLTRCLLESIALPL
+#=GR tr|A0A5N3VKS1|A0A5N3VKS1_MUNMU/1-92    PP ......79*********.*******..********.************..***..**************************************************7
+tr|A0A6P5Q0X8|A0A6P5Q0X8_MUSCR/22-119          SSPNPGVARSHGDQHRA-PRRWLLE--GGHECECK-DWFLQAPKRKTT--AVL--GPPRKQCPCDHVKGSEKKNRHQKRHRKSQRPSRACQQFLKRCHLASFALPL
+#=GR tr|A0A6P5Q0X8|A0A6P5Q0X8_MUSCR/22-119  PP 688**************.*******..********.************..***..**************************************************7
+tr|I3MHM7|I3MHM7_ICTTR/19-113                  ---PTGVARGHRDQRQA-SGRRLLK--GSQECECK-DWFLRASKKKPM--TEA--GLPKKRCPCDHSTVGVKKTRHRRHHKKSNKHSKACWQFLQRCQLESFALPL
+#=GR tr|I3MHM7|I3MHM7_ICTTR/19-113          PP ...57************.*******..********.************..***..**************************************************7
+tr|A0A6J0E1D4|A0A6J0E1D4_PERMB/6-99            ----TGVARSHGGQRQA-SRRWLQE--GGQECECR-DWFLRTPKREST--PVL--EPRRKQCPCDHIKGGEKKHRHQKHHRKPNKLSRTCQQFLKRCQLASFALPL
+#=GR tr|A0A6J0E1D4|A0A6J0E1D4_PERMB/6-99    PP ....49***********.*******..********.************..***..999***********************************************7
+tr|A0A5N4DS69|A0A5N4DS69_CAMDR/9-38            ---PTGVARGHRDQRQA-SGRRLQE--GAQECDCK-G---------------------------------------------------------------------
+#=GR tr|A0A5N4DS69|A0A5N4DS69_CAMDR/9-38    PP ...57************.*******..*******9.6.....................................................................
+tr|A0A5N4DS69|A0A5N4DS69_CAMDR/55-121          ----------------------------------T-DWFLRASERKLM--TVP--RLPKKPCPCDRFKGRVKKTRHQRHHRSPNKHSRACQQFLRRCQLASFALPL
+#=GR tr|A0A5N4DS69|A0A5N4DS69_CAMDR/55-121  PP ..................................6.9***********..***..**************************************************7
+tr|A0A3Q0CGT9|A0A3Q0CGT9_MESAU/22-120          SSPNPRVARSHGDQRQA-FGRWLRE--GGQECECRADWFLRASKRKST--PVL--EPPRKQCPCDHVKGSEKKTRHQKHHRKPNRPSRTCQQFLKRCQLASFALPL
+#=GR tr|A0A3Q0CGT9|A0A3Q0CGT9_MESAU/22-120  PP 688**************.*******..*******779***********..***..**************************************************7
+tr|A0A6P6DJT0|A0A6P6DJT0_OCTDE/23-119          -SPTSGVARGRWDQRQA-PRRWLSE--GSQECECK-DPFLGVLRRNLM--TEP--QLPKKQCPCDHVKVNVKKTRHHRRHRKPNRRSRACQEFLKQCQLASIALPL
+#=GR tr|A0A6P6DJT0|A0A6P6DJT0_OCTDE/23-119  PP .5678************.*******..********.************..***..**************************************************7
+tr|A0A836CX60|A0A836CX60_SHEEP/93-188          -SSHTGVARGQRDHRQA-SGRWLRE--GGQECECQ-DWFLRGPRTP-I--TAP--RLTKKPCPCDRFKGRMKKTRHRRHHRKSDKHSRACQQFLTRCLLESFVLPL
+#=GR tr|A0A836CX60|A0A836CX60_SHEEP/93-188  PP .6789************.*******..********.*******986.6..999..**************************************************7
+tr|A0A8C2SH65|A0A8C2SH65_CAPHI/155-250         -SSHTXVARGQRDQRQA-SGRWLRE--GGQECECQ-DWFLRGPRTP-I--TAP--RLTKKPCPCDRFKGRMKKTRHRRHHRKSDKHSRACQQFLTRCLLESFALPL
+#=GR tr|A0A8C2SH65|A0A8C2SH65_CAPHI/155-250 PP .566789**********.*******..********.*******986.6..999..**************************************************7
+tr|A0A3L7H5S1|A0A3L7H5S1_CRIGR/1-93            ------VARIHGEQRQA-SGRWLRE--GGQECECRADWFLRASKRKST--PVL--EPPRKQCPCDHVKGSEKKNRHQKHHRKSNRPSRTCQQFLKRCQLASFALPL
+#=GR tr|A0A3L7H5S1|A0A3L7H5S1_CRIGR/1-93    PP ......7999*******.*******..*******779***********..***..**************************************************7
+tr|A0A6G1ASQ9|A0A6G1ASQ9_CROCR/1-66            ------------------------------------DWFLRAPRRKLM--TVP--ELPKKQCPCDHFKGSVKRTRHQRHHRKPKKHSRACQQFLKRCQLESFALPL
+#=GR tr|A0A6G1ASQ9|A0A6G1ASQ9_CROCR/1-66    PP ....................................9***********..***..**************************************************8
+tr|D4A875|D4A875_RAT/22-119                    SSPNQEVARHHGDQHQA-PRRWLWE--GGQECDCK-DWSLRVSKRKTT--AVL--EPPRKQCPCDHVKGSEKKNRRQKHHRKSQRPSRTCQQFLKRCQLASFTLPL
+#=GR tr|D4A875|D4A875_RAT/22-119            PP 577999***********.*******..********.************..***..**************************************************7
+tr|A0A452FVG1|A0A452FVG1_CAPHI/22-119          SSSHTGVARGQRDQRQA-SGRWLRE--GGQECECQ-GQLVPESPRTPI--TAP--RLTKKPCPCDRFKGRMKKTRHRRHHRKSDKHSRACQQFLTRCLLESFALPL
+#=GR tr|A0A452FVG1|A0A452FVG1_CAPHI/22-119  PP 56789************.*******..********.*99988778889..***..**************************************************7
+tr|A0A1U7U401|A0A1U7U401_CARSF/24-89           --PKPGVARGHRDQGQV-SGRWLQE--GGQECECK-DWFLRAPKRKLM--TVP--RLPKKRCPCDHFKDNVKKTST------------------------------
+#=GR tr|A0A1U7U401|A0A1U7U401_CARSF/24-89   PP ..57*************.*******..********.************..***..******************975..............................
+tr|A0A4U1EHW6|A0A4U1EHW6_MONMO/35-110          -----------------------KE--DGNNPLIS-DWFLRAPERKLM--TVP--RLPKKPCPCDHFKGRVKKTRHQRHHKKPTKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A4U1EHW6|A0A4U1EHW6_MONMO/35-110  PP .......................45..66677789.************..***..**************************************************7
+tr|A0A8C4LBK9|A0A8C4LBK9_EQUAS/21-88           ----TGLARGHRDQRQA-SRRWLQA--GGQECECK-DWFQRAPKRKLM--TVP--GLPQKQCPCDHFKGNVKKTRKAPKT--------------------------
+#=GR tr|A0A8C4LBK9|A0A8C4LBK9_EQUAS/21-88   PP ....69***********.*******..********.************..***..*******************975433..........................
+tr|D2HNH7|D2HNH7_AILME/1-66                    ------------------------------------DWFLRAPKRKLM--TVP--EMPKKQCPCDQFKASVKKTRHQRHHRKPNKHTRACREFLKQCQLASFALPL
+#=GR tr|D2HNH7|D2HNH7_AILME/1-66            PP ....................................9***********..***..**************************************************8
+tr|A0A6P6DJQ4|A0A6P6DJQ4_OCTDE/23-115          -SPTSGVARGRWDQRQA-PRRWLSE--GSQEYP-----FLGVLRRNLM--TEP--QLPKKQCPCDHVKVNVKKTRHHRRHRKPNRRSRACQEFLKQCQLASIALPL
+#=GR tr|A0A6P6DJQ4|A0A6P6DJQ4_OCTDE/23-115  PP .5678************.*******..***975.....99********..***..**************************************************7
+tr|A0A6A1QJL9|A0A6A1QJL9_BALPH/55-121          ----------------------------------V-NWFLRAPKRKLM--TVP--GLPKKPCPCDHFKGRMKKTRHQRHHKKPTKPSRACQQFLRRCQLASFALPL
+#=GR tr|A0A6A1QJL9|A0A6A1QJL9_BALPH/55-121  PP ..................................3.7***********..***..**************************************************7
+tr|A0A8C4KZF8|A0A8C4KZF8_EQUAS/31-111          ---PTGVAKGHRDQHQA-SGRWLQA--GGQECECK-DWLLRAPKRKLM--TVP--GLPQKQCPCDHFKGNVKKTSK--APKAPQEAKQALQSLP------------
+#=GR tr|A0A8C4KZF8|A0A8C4KZF8_EQUAS/31-111  PP ...579***********.*******..********.************..***..******************964..5567777777777654............
+tr|F7DX64|F7DX64_HORSE/21-88                   ----TGLARGHRDQRQA-SRRWLQA--GGQECECR-DWFQRAPKRKLM--TVP--GLPQRQCPCDHFKGNVKKTRKAPKT--------------------------
+#=GR tr|F7DX64|F7DX64_HORSE/21-88           PP ....69***********.*******..********.************..***..*******************975433..........................
+tr|A0A8D0WB25|A0A8D0WB25_PIG/23-87             -SPNTGIARGHRDLRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKT--------------------------------
+#=GR tr|A0A8D0WB25|A0A8D0WB25_PIG/23-87     PP .5699************.*******..********.************..***..*****************98................................
+tr|L9L8U0|L9L8U0_TUPCH/28-93                   ----------------------------------P-DWFLRAPKGKLM--TVP--GRPKKQCPCDHLKGHVKKTRHRRH-KQTNKHSRACQQFLKRCQLASFALPL
+#=GR tr|L9L8U0|L9L8U0_TUPCH/28-93           PP ..................................6.************..***..*********************885.789**********************7
+tr|A0A8D1Z3P0|A0A8D1Z3P0_PIG/21-83             ---LTGIARGHRDPRQA-SGKWLQE--DVQECECK-DWFLRAPRRKFM--TAH--GLPKKPCPCDHFKGRVKKT--------------------------------
+#=GR tr|A0A8D1Z3P0|A0A8D1Z3P0_PIG/21-83     PP ...579***********.*******..********.************..***..*****************98................................
+tr|A0A3Q2GV43|A0A3Q2GV43_HORSE/24-88           ----TGVARRHRDQHQT-SGRWLKA--GGQECECK-DWFLRAPKRKPM--TVP--GLPQKRCPCDHFKGNVKKTSKA-----------------------------
+#=GR tr|A0A3Q2GV43|A0A3Q2GV43_HORSE/24-88   PP ....69***********.*******..********.************..***..******************9765.............................
+tr|A0A8C3WI72|A0A8C3WI72_9CETA/33-112          ----TGIARGHRDTHQA-SGRGLQE--GVQECECK-DWFLRAARRKFM--TAH--GLPKKPCPCDHFKGRVKKTSKL-TPKTPQEANEAIQSL-------------
+#=GR tr|A0A8C3WI72|A0A8C3WI72_9CETA/33-112  PP ....69***********.*******..********.************..***..******************9754.456777777777665.............
+tr|A0A452R4E1|A0A452R4E1_URSAM/26-105          --LPPGVARGQRDHRQA-SKRWLHE--GGQECECK-DWFLRAPKRKLM--TVP--EMPKKQCPCDQFKASVKKTSK--APKAPQEAKQALQS--------------
+#=GR tr|A0A452R4E1|A0A452R4E1_URSAM/26-105  PP ..78*************.*******..********.************..***..******************964..45666666666655..............
+tr|A0A8C0KLP4|A0A8C0KLP4_CANLU/37-116          --LPPGVARGHRDNRQA-PSRRLQE--DGQECECK-DWFLRAHKRKLI--TVP--GMPKKQCPCDHFKANVKKTSKE--PKAPQEAKQALQS--------------
+#=GR tr|A0A8C0KLP4|A0A8C0KLP4_CANLU/37-116  PP ..78*************.*******..********.************..***..******************9754..5667766666665..............
+tr|A0A8C4LBY1|A0A8C4LBY1_EQUAS/36-101          ----TGVARRHRDQHQA-SGRWLKA--DGQECECK-DWFLRAPKRKPM--TVP--GLPQKRCPCDHFKGNVKKTSKAP----------------------------
+#=GR tr|A0A8C4LBY1|A0A8C4LBY1_EQUAS/36-101  PP ....69***********.*******..********.************..***..******************97654............................
+tr|A0A8C3WL05|A0A8C3WL05_9CETA/33-112          ----TGIARGHRDTHQA-SGRGLQE--GVQECECK-DWFLRAPRGNLM--TVH--ELPKKPCPCDHFKGRVNKTSKL-TPKTPQEANEAIQSL-------------
+#=GR tr|A0A8C3WL05|A0A8C3WL05_9CETA/33-112  PP ....69***********.*******..********.************..***..******************9754.456777777777665.............
+tr|E9Q192|E9Q192_MOUSE/22-93                   SSPNPGVARSHGDQHLA-PRRWLLE--GGQECECK-DWFLQAPKRKAT--AVL--GPPRKQCPCDHVKGREKKNRTPKAP--------------------------
+#=GR tr|E9Q192|E9Q192_MOUSE/22-93           PP 688**************.*******..********.************..***..******************9876544..........................
+tr|A0A8B7A043|A0A8B7A043_ORYAF/42-123          -----GVTRGHRDLRQA-SRR-LPE--GSLECECK-GQYLKHQH--------------GKQCPCDHFKASVKKTRHRRHHRKPNKLSRACQQFLQRCQLASLALPI
+#=GR tr|A0A8B7A043|A0A8B7A043_ORYAF/42-123  PP .....9***********.*99.89*..********.***98643..............48********************************************96
+tr|Q8R3U6|Q8R3U6_MOUSE/22-91                   SSPNPGVARSHGDQHLA-PRRWLLE--GGQECECK-DWFLQAPKRKAT--AVL--GPPRKQCPCDHVKGREKKKQTPK----------------------------
+#=GR tr|Q8R3U6|Q8R3U6_MOUSE/22-91           PP 688**************.*******..********.************..***..***************99976554............................
+tr|A0A8J6GA61|A0A8J6GA61_MICOH/24-90           ----------------------------------P-DWFLRAPKRKST--PVL--ESPKKQCPCDHVKDSEKKNRHQKHHRKPKRPSRTCQQFLKRCQLASFSLPL
+#=GR tr|A0A8J6GA61|A0A8J6GA61_MICOH/24-90   PP ..................................6.9***********..***..**************************************************7
+tr|A0A8C2QJS8|A0A8C2QJS8_CRIGR/23-104          -SPNPRVARIHGEQRQA-SGRWLRE--GGQECECR-DWFLRASKRKST--PVL--EPPRKQCPCDHVKGSEKKN--SKTPKAPQKVKQAIQNL-------------
+#=GR tr|A0A8C2QJS8|A0A8C2QJS8_CRIGR/23-104  PP .679*************.*******..********.************..***..***************9985..56778899988888875.............
+tr|A0A6I9KA40|A0A6I9KA40_CHRAS/6-35            ---PTGVARGHKDQLQG-SRRWLQV--GGQECECK-E---------------------------------------------------------------------
+#=GR tr|A0A6I9KA40|A0A6I9KA40_CHRAS/6-35    PP ...67************.*******..*******9.7.....................................................................
+tr|A0A6I9KA40|A0A6I9KA40_CHRAS/36-66           ---------------------------------------------------------------------------NQRHHRKLNKHSRACQQFLQRCHLASFALPI
+#=GR tr|A0A6I9KA40|A0A6I9KA40_CHRAS/36-66   PP ...........................................................................79***************************96
+tr|A0A1A6H2K3|A0A1A6H2K3_NEOLE/6-33            ----TGIARSHGDQRQA-SRRWLRE--GGQECECR-----------------------------------------------------------------------
+#=GR tr|A0A1A6H2K3|A0A1A6H2K3_NEOLE/6-33    PP ....49***********.*******..*******7.......................................................................
+tr|A0A1A6H2K3|A0A1A6H2K3_NEOLE/35-65           ---------------------------------------------------------------------------HQKHHRKPNKPSRTCQQFLKRCQLASFALPL
+#=GR tr|A0A1A6H2K3|A0A1A6H2K3_NEOLE/35-65   PP ...........................................................................9*****************************8
+tr|A0A6J0VTA7|A0A6J0VTA7_ODOVR/10-39           --LPTGVARGQRDQCQA-SGRWLQE--GGQECECK-----------------------------------------------------------------------
+#=GR tr|A0A6J0VTA7|A0A6J0VTA7_ODOVR/10-39   PP ..678************.*******..*******9.......................................................................
+tr|A0A6J0VTA7|A0A6J0VTA7_ODOVR/40-71           --------------------------------------------------------------------------RHQRHHRKPTKPSKAXQQFLRQCQLASFALPL
+#=GR tr|A0A6J0VTA7|A0A6J0VTA7_ODOVR/40-71   PP ..........................................................................9******************************8
+tr|X6R584|X6R584_HUMAN/22-57                   SSLNPGVARGHRDRGQA-SRRWLQE--GGQECECK-AMLL------------------------------------------------------------------
+#=GR tr|X6R584|X6R584_HUMAN/22-57           PP 79***************.*******..********.8765..................................................................
+tr|A0A1S3GIK6|A0A1S3GIK6_DIPOR/8-34            -----EVARGHRNRSQI-SGRXLPE--GSQECECK-----------------------------------------------------------------------
+#=GR tr|A0A1S3GIK6|A0A1S3GIK6_DIPOR/8-34    PP .....59**********.*******..*******9.......................................................................
+tr|A0A1S3GIK6|A0A1S3GIK6_DIPOR/35-65           ---------------------------------------------------------------------------GQRHHRKPNQHSTACQQFLKXCQLALLALPL
+#=GR tr|A0A1S3GIK6|A0A1S3GIK6_DIPOR/35-65   PP ...........................................................................59****************************7
+tr|A0A2J8QGS4|A0A2J8QGS4_PANTR/22-57           SSLKPGVARGHRDRGQA-SRRWLQE--GGQECECK-AMLL------------------------------------------------------------------
+#=GR tr|A0A2J8QGS4|A0A2J8QGS4_PANTR/22-57   PP 79***************.*******..********.8765..................................................................
+tr|A0A4U1EKH1|A0A4U1EKH1_MONMO/31-77           -----------------------KE--DGNNSLIS-DWFLRAPERKLM--TVP--RLPKKPCPCDHFKGRVKKTSKL-----------------------------
+#=GR tr|A0A4U1EKH1|A0A4U1EKH1_MONMO/31-77   PP .......................46..67778899.************..***..******************9754.............................
+tr|A0A2J8R2B7|A0A2J8R2B7_PONAB/22-57           SSLNPGVARSHRNQGQA-SRRWLQE--GGQECECK-AMLL------------------------------------------------------------------
+#=GR tr|A0A2J8R2B7|A0A2J8R2B7_PONAB/22-57   PP 79***************.*******..********.8765..................................................................
+tr|S9XT95|S9XT95_CAMFR/97-132                  ----------------------------------S-DWFLRASERKLM--TVP--RLPKKPCPCDRFKGRVKKTN-------------------------------
+#=GR tr|S9XT95|S9XT95_CAMFR/97-132          PP ..................................7.************..***..******************97...............................
+tr|A0A484H484|A0A484H484_SOUCH/1-34            ------------------------------------DWFLRAPKRKLM--TVP--RLPRKPCPCDHFKGRVKKT--------------------------------
+#=GR tr|A0A484H484|A0A484H484_SOUCH/1-34    PP ....................................9***********..***..******************8................................
+tr|A0A6P5LKR9|A0A6P5LKR9_PHACI/20-113          SSSNPEGAEGQRDHKLS-AKRHSRG--SRQACQCE-DVFQNIHGGKTV--LEA--KPPARQCPCDRLKPKQKNA--GLGHRKH--WRRSCLRFLKQCQLRDITLPL
+#=GR tr|A0A6P5LKR9|A0A6P5LKR9_PHACI/20-113  PP 688**************.*****99..9*******.************..*9*..*************876654..4567764..3589***************97
+tr|A0A8C9DEW8|A0A8C9DEW8_PROSS/23-55           --LPTGVARGHWDQGQA-SRRWLQE--GGQECECK-AIL-------------------------------------------------------------------
+#=GR tr|A0A8C9DEW8|A0A8C9DEW8_PROSS/23-55   PP ..567************.*******..*******9.755...................................................................
+tr|G5AZS0|G5AZS0_HETGA/27-58                   --------------------------------------------------------------------------GHRRHHKKPNKHLQACQEFLKRCQLASLALPL
+#=GR tr|G5AZS0|G5AZS0_HETGA/27-58           PP ..........................................................................6******************************8
+tr|W5PCN8|W5PCN8_SHEEP/23-53                   -SSAAGVARGQRDQHQA-SGRWLQE--GGQECECK-----------------------------------------------------------------------
+#=GR tr|W5PCN8|W5PCN8_SHEEP/23-53           PP .5568************.*******..*******8.......................................................................
+tr|W5PFA4|W5PFA4_SHEEP/22-53                   SSSHTGVARGQRDHRQA-SGRWLRE--GGQECECQ-----------------------------------------------------------------------
+#=GR tr|W5PFA4|W5PFA4_SHEEP/22-53           PP 57789************.*******..*******5.......................................................................
+tr|A0A8D1EID4|A0A8D1EID4_PIG/21-49             ---LTGIARGHRDLRQA-SGKWLQE--DVQECECK-----------------------------------------------------------------------
+#=GR tr|A0A8D1EID4|A0A8D1EID4_PIG/21-49     PP ...579***********.*******..*******9.......................................................................
+tr|A0A8D1RVK3|A0A8D1RVK3_PIG/21-49             ---LTGIARGHRDPRQA-SGKWLQE--DVQECECK-----------------------------------------------------------------------
+#=GR tr|A0A8D1RVK3|A0A8D1RVK3_PIG/21-49     PP ...579***********.*******..*******9.......................................................................
+tr|A0A8D1X0C6|A0A8D1X0C6_PIG/21-49             ---LTGIARGHRDLRQA-SGKWLQE--DVQECECK-----------------------------------------------------------------------
+#=GR tr|A0A8D1X0C6|A0A8D1X0C6_PIG/21-49     PP ...579***********.*******..*******9.......................................................................
+tr|A0A8D0IWA2|A0A8D0IWA2_PIG/21-49             ---LTGIARGHRDPRQA-SGKWLQE--DVQECECK-----------------------------------------------------------------------
+#=GR tr|A0A8D0IWA2|A0A8D0IWA2_PIG/21-49     PP ...579***********.*******..*******9.......................................................................
+#=GC PP_cons                                   67899************.*******..********.************..***..**************************************************7
+#=GC RF                                        xxxxxxxxxxxxxxxxx.xxxxxxx..xxxxxxxx.xxxxxxxxxxxx..xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

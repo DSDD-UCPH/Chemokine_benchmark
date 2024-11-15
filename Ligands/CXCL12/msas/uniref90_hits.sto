@@ -1,0 +1,994 @@
+# STOCKHOLM 1.0
+
+#=GS UniRef90_UPI001E1E0645/16-87     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Echinops telfairi TaxID=9371 RepID=UPI001E1E0645
+#=GS UniRef90_A0A6D2XN06/22-93        DE [subseq from] Stromal cell-derived factor 1 n=16 Tax=Boreoeutheria TaxID=1437010 RepID=A0A6D2XN06_PONAB
+#=GS UniRef90_O62657/22-93            DE [subseq from] Stromal cell-derived factor 1 n=17 Tax=Laurasiatheria TaxID=314145 RepID=SDF1_FELCA
+#=GS UniRef90_P48061/22-93            DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Catarrhini TaxID=9526 RepID=SDF1_HUMAN
+#=GS UniRef90_A0A7J8DND2/22-93        DE [subseq from] Stromal cell-derived factor 1 n=9 Tax=Microchiroptera TaxID=30560 RepID=A0A7J8DND2_MOLMO
+#=GS UniRef90_M3Z0S5/22-93            DE [subseq from] Stromal cell-derived factor 1 n=16 Tax=Boreoeutheria TaxID=1437010 RepID=M3Z0S5_MUSPF
+#=GS UniRef90_A0A8C0NWR9/22-93        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Boreoeutheria TaxID=1437010 RepID=A0A8C0NWR9_CANLF
+#=GS UniRef90_F7DYQ8/22-93            DE [subseq from] Stromal cell-derived factor 1 n=15 Tax=Eutheria TaxID=9347 RepID=F7DYQ8_HORSE
+#=GS UniRef90_UPI0018905B3F/22-93     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=2 Tax=Talpa occidentalis TaxID=50954 RepID=UPI0018905B3F
+#=GS UniRef90_A0A8C6RRA3/22-93        DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Eutheria TaxID=9347 RepID=A0A8C6RRA3_NANGA
+#=GS UniRef90_P40224/22-93            DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Mus TaxID=862507 RepID=SDF1_MOUSE
+#=GS UniRef90_A0A3Q1M5N8/22-93        DE [subseq from] Stromal cell-derived factor 1 n=13 Tax=Pecora TaxID=35500 RepID=A0A3Q1M5N8_BOVIN
+#=GS UniRef90_A0A6I9MBR2/22-93        DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Boreoeutheria TaxID=1437010 RepID=A0A6I9MBR2_PERMB
+#=GS UniRef90_A0A8B7TGA2/22-93        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Hipposideros armiger TaxID=186990 RepID=A0A8B7TGA2_HIPAR
+#=GS UniRef90_A0A8C0ZZJ9/22-93        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Boreoeutheria TaxID=1437010 RepID=A0A8C0ZZJ9_CASCN
+#=GS UniRef90_A0A8C5YCE7/22-93        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Lemuriformes TaxID=376915 RepID=A0A8C5YCE7_MICMU
+#=GS UniRef90_A0A6J3A6E1/3-74         DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Vicugna pacos TaxID=30538 RepID=A0A6J3A6E1_VICPA
+#=GS UniRef90_A0A8C5K247/23-94        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Jaculus jaculus TaxID=51337 RepID=A0A8C5K247_JACJA
+#=GS UniRef90_A0A287D8U4/22-93        DE [subseq from] C-X-C motif chemokine ligand 12 n=5 Tax=Rodentia TaxID=9989 RepID=A0A287D8U4_ICTTR
+#=GS UniRef90_UPI0007A71B1E/12-83     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Miniopterus natalensis TaxID=291302 RepID=UPI0007A71B1E
+#=GS UniRef90_A0A2Y9J3D8/22-90        DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Mustelidae TaxID=9655 RepID=A0A2Y9J3D8_ENHLU
+#=GS UniRef90_A0A6J3GZI1/22-91        DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Platyrrhini TaxID=9479 RepID=A0A6J3GZI1_SAPAP
+#=GS UniRef90_A0A7E6DTT4/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Phyllostomus discolor TaxID=89673 RepID=A0A7E6DTT4_9CHIR
+#=GS UniRef90_UPI0009526F63/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X3 n=3 Tax=Boreoeutheria TaxID=1437010 RepID=UPI0009526F63
+#=GS UniRef90_A0A834E547/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Phyllostomus discolor TaxID=89673 RepID=A0A834E547_9CHIR
+#=GS UniRef90_P48061-3/22-90          DE [subseq from] Isoform Gamma of Stromal cell-derived factor 1 n=144 Tax=Tetrapoda TaxID=32523 RepID=P48061-3
+#=GS UniRef90_A0A8C9JBS0/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Panthera tigris altaica TaxID=74533 RepID=A0A8C9JBS0_PANTA
+#=GS UniRef90_A0A673T2P1/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Suricata suricatta TaxID=37032 RepID=A0A673T2P1_SURSU
+#=GS UniRef90_H0XTF9/2-69             DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Otolemur garnettii TaxID=30611 RepID=H0XTF9_OTOGA
+#=GS UniRef90_A0A484GU70/18-85        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Sousa chinensis TaxID=103600 RepID=A0A484GU70_SOUCH
+#=GS UniRef90_A0A6P6HCW0/29-97        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Puma concolor TaxID=9696 RepID=A0A6P6HCW0_PUMCO
+#=GS UniRef90_A0A5F5Y290/22-89        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Felis catus TaxID=9685 RepID=A0A5F5Y290_FELCA
+#=GS UniRef90_UPI0010F51E22/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Monodon monoceros TaxID=40151 RepID=UPI0010F51E22
+#=GS UniRef90_A0A455BET3/22-89        DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Laurasiatheria TaxID=314145 RepID=A0A455BET3_PHYMC
+#=GS UniRef90_V5Q684/22-89            DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Boreoeutheria TaxID=1437010 RepID=V5Q684_TUPCH
+#=GS UniRef90_F6SEQ8/22-89            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Callithrix jacchus TaxID=9483 RepID=F6SEQ8_CALJA
+#=GS UniRef90_A0A6J2CMV5/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Zalophus californianus TaxID=9704 RepID=A0A6J2CMV5_ZALCA
+#=GS UniRef90_A0A8U0NSC5/22-89        DE [subseq from] stromal cell-derived factor 1 isoform X3 n=1 Tax=Mustela putorius furo TaxID=9669 RepID=A0A8U0NSC5_MUSPF
+#=GS UniRef90_UPI001E68D44D/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Mirounga angustirostris TaxID=9716 RepID=UPI001E68D44D
+#=GS UniRef90_UPI001899A0F7/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X3 n=2 Tax=Cebidae TaxID=9498 RepID=UPI001899A0F7
+#=GS UniRef90_A0A4U1EXW1/46-113       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Monodon monoceros TaxID=40151 RepID=A0A4U1EXW1_MONMO
+#=GS UniRef90_A0A452REQ2/12-80        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ursus americanus TaxID=9643 RepID=A0A452REQ2_URSAM
+#=GS UniRef90_UPI0006D72FFC/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=1 Tax=Myotis lucifugus TaxID=59463 RepID=UPI0006D72FFC
+#=GS UniRef90_UPI0003EC3FD3/39-107    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Myotis davidii TaxID=225400 RepID=UPI0003EC3FD3
+#=GS UniRef90_A0A7J7RMH4/22-89        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Myotis myotis TaxID=51298 RepID=A0A7J7RMH4_MYOMY
+#=GS UniRef90_A0A2K5ESU5/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Aotus nancymaae TaxID=37293 RepID=A0A2K5ESU5_AOTNA
+#=GS UniRef90_A0A3Q7Q2Y3/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Callorhinus ursinus TaxID=34884 RepID=A0A3Q7Q2Y3_CALUR
+#=GS UniRef90_P48061-4/22-89          DE [subseq from] Isoform Delta of Stromal cell-derived factor 1 n=22 Tax=Catarrhini TaxID=9526 RepID=P48061-4
+#=GS UniRef90_A0A8I3PZE5/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Canis lupus familiaris TaxID=9615 RepID=A0A8I3PZE5_CANLF
+#=GS UniRef90_A0A673TAX2/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Suricata suricatta TaxID=37032 RepID=A0A673TAX2_SURSU
+#=GS UniRef90_UPI000704062C/45-112    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Myotis brandtii TaxID=109478 RepID=UPI000704062C
+#=GS UniRef90_A0A8C0RNZ5/16-83        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Canis lupus familiaris TaxID=9615 RepID=A0A8C0RNZ5_CANLF
+#=GS UniRef90_A0A485PLC5/21-88        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Lynx pardinus TaxID=191816 RepID=A0A485PLC5_LYNPA
+#=GS UniRef90_A0A4X1V768/22-89        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Laurasiatheria TaxID=314145 RepID=A0A4X1V768_PIG
+#=GS UniRef90_A0A8C5K8M6/23-91        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Boreoeutheria TaxID=1437010 RepID=A0A8C5K8M6_JACJA
+#=GS UniRef90_UPI00187BCDF1/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X3 n=2 Tax=Stenodermatinae TaxID=40234 RepID=UPI00187BCDF1
+#=GS UniRef90_L5M112/93-160           DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Myotis davidii TaxID=225400 RepID=L5M112_MYODS
+#=GS UniRef90_A0A4X1VBG4/22-89        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Suina TaxID=35497 RepID=A0A4X1VBG4_PIG
+#=GS UniRef90_A0A6J2CQK6/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Zalophus californianus TaxID=9704 RepID=A0A6J2CQK6_ZALCA
+#=GS UniRef90_A0A452E642/22-89        DE [subseq from] Stromal cell-derived factor 1 n=12 Tax=Pecora TaxID=35500 RepID=A0A452E642_CAPHI
+#=GS UniRef90_A0A8I6GDX4/14-81        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Euarchontoglires TaxID=314146 RepID=A0A8I6GDX4_RAT
+#=GS UniRef90_UPI001E67E117/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=1 Tax=Phyllostomus hastatus TaxID=9423 RepID=UPI001E67E117
+#=GS UniRef90_UPI001FB200DF/22-91     DE [subseq from] uncharacterized protein LOC124984574 isoform X1 n=2 Tax=Glires TaxID=314147 RepID=UPI001FB200DF
+#=GS UniRef90_A0A8D1JE29/55-122       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A8D1JE29_PIG
+#=GS UniRef90_A0A8C2RXF9/77-144       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Capra hircus TaxID=9925 RepID=A0A8C2RXF9_CAPHI
+#=GS UniRef90_W5NYD5/22-90            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ovis aries TaxID=9940 RepID=W5NYD5_SHEEP
+#=GS UniRef90_UPI0003ACA196/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X3 n=1 Tax=Equus przewalskii TaxID=9798 RepID=UPI0003ACA196
+#=GS UniRef90_A0A2U3X501/22-89        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Caniformia TaxID=379584 RepID=A0A2U3X501_ODORO
+#=GS UniRef90_Q0P5I9/22-89            DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Bos TaxID=9903 RepID=Q0P5I9_BOVIN
+#=GS UniRef90_G1PGJ6/22-89            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Myotis lucifugus TaxID=59463 RepID=G1PGJ6_MYOLU
+#=GS UniRef90_S7P0T0/83-150           DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7P0T0_MYOBR
+#=GS UniRef90_A0A4X1VAQ0/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A4X1VAQ0_PIG
+#=GS UniRef90_A0A452UN94/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ursus maritimus TaxID=29073 RepID=A0A452UN94_URSMA
+#=GS UniRef90_A0A1A6GZ22/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Neotoma lepida TaxID=56216 RepID=A0A1A6GZ22_NEOLE
+#=GS UniRef90_UPI001D126E5E/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Bubalus bubalis TaxID=89462 RepID=UPI001D126E5E
+#=GS UniRef90_A0A2K5Y8T5/340-407      DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Mandrillus leucophaeus TaxID=9568 RepID=A0A2K5Y8T5_MANLE
+#=GS UniRef90_A0A4W2EQS6/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Bos indicus x Bos taurus TaxID=30522 RepID=A0A4W2EQS6_BOBOX
+#=GS UniRef90_UPI000A2B91F5/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI000A2B91F5
+#=GS UniRef90_A0A6P3INY5/72-139       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Bison bison bison TaxID=43346 RepID=A0A6P3INY5_BISBI
+#=GS UniRef90_A0A8J6ASN4/206-273      DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Galemys pyrenaicus TaxID=202257 RepID=A0A8J6ASN4_GALPY
+#=GS UniRef90_A0A4X2LLU6/22-93        DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Metatheria TaxID=9263 RepID=A0A4X2LLU6_VOMUR
+#=GS UniRef90_D2HW53/30-97            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ailuropoda melanoleuca TaxID=9646 RepID=D2HW53_AILME
+#=GS UniRef90_A0A8B8U0K0/22-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Camelus TaxID=9836 RepID=A0A8B8U0K0_CAMFR
+#=GS UniRef90_A0A8C9Q3T7/15-83        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Spermophilus dauricus TaxID=99837 RepID=A0A8C9Q3T7_SPEDA
+#=GS UniRef90_UPI001D163E97/20-91     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=1 Tax=Mauremys mutica TaxID=74926 RepID=UPI001D163E97
+#=GS UniRef90_G3TGG2/22-90            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Loxodonta africana TaxID=9785 RepID=G3TGG2_LOXAF
+#=GS UniRef90_A0A674K2Y3/22-93        DE [subseq from] C-X-C motif chemokine ligand 12 n=3 Tax=Testudines TaxID=8459 RepID=A0A674K2Y3_TERCA
+#=GS UniRef90_A0A1V4KJ47/22-93        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Neognathae TaxID=8825 RepID=A0A1V4KJ47_PATFA
+#=GS UniRef90_A0A218UXR3/22-93        DE [subseq from] Stromal cell-derived factor 1 n=8 Tax=Aves TaxID=8782 RepID=A0A218UXR3_9PASE
+#=GS UniRef90_A0A2K5PTB3/22-85        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Cebus imitator TaxID=2715852 RepID=A0A2K5PTB3_CEBIM
+#=GS UniRef90_A0A6G1REL8/42-113       DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=2 Tax=Neognathae TaxID=8825 RepID=A0A6G1REL8_9GRUI
+#=GS UniRef90_A0A151MLD2/22-93        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Crocodylia TaxID=1294634 RepID=A0A151MLD2_ALLMI
+#=GS UniRef90_A0A7J7F297/23-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Diceros bicornis minor TaxID=77932 RepID=A0A7J7F297_DICBM
+#=GS UniRef90_A0A8C3XUK0/22-93        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Chelydra serpentina TaxID=8475 RepID=A0A8C3XUK0_CHESE
+#=GS UniRef90_A0A8C5W052/22-89        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Lemuriformes TaxID=376915 RepID=A0A8C5W052_MICMU
+#=GS UniRef90_A0A8B8TZF5/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Camelus ferus TaxID=419612 RepID=A0A8B8TZF5_CAMFR
+#=GS UniRef90_UPI0003316451/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0003316451
+#=GS UniRef90_A0A8B7TDJ6/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Hipposideros armiger TaxID=186990 RepID=A0A8B7TDJ6_HIPAR
+#=GS UniRef90_UPI00187ACE36/22-90     DE [subseq from] LOW QUALITY PROTEIN: stromal cell-derived factor 1 n=3 Tax=Manis TaxID=9973 RepID=UPI00187ACE36
+#=GS UniRef90_A0A803VA51/72-143       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ficedula albicollis TaxID=59894 RepID=A0A803VA51_FICAL
+#=GS UniRef90_UPI00071981A4/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X4 n=1 Tax=Ceratotherium simum simum TaxID=73337 RepID=UPI00071981A4
+#=GS UniRef90_S9XB84/44-111           DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Camelus ferus TaxID=419612 RepID=S9XB84_CAMFR
+#=GS UniRef90_UPI0006493653/22-91     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0006493653
+#=GS UniRef90_A0A2I4BMI9/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Austrofundulus limnaeus TaxID=52670 RepID=A0A2I4BMI9_9TELE
+#=GS UniRef90_A0A2I4BMI9/109-176      DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Austrofundulus limnaeus TaxID=52670 RepID=A0A2I4BMI9_9TELE
+#=GS UniRef90_UPI0004D0AA9F/23-90     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Galeopterus variegatus TaxID=482537 RepID=UPI0004D0AA9F
+#=GS UniRef90_A0A099ZJ98/1-68         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=2 Tax=Tinamus guttatus TaxID=94827 RepID=A0A099ZJ98_TINGU
+#=GS UniRef90_A0A6I8NGE9/22-92        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Monotremata TaxID=9255 RepID=A0A6I8NGE9_ORNAN
+#=GS UniRef90_A0A803Y7Z5/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=A0A803Y7Z5_MELGA
+#=GS UniRef90_A0A7K7UZF3/21-88        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=3 Tax=Archelosauria TaxID=1329799 RepID=A0A7K7UZF3_EUDEL
+#=GS UniRef90_F6RGS8/43-113           DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=F6RGS8_ORNAN
+#=GS UniRef90_UPI00051E5C4D/20-87     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Struthio camelus australis TaxID=441894 RepID=UPI00051E5C4D
+#=GS UniRef90_E2IFI5/1-68             DE [subseq from] Stromal cell derived factor-1 (Fragment) n=16 Tax=Neognathae TaxID=8825 RepID=E2IFI5_CHICK
+#=GS UniRef90_A0A8D2N0N3/17-85        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Zonotrichia albicollis TaxID=44394 RepID=A0A8D2N0N3_ZONAL
+#=GS UniRef90_A0A669QHN1/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Phasianus colchicus TaxID=9054 RepID=A0A669QHN1_PHACC
+#=GS UniRef90_A0A8C9NXK5/22-90        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Neognathae TaxID=8825 RepID=A0A8C9NXK5_SERCA
+#=GS UniRef90_Q6T7B9/22-89            DE [subseq from] Stromal cell-derived factor 1 n=50 Tax=Aves TaxID=8782 RepID=Q6T7B9_CHICK
+#=GS UniRef90_F6Y7V7/22-89            DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Metatheria TaxID=9263 RepID=F6Y7V7_MONDO
+#=GS UniRef90_A0A8C6ZM03/22-89        DE [subseq from] Stromal cell-derived factor 1 n=11 Tax=Aves TaxID=8782 RepID=A0A8C6ZM03_NOTPE
+#=GS UniRef90_A0A093QE02/2-69         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=9 Tax=Neognathae TaxID=8825 RepID=A0A093QE02_PHACA
+#=GS UniRef90_A0A087VFK1/2-69         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=3 Tax=Gruidae TaxID=9109 RepID=A0A087VFK1_BALRE
+#=GS UniRef90_A0A452GP66/22-89        DE [subseq from] C-X-C motif chemokine ligand 12 n=2 Tax=Gopherus TaxID=38771 RepID=A0A452GP66_9SAUR
+#=GS UniRef90_M7B371/22-89            DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Durocryptodira TaxID=1579337 RepID=M7B371_CHEMY
+#=GS UniRef90_A0A8C8BEU7/22-89        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Neognathae TaxID=8825 RepID=A0A8C8BEU7_9STRI
+#=GS UniRef90_A0A7L1E5N7/24-91        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Oenanthe oenanthe TaxID=279966 RepID=A0A7L1E5N7_OENON
+#=GS UniRef90_A0A8C0HFH8/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Buteo japonicus TaxID=224669 RepID=A0A8C0HFH8_9AVES
+#=GS UniRef90_A0A7L2ISA3/23-90        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Semnornis frantzii TaxID=91796 RepID=A0A7L2ISA3_9PICI
+#=GS UniRef90_A0A7L0DBK8/24-91        DE [subseq from] SDF1 factor (Fragment) n=1 Tax=Rostratula benghalensis TaxID=118793 RepID=A0A7L0DBK8_9CHAR
+#=GS UniRef90_A0A674HPH2/24-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Taeniopygia guttata TaxID=59729 RepID=A0A674HPH2_TAEGU
+#=GS UniRef90_A0A852LNN3/23-90        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=2 Tax=Centropus TaxID=57401 RepID=A0A852LNN3_9AVES
+#=GS UniRef90_A0A852D5U8/27-94        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=4 Tax=Neognathae TaxID=8825 RepID=A0A852D5U8_PASAF
+#=GS UniRef90_A0A091M6W8/2-69         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=4 Tax=Neognathae TaxID=8825 RepID=A0A091M6W8_CARIC
+#=GS UniRef90_A0A8C3D387/22-89        DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Neognathae TaxID=8825 RepID=A0A8C3D387_CAIMO
+#=GS UniRef90_A0A3L8SLU4/22-90        DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Chloebia gouldiae TaxID=44316 RepID=A0A3L8SLU4_CHLGU
+#=GS UniRef90_A0A091W7U4/2-69         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=2 Tax=Opisthocomus hoazin TaxID=30419 RepID=A0A091W7U4_OPIHO
+#=GS UniRef90_A0A803XWH0/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=A0A803XWH0_MELGA
+#=GS UniRef90_A0A2I0LY75/38-105       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Columba livia TaxID=8932 RepID=A0A2I0LY75_COLLI
+#=GS UniRef90_UPI0010A9825A/63-130    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Antrostomus carolinensis TaxID=279965 RepID=UPI0010A9825A
+#=GS UniRef90_UPI00051B2EF4/61-128    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Cuculus canorus TaxID=55661 RepID=UPI00051B2EF4
+#=GS UniRef90_A0A6I9Z7L1/43-110       DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Neognathae TaxID=8825 RepID=A0A6I9Z7L1_GEOFO
+#=GS UniRef90_K7G9F2/22-89            DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Cryptodira TaxID=8464 RepID=K7G9F2_PELSI
+#=GS UniRef90_U3J6R4/56-123           DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Anas platyrhynchos platyrhynchos TaxID=8840 RepID=U3J6R4_ANAPP
+#=GS UniRef90_UPI0005218680/61-128    DE [subseq from] stromal cell-derived factor 1 n=3 Tax=Neognathae TaxID=8825 RepID=UPI0005218680
+#=GS UniRef90_A0A8K1GVA3/22-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Zosterops borbonicus TaxID=364589 RepID=A0A8K1GVA3_9PASS
+#=GS UniRef90_UPI00052365B6/60-127    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Nestor notabilis TaxID=176057 RepID=UPI00052365B6
+#=GS UniRef90_UPI00051F00C2/92-160    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Egretta garzetta TaxID=188379 RepID=UPI00051F00C2
+#=GS UniRef90_A0A8B9DPJ0/73-140       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Anser cygnoid TaxID=8845 RepID=A0A8B9DPJ0_ANSCY
+#=GS UniRef90_UPI000386F7DA/68-135    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Falco peregrinus TaxID=8954 RepID=UPI000386F7DA
+#=GS UniRef90_UPI000530A92F/74-141    DE [subseq from] stromal cell-derived factor 1 n=2 Tax=Neognathae TaxID=8825 RepID=UPI000530A92F
+#=GS UniRef90_A0A851A9L9/4-71         DE [subseq from] SDF1 factor (Fragment) n=3 Tax=Pelecaniformes TaxID=9205 RepID=A0A851A9L9_SULDA
+#=GS UniRef90_A0A8C3MC72/181-249      DE [subseq from] Stromal cell-derived factor 1 n=252 Tax=Neognathae TaxID=8825 RepID=A0A8C3MC72_GEOPR
+#=GS UniRef90_A0A1D5P4F0/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Gallus gallus TaxID=9031 RepID=A0A1D5P4F0_CHICK
+#=GS UniRef90_A0A8C3KN63/80-147       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Calidris TaxID=8918 RepID=A0A8C3KN63_9CHAR
+#=GS UniRef90_A0A6J2GFI7/78-145       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Pipridae TaxID=114313 RepID=A0A6J2GFI7_9PASS
+#=GS UniRef90_A0A674G783/94-161       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Taeniopygia guttata TaxID=59729 RepID=A0A674G783_TAEGU
+#=GS UniRef90_A0A7L0G2V3/2-69         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Herpetotheres cachinnans TaxID=56343 RepID=A0A7L0G2V3_HERCA
+#=GS UniRef90_A0A8B9C4L1/126-193      DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Anser brachyrhynchus TaxID=132585 RepID=A0A8B9C4L1_9AVES
+#=GS UniRef90_UPI0005232599/76-143    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Tauraco erythrolophus TaxID=121530 RepID=UPI0005232599
+#=GS UniRef90_A0A803VG26/72-139       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Ficedula albicollis TaxID=59894 RepID=A0A803VG26_FICAL
+#=GS UniRef90_UPI00115D2B6D/121-188   DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Manacus vitellinus TaxID=328815 RepID=UPI00115D2B6D
+#=GS UniRef90_UPI001D16061D/20-87     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Mauremys mutica TaxID=74926 RepID=UPI001D16061D
+#=GS UniRef90_UPI0004F08BCB/156-223   DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Merops nubicus TaxID=57421 RepID=UPI0004F08BCB
+#=GS UniRef90_A0A3M0KEB0/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Hirundo rustica rustica TaxID=333673 RepID=A0A3M0KEB0_HIRRU
+#=GS UniRef90_A0A8C0GDU5/96-163       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Chelonoidis abingdonii TaxID=106734 RepID=A0A8C0GDU5_CHEAB
+#=GS UniRef90_UPI0018F58708/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=1 Tax=Tachyglossus aculeatus TaxID=9261 RepID=UPI0018F58708
+#=GS UniRef90_UPI0010A7AD13/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=UPI0010A7AD13
+#=GS UniRef90_A0A670I3K6/23-94        DE [subseq from] C-X-C motif chemokine ligand 12 n=3 Tax=Lacertinae TaxID=162266 RepID=A0A670I3K6_PODMU
+#=GS UniRef90_A0A2G9S8B4/4-71         DE [subseq from] SCY domain-containing protein (Fragment) n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9S8B4_LITCT
+#=GS UniRef90_UPI001AADFEFE/22-90     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=2 Tax=Rana temporaria TaxID=8407 RepID=UPI001AADFEFE
+#=GS UniRef90_UPI001129486E/22-89     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=2 Tax=Rhinatrema bivittatum TaxID=194408 RepID=UPI001129486E
+#=GS UniRef90_UPI001CF36206/22-89     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Bufo gargarizans TaxID=30331 RepID=UPI001CF36206
+#=GS UniRef90_A0A8J6B7A7/22-89        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Hyloidea TaxID=8417 RepID=A0A8J6B7A7_ELECQ
+#=GS UniRef90_A0A8D0GQX0/21-84        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Sphenodon punctatus TaxID=8508 RepID=A0A8D0GQX0_SPHPU
+#=GS UniRef90_UPI000441BE0A/47-118    DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Python bivittatus TaxID=176946 RepID=UPI000441BE0A
+#=GS UniRef90_UPI000854AE49/22-89     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Nanorana parkeri TaxID=125878 RepID=UPI000854AE49
+#=GS UniRef90_Q8UUJ9/22-92            DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Pipidae TaxID=8352 RepID=SDF1_XENLA
+#=GS UniRef90_A0A8C5QGI5/51-119       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Leptobrachium leishanense TaxID=445787 RepID=A0A8C5QGI5_9ANUR
+#=GS UniRef90_A0A8J1L498/22-89        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Xenopus laevis TaxID=8355 RepID=A0A8J1L498_XENLA
+#=GS UniRef90_A0A6H0DUM0/22-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Cynops orientalis TaxID=137245 RepID=A0A6H0DUM0_9SALA
+#=GS UniRef90_UPI00192F48AD/23-94     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Crotalus tigris TaxID=88082 RepID=UPI00192F48AD
+#=GS UniRef90_A0A8J0TC96/48-115       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Xenopus laevis TaxID=8355 RepID=A0A8J0TC96_XENLA
+#=GS UniRef90_A0A6J0UYQ1/13-84        DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Pogona vitticeps TaxID=103695 RepID=A0A6J0UYQ1_9SAUR
+#=GS UniRef90_UPI001CF7E4FF/26-97     DE [subseq from] stromal cell-derived factor 1 isoform X2 n=1 Tax=Varanus komodoensis TaxID=61221 RepID=UPI001CF7E4FF
+#=GS UniRef90_A0A6P8REU6/22-94        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Geotrypetes seraphini TaxID=260995 RepID=A0A6P8REU6_GEOSA
+#=GS UniRef90_A0A6P9BLI8/23-94        DE [subseq from] stromal cell-derived factor 1 n=3 Tax=Colubridae TaxID=8578 RepID=A0A6P9BLI8_PANGU
+#=GS UniRef90_H9GI17/87-158           DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Anolis carolinensis TaxID=28377 RepID=H9GI17_ANOCA
+#=GS UniRef90_UPI001C4BAFC9/27-97     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=2 Tax=Sceloporus undulatus TaxID=8520 RepID=UPI001C4BAFC9
+#=GS UniRef90_A0A6P7Y1R0/22-95        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Microcaecilia unicolor TaxID=1415580 RepID=A0A6P7Y1R0_9AMPH
+#=GS UniRef90_A0A8C6XTM8/23-94        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Naja naja TaxID=35670 RepID=A0A8C6XTM8_NAJNA
+#=GS UniRef90_A0A8D0B865/23-90        DE [subseq from] C-X-C motif chemokine ligand 12 n=2 Tax=Salvator merianae TaxID=96440 RepID=A0A8D0B865_9SAUR
+#=GS UniRef90_A0A8D2Q3G7/25-92        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Varanus komodoensis TaxID=61221 RepID=A0A8D2Q3G7_VARKO
+#=GS UniRef90_UPI001CF7838D/26-93     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Varanus komodoensis TaxID=61221 RepID=UPI001CF7838D
+#=GS UniRef90_V8PCE6/6-72             DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Ophiophagus hannah TaxID=8665 RepID=V8PCE6_OPHHA
+#=GS UniRef90_UPI0005F546C8/22-73     DE [subseq from] stromal cell-derived factor 1 isoform X4 n=1 Tax=Colobus angolensis palliatus TaxID=336983 RepID=UPI0005F546C8
+#=GS UniRef90_A0A8C5SVG3/31-102       DE [subseq from] SCY domain-containing protein n=4 Tax=Elapidae TaxID=8602 RepID=A0A8C5SVG3_LATLA
+#=GS UniRef90_A0A8C5SWS1/141-212      DE [subseq from] SCY domain-containing protein n=1 Tax=Laticauda laticaudata TaxID=8630 RepID=A0A8C5SWS1_LATLA
+#=GS UniRef90_UPI002026076E/28-95     DE [subseq from] stromal cell-derived factor 1 isoform X1 n=2 Tax=Sphaerodactylus townsendi TaxID=933632 RepID=UPI002026076E
+#=GS UniRef90_F7B668/22-82            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=F7B668_XENTR
+#=GS UniRef90_H3AJ95/24-94            DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Latimeria TaxID=7896 RepID=H3AJ95_LATCH
+#=GS UniRef90_A0A1U7URG5/22-76        DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Carlito syrichta TaxID=1868482 RepID=A0A1U7URG5_CARSF
+#=GS UniRef90_G1U9D6/22-82            DE [subseq from] MSP domain-containing protein n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1U9D6_RABIT
+#=GS UniRef90_A0A4X1VD14/22-65        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A4X1VD14_PIG
+#=GS UniRef90_A0A8J7T6X1/3-69         DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Atractosteus spatula TaxID=7917 RepID=A0A8J7T6X1_ATRSP
+#=GS UniRef90_A0A0E9Y0A9/24-90        DE [subseq from] SCY domain-containing protein n=1 Tax=Anguilla anguilla TaxID=7936 RepID=A0A0E9Y0A9_ANGAN
+#=GS UniRef90_UPI001B7ECA38/24-90     DE [subseq from] stromal cell-derived factor 1-like isoform X1 n=8 Tax=Acipenseroidei TaxID=186622 RepID=UPI001B7ECA38
+#=GS UniRef90_A0A3P8W268/92-160       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Cynoglossus semilaevis TaxID=244447 RepID=A0A3P8W268_CYNSE
+#=GS UniRef90_A0A6A1QNG6/46-84        DE [subseq from] Uncharacterized protein n=1 Tax=Balaenoptera physalus TaxID=9770 RepID=A0A6A1QNG6_BALPH
+#=GS UniRef90_W5M9E7/2-68             DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Lepisosteus oculatus TaxID=7918 RepID=W5M9E7_LEPOC
+#=GS UniRef90_A0A8T3CSR3/24-91        DE [subseq from] Uncharacterized protein n=3 Tax=Elopomorpha TaxID=32521 RepID=A0A8T3CSR3_9TELE
+#=GS UniRef90_A0A6P3W603/24-92        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Clupeidae TaxID=55118 RepID=A0A6P3W603_CLUHA
+#=GS UniRef90_A8I4U9/22-59            DE [subseq from] CXCL12 (Fragment) n=1 Tax=Sus scrofa TaxID=9823 RepID=A8I4U9_PIG
+#=GS UniRef90_A0A8E7MG76/24-92        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Tachysurus vachellii TaxID=175792 RepID=A0A8E7MG76_TACVA
+#=GS UniRef90_H3DGI9/2-69             DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=H3DGI9_TETNG
+#=GS UniRef90_A0A6I9PZ83/6-73         DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Euacanthomorphacea TaxID=123369 RepID=A0A6I9PZ83_9TELE
+#=GS UniRef90_A0A2U9NL48/25-92        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Protopterus annectens TaxID=7888 RepID=A0A2U9NL48_PROAN
+#=GS UniRef90_A0A087XA97/11-78        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Poecilia formosa TaxID=48698 RepID=A0A087XA97_POEFO
+#=GS UniRef90_A0A8C4FIC3/81-150       DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Denticeps clupeoides TaxID=299321 RepID=A0A8C4FIC3_9TELE
+#=GS UniRef90_A0A8C5BNU3/24-91        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Acanthomorphata TaxID=123368 RepID=A0A8C5BNU3_GADMO
+#=GS UniRef90_A0A553MQP7/24-92        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQP7_9TELE
+#=GS UniRef90_A0A6P3W327/24-91        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Clupeidae TaxID=55118 RepID=A0A6P3W327_CLUHA
+#=GS UniRef90_A0A3P9MT49/24-91        DE [subseq from] Stromal cell-derived factor 1 n=11 Tax=Cyprinodontoidei TaxID=8087 RepID=A0A3P9MT49_POERE
+#=GS UniRef90_UPI001863E8EB/24-91     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) isoform X1 n=2 Tax=Megalops cyprinoides TaxID=118141 RepID=UPI001863E8EB
+#=GS UniRef90_A0A8C9YT28/24-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Sander lucioperca TaxID=283035 RepID=A0A8C9YT28_SANLU
+#=GS UniRef90_H3BX75/24-91            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=H3BX75_TETNG
+#=GS UniRef90_A0A444UNY9/6-74         DE [subseq from] DNA excision repair protein ERCC-6 n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=A0A444UNY9_ACIRT
+#=GS UniRef90_H2SS98/23-90            DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Takifugu rubripes TaxID=31033 RepID=H2SS98_TAKRU
+#=GS UniRef90_A0A8U0UC39/9-77         DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Salvelinus namaycush TaxID=8040 RepID=A0A8U0UC39_SALNM
+#=GS UniRef90_A0A2U9BPZ8/24-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A2U9BPZ8_SCOMX
+#=GS UniRef90_A0A3Q2GR49/24-90        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Cyprinodon TaxID=28741 RepID=A0A3Q2GR49_CYPVA
+#=GS UniRef90_A0A3P8XZS7/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Protacanthopterygii TaxID=41705 RepID=A0A3P8XZS7_ESOLU
+#=GS UniRef90_A0A2I0TJB3/22-64        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Limosa lapponica baueri TaxID=1758121 RepID=A0A2I0TJB3_LIMLA
+#=GS UniRef90_A0A6J2V8Q0/24-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Chanos chanos TaxID=29144 RepID=A0A6J2V8Q0_CHACN
+#=GS UniRef90_A0A4W5KEM1/24-92        DE [subseq from] Stromal cell-derived factor 1 n=16 Tax=Salmonidae TaxID=8015 RepID=A0A4W5KEM1_9TELE
+#=GS UniRef90_A0A315UXE3/80-146       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Gambusia affinis TaxID=33528 RepID=A0A315UXE3_GAMAF
+#=GS UniRef90_A0A0R5T142/25-92        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Euteleosteomorpha TaxID=1489388 RepID=A0A0R5T142_PLEAT
+#=GS UniRef90_UPI001863E934/24-91     DE [subseq from] stromal cell-derived factor 1-like isoform X1 n=2 Tax=Megalops cyprinoides TaxID=118141 RepID=UPI001863E934
+#=GS UniRef90_A0A3P9HBM8/15-83        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9HBM8_ORYLA
+#=GS UniRef90_A0A5A9P8G5/24-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Triplophysa tibetana TaxID=1572043 RepID=A0A5A9P8G5_9TELE
+#=GS UniRef90_A0A8C9XXM8/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Sander lucioperca TaxID=283035 RepID=A0A8C9XXM8_SANLU
+#=GS UniRef90_Q4QTK3/24-92            DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Siluroidei TaxID=1489793 RepID=Q4QTK3_ICTPU
+#=GS UniRef90_A0A3P9L7D4/24-91        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Oryzias TaxID=8089 RepID=A0A3P9L7D4_ORYLA
+#=GS UniRef90_A0A8C8KBJ7/30-98        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Oncorhynchus tshawytscha TaxID=74940 RepID=A0A8C8KBJ7_ONCTS
+#=GS UniRef90_A0A8T3DIZ2/24-92        DE [subseq from] Uncharacterized protein n=2 Tax=Albula TaxID=54908 RepID=A0A8T3DIZ2_9TELE
+#=GS UniRef90_A0A8K9Y3C0/29-96        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A8K9Y3C0_ONCMY
+#=GS UniRef90_A0A3Q1FYG5/24-92        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Pomacentridae TaxID=30863 RepID=A0A3Q1FYG5_9TELE
+#=GS UniRef90_A0A3Q3FJ54/29-96        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Labrus bergylta TaxID=56723 RepID=A0A3Q3FJ54_9LABR
+#=GS UniRef90_A0A4W6DFV9/24-91        DE [subseq from] Stromal cell-derived factor 1 n=28 Tax=Percomorphaceae TaxID=1489872 RepID=A0A4W6DFV9_LATCA
+#=GS UniRef90_A0A672RMB8/15-83        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672RMB8_SINGR
+#=GS UniRef90_Q8AV10/24-92            DE [subseq from] Stromal cell-derived factor 1 n=12 Tax=Cyprinoidei TaxID=30727 RepID=Q8AV10_DANRE
+#=GS UniRef90_A0A1A7Z972/24-91        DE [subseq from] Stromal cell-derived factor 1 n=9 Tax=Aplocheiloidei TaxID=45443 RepID=A0A1A7Z972_NOTFU
+#=GS UniRef90_A0A8K9UUD8/17-83        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A8K9UUD8_ONCMY
+#=GS UniRef90_A0A556TTY3/24-92        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Bagarius yarrelli TaxID=175774 RepID=A0A556TTY3_BAGYA
+#=GS UniRef90_A0A2D1BY09/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Osmeriformes TaxID=41711 RepID=A0A2D1BY09_PLEAT
+#=GS UniRef90_Q4RQF0/24-93            DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Tetraodontidae TaxID=31031 RepID=Q4RQF0_TETNG
+#=GS UniRef90_A0A1S3RPB1/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Salmoninae TaxID=504568 RepID=A0A1S3RPB1_SALSA
+#=GS UniRef90_A0A673JDQ3/24-92        DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Cyprininae TaxID=2743694 RepID=A0A673JDQ3_9TELE
+#=GS UniRef90_UPI000A1C4D1E/24-92     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Boleophthalmus pectinirostris TaxID=150288 RepID=UPI000A1C4D1E
+#=GS UniRef90_UPI001EAF0D03/63-130    DE [subseq from] stromal cell-derived factor 1-like isoform X1 n=3 Tax=Oncorhynchus gorbuscha TaxID=8017 RepID=UPI001EAF0D03
+#=GS UniRef90_A0A3B3ZPF3/24-90        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Gobiidae TaxID=8220 RepID=A0A3B3ZPF3_9GOBI
+#=GS UniRef90_A0A3Q2X9Z1/24-91        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Percomorphaceae TaxID=1489872 RepID=A0A3Q2X9Z1_HIPCM
+#=GS UniRef90_A0A3B4VNF3/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=6 Tax=Percomorphaceae TaxID=1489872 RepID=A0A3B4VNF3_SERDU
+#=GS UniRef90_A0A3P8Z6B7/21-88        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Esox lucius TaxID=8010 RepID=A0A3P8Z6B7_ESOLU
+#=GS UniRef90_A0A3Q3WPI6/24-92        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q3WPI6_MOLML
+#=GS UniRef90_UPI000CEAEF3E/22-89     DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Salvelinus alpinus TaxID=8036 RepID=UPI000CEAEF3E
+#=GS UniRef90_A0A8C1C135/24-92        DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1C135_CYPCA
+#=GS UniRef90_A0A3B4CP07/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Ostariophysi TaxID=32519 RepID=A0A3B4CP07_PYGNA
+#=GS UniRef90_A0A3P9ALW8/28-95        DE [subseq from] Stromal cell-derived factor 1 n=15 Tax=Protacanthopterygii TaxID=41705 RepID=A0A3P9ALW8_ESOLU
+#=GS UniRef90_UPI00189C1DC0/24-91     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Nematolebias whitei TaxID=451745 RepID=UPI00189C1DC0
+#=GS UniRef90_A0A3Q4G4U1/49-116       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Neolamprologus brichardi TaxID=32507 RepID=A0A3Q4G4U1_NEOBR
+#=GS UniRef90_A0A8C7IMP4/88-155       DE [subseq from] Stromal cell-derived factor 1 n=5 Tax=Oncorhynchus TaxID=8016 RepID=A0A8C7IMP4_ONCKI
+#=GS UniRef90_B3KYI4/24-92            DE [subseq from] Stromal cell-derived factor 1 n=7 Tax=Oryzias TaxID=8089 RepID=B3KYI4_ORYLA
+#=GS UniRef90_A0A665UI86/24-92        DE [subseq from] C-X-C motif chemokine ligand 12 n=3 Tax=Echeneis naucrates TaxID=173247 RepID=A0A665UI86_ECHNA
+#=GS UniRef90_UPI00113161FE/29-96     DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Oncorhynchus nerka TaxID=8023 RepID=UPI00113161FE
+#=GS UniRef90_A0A4W4DVX9/24-92        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Electrophorus electricus TaxID=8005 RepID=A0A4W4DVX9_ELEEL
+#=GS UniRef90_A0A3Q0SD47/24-90        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Percomorphaceae TaxID=1489872 RepID=A0A3Q0SD47_AMPCI
+#=GS UniRef90_A0A667ZKT1/23-89        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Myripristis murdjan TaxID=586833 RepID=A0A667ZKT1_9TELE
+#=GS UniRef90_A0A3Q3BD06/24-93        DE [subseq from] C-X-C motif chemokine ligand 12 n=2 Tax=Kryptolebias marmoratus TaxID=37003 RepID=A0A3Q3BD06_KRYMA
+#=GS UniRef90_A0A667ZKS7/27-93        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Myripristis murdjan TaxID=586833 RepID=A0A667ZKS7_9TELE
+#=GS UniRef90_A0A3S2LXH6/11-79        DE [subseq from] SCY domain-containing protein n=3 Tax=Oryzias TaxID=8089 RepID=A0A3S2LXH6_ORYJA
+#=GS UniRef90_A0A8J4XHV4/24-92        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Clarias magur TaxID=1594786 RepID=A0A8J4XHV4_CLAMG
+#=GS UniRef90_A0A8S4B3A3/67-134       DE [subseq from] (Atlantic silverside) hypothetical protein n=1 Tax=Menidia menidia TaxID=238744 RepID=A0A8S4B3A3_9TELE
+#=GS UniRef90_A0A8C4FNL0/24-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Denticeps clupeoides TaxID=299321 RepID=A0A8C4FNL0_9TELE
+#=GS UniRef90_A0A6A4SY30/91-157       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A6A4SY30_SCOMX
+#=GS UniRef90_A0A3B4BQL8/72-140       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Pygocentrus nattereri TaxID=42514 RepID=A0A3B4BQL8_PYGNA
+#=GS UniRef90_A0A673JAX8/24-91        DE [subseq from] Stromal cell-derived factor 1 n=18 Tax=Cyprinoidei TaxID=30727 RepID=A0A673JAX8_9TELE
+#=GS UniRef90_A0A672QD52/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Sinocyclocheilus TaxID=75365 RepID=A0A672QD52_SINGR
+#=GS UniRef90_A0A8C5H4I5/22-90        DE [subseq from] Stromal cell-derived factor 1-like n=1 Tax=Gouania willdenowi TaxID=441366 RepID=A0A8C5H4I5_9TELE
+#=GS UniRef90_A0A3B5JW76/52-121       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Takifugu rubripes TaxID=31033 RepID=A0A3B5JW76_TAKRU
+#=GS UniRef90_A0A8K9UYY6/63-130       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A8K9UYY6_ONCMY
+#=GS UniRef90_A0A2U9CC39/23-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A2U9CC39_SCOMX
+#=GS UniRef90_A0A1S5QXI6/24-92        DE [subseq from] Chemokine CXCL12b n=2 Tax=Paralichthys olivaceus TaxID=8255 RepID=A0A1S5QXI6_PAROL
+#=GS UniRef90_A0A4W6C7Y9/24-92        DE [subseq from] Stromal cell-derived factor 1 n=8 Tax=Percomorphaceae TaxID=1489872 RepID=A0A4W6C7Y9_LATCA
+#=GS UniRef90_A0A2I4BZU0/24-92        DE [subseq from] stromal cell-derived factor 1 isoform X2 n=2 Tax=Rivulidae TaxID=28771 RepID=A0A2I4BZU0_9TELE
+#=GS UniRef90_A0A2I4BZL4/25-93        DE [subseq from] stromal cell-derived factor 1 isoform X1 n=1 Tax=Austrofundulus limnaeus TaxID=52670 RepID=A0A2I4BZL4_9TELE
+#=GS UniRef90_A0A667WN49/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=3 Tax=Myripristis murdjan TaxID=586833 RepID=A0A667WN49_9TELE
+#=GS UniRef90_A0A3B3TAF7/22-89        DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3TAF7_9TELE
+#=GS UniRef90_A0A8C4TMZ2/24-91        DE [subseq from] C-X-C motif chemokine ligand 12 n=2 Tax=Polypteridae TaxID=8289 RepID=A0A8C4TMZ2_ERPCA
+#=GS UniRef90_UPI00189D381C/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Sebastes umbrosus TaxID=72105 RepID=UPI00189D381C
+#=GS UniRef90_A0A3P8VFU6/24-92        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Pleuronectoidei TaxID=30942 RepID=A0A3P8VFU6_CYNSE
+#=GS UniRef90_A0A3Q1JHE3/25-92        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Anabas testudineus TaxID=64144 RepID=A0A3Q1JHE3_ANATE
+#=GS UniRef90_A0A3Q2UDL3/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A3Q2UDL3_FUNHE
+#=GS UniRef90_UPI0020B197D0/24-91     DE [subseq from] chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) isoform X1 n=2 Tax=Brienomyrus brachyistius TaxID=42636 RepID=UPI0020B197D0
+#=GS UniRef90_UPI000F50042A/24-91     DE [subseq from] chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) n=1 Tax=Tachysurus fulvidraco TaxID=1234273 RepID=UPI000F50042A
+#=GS UniRef90_A0A2D0Q836/24-91        DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Siluroidei TaxID=1489793 RepID=A0A2D0Q836_ICTPU
+#=GS UniRef90_UPI000529DA50/46-84     DE [subseq from] stromal cell-derived factor 1 n=1 Tax=Colius striatus TaxID=57412 RepID=UPI000529DA50
+#=GS UniRef90_A0A3B3CZQ4/27-95        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Oryzias melastigma TaxID=30732 RepID=A0A3B3CZQ4_ORYME
+#=GS UniRef90_UPI001864C422/24-91     DE [subseq from] chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) n=1 Tax=Colossoma macropomum TaxID=42526 RepID=UPI001864C422
+#=GS UniRef90_A0A3Q4H289/24-92        DE [subseq from] Stromal cell-derived factor 1 n=12 Tax=Pseudocrenilabrinae TaxID=318546 RepID=A0A3Q4H289_NEOBR
+#=GS UniRef90_G3Q4H5/24-93            DE [subseq from] Stromal cell-derived factor 1 n=41 Tax=Percomorphaceae TaxID=1489872 RepID=G3Q4H5_GASAC
+#=GS UniRef90_A0A5C6PIU7/24-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Takifugu flavidus TaxID=433684 RepID=A0A5C6PIU7_9TELE
+#=GS UniRef90_UPI00155DF32C/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Etheostoma cragini TaxID=417921 RepID=UPI00155DF32C
+#=GS UniRef90_UPI001FB73A47/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Mugil cephalus TaxID=48193 RepID=UPI001FB73A47
+#=GS UniRef90_A0A0P7V8G5/3-69         DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V8G5_SCLFO
+#=GS UniRef90_UPI001ED845C7/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Scatophagus argus TaxID=75038 RepID=UPI001ED845C7
+#=GS UniRef90_A0A8C1K1V2/87-155       DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1K1V2_CYPCA
+#=GS UniRef90_A0A0S2GYJ0/24-92        DE [subseq from] CXC chemokine ligand 12 protein n=3 Tax=Epinephelus TaxID=94231 RepID=A0A0S2GYJ0_EPICO
+#=GS UniRef90_A0A6G1R0H5/24-92        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Channa argus TaxID=215402 RepID=A0A6G1R0H5_9TELE
+#=GS UniRef90_A0A553R6L7/55-122       DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553R6L7_9TELE
+#=GS UniRef90_A0A4W4F583/24-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Electrophorus electricus TaxID=8005 RepID=A0A4W4F583_ELEEL
+#=GS UniRef90_A0A8C9WBV2/24-91        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Scleropages formosus TaxID=113540 RepID=A0A8C9WBV2_SCLFO
+#=GS UniRef90_A0A6P7JTJ3/24-92        DE [subseq from] stromal cell-derived factor 1-like n=2 Tax=Percomorphaceae TaxID=1489872 RepID=A0A6P7JTJ3_9TELE
+#=GS UniRef90_A0A3Q3DN73/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=2 Tax=Percomorphaceae TaxID=1489872 RepID=A0A3Q3DN73_HIPCM
+#=GS UniRef90_A0A671YHF1/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=2 Tax=Sparidae TaxID=8169 RepID=A0A671YHF1_SPAAU
+#=GS UniRef90_UPI001885B58E/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Syngnathus acus TaxID=161584 RepID=UPI001885B58E
+#=GS UniRef90_A0A8S4C112/24-92        DE [subseq from] (Atlantic silverside) hypothetical protein n=2 Tax=Percomorphaceae TaxID=1489872 RepID=A0A8S4C112_9TELE
+#=GS UniRef90_A0A3B3X763/24-93        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Poecilia TaxID=8080 RepID=A0A3B3X763_9TELE
+#=GS UniRef90_A0A8T2LZY1/24-92        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Characoidei TaxID=1489739 RepID=A0A8T2LZY1_ASTMX
+#=GS UniRef90_UPI001887ACAE/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Pungitius pungitius TaxID=134920 RepID=UPI001887ACAE
+#=GS UniRef90_A0A673AHH0/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=2 Tax=Sphaeramia orbicularis TaxID=375764 RepID=A0A673AHH0_9TELE
+#=GS UniRef90_A0A8C6TY59/24-92        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Neogobius melanostomus TaxID=47308 RepID=A0A8C6TY59_9GOBI
+#=GS UniRef90_UPI000F306F1A/79-146    DE [subseq from] chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) isoform X1 n=1 Tax=Ictalurus punctatus TaxID=7998 RepID=UPI000F306F1A
+#=GS UniRef90_A0A8C1DJW5/78-145       DE [subseq from] Stromal cell-derived factor 1 n=6 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1DJW5_CYPCA
+#=GS UniRef90_A0A5J5CSE2/87-155       DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Etheostoma spectabile TaxID=54343 RepID=A0A5J5CSE2_9PERO
+#=GS UniRef90_A0A8C6TT17/48-116       DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Neogobius melanostomus TaxID=47308 RepID=A0A8C6TT17_9GOBI
+#=GS UniRef90_UPI001C4B177F/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Plectropomus leopardus TaxID=160734 RepID=UPI001C4B177F
+#=GS UniRef90_UPI001B3AB070/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Toxotes jaculatrix TaxID=941984 RepID=UPI001B3AB070
+#=GS UniRef90_A0A3Q3FHE3/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=2 Tax=Labridae TaxID=8247 RepID=A0A3Q3FHE3_9LABR
+#=GS UniRef90_A0A3B4B8C4/18-85        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=2 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=A0A3B4B8C4_9GOBI
+#=GS UniRef90_G3Q4H6/24-91            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Gasterosteus aculeatus TaxID=69293 RepID=G3Q4H6_GASAC
+#=GS UniRef90_A0A498NQ16/24-91        DE [subseq from] Heme oxygenase 2-like protein n=2 Tax=Labeo rohita TaxID=84645 RepID=A0A498NQ16_LABRO
+#=GS UniRef90_A0A484CJ89/24-91        DE [subseq from] SCY domain-containing protein n=1 Tax=Perca flavescens TaxID=8167 RepID=A0A484CJ89_PERFV
+#=GS UniRef90_A0A3Q4B8M8/24-86        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q4B8M8_MOLML
+#=GS UniRef90_A0A3B1JTP7/160-227      DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1JTP7_ASTMX
+#=GS UniRef90_UPI0018EDC742/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=2 Tax=Micropterus TaxID=27705 RepID=UPI0018EDC742
+#=GS UniRef90_A0A4U5VCA3/23-89        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Sciaenidae TaxID=30870 RepID=A0A4U5VCA3_COLLU
+#=GS UniRef90_A0A8C6KHF0/24-92        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Nothobranchius furzeri TaxID=105023 RepID=A0A8C6KHF0_NOTFU
+#=GS UniRef90_A0A3Q3FHF1/24-91        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Labrus bergylta TaxID=56723 RepID=A0A3Q3FHF1_9LABR
+#=GS UniRef90_UPI001FABCA88/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Girardinichthys multiradiatus TaxID=208333 RepID=UPI001FABCA88
+#=GS UniRef90_UPI000CD67437/24-90     DE [subseq from] stromal cell-derived factor 1-like isoform X1 n=4 Tax=Mormyridae TaxID=31092 RepID=UPI000CD67437
+#=GS UniRef90_A0A3B3TB43/25-91        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3TB43_9TELE
+#=GS UniRef90_A0A3B5BG44/24-92        DE [subseq from] C-C motif chemokine 5-like n=3 Tax=Percomorphaceae TaxID=1489872 RepID=A0A3B5BG44_9TELE
+#=GS UniRef90_UPI00148D19BB/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Hippoglossus hippoglossus TaxID=8267 RepID=UPI00148D19BB
+#=GS UniRef90_A0A4Z2I3E3/24-90        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Liparis tanakae TaxID=230148 RepID=A0A4Z2I3E3_9TELE
+#=GS UniRef90_A0A3Q2NX04/24-92        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Fundulus heteroclitus TaxID=8078 RepID=A0A3Q2NX04_FUNHE
+#=GS UniRef90_UPI001471A424/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Thalassophryne amazonica TaxID=390379 RepID=UPI001471A424
+#=GS UniRef90_UPI001A9984D8/24-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Xiphias gladius TaxID=8245 RepID=UPI001A9984D8
+#=GS UniRef90_G3NV10/24-90            DE [subseq from] Stromal cell-derived factor 1 n=4 Tax=Gasterosteus aculeatus TaxID=69293 RepID=G3NV10_GASAC
+#=GS UniRef90_A0A3Q0SY62/24-90        DE [subseq from] Stromal cell-derived factor 1 n=2 Tax=Heroini TaxID=318529 RepID=A0A3Q0SY62_AMPCI
+#=GS UniRef90_A0A6J2R4E3/24-92        DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Cottoperca gobio TaxID=56716 RepID=A0A6J2R4E3_COTGO
+#=GS UniRef90_A0A6P7KJJ6/24-91        DE [subseq from] chemokine (C-X-C motif) ligand 12a (Stromal cell-derived factor 1) n=1 Tax=Betta splendens TaxID=158456 RepID=A0A6P7KJJ6_BETSP
+#=GS UniRef90_C3KJM4/24-92            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Anoplopoma fimbria TaxID=229290 RepID=C3KJM4_ANOFI
+#=GS UniRef90_F6KTE7/1-63             DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Sebastiscus marmoratus TaxID=41446 RepID=F6KTE7_SEBMA
+#=GS UniRef90_UPI001C05D8C0/25-92     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) isoform X1 n=2 Tax=Melanotaenia boesemani TaxID=1250792 RepID=UPI001C05D8C0
+#=GS UniRef90_A0A6A4RXA4/24-90        DE [subseq from] SCY domain-containing protein n=2 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A6A4RXA4_SCOMX
+#=GS UniRef90_UPI0020158C3C/1142-1180 DE [subseq from] C-X-C motif chemokine 11-6 n=1 Tax=Labeo rohita TaxID=84645 RepID=UPI0020158C3C
+#=GS UniRef90_A0A3Q3WY61/24-85        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q3WY61_MOLML
+#=GS UniRef90_A0A6F9C839/37-103       DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Coregonus sp. 'balchen' TaxID=861768 RepID=A0A6F9C839_9TELE
+#=GS UniRef90_A0A7J5XZX1/128-195      DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Dissostichus mawsoni TaxID=36200 RepID=A0A7J5XZX1_DISMA
+#=GS UniRef90_A0A087XLC4/24-92        DE [subseq from] Stromal cell-derived factor 1-like n=10 Tax=Poeciliinae TaxID=586240 RepID=A0A087XLC4_POEFO
+#=GS UniRef90_UPI001964DCD3/24-90     DE [subseq from] stromal cell-derived factor 1-like n=2 Tax=Perca fluviatilis TaxID=8168 RepID=UPI001964DCD3
+#=GS UniRef90_A0A3B5QCM0/24-92        DE [subseq from] Stromal cell-derived factor 1 n=3 Tax=Xiphophorus TaxID=8082 RepID=A0A3B5QCM0_XIPMA
+#=GS UniRef90_UPI0018F7B74E/33-98     DE [subseq from] uncharacterized protein LOC119963344 isoform X2 n=3 Tax=Scyliorhinus canicula TaxID=7830 RepID=UPI0018F7B74E
+#=GS UniRef90_UPI0018F7B74E/108-174   DE [subseq from] uncharacterized protein LOC119963344 isoform X2 n=3 Tax=Scyliorhinus canicula TaxID=7830 RepID=UPI0018F7B74E
+#=GS UniRef90_UPI0018F7B74E/185-246   DE [subseq from] uncharacterized protein LOC119963344 isoform X2 n=3 Tax=Scyliorhinus canicula TaxID=7830 RepID=UPI0018F7B74E
+#=GS UniRef90_A0A3Q3KY04/24-91        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=3 Tax=Mastacembelus armatus TaxID=205130 RepID=A0A3Q3KY04_9TELE
+#=GS UniRef90_A0A3Q3XMH7/24-83        DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q3XMH7_MOLML
+#=GS UniRef90_A0A6I9PVC7/24-91        DE [subseq from] stromal cell-derived factor 1-like n=4 Tax=Notothenioidei TaxID=8205 RepID=A0A6I9PVC7_9TELE
+#=GS UniRef90_UPI001C4B7006/24-91     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=2 Tax=Thunnus TaxID=8234 RepID=UPI001C4B7006
+#=GS UniRef90_A0A8C9WV17/34-100       DE [subseq from] Stromal cell-derived factor 1-like n=2 Tax=Scleropages formosus TaxID=113540 RepID=A0A8C9WV17_SCLFO
+#=GS UniRef90_UPI00196382AB/34-94     DE [subseq from] chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Perca fluviatilis TaxID=8168 RepID=UPI00196382AB
+#=GS UniRef90_A0A212CP12/12-46        DE [subseq from] CXCL12 n=1 Tax=Cervus elaphus hippelaphus TaxID=46360 RepID=A0A212CP12_CEREH
+#=GS UniRef90_A0A3Q2DPD0/24-92        DE [subseq from] C-X-C motif chemokine ligand 12 n=1 Tax=Cyprinodon variegatus TaxID=28743 RepID=A0A3Q2DPD0_CYPVA
+#=GS UniRef90_A0A8M1HB44/24-92        DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Betta splendens TaxID=158456 RepID=A0A8M1HB44_BETSP
+#=GS UniRef90_L9KVL8/16-62            DE [subseq from] Stromal cell-derived factor 1 n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9KVL8_TUPCH
+#=GS UniRef90_A0A6A5DRP3/39-92        DE [subseq from] SCY domain-containing protein n=1 Tax=Perca fluviatilis TaxID=8168 RepID=A0A6A5DRP3_PERFL
+#=GS UniRef90_A0A8C1DIK7/24-63        DE [subseq from] Chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) n=2 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1DIK7_CYPCA
+#=GS UniRef90_A0A8C1DIK7/101-130      DE [subseq from] Chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) n=2 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1DIK7_CYPCA
+#=GS UniRef90_UPI001B7DED6E/24-82     DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Carcharodon carcharias TaxID=13397 RepID=UPI001B7DED6E
+#=GS UniRef90_A0A5C6MYW9/121-160      DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Takifugu flavidus TaxID=433684 RepID=A0A5C6MYW9_9TELE
+#=GS UniRef90_A0A5C6MYW9/197-225      DE [subseq from] Stromal cell-derived factor 1 (Fragment) n=1 Tax=Takifugu flavidus TaxID=433684 RepID=A0A5C6MYW9_9TELE
+#=GS UniRef90_A0A345D732/24-62        DE [subseq from] Chemokine ligand 12b n=1 Tax=Ctenopharyngodon idella TaxID=7959 RepID=A0A345D732_CTEID
+#=GS UniRef90_A0A345D732/100-127      DE [subseq from] Chemokine ligand 12b n=1 Tax=Ctenopharyngodon idella TaxID=7959 RepID=A0A345D732_CTEID
+#=GS UniRef90_A0A8K1GD38/31-95        DE [subseq from] Interleukin-8 n=5 Tax=Zosteropidae TaxID=36297 RepID=A0A8K1GD38_9PASS
+#=GS UniRef90_A0A8K1GD38/183-226      DE [subseq from] Interleukin-8 n=5 Tax=Zosteropidae TaxID=36297 RepID=A0A8K1GD38_9PASS
+#=GS UniRef90_A0A8K1GD38/330-393      DE [subseq from] Interleukin-8 n=5 Tax=Zosteropidae TaxID=36297 RepID=A0A8K1GD38_9PASS
+#=GS UniRef90_A0A401SDZ8/18-76        DE [subseq from] SCY domain-containing protein n=4 Tax=Orectolobiformes TaxID=30503 RepID=A0A401SDZ8_CHIPU
+#=GS UniRef90_A0A8J4TGE0/36-64        DE [subseq from] C-C motif chemokine 3-like (Fragment) n=1 Tax=Clarias magur TaxID=1594786 RepID=A0A8J4TGE0_CLAMG
+#=GS UniRef90_A0A8J4TGE0/112-135      DE [subseq from] C-C motif chemokine 3-like (Fragment) n=1 Tax=Clarias magur TaxID=1594786 RepID=A0A8J4TGE0_CLAMG
+#=GS UniRef90_A0A8J4TGE0/157-211      DE [subseq from] C-C motif chemokine 3-like (Fragment) n=1 Tax=Clarias magur TaxID=1594786 RepID=A0A8J4TGE0_CLAMG
+#=GS UniRef90_A0A218UQ74/31-95        DE [subseq from] Interleukin-8 n=1 Tax=Lonchura striata domestica TaxID=299123 RepID=A0A218UQ74_9PASE
+#=GS UniRef90_A0A218UQ74/158-224      DE [subseq from] Interleukin-8 n=1 Tax=Lonchura striata domestica TaxID=299123 RepID=A0A218UQ74_9PASE
+#=GS UniRef90_A0A218UQ74/329-388      DE [subseq from] Interleukin-8 n=1 Tax=Lonchura striata domestica TaxID=299123 RepID=A0A218UQ74_9PASE
+#=GS UniRef90_A0A8T0BIF3/55-104       DE [subseq from] Uncharacterized protein n=1 Tax=Silurus meridionalis TaxID=175797 RepID=A0A8T0BIF3_SILME
+#=GS UniRef90_A0A8T0BIF3/172-205      DE [subseq from] Uncharacterized protein n=1 Tax=Silurus meridionalis TaxID=175797 RepID=A0A8T0BIF3_SILME
+#=GS UniRef90_A0A8C8GCI0/16-83        DE [subseq from] Chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) n=1 Tax=Oncorhynchus tshawytscha TaxID=74940 RepID=A0A8C8GCI0_ONCTS
+#=GS UniRef90_A0A8C8G9F3/18-85        DE [subseq from] Chemokine (C-X-C motif) ligand 12b (stromal cell-derived factor 1) n=1 Tax=Oncorhynchus tshawytscha TaxID=74940 RepID=A0A8C8G9F3_ONCTS
+#=GS UniRef90_A0A835NSP5/2-32         DE [subseq from] SCY domain-containing protein n=1 Tax=Lamprotornis superbus TaxID=245042 RepID=A0A835NSP5_9PASS
+#=GS UniRef90_UPI0014026C63/24-83     DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Amblyraja radiata TaxID=386614 RepID=UPI0014026C63
+#=GS UniRef90_A0A401PB88/24-82        DE [subseq from] SCY domain-containing protein n=2 Tax=Scyliorhinus TaxID=7829 RepID=A0A401PB88_SCYTO
+#=GS UniRef90_A0A061IQQ1/30-96        DE [subseq from] C-X-C motif chemokine n=1 Tax=Cricetulus griseus TaxID=10029 RepID=A0A061IQQ1_CRIGR
+#=GS UniRef90_A0A061IQQ1/130-196      DE [subseq from] C-X-C motif chemokine n=1 Tax=Cricetulus griseus TaxID=10029 RepID=A0A061IQQ1_CRIGR
+#=GS UniRef90_A0A7J8APL3/58-118       DE [subseq from] C-X-C motif chemokine n=2 Tax=Myotis myotis TaxID=51298 RepID=A0A7J8APL3_MYOMY
+#=GS UniRef90_A0A7J8APL3/136-196      DE [subseq from] C-X-C motif chemokine n=2 Tax=Myotis myotis TaxID=51298 RepID=A0A7J8APL3_MYOMY
+#=GS UniRef90_A0A4W3HU59/24-83        DE [subseq from] C-X-C motif chemokine ligand 12 n=2 Tax=Callorhinchus milii TaxID=7868 RepID=A0A4W3HU59_CALMI
+#=GS UniRef90_A0A0P7V4V4/34-72        DE [subseq from] Stromal cell-derived factor 1-like n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V4V4_SCLFO
+#=GS UniRef90_A0A0P7V4V4/99-129       DE [subseq from] Stromal cell-derived factor 1-like n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7V4V4_SCLFO
+#=GS UniRef90_A0A401SSC2/30-88        DE [subseq from] Interleukin-8 n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401SSC2_CHIPU
+#=GS UniRef90_A0A401SSC2/99-156       DE [subseq from] Interleukin-8 n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401SSC2_CHIPU
+#=GS UniRef90_A0A8T0BML0/40-66        DE [subseq from] Uncharacterized protein n=1 Tax=Silurus meridionalis TaxID=175797 RepID=A0A8T0BML0_SILME
+#=GS UniRef90_A0A8T0BML0/106-138      DE [subseq from] Uncharacterized protein n=1 Tax=Silurus meridionalis TaxID=175797 RepID=A0A8T0BML0_SILME
+#=GS UniRef90_A0A650GAB7/25-84        DE [subseq from] CXCL12 n=4 Tax=Petromyzontidae TaxID=7746 RepID=A0A650GAB7_LETCA
+#=GS UniRef90_UPI00140FBF4A/71-134    DE [subseq from] platelet basic protein-like isoform X4 n=1 Tax=Rhinolophus ferrumequinum TaxID=59479 RepID=UPI00140FBF4A
+#=GS UniRef90_UPI00140FBF4A/152-212   DE [subseq from] platelet basic protein-like isoform X4 n=1 Tax=Rhinolophus ferrumequinum TaxID=59479 RepID=UPI00140FBF4A
+#=GS UniRef90_A0A7J8B3B3/54-115       DE [subseq from] C-X-C motif chemokine n=3 Tax=Pipistrellus kuhlii TaxID=59472 RepID=A0A7J8B3B3_PIPKU
+#=GS UniRef90_A0A7J8B3B3/131-191      DE [subseq from] C-X-C motif chemokine n=3 Tax=Pipistrellus kuhlii TaxID=59472 RepID=A0A7J8B3B3_PIPKU
+#=GS UniRef90_UPI00081473B6/54-91     DE [subseq from] uncharacterized protein LOC108443749 isoform X1 n=1 Tax=Pygocentrus nattereri TaxID=42514 RepID=UPI00081473B6
+#=GS UniRef90_UPI00081473B6/144-181   DE [subseq from] uncharacterized protein LOC108443749 isoform X1 n=1 Tax=Pygocentrus nattereri TaxID=42514 RepID=UPI00081473B6
+#=GS UniRef90_A0A401RH41/29-96        DE [subseq from] Multifunctional fusion protein n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401RH41_CHIPU
+#=GS UniRef90_A0A401RH41/152-218      DE [subseq from] Multifunctional fusion protein n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401RH41_CHIPU
+#=GS UniRef90_UPI0018866296/29-92     DE [subseq from] platelet basic protein-like n=1 Tax=Falco rusticolus TaxID=120794 RepID=UPI0018866296
+#=GS UniRef90_UPI0018866296/141-186   DE [subseq from] platelet basic protein-like n=1 Tax=Falco rusticolus TaxID=120794 RepID=UPI0018866296
+#=GS UniRef90_L9L5Z3/32-101           DE [subseq from] C-X-C motif chemokine n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L5Z3_TUPCH
+#=GS UniRef90_L9L5Z3/143-210          DE [subseq from] C-X-C motif chemokine n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L5Z3_TUPCH
+#=GS UniRef90_A0A8M1HN61/33-84        DE [subseq from] C-C motif chemokine n=1 Tax=Betta splendens TaxID=158456 RepID=A0A8M1HN61_BETSP
+#=GS UniRef90_A0A8M1HN61/341-381      DE [subseq from] C-C motif chemokine n=1 Tax=Betta splendens TaxID=158456 RepID=A0A8M1HN61_BETSP
+#=GS UniRef90_UPI00174AF4F5/49-109    DE [subseq from] C-X-C motif chemokine 6-like isoform X2 n=1 Tax=Myotis myotis TaxID=51298 RepID=UPI00174AF4F5
+#=GS UniRef90_UPI00174AF4F5/127-187   DE [subseq from] C-X-C motif chemokine 6-like isoform X2 n=1 Tax=Myotis myotis TaxID=51298 RepID=UPI00174AF4F5
+#=GS UniRef90_L9L5M9/47-111           DE [subseq from] C-X-C motif chemokine n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L5M9_TUPCH
+#=GS UniRef90_L9L5M9/258-325          DE [subseq from] C-X-C motif chemokine n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L5M9_TUPCH
+#=GS UniRef90_A0A3M0L2T5/127-191      DE [subseq from] Interleukin-8 n=3 Tax=Passeriformes TaxID=9126 RepID=A0A3M0L2T5_HIRRU
+#=GS UniRef90_A0A3M0L2T5/275-335      DE [subseq from] Interleukin-8 n=3 Tax=Passeriformes TaxID=9126 RepID=A0A3M0L2T5_HIRRU
+#=GS UniRef90_UPI0018646380/369-423   DE [subseq from] uncharacterized protein LOC118798561 n=1 Tax=Colossoma macropomum TaxID=42526 RepID=UPI0018646380
+#=GS UniRef90_A0A498NR19/171-224      DE [subseq from] C-X-C motif chemokine 11-like protein n=1 Tax=Labeo rohita TaxID=84645 RepID=A0A498NR19_LABRO
+#=GS UniRef90_V9KMB5/24-82            DE [subseq from] CXCL12 n=2 Tax=Callorhinchus milii TaxID=7868 RepID=V9KMB5_CALMI
+#=GS UniRef90_A0A8C9LLU3/36-103       DE [subseq from] C-X-C motif chemokine n=3 Tax=Piliocolobus tephrosceles TaxID=591936 RepID=A0A8C9LLU3_9PRIM
+#=GS UniRef90_A0A8C9LLU3/163-224      DE [subseq from] C-X-C motif chemokine n=3 Tax=Piliocolobus tephrosceles TaxID=591936 RepID=A0A8C9LLU3_9PRIM
+#=GS UniRef90_A0A8T0BIF0/45-70        DE [subseq from] Uncharacterized protein n=1 Tax=Silurus meridionalis TaxID=175797 RepID=A0A8T0BIF0_SILME
+#=GS UniRef90_A0A8T0BIF0/121-153      DE [subseq from] Uncharacterized protein n=1 Tax=Silurus meridionalis TaxID=175797 RepID=A0A8T0BIF0_SILME
+#=GS UniRef90_A0A835NKA3/116-180      DE [subseq from] Interleukin-8 n=1 Tax=Lamprotornis superbus TaxID=245042 RepID=A0A835NKA3_9PASS
+#=GS UniRef90_A0A835NKA3/284-345      DE [subseq from] Interleukin-8 n=1 Tax=Lamprotornis superbus TaxID=245042 RepID=A0A835NKA3_9PASS
+#=GS UniRef90_UPI0005231BE1/53-88     DE [subseq from] C-C motif chemokine 26-like n=1 Tax=Chaetura pelagica TaxID=8897 RepID=UPI0005231BE1
+#=GS UniRef90_UPI0005231BE1/101-120   DE [subseq from] C-C motif chemokine 26-like n=1 Tax=Chaetura pelagica TaxID=8897 RepID=UPI0005231BE1
+#=GS UniRef90_UPI0020156D90/141-200   DE [subseq from] C-C motif chemokine 20 n=1 Tax=Labeo rohita TaxID=84645 RepID=UPI0020156D90
+#=GS UniRef90_A0A673ST21/48-111       DE [subseq from] C-X-C motif chemokine n=1 Tax=Suricata suricatta TaxID=37032 RepID=A0A673ST21_SURSU
+#=GS UniRef90_A0A3Q3QYT3/24-82        DE [subseq from] Chemokine (C-X-C motif) ligand 12a (stromal cell-derived factor 1) n=1 Tax=Monopterus albus TaxID=43700 RepID=A0A3Q3QYT3_MONAL
+#=GS UniRef90_A0A8C9GYD7/161-228      DE [subseq from] C-X-C motif chemokine n=2 Tax=Piliocolobus tephrosceles TaxID=591936 RepID=A0A8C9GYD7_9PRIM
+#=GS UniRef90_A0A8C9GYD7/288-349      DE [subseq from] C-X-C motif chemokine n=2 Tax=Piliocolobus tephrosceles TaxID=591936 RepID=A0A8C9GYD7_9PRIM
+#=GS UniRef90_UPI0007A6F9F9/243-302   DE [subseq from] uncharacterized protein LOC107528825 n=1 Tax=Miniopterus natalensis TaxID=291302 RepID=UPI0007A6F9F9
+#=GS UniRef90_A0A4U1F5G6/26-87        DE [subseq from] C-X-C motif chemokine n=2 Tax=Monodon monoceros TaxID=40151 RepID=A0A4U1F5G6_MONMO
+#=GS UniRef90_UPI0016596392/36-103    DE [subseq from] growth-regulated protein homolog beta-like isoform X4 n=1 Tax=Halichoerus grypus TaxID=9711 RepID=UPI0016596392
+#=GS UniRef90_UPI001EEB8A30/23-90     DE [subseq from] C-X-C motif chemokine 2 n=1 Tax=Silurus meridionalis TaxID=175797 RepID=UPI001EEB8A30
+#=GS UniRef90_A0A8J6B3D2/13-50        DE [subseq from] C-C motif chemokine 2 n=1 Tax=Galemys pyrenaicus TaxID=202257 RepID=A0A8J6B3D2_GALPY
+#=GS UniRef90_A0A8J6B3D2/79-134       DE [subseq from] C-C motif chemokine 2 n=1 Tax=Galemys pyrenaicus TaxID=202257 RepID=A0A8J6B3D2_GALPY
+#=GS UniRef90_UPI001B3AEFB3/311-347   DE [subseq from] C-C motif chemokine 36.1 n=1 Tax=Toxotes jaculatrix TaxID=941984 RepID=UPI001B3AEFB3
+#=GS UniRef90_A0A8J4TX50/27-90        DE [subseq from] C-X-C motif chemokine 11-6-like (Fragment) n=1 Tax=Clarias magur TaxID=1594786 RepID=A0A8J4TX50_CLAMG
+#=GS UniRef90_A0A8J4TX50/98-161       DE [subseq from] C-X-C motif chemokine 11-6-like (Fragment) n=1 Tax=Clarias magur TaxID=1594786 RepID=A0A8J4TX50_CLAMG
+#=GS UniRef90_A0A8B7B1B7/36-104       DE [subseq from] C-X-C motif chemokine n=2 Tax=Orycteropus afer afer TaxID=1230840 RepID=A0A8B7B1B7_ORYAF
+#=GS UniRef90_UPI00165A0203/36-103    DE [subseq from] growth-regulated protein homolog beta-like isoform X3 n=1 Tax=Halichoerus grypus TaxID=9711 RepID=UPI00165A0203
+#=GS UniRef90_A0A2Y9JUG0/34-102       DE [subseq from] C-X-C motif chemokine n=2 Tax=Mustelidae TaxID=9655 RepID=A0A2Y9JUG0_ENHLU
+#=GS UniRef90_A0A8C2UVS7/31-95        DE [subseq from] Multifunctional fusion protein n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=A0A8C2UVS7_CHILA
+#=GS UniRef90_A0A3B1JQM9/35-100       DE [subseq from] Interleukin-8 n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1JQM9_ASTMX
+#=GS UniRef90_A0A8C5T2R4/13-57        DE [subseq from] ADP-heptose--LPS heptosyltransferase II n=1 Tax=Malurus cyaneus samueli TaxID=2593467 RepID=A0A8C5T2R4_9PASS
+#=GS UniRef90_A0A8C5T2R4/70-118       DE [subseq from] ADP-heptose--LPS heptosyltransferase II n=1 Tax=Malurus cyaneus samueli TaxID=2593467 RepID=A0A8C5T2R4_9PASS
+#=GS UniRef90_A0A8B9R4X9/29-94        DE [subseq from] Interleukin-8 n=4 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A8B9R4X9_ASTMX
+#=GS UniRef90_UPI0011B0B8EA/32-99     DE [subseq from] growth-regulated protein homolog gamma-like isoform X3 n=2 Tax=Felinae TaxID=338152 RepID=UPI0011B0B8EA
+#=GS UniRef90_A0A401SDV2/24-81        DE [subseq from] SCY domain-containing protein n=3 Tax=Chiloscyllium TaxID=34767 RepID=A0A401SDV2_CHIPU
+#=GS UniRef90_UPI001658C568/36-103    DE [subseq from] growth-regulated protein homolog beta-like isoform X2 n=1 Tax=Halichoerus grypus TaxID=9711 RepID=UPI001658C568
+#=GS UniRef90_UPI00201409AC/33-91     DE [subseq from] uncharacterized protein LOC125257198 n=3 Tax=Megalobrama amblycephala TaxID=75352 RepID=UPI00201409AC
+#=GS UniRef90_UPI00201409AC/141-203   DE [subseq from] uncharacterized protein LOC125257198 n=3 Tax=Megalobrama amblycephala TaxID=75352 RepID=UPI00201409AC
+#=GS UniRef90_UPI00140235C1/24-77     DE [subseq from] stromal cell-derived factor 1-like n=1 Tax=Amblyraja radiata TaxID=386614 RepID=UPI00140235C1
+#=GS UniRef90_UPI001EE9B415/57-113    DE [subseq from] C-C motif chemokine 23-like isoform X4 n=1 Tax=Silurus meridionalis TaxID=175797 RepID=UPI001EE9B415
+#=GS UniRef90_UPI001659A85E/36-103    DE [subseq from] uncharacterized protein LOC118526647 isoform X1 n=1 Tax=Halichoerus grypus TaxID=9711 RepID=UPI001659A85E
+#=GS UniRef90_UPI001EEC32CA/63-119    DE [subseq from] C-C motif chemokine 23-like isoform X3 n=1 Tax=Silurus meridionalis TaxID=175797 RepID=UPI001EEC32CA
+#=GS UniRef90_UPI001EEC32CA/138-190   DE [subseq from] C-C motif chemokine 23-like isoform X3 n=1 Tax=Silurus meridionalis TaxID=175797 RepID=UPI001EEC32CA
+#=GS UniRef90_A0A7J5Y450/11-53        DE [subseq from] SCY domain-containing protein n=1 Tax=Dissostichus mawsoni TaxID=36200 RepID=A0A7J5Y450_DISMA
+#=GS UniRef90_A0A7J7FFC4/51-113       DE [subseq from] C-X-C motif chemokine n=1 Tax=Diceros bicornis minor TaxID=77932 RepID=A0A7J7FFC4_DICBM
+#=GS UniRef90_A0A7J7FFC4/124-186      DE [subseq from] C-X-C motif chemokine n=1 Tax=Diceros bicornis minor TaxID=77932 RepID=A0A7J7FFC4_DICBM
+#=GS UniRef90_A0A3B4BR62/30-92        DE [subseq from] Interleukin-8 n=1 Tax=Pygocentrus nattereri TaxID=42514 RepID=A0A3B4BR62_PYGNA
+#=GS UniRef90_UPI001C59201E/267-314   DE [subseq from] uncharacterized protein LOC109111425 isoform X2 n=2 Tax=Cyprinus carpio TaxID=7962 RepID=UPI001C59201E
+#=GS UniRef90_UPI001EEA0CEC/31-87     DE [subseq from] C-C motif chemokine 3-like n=1 Tax=Silurus meridionalis TaxID=175797 RepID=UPI001EEA0CEC
+#=GS UniRef90_UPI00156C124F/116-183   DE [subseq from] growth-regulated alpha protein isoform X2 n=3 Tax=Mirounga leonina TaxID=9715 RepID=UPI00156C124F
+#=GS UniRef90_A0A401PB83/24-87        DE [subseq from] SCY domain-containing protein n=5 Tax=Galeoidea TaxID=119195 RepID=A0A401PB83_SCYTO
+#=GS UniRef90_A0A5N3VYF3/26-92        DE [subseq from] Multifunctional fusion protein n=1 Tax=Muntiacus reevesi TaxID=9886 RepID=A0A5N3VYF3_MUNRE
+#=GS UniRef90_A0A6P7L2X4/29-92        DE [subseq from] Interleukin-8 n=1 Tax=Betta splendens TaxID=158456 RepID=A0A6P7L2X4_BETSP
+
+CXCL12[22-93]                            KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_UPI001E1E0645/16-87             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A6D2XN06/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_O62657/22-93                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_P48061/22-93                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A7J8DND2/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_M3Z0S5/22-93                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A8C0NWR9/22-93                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNSRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_F7DYQ8/22-93                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKHNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_UPI0018905B3F/22-93             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-S-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---VEKALNKRFKM
+UniRef90_A0A8C6RRA3/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRLKM
+UniRef90_P40224/22-93                    KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRLKM
+UniRef90_A0A3Q1M5N8/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-S-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNKRFKM
+UniRef90_A0A6I9MBR2/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-S-R-S-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A8B7TGA2/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HI---KIL----T-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A8C0ZZJ9/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-A-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRLKM
+UniRef90_A0A8C5YCE7/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-A-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A6J3A6E1/3-74                 KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-A-P-N-C-A-L-QIVARLKSTNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A8C5K247/23-94                KPVSLRY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKRLKM
+UniRef90_A0A287D8U4/22-93                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-V-N-VR-HL---KIL----N-T-P-N-C-S-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_UPI0007A71B1E/12-83             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKSNNRQVC-IDPKLKWIQEY---LDKALNKRLKM
+UniRef90_A0A2Y9J3D8/22-90                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKR---
+UniRef90_A0A6J3GZI1/22-91                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKTI--
+UniRef90_A0A7E6DTT4/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0009526F63/22-89             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A834E547/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_P48061-3/22-90                  KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A8C9JBS0/22-90                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A673T2P1/22-90                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKF---
+UniRef90_H0XTF9/2-69                     KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A484GU70/18-85                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A6P6HCW0/29-97                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A5F5Y290/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0010F51E22/22-90             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKD---
+UniRef90_A0A455BET3/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_V5Q684/22-89                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_F6SEQ8/22-89                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A6J2CMV5/22-90                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A8U0NSC5/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI001E68D44D/22-90             KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKK---
+UniRef90_UPI001899A0F7/22-89             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A4U1EXW1/46-113               KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A452REQ2/12-80                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_UPI0006D72FFC/22-89             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0003EC3FD3/39-107            KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNKV---
+UniRef90_A0A7J7RMH4/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A2K5ESU5/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A3Q7Q2Y3/22-90                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNND---
+UniRef90_P48061-4/22-89                  KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A8I3PZE5/22-89                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNSRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A673TAX2/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_UPI000704062C/45-112            KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C0RNZ5/16-83                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNSRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A485PLC5/21-88                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A4X1V768/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C5K8M6/23-91                KPVSLRY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_UPI00187BCDF1/22-90             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNNL---
+UniRef90_L5M112/93-160                   KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A4X1VBG4/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A6J2CQK6/22-89                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A452E642/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_A0A8I6GDX4/14-81                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_UPI001E67E117/22-90             KPVSLSY--RCPC-RF-F-E-S-H--V-S-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNNL---
+UniRef90_UPI001FB200DF/22-91             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKTW--
+UniRef90_A0A8D1JE29/55-122               KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C2RXF9/77-144               KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_W5NYD5/22-90                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNKA---
+UniRef90_UPI0003ACA196/22-89             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKHNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A2U3X501/22-89                KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_Q0P5I9/22-89                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-S-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_G1PGJ6/22-89                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_S7P0T0/83-150                   KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A4X1VAQ0/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A452UN94/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A1A6GZ22/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-S-R-S-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI001D126E5E/22-90             KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-S-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNKQ---
+UniRef90_A0A2K5Y8T5/340-407              KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A4W2EQS6/22-90                KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-S-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNKT---
+UniRef90_UPI000A2B91F5/22-89             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A6P3INY5/72-139               KPVSLSY--RCPC-RF-F-E-S-H--V-A-K-A-N-VK-HL---KIL----N-T-P-N-C-S-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_A0A8J6ASN4/206-273              KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-S-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_A0A4X2LLU6/22-93                KPVSLSY--RCPC-RF-T-E-S-N--V-A-K-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVAKLKSNSRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_D2HW53/30-97                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8B8U0K0/22-91                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-A-P-N-C-A-L-QIVARLKSTNRQVC-IDPKLKWIQEY---LEKALNKQV--
+UniRef90_A0A8C9Q3T7/15-83                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-V-N-VR-HL---KIL----N-T-P-N-C-S-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_UPI001D163E97/20-91             KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_G3TGG2/22-90                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----S-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPRLKWIQEY---LDKTLNNQ---
+UniRef90_A0A674K2Y3/22-93                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A1V4KJ47/22-93                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A218UXR3/22-93                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A2K5PTB3/22-85                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEK--------
+UniRef90_A0A6G1REL8/42-113               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A151MLD2/22-93                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKNTGKQVC-VDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A7J7F297/23-91                KPVSLSY--RCPC-RF-F-E-S-H--V-S-R-A-N-VK-HL---KIL----N-T-P-T-C-A-L-QIVARLRNNNRQVC-IDPKLKWIQDY---LEKALNKL---
+UniRef90_A0A8C3XUK0/22-93                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-V-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A8C5W052/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-A-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A8B8TZF5/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-A-P-N-C-A-L-QIVARLKSTNRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0003316451/22-89             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VR-HL---KIL----S-T-P-N-C-A-L-QIVAKLKSNNRQVC-IDPKLKWIQEY---LDKALNK----
+UniRef90_A0A8B7TDJ6/22-89                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HI---KIL----T-T-P-N-C-A-L-QIVARLKSNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_UPI00187ACE36/22-90             KPVSLSY--RCPC-RF-F-E-S-H--I-A-R-G-K-IK-HL---KXL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDPKLKWIQEY---LEKALNNQ---
+UniRef90_A0A803VA51/72-143               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_UPI00071981A4/22-90             KPVSLSY--RCPC-RF-F-E-S-H--V-S-R-A-N-VK-HL---KIL----N-T-P-T-C-A-L-QIVARLRNNNRQVC-IDPKLKWIQDY---LEKALNNM---
+UniRef90_S9XB84/44-111                   KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-A-P-N-C-A-L-QIVARLKSTNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_UPI0006493653/22-91             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VR-HL---KIL----S-T-P-N-C-A-L-QIVAKLKSNNRQVC-IDPKLKWIQEY---LDKALNNLY--
+UniRef90_A0A2I4BMI9/24-91                KPISLVE--RCWC-RA-T-L-S-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A2I4BMI9/109-176              KPISLVE--RCWC-RA-T-L-S-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_UPI0004D0AA9F/23-90             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-IDTKLKWVQEH---LEKFLNN----
+UniRef90_A0A099ZJ98/1-68                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A6I8NGE9/22-92                KPISLSY--RCPC-RF-S-E-S-N--V-A-K-A-N-IK-QL---KIL----N-T-P-N-C-A-L-QIVARLKN-SRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_A0A803Y7Z5/22-90                KPVSLTY--RCPC-RF-F-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKA---
+UniRef90_A0A7K7UZF3/21-88                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_F6RGS8/43-113                   KPISLSY--RCPC-RF-S-E-S-N--V-A-K-A-N-IK-QL---KIL----N-T-P-N-C-A-L-QIVARLKN-SRQVC-IDPKLKWIQEY---LEKALNKRFKM
+UniRef90_UPI00051E5C4D/20-87             KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_E2IFI5/1-68                     KPVSLTY--RCPC-RF-F-E-G-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8D2N0N3/17-85                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A669QHN1/22-89                KPVSLTY--RCPC-RF-F-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C9NXK5/22-90                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_Q6T7B9/22-89                    KPVSLTY--RCPC-RF-F-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_F6Y7V7/22-89                    KPLSLSY--RCPC-RF-T-E-S-N--V-A-K-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNSSRQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C6ZM03/22-89                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A093QE02/2-69                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-I-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A087VFK1/2-69                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKIKWIQEY---LEKALNK----
+UniRef90_A0A452GP66/22-89                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_M7B371/22-89                    KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C8BEU7/22-89                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A7L1E5N7/24-91                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C0HFH8/22-89                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A7L2ISA3/23-90                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A7L0DBK8/24-91                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A674HPH2/24-91                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A852LNN3/23-90                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A852D5U8/27-94                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A091M6W8/2-69                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-G-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C3D387/22-89                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A3L8SLU4/22-90                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKE---
+UniRef90_A0A091W7U4/2-69                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVAKLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A803XWH0/22-89                KPVSLTY--RCPC-RF-F-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A2I0LY75/38-105               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0010A9825A/63-130            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI00051B2EF4/61-128            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A6I9Z7L1/43-110               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_K7G9F2/22-89                    KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-LDPKLKWIQEY---LEKALNK----
+UniRef90_U3J6R4/56-123                   KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0005218680/61-128            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8K1GVA3/22-90                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNNS---
+UniRef90_UPI00052365B6/60-127            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI00051F00C2/92-160            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKP---
+UniRef90_A0A8B9DPJ0/73-140               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI000386F7DA/68-135            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI000530A92F/74-141            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A851A9L9/4-71                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----S-T-P-N-C-S-I-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A8C3MC72/181-249              KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A1D5P4F0/22-89                KPVSLTY--RCPC-RF-F-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A8C3KN63/80-147               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A6J2GFI7/78-145               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A674G783/94-161               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A7L0G2V3/2-69                 KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKSKWIQEY---LEKALNK----
+UniRef90_A0A8B9C4L1/126-193              KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0005232599/76-143            KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A803VG26/72-139               KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI00115D2B6D/121-188           KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI001D16061D/20-87             KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_UPI0004F08BCB/156-223           KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_A0A3M0KEB0/22-89                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HI---KIL----S-T-P-N-C-S-L-QIVARLKSNSKQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A8C0GDU5/96-163               KPVGLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-T-P-N-C-S-L-QIVARLKNNSKQVC-IDPKLKWIQEY---LEKALNK----
+UniRef90_UPI0018F58708/22-89             KPISLSY--RCPC-RF-S-E-S-N--V-A-K-A-N-IK-QL---KIL----N-T-P-N-C-A-L-QIVARLKN-SRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_UPI0010A7AD13/22-89             KPISLSY--RCPC-RF-S-E-S-N--V-A-K-A-N-IK-QL---KIL----N-T-P-N-C-A-L-QIVARLKN-SRQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_A0A670I3K6/23-94                KPISLTY--RCPC-RY-F-E-S-N--V-A-K-S-H-VK-HL---KIL----T-V-P-G-C-S-L-QIIARLKNSSKQIC-LDPKLRWIQEY---LEKYLHKRFKM
+UniRef90_A0A2G9S8B4/4-71                 KPVSLTY--RCPC-RY-F-E-T-N--V-A-K-S-N-IK-HL---KIL----S-T-T-N-C-S-L-QIVARLKHNGKQIC-LDPKIKWIQEY---LEKALNK----
+UniRef90_UPI001AADFEFE/22-90             KPVSLTY--RCPC-RY-F-E-T-N--V-A-K-S-N-IK-HL---KIL----S-T-T-N-C-S-L-QIVARLKHNGKQIC-LDPKIKWIQEY---LEKALNKI---
+UniRef90_UPI001129486E/22-89             KPVSLSY--RCPC-RF-F-E-S-N--V-S-K-N-N-IK-HL---KIM----T-T-A-N-C-S-L-QIVARLKQNNKQVC-LDPKLRWIQEY---LERALNK----
+UniRef90_UPI001CF36206/22-89             KPVSLTY--RCPC-RY-F-E-S-N--V-A-K-S-N-IK-HL---KIL----S-T-T-N-C-S-L-QIVARLKHNGKQIC-LDPKIKWIQEY---LDKALNK----
+UniRef90_A0A8J6B7A7/22-89                KPVSLTY--RCPC-RY-F-E-S-N--V-A-K-S-N-IK-HL---KIL----S-T-T-N-C-S-L-QIVARLKHNGKQIC-LDPKIKWIQEY---LEKALTK----
+UniRef90_A0A8D0GQX0/21-84                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-K-A-N-IK-HL---KIL----T-M-P-N-C-S-L-QIVARLKNNSKQVC-IDPKIKWIQEY---LEK--------
+UniRef90_UPI000441BE0A/47-118            KPISLTY--RCPC-RY-F-E-S-H--V-S-K-S-H-IK-HL---KIL----T-V-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIHEY---LEKYLHKRVKM
+UniRef90_UPI000854AE49/22-89             KPVSLTY--RCPC-RY-F-E-S-N--V-A-K-S-N-IK-HL---KIL----S-T-T-N-C-S-L-QIVARLKHNGKQIC-LDPKIKWIQEF---LEKAMNK----
+UniRef90_Q8UUJ9/22-92                    KPVSLVY--RCPC-RY-F-E-S-N--V-P-K-S-N-IK-HL---KIL----S-T-S-N-C-S-L-QIVARLKHNGKQIC-LDPKTKWIQEY---LEKALNKKAK-
+UniRef90_A0A8C5QGI5/51-119               KPVSLSY--RCPC-RY-F-E-S-N--V-A-K-S-N-IK-HL---RIL----S-T-T-N-C-S-L-QIVARLKHSGKQIC-LDPKIKWIQEY---LDKALNKH---
+UniRef90_A0A8J1L498/22-89                KPVSLVY--RCPC-RY-F-E-S-N--V-P-K-S-N-IK-HL---KIL----S-T-S-N-C-S-L-QIVARLKHNGKQIC-LDPKTKWIQEY---LEKALNK----
+UniRef90_A0A6H0DUM0/22-89                KPVSLSY--RCPC-RS-F-E-S-F--V-S-R-N-N-IK-HL---KIL----S-T-A-N-C-S-L-QIVAKLKNSSRQVC-LDPKIKWIQEY---LEKFLNK----
+UniRef90_UPI00192F48AD/23-94             KPISLTY--RCPC-RY-F-E-T-H--V-A-K-S-Q-IR-HL---KIL----T-V-P-G-C-P-L-QVIARLKNSTKQIC-IDPKLKWIQEY---LEKYFQKRAKM
+UniRef90_A0A8J0TC96/48-115               KPVSLVY--RCPC-RY-F-E-S-N--V-P-K-S-N-VK-HL---KIY----S-T-S-N-C-S-L-QIVARLKNNSKQIC-LDPKTKWIQEY---LEKALNK----
+UniRef90_A0A6J0UYQ1/13-84                KPISLTY--RCPC-RY-V-E-S-N--V-A-K-S-H-IK-HL---KIL----T-V-P-G-C-S-L-QIIARLKNSSKQIC-IDSKLKWIQEY---VEKYLHKRFKM
+UniRef90_UPI001CF7E4FF/26-97             KPISLTY--RCPC-RY-F-E-S-N--I-A-K-A-H-IK-HL---KIL----T-I-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIHEY---LERYLQKRHRM
+UniRef90_A0A6P8REU6/22-94                KPVSLSY--RCPC-RF-V-E-S-NINV-S-R-N-S-IK-HL---KIV----S-T-A-T-C-S-L-QIVARLKQNNKQVC-LDPRLKWIQEY---LEKALNKKFK-
+UniRef90_A0A6P9BLI8/23-94                KPISLTY--RCPC-RY-F-E-S-H--V-A-K-S-Q-LK-HL---KIL----T-V-P-G-C-P-L-QVIARLKNSSKQIC-IDSKLKWIQEY---LEKYFQKRVKM
+UniRef90_H9GI17/87-158                   KPISLTY--RCPC-RY-V-E-S-S--V-A-K-S-H-IK-HL---KIL----T-V-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIQEY---LEKYLHKRLKM
+UniRef90_UPI001C4BAFC9/27-97             KPISLTY--RCPC-RY-V-E-N-S--V-A-K-S-H-IK-HL---KIL----T-V-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIQEY---LEKYLHKKFK-
+UniRef90_A0A6P7Y1R0/22-95                KPVSLNY--RCPC-RF-V-E-S-NTSV-S-R-N-S-IK-HL---RII----S-T-P-S-C-S-L-QIVARLKQNNKQVC-LDPKLKWIQEY---LEKALSKKSKM
+UniRef90_A0A8C6XTM8/23-94                KPISLTY--RCPC-RY-F-E-S-H--V-A-K-S-Q-IK-HL---KMM----T-V-P-G-C-P-L-QVIARLKNSSKQIC-IDSKLKWIQEY---LEKYIQKRAKM
+UniRef90_A0A8D0B865/23-90                KPISLTY--RCPC-RY-F-E-S-N--V-A-K-S-H-IK-HL---KIL----T-V-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIHEY---LEKYLHK----
+UniRef90_A0A8D2Q3G7/25-92                KPISLTY--RCPC-RY-F-E-S-N--I-A-K-A-H-IK-HL---KIL----T-I-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIHEY---LERYLQK----
+UniRef90_UPI001CF7838D/26-93             KPISLTY--RCPC-RY-F-E-S-N--I-A-K-A-H-IK-HL---KIL----T-I-P-G-C-S-L-QIIARLKNSSKQIC-IDPKLKWIHEY---LERYLQK----
+UniRef90_V8PCE6/6-72                     KPISLTY--RCPC-RY-F-E-S-H--V-A-K-S-Q-IK-HL---KML----T-V-P-G-C-P-L-QVIARLKNSSKQIC-IDSKLKWIQEY---LEKYFQ-----
+UniRef90_UPI0005F546C8/22-73             KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVARLKNNNRQVC-ID-----------------------
+UniRef90_A0A8C5SVG3/31-102               KPISLTY--RCPC-RY-F-E-I-H--V-A-K-S-Q-IK-HL---KML----A-F-P-G-C-P-L-QVIAQLKNSTKQIC-IDSKLKWIQEY---LEKYFEKRGKM
+UniRef90_A0A8C5SWS1/141-212              KPISLTY--RCPC-RY-F-E-I-H--V-A-K-S-Q-IK-HL---KML----A-F-P-G-C-P-L-QVIAQLKNSTKQIC-IDSKLKWIQEY---LEKYFEKRGKM
+UniRef90_UPI002026076E/28-95             KPISLTY--RCPC-RF-F-E-S-K--V-A-K-S-Q-VK-HL---KIL----T-V-A-G-C-S-L-QIIAKLKNSSKQIC-LDPNLKWLQGY---LEKYAPK----
+UniRef90_F7B668/22-82                    KPVSLVY--RCPC-RY-F-E-S-N--V-P-K-S-N-IK-HL---KIL----S-T-S-N-C-S-L-QIVARLKHNGKQIC-LDPKTKWIQDR--------------
+UniRef90_H3AJ95/24-94                    KPIGLSQ--RCWC-RY-S-E-K-V--V-H-R-G-N-IK-QL---KIR----A-T-P-N-C-P-L-QVIATLRNNGKQVC-VDPEVKWLKQY---LEKMINKRKK-
+UniRef90_A0A1U7URG5/22-76                KPVSLSY--GCPC-QF-F-E-S-Q--V-A-R-V-H-VK-CL---KIL----N-T-P-N-H-A-L-QIVARLKNNNRQVC-IDLEF--------------------
+UniRef90_G1U9D6/22-82                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIVATR--LGRQLD-IEPQDRGLAVF---LD---------
+UniRef90_A0A4X1VD14/22-65                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-QIVLKTRQ--------------------------------
+UniRef90_A0A8J7T6X1/3-69                 KPFSLGE--RCWC-RG-T-E-S-F--V-P-K-S-S-VK-QL---KFL----N-T-P-N-C-P-F-QVVVTLKN-NKEVC-ISPQTKWLQQY---LKNALNK----
+UniRef90_A0A0E9Y0A9/24-90                KPISLVE--RCWC-RT-T-V-A----M-P-Q-R-N-IR-EL---RFL----N-T-P-N-C-S-F-QVIAKLKKNNREVC-IDPKTKWLQQY---LKNALEK----
+UniRef90_UPI001B7ECA38/24-90             KPFSLGQ--RCWC-RS-P-E-K-S--V-H-K-N-N-VK-NL---KFL----N-T-P-N-C-P-L-QIIATMRN-DKQVC-LDPETKWLQQY---LKNAINK----
+UniRef90_A0A3P8W268/92-160               KPISLVE--RCWC-RT-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKNNNREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A6A1QNG6/46-84                KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-VK-HL---KIL----N-T-P-N-C-A-L-QIV-------------------------------------
+UniRef90_W5M9E7/2-68                     KPFSLGE--RCWC-RG-T-E-S-F--V-P-K-S-S-VK-QL---KFL----N-T-P-N-C-P-F-QVVVTLKN-SKEVC-ISPQTKWLQQY---LKNALNK----
+UniRef90_A0A8T3CSR3/24-91                KPISLVE--RCWC-RN-T-H-N-S--V-P-Q-R-S-IR-EL---KFL----Q-T-P-N-C-P-F-QVIAKLKN-NREVC-IDPQTKWLQQY---LKNALNKM---
+UniRef90_A0A6P3W603/24-92                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-N-C-P-F-QVIAKLKNSDREVC-INPKTKWLQQY---LRNAINKI---
+UniRef90_A8I4U9/22-59                    KPVSLSY--RCPC-RF-F-E-S-H--V-A-R-A-N-IK-HL---KIL----N-T-P-N-C-A-L-XI--------------------------------------
+UniRef90_A0A8E7MG76/24-92                KPISLVE--RCWC-RS-T-V-T-T--V-P-Q-R-N-IR-EL---KFV----H-T-P-N-C-S-F-QVIAKLKN-NKEVC-LNPETKWLQQY---IEKALEKMK--
+UniRef90_H3DGI9/2-69                     KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKP---
+UniRef90_A0A6I9PZ83/6-73                 KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A2U9NL48/25-92                KPMSLTQ--RCRC-RY-F-D-S-G--V-Y-K-H-Q-IK-QL---KII----N-N-G-N-C-P-I-QVLATLKS-NKQVC-LNPETKWLKTY---IDKALGNN---
+UniRef90_A0A087XA97/11-78                KPISLVE--RCWC-RT-T-L-N-T--V-S-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQGY---LKNAINKV---
+UniRef90_A0A8C4FIC3/81-150               KPISLVE--RCWC-RS-T-V-N-T--V-S-Q-R-N-IR-EL---RFL----H-T-P-N-C-A-F-QVIAKLKN-NKEVC-INPETKWLQQY---IKNAINKMKK-
+UniRef90_A0A8C5BNU3/24-91                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A553MQP7/24-92                KPISLVE--RCWC-RS-T-H-S-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-L-QVIAKLKN-NKEVC-INPDTKWLQQY---VRNAVNKMK--
+UniRef90_A0A6P3W327/24-91                KPISLVE--RCWC-RS-T-V-N-T--V-S-Q-R-S-IR-EL---KFL----H-T-P-N-C-A-L-QVIAKLKN-GKEVC-VNPETKWLQTY---LKNAINKM---
+UniRef90_A0A3P9MT49/24-91                KPISLVE--RCWC-RT-T-L-N-T--V-S-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQGY---LKNAINKV---
+UniRef90_UPI001863E8EB/24-91             KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-T-IR-EL---RFL----N-T-P-N-C-P-F-QVIARLKN-SREVC-INPETKWLQQY---LKNALNKI---
+UniRef90_A0A8C9YT28/24-90                KPISLVE--RCYC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_H3BX75/24-91                    KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A444UNY9/6-74                 KPFSLGQ--RCWC-RT-P-E-K-S--V-H-K-N-N-VK-NL---KFL----N-T-P-N-C-P-L-QIIATMRN-DKQVC-LDPETKWLQQY---LKNAINNVL--
+UniRef90_H2SS98/23-90                    KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A8U0UC39/9-77                 KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LNNALNKMK--
+UniRef90_A0A2U9BPZ8/24-90                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A3Q2GR49/24-90                KPISLVE--RCWC-RT-T-L-N-T--V-P-Q-R-T-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A3P8XZS7/24-91                KPISLVE--RCWC-RS-T-V-N-T--V-S-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-QKEVC-INPETKWLQQY---LKNALNKL---
+UniRef90_A0A2I0TJB3/22-64                KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIVSSLW---------------------------------
+UniRef90_A0A6J2V8Q0/24-91                KPISLVE--RCWC-RS-T-V-N-T--V-S-Q-R-R-IR-EL---KFL----H-T-P-N-C-P-L-QVIAKLKD-NKEVC-INPETKWLQQY---LKNALNKM---
+UniRef90_A0A4W5KEM1/24-92                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LKNALNKMK--
+UniRef90_A0A315UXE3/80-146               KPISLVE--RCWC-RT-T-L-N-T--V-S-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQGY---LKNAINK----
+UniRef90_A0A0R5T142/25-92                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKM---
+UniRef90_UPI001863E934/24-91             KPISLVE--RCWC-RT-T-H-N-T--V-P-Q-R-S-IR-EL---KFL----Q-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNALNKV---
+UniRef90_A0A3P9HBM8/15-83                KPISLAE--RCSC-RS-T-V-N-N--V-P-R-S-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NRELC-INPEARWIQQY---LKNALTKMK--
+UniRef90_A0A5A9P8G5/24-90                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNALNK----
+UniRef90_A0A8C9XXM8/24-91                KPISLQE--RCSC-RS-T-L-N-T--V-P-E-R-S-VK-AL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNDINKV---
+UniRef90_Q4QTK3/24-92                    KPISLVE--RCWC-RS-T-V-S-T--I-P-Q-R-N-IR-EL---KFV----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPETKWLQQY---LDKALEKMK--
+UniRef90_A0A3P9L7D4/24-91                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPATKWLQQY---LKNAINKV---
+UniRef90_A0A8C8KBJ7/30-98                KPISMME--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LKNALNKMK--
+UniRef90_A0A8T3DIZ2/24-92                KPISLVE--RCWC-RT-T-F-K-T--V-P-L-R-S-IR-EL---KFL----N-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNALNKSK--
+UniRef90_A0A8K9Y3C0/29-96                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LKNALNKL---
+UniRef90_A0A3Q1FYG5/24-92                KPISLVE--RCYC-RS-T-V-N-S--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKN-NREVC-LNPEIRWMQQY---LKNAINKMK--
+UniRef90_A0A3Q3FJ54/29-96                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A4W6DFV9/24-91                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-A-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A672RMB8/15-83                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LRNAMNKMK--
+UniRef90_Q8AV10/24-92                    KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNAINKMK--
+UniRef90_A0A1A7Z972/24-91                KPISLVE--RCRC-RS-T-L-N-T--V-P-Q-R-T-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A8K9UUD8/17-83                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LKNALNK----
+UniRef90_A0A556TTY3/24-92                KPISLLE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-H-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNALNKTL--
+UniRef90_A0A2D1BY09/24-91                KPLSLVE--RCWC-RT-T-A-S-T--V-P-Q-R-S-IR-EL---RFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNAINKM---
+UniRef90_Q4RQF0/24-93                    KPISLVE--RCYC-RS-T-V-S-N--L-P-R-A-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPQIQWLQQY---LKNAINKMKK-
+UniRef90_A0A1S3RPB1/24-91                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEIC-INPETKWLQQY---LKNALNKI---
+UniRef90_A0A673JDQ3/24-92                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LRNAMNKMK--
+UniRef90_UPI000A1C4D1E/24-92             KPISLVE--RCYC-RS-T-V-N-N--I-S-K-F-H-IR-EL---RFI----Q-T-P-N-C-P-F-QVIAKLKN-NKEVC-VNPEIRWLQQY---LQNAINKMK--
+UniRef90_UPI001EAF0D03/63-130            KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LKNALNKM---
+UniRef90_A0A3B3ZPF3/24-90                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A3Q2X9Z1/24-91                KPISLVE--RCWC-RS-T-I-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A3B4VNF3/24-92                KPISLVE--RCYC-RS-T-V-N-H--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-LNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A3P8Z6B7/21-88                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQTY---LKNAINKV---
+UniRef90_A0A3Q3WPI6/24-92                KPISLVE--RCYC-RS-T-I-S-N--L-P-R-G-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKSAINKMK--
+UniRef90_UPI000CEAEF3E/22-89             KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQTY---LKNAINKV---
+UniRef90_A0A8C1C135/24-92                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPDTKWLQQY---LRSAMNKMK--
+UniRef90_A0A3B4CP07/24-91                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A3P9ALW8/28-95                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQTY---LKNAINKV---
+UniRef90_UPI00189C1DC0/24-91             KPISLIE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAVNKV---
+UniRef90_A0A3Q4G4U1/49-116               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A8C7IMP4/88-155               KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-HKEVC-INPETKWLQQY---LKNALNKM---
+UniRef90_B3KYI4/24-92                    KPISLAE--RCSC-RS-T-V-N-N--V-P-R-S-F-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NRELC-INPEARWLQQY---LKNALTKMK--
+UniRef90_A0A665UI86/24-92                KPISLVE--RCYC-RS-T-V-T-N--L-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKRS--
+UniRef90_UPI00113161FE/29-96             KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQTY---LKNAINKV---
+UniRef90_A0A4W4DVX9/24-92                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFV----H-T-P-N-C-H-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNALEKMK--
+UniRef90_A0A3Q0SD47/24-90                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A667ZKT1/23-89                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A3Q3BD06/24-93                KPISLVE--RCYC-RS-A-V-N-S--V-P-R-A-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEVRWLQQY---LKNAINKMKK-
+UniRef90_A0A667ZKS7/27-93                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A3S2LXH6/11-79                KPISLVE--RCSC-RS-T-V-N-N--I-P-K-G-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NREVC-VNPEVRWLKQY---LKNALNKMK--
+UniRef90_A0A8J4XHV4/24-92                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFV----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPETKWLQQY---IERALEKMR--
+UniRef90_A0A8S4B3A3/67-134               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A8C4FNL0/24-91                KPISLVE--RCWC-RS-T-L-H-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A6A4SY30/91-157               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A3B4BQL8/72-140               KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFV----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNALEKMK--
+UniRef90_A0A673JAX8/24-91                KPISLVE--RCWC-RS-T-H-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A672QD52/24-91                KPISLVE--RCWC-RS-T-H-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A8C5H4I5/22-90                KPLSLVE--RCYC-RS-T-V-N-H--L-P-K-G-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAVNKMK--
+UniRef90_A0A3B5JW76/52-121               KPISLVE--RCYC-RS-T-V-S-N--L-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMKK-
+UniRef90_A0A8K9UYY6/63-130               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQTY---LKNAINKV---
+UniRef90_A0A2U9CC39/23-91                KPISLVE--RCYC-RS-T-V-N-N--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LRNAINKMK--
+UniRef90_A0A1S5QXI6/24-92                KPISLVE--RCFC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIARLKS-NKEVC-VNPEIRWLQQY---LRSAINKME--
+UniRef90_A0A4W6C7Y9/24-92                KPISLVE--RCYC-RS-T-V-N-N--L-P-R-A-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEVRWLQQY---LKNAINKMK--
+UniRef90_A0A2I4BZU0/24-92                KPISLVE--RCYC-RT-A-V-N-S--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVVAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A2I4BZL4/25-93                KPISLVE--RCYC-RT-A-V-N-S--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVVAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A667WN49/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-I-IR-EL---KFI----H-T-P-N-C-P-F-QVVAKLKT-NKEVC-INPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A3B3TAF7/22-89                KPFGMVE--RCWC-RS-T-V-S-T--V-P-Q-R-A-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNALNKQ---
+UniRef90_A0A8C4TMZ2/24-91                KPFSLAE--KCWC-RS-T-E-K-N--V-K-K-H-I-IR-QL---KFM----N-V-P-N-C-P-L-QVIATLRN-SKQVC-LDLEIKWLQQY---LQNALNKI---
+UniRef90_UPI00189D381C/24-92             KPISLVE--RCYC-RS-T-V-N-N--V-P-R-V-Y-IR-EL---RFM----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEVRWLQQY---LKNALNRMK--
+UniRef90_A0A3P8VFU6/24-92                KPISLVE--RCYC-RS-R-V-N-S--L-P-R-S-I-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A3Q1JHE3/25-92                KPISLVE--RCYC-RT-A-DNK-H--V-P-R-S-Y-IR-EL---KFI----H-S-P-N-C-P-F-QVVAKLKS-NKTVC-VDPEIRWLQQY---LKNALIK----
+UniRef90_A0A3Q2UDL3/24-91                KPISLVE--RCWC-RT-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPETKWLKQY---LKNAVNKV---
+UniRef90_UPI0020B197D0/24-91             KPFGMVE--RCWC-RS-T-V-S-T--V-P-Q-R-A-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNALNKV---
+UniRef90_UPI000F50042A/24-91             KPISLLE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-H-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A2D0Q836/24-91                KPISLLE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-H-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_UPI000529DA50/46-84             KPVSLTY--RCPC-RF-Y-E-S-N--V-A-R-A-N-IK-HL---KIL----S-T-P-N-C-S-L-QIV-------------------------------------
+UniRef90_A0A3B3CZQ4/27-95                KPISLVE--RCSC-RS-T-V-N-N--I-P-K-G-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEVRWLKQY---LKNALNKMK--
+UniRef90_UPI001864C422/24-91             KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPKTKWLQLY---LKNAISKI---
+UniRef90_A0A3Q4H289/24-92                KPISLVE--RCYC-RS-T-V-N-T--V-P-R-N-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LKNALNKMK--
+UniRef90_G3Q4H5/24-93                    KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVISAKLKSNREVC-INPETKWLQQY---LKNAINKGK--
+UniRef90_A0A5C6PIU7/24-91                KPISLVE--RCYC-RS-T-V-S-N--L-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LKNAINKN---
+UniRef90_UPI00155DF32C/24-92             KPISLVE--RCYC-RS-T-V-N-N--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQHY---LKNALNKLK--
+UniRef90_UPI001FB73A47/24-92             KPFSLVE--RCYC-RS-T-V-N-T--L-P-R-G-F-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPELKWLQQY---MKNAINKMK--
+UniRef90_A0A0P7V8G5/3-69                 KPIGMLE--RCWC-RS-T-L-N-T--V-P-Q-R-A-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-ISPETKWLQQY---LKNALNK----
+UniRef90_UPI001ED845C7/24-92             KPLSLVE--RCYC-RS-T-V-N-S--V-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A8C1K1V2/87-155               KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-S-IR-EL---KFV----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-INPETKWLQQY---LKNAVNKMK--
+UniRef90_A0A0S2GYJ0/24-92                KPISLVE--RCHC-RS-T-V-N-S--L-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A6G1R0H5/24-92                KPLSLIE--RCYC-RS-T-I-N-T--L-P-K-A-Y-IK-EL---RFL----H-T-P-N-C-Q-F-QVIAKLKS-NKEVC-LNPDIRWLQQY---LKNAINKTY--
+UniRef90_A0A553R6L7/55-122               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A4W4F583/24-91                KPISLVE--RCWC-RA-T-L-H-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPNTKWLQQY---LKNAISKI---
+UniRef90_A0A8C9WBV2/24-91                KPIGMLE--RCWC-RS-T-L-N-T--V-P-Q-R-A-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NKEVC-ISPETKWLQQY---LKNALNKI---
+UniRef90_A0A6P7JTJ3/24-92                KPISLVE--RCYC-RS-T-V-N-N--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEVRWLQQY---LKNAINKMK--
+UniRef90_A0A3Q3DN73/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A671YHF1/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----Q-T-P-N-C-P-F-QVVAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_UPI001885B58E/24-92             KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A8S4C112/24-92                KPISLVE--RCYC-RS-T-I-N-N--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LLNAINKMK--
+UniRef90_A0A3B3X763/24-93                KPISLVE--RCWC-RT-T-L-N-T--V-S-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQGS---LKNPINKKKK-
+UniRef90_A0A8T2LZY1/24-92                KPISLVE--RCWC-RS-T-V-N-T--V-P-Q-R-N-IR-EL---KFV----H-T-P-N-C-P-F-QVIAKLKN-AKEVC-INPETKWLQQY---LKNALEKMK--
+UniRef90_UPI001887ACAE/24-92             KPISLVE--RCYC-RF-T-V-S-S--V-P-R-N-I-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-KKEVC-VNPEVAWLQKY---LKNAINKMK--
+UniRef90_A0A673AHH0/24-92                KPLSLVE--RCYC-RS-T-V-N-T--L-P-K-V-H-IR-EL---RFI----Q-T-P-N-C-A-F-QVIAKLKS-NKEVC-LNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A8C6TY59/24-92                KPISLVE--RCYC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RFI----Q-T-P-N-C-P-F-QVVAKLKT-NKEVC-VNPAIRWLQQY---LKNAINKMK--
+UniRef90_UPI000F306F1A/79-146            KPISLLE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-H-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A8C1DJW5/78-145               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISKI---
+UniRef90_A0A5J5CSE2/87-155               KPISLVE--RCYC-RS-T-V-N-N--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LKNAINKLK--
+UniRef90_A0A8C6TT17/48-116               KPISLVE--RCYC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RFI----Q-T-P-N-C-P-F-QVVAKLKT-NKEVC-VNPAIRWLQQY---LKNAINKMK--
+UniRef90_UPI001C4B177F/24-92             KPISLVE--RCYC-RS-T-V-N-S--V-P-R-N-F-IR-EL---RFI----Q-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_UPI001B3AB070/24-92             KPISLVE--RCYC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RFI----Q-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPETRWLQQY---LRNALNKLK--
+UniRef90_A0A3Q3FHE3/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-N-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LKNAINKMR--
+UniRef90_A0A3B4B8C4/18-85                -PISLVE--RCYC-RS-T-V-N-S--L-P-R-S-F-IR-EL---RFI----Q-T-P-N-C-P-F-QVVAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_G3Q4H6/24-91                    KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVISAKLKSNREVC-INPETKWLQQY---LKNAINN----
+UniRef90_A0A498NQ16/24-91                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVIAKLKN-NREVC-INPKTKWLQQY---LKNAISNR---
+UniRef90_A0A484CJ89/24-91                KPISLVE--RCYC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPDIRWLQQY---LKNAIDKV---
+UniRef90_A0A3Q4B8M8/24-86                KPISLVE--RCYC-RS-T-I-S-N--L-P-R-G-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKK--------
+UniRef90_A0A3B1JTP7/160-227              KPISLVE--RCWC-RT-T-H-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-N-C-P-F-QVIAKLKN-GREVC-INPKTKWLQQH---LKNAISKI---
+UniRef90_UPI0018EDC742/24-92             KPISLVE--RCYC-RS-T-V-N-S--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-SKEVC-VNPEVRWLQLY---LKNALNKMK--
+UniRef90_A0A4U5VCA3/23-89                KPISLVE--RCYC-RS-T-V-N-N--I-P-R-S-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-SKEVC-VNPEIRWLQQY---MKNAINK----
+UniRef90_A0A8C6KHF0/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-S-P-N-C-P-F-QVIAKLKT-NKEVC-LNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A3Q3FHF1/24-91                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-N-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LKNAINKY---
+UniRef90_UPI001FABCA88/24-92             KPISLVE--RCYC-RA-T-V-N-T--L-P-K-G-L-IR-EL---RFL----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPEMRWLQHY---LKNAINKMK--
+UniRef90_UPI000CD67437/24-90             KPISLWE--RCWC-RT-S-I-S-N--V-P-M-R-S-IR-EL---RFL----Q-T-P-N-C-P-F-QVIAKLKS-NKEVC-ISTETKWLQQY---LKNALNK----
+UniRef90_A0A3B3TB43/25-91                KPISLWE--RCWC-RT-S-I-S-N--V-P-M-R-S-IR-EL---RFL----Q-T-P-N-C-P-F-QVIAKLKS-NKEVC-ISTETKWLQQY---LKNALNK----
+UniRef90_A0A3B5BG44/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IQ-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEVRWLKQY---LKNAINKMR--
+UniRef90_UPI00148D19BB/24-92             KPISLVE--RCYC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RFI----N-T-P-N-C-P-F-QVIAKLKS-SKEVC-VNPEVRWLKQY---MRNAINKMK--
+UniRef90_A0A4Z2I3E3/24-90                KPISLVE--RCYC-HS-T-V-N-S--L-R-R-A-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAFNK----
+UniRef90_A0A3Q2NX04/24-92                KPISLVE--RCYC-RA-T-V-N-S--I-P-K-G-L-IR-EL---RFL----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPEMRWLQNY---LKNAISKMK--
+UniRef90_UPI001471A424/24-92             KPISLVE--RCYC-RS-A-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-T-P-T-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAVNKLK--
+UniRef90_UPI001A9984D8/24-92             KPISLVE--RCYC-RS-T-V-N-S--L-S-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKELC-LNPDIWWLQQY---LKNAINKMK--
+UniRef90_G3NV10/24-90                    KPISLVE--RCYC-RS-T-V-N-S--V-P-K-S-F-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LKNVINN----
+UniRef90_A0A3Q0SY62/24-90                KPISLVE--RCFC-RS-T-V-N-N--L-P-R-S-Y-IR-EL---RLI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-LNPEIQWLKQY---LKNAFNK----
+UniRef90_A0A6J2R4E3/24-92                KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEILWLQQY---LKSAIKKMK--
+UniRef90_A0A6P7KJJ6/24-91                KPLSLVE--RCYC-RS-T-V-N-N--L-S-R-N-Y-IR-EL---RFI----Q-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPEIRWLQQY---LKNAIKKM---
+UniRef90_C3KJM4/24-92                    KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-LNPEIPWLQQY---LKNAIKKMK--
+UniRef90_F6KTE7/1-63                     -PISLVE--RCYC-RS-T-V-N-N--V-P-R-V-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEVRWLQQY---LKNA-------
+UniRef90_UPI001C05D8C0/25-92             KPISLVE--RCYC-RS-T-F-S-N--I-P-R-G-L-IQ-EL---RII----Q-T-P-N-C-P-F-QVIAKLKA-NKEVC-VNPESRWVRQF---VKSVINKR---
+UniRef90_A0A6A4RXA4/24-90                KPISLVE--RCYC-RS-T-V-N-N--V-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIRWLQQY---LRNAINK----
+UniRef90_UPI0020158C3C/1142-1180         ---------------------------------------------------------S-C-KTH-EIVVTLKNSTEQKC-LNPESKFTQKY---IMKAVKKRF--
+UniRef90_A0A3Q3WY61/24-85                KPISLVE--RCYC-RS-T-I-S-N--L-P-R-G-Y-IR-EL---KFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LK---------
+UniRef90_A0A6F9C839/37-103               KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVIAKLKN-NREVC-INPETKWLQTS---PEDVLSK----
+UniRef90_A0A7J5XZX1/128-195              KPISLVE--RCYC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIPWLQQY---LKNAIKRM---
+UniRef90_A0A087XLC4/24-92                KPISLVE--RCYC-RA-T-I-N-T--I-P-K-G-L-IR-EL---RFL----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPEMRWLKNY---LKNAIHKMK--
+UniRef90_UPI001964DCD3/24-90             KPISLQQ--RCSC-HS-I-L-N-T--V-P-K-R-Y-VK-AL---EFL----H-I-P-N-C-P-F-QVIAKLKD-NRKVC-INPETKWLQQY---LNNDIDK----
+UniRef90_A0A3B5QCM0/24-92                KPISLVE--RCYC-RA-T-I-N-S--L-P-K-S-F-IR-EL---RFL----H-T-P-N-C-P-F-QVIAKLKS-NKEVC-LNPEMRWLKNY---LRNAITKMK--
+UniRef90_UPI0018F7B74E/33-98             ---------HCQC-LH-S-S-S-E--L-ISP-E-M-MR-NI---EIF----PIT-S-N-C-SRV-EVTITLKN-ETIFC-VNPEASWLKPM---INRTLQQHFE-
+UniRef90_UPI0018F7B74E/108-174           -----QP--RCKC-ID-H-I-S-H--G-I-D-P-NTMK-NI---EII----PIT-S-H-C-SRV-QVIITLKN-NRTVC-VNPEASWMKPM---VDSTLQQHY--
+UniRef90_UPI0018F7B74E/185-246           -----QS--RCQC-IN-Y-I-S-H--P-I-HPH-R-MK-DI---EIL----P-T-S-SRC-SQV-EVIITLKDG-TKVC-VDPEARWVKHL---IKKI-------
+UniRef90_A0A3Q3KY04/24-91                KPLSLVE--RCYC-RA-A-A-K-N--V-P-R-S-Q-IR-EI---RFI----S-T-P-N-C-P-F-QVIARLKS-KKEVC-INPESRLVQHY---LRNALNKM---
+UniRef90_A0A3Q3XMH7/24-83                KPISLVE--RCWC-RT-T-H-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIAKLKS-NREVC-INPDTKWLQQT--------------
+UniRef90_A0A6I9PVC7/24-91                KPISLVE--RCHC-RS-T-V-N-S--L-P-R-G-Y-IR-EL---RFI----H-S-P-N-C-P-F-QVIAKLKS-NKEVC-VNPEIPWLKQY---LKNAIKRM---
+UniRef90_UPI001C4B7006/24-91             KPISLGE--RCYC-SS-T-V-N-G--L-P-K-G-I-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKS-SKEVC-LNPQIPWLQQY---LRNAINKM---
+UniRef90_A0A8C9WV17/34-100               KPISLVE--RCWC-RS-T-V-N-S--V-S-P-R-S-IR-EL---KFV----Q-T-A-N-C-P-I-QVIAKLKS-SKEVC-INPDLKWLQQY---VRNVVNK----
+UniRef90_UPI00196382AB/34-94             ------Y--FCNC-R----Q-H-N--I-Q-R-T-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A212CP12/12-46                -------------------------------------------------------------V-L-TALARLKNNNRQVC-IDPKLKWIQEY---LDKALNKG---
+UniRef90_A0A3Q2DPD0/24-92                KPISLVE--RCYC-RA-T-V-N-S--L-P-K-G-Y-IR-EL---RFI----H-T-P-H-C-P-F-QVIAKLKS-GKEVC-LNPEMPWLQHY---LKNAIRKMK--
+UniRef90_A0A8M1HB44/24-92                KPISLME--RCLC-NS-T-L-N-K--P-A-Q-R-F-VK-ELKEIKVM----Y-K-P-S-C-P-L-QVIGKLKN-NRRVC-IDPATKWLQKY---LKKTID-----
+UniRef90_L9KVL8/16-62                    ----------------------------------T-AR-HV---CLR----I-T-A-Q-Q-G-V-YHQARLKNNNRQVC-IDPKLKWIQEY---LEKALNN----
+UniRef90_A0A6A5DRP3/39-92                ---------------------H-N--I-Q-R-T-Y-IR-EL---RFI----H-T-P-N-C-P-F-QVIAKLKT-NKEVC-VNPEIRWLQQY---LKNAINKMK--
+UniRef90_A0A8C1DIK7/24-63                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVII------------------------------------
+UniRef90_A0A8C1DIK7/101-130              ------------------------------------------------------------------SVAKLKN-NREVC-INPKTKWLQQY---LKNAISK----
+UniRef90_UPI001B7DED6E/24-82             KPSSIMN--RCKC-RG-G-T-T-R--L-S-P-S-S-IQ-KL---MVL----P-I-P-N-C-P-L-QIIATLKNNGNQIC-IHPKTRWLR----------------
+UniRef90_A0A5C6MYW9/121-160              KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IK-EL---KFL----H-T-P-N-C-P-F-QVIS------------------------------------
+UniRef90_A0A5C6MYW9/197-225              -------------------------------------------------------------------CAKLKN-NREVC-INPETKWLQQY---LKNAINK----
+UniRef90_A0A345D732/24-62                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EI---KFL----H-T-P-S-C-P-F-QVI-------------------------------------
+UniRef90_A0A345D732/100-127              --------------------------------------------------------------------AKLK-NNREVC-INPKTKWLQQY---LKNAINK----
+UniRef90_A0A8K1GD38/31-95                -----EL--RCQC-IS-T-H-S-K--F-I-HPR-F-IQ-NV---NLT---PS-G-P-H-C-KDV-EVIATLRD-GREVC-LEPTAPWVKLI---IKAILDK----
+UniRef90_A0A8K1GD38/183-226              -------------------------------------Q-DV---RLS---QR-V-P-H-C-KNV-EIIAMLKN-GREVC-VEPTAPWIQLT---IKALL------
+UniRef90_A0A8K1GD38/330-393              ------L--RCQC-IA-T-H-S-R-FI-P-P-K-S-IQ-DV---KLT----Q-SGP-H-C-KNV-EVIATLKD-GREVC-LEPTAPWVQLI---VKAILAR----
+UniRef90_A0A401SDZ8/18-76                KPSSIIN--RCKC-RG-G-T-T-R--L-S-P-N-S-IQ-KL---MIL----P-I-P-N-C-P-L-QIIATLRNNGDQIC-IHPKTRWLR----------------
+UniRef90_A0A8J4TGE0/36-64                ------------------------------------------------------------------IIFTLK-NGRHVC-ADPRVQWVKKH---MDT-IEK----
+UniRef90_A0A8J4TGE0/112-135              --------------------------------------------------------------------FILKNGNR-VC-ADPRVQWVKDH---MDE--------
+UniRef90_A0A8J4TGE0/157-211              -----------PC-CFSF-K-R-N--T-I-N-V-Q-DI-HA---YKI----T-H-S-N-C-S-N-AGIHFIMKNGHHVC-ADPKDQWVKEH---MD---------
+UniRef90_A0A218UQ74/31-95                -----EL--RCQC-IS-T-H-S-K--F-I-HPK-F-IQ-NV---NLT---PS-G-P-H-C-KNV-EVIATLRD-GREVC-LEPSAPWVKLI---IKAILDK----
+UniRef90_A0A218UQ74/158-224              KPVERGS--QCQC-IS-T-H-SKF--I-P-P-K-T-VQ-DV---RLS---RR-G-P-H-C-KNV-EIIAVLR-DGREVC-VEPTAPWIQLT---VKAL-------
+UniRef90_A0A218UQ74/329-388              ------L--RCQC-IA-T-H-S-R-FI-P-P-K-S-IQ-DV---KLT----Q-SGP-H-C-KNV-EVIATLKD-GREVC-LEPTAPWVQLI---VKA--------
+UniRef90_A0A8T0BIF3/55-104               ----------CCF-SY-H-R-S-P--I-P-I-G-N-IT-EY---KVT----D-R-H-C-T-K-P-GVIFTLKKSSRQVC-VDPELKYQ-----------------
+UniRef90_A0A8T0BIF3/172-205              -----------------------------------------------------D-P-Q-C-P-KPAVIFTLKKDNRQVC-VDPDLKWVQKH---MK---------
+UniRef90_A0A8C8GCI0/16-83                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVML--GSNRDVLCALNPETKWLQTY---LKNAINKE---
+UniRef90_A0A8C8G9F3/18-85                KPISLVE--RCWC-RS-T-L-N-T--V-P-Q-R-S-IR-EL---KFL----H-T-P-N-C-P-F-QVML--GSNRDVLCALNPETKWLQTY---LKNAINKE---
+UniRef90_A0A835NSP5/2-32                 -------------------------------------------------------------------CARLKSNSKQVC-IDPKLKWIQEY---LEKALNKG---
+UniRef90_UPI0014026C63/24-83             KPSSIIN--RCKC-RG-G-T-K-R--L-H-P-N-H-IQ-KL---IVL----P-I-P-N-C-P-M-QIIATLKNNGGQVC-IHPKTRWLRN---------------
+UniRef90_A0A401PB88/24-82                KPLSIIN--RCKC-RG-G-T-T-R--L-S-P-N-S-IQ-KL---MVL----P-I-P-N-C-P-L-QIIATLKINGDQVC-IHPRTRWLR----------------
+UniRef90_A0A061IQQ1/30-96                -PVANEL--RCQC-LQ-T-M-T-G--V-H-L-K-N-IQ-SL---KVT----PPG-P-H-C-TQT-EVIATLKN-GQEAC-LNPEAPMVQKI---VQKMLK-----
+UniRef90_A0A061IQQ1/130-196              ---ATEL--RCQC-LK-T-I-S-R--I-D-F-K-T-IQ-SL---KVT----PPG-P-H-C-TQT-EVIATLKN-GQEVC-LDPEAPLVRKI---IQKILNNN---
+UniRef90_A0A7J8APL3/58-118               ------L--RCMC-IT-T-A-S-G--I-H-P-R-N-IQ-NL---KVF----R-AGP-H-C-PNV-EVIAMLKN-GKEIC-LDPNAPVIKKI---VQKIL------
+UniRef90_A0A7J8APL3/136-196              ------L--RCTC-TT-T-T-S-G--I-H-P-R-N-FQ-IL---KVS----R-AGP-H-C-PNV-EVIATLKN-GKEIC-LDPNARLLKKI---VQKIL------
+UniRef90_A0A4W3HU59/24-83                KPSSISY--RCKC-RG-G-T-T-R--L-H-P-G-M-IR-KL---LFL----P-I-P-N-C-P-P-QIIATLKYTGEQIC-IHPRTRWLRS---------------
+UniRef90_A0A0P7V4V4/34-72                KPISLVE--RCWC-RS-T-V-N-S--V-S-P-R-S-IR-EL---KFV----Q-T-A-N-C-P-I-QVM-------------------------------------
+UniRef90_A0A0P7V4V4/99-129               -------------------------------------------------------------------IAKLKS-SKEVC-INPDLKWLQQY---VRNVVNKAK--
+UniRef90_A0A401SSC2/30-88                ---------RCQC-PT-TSS-S-F--I-S-L-K-T-IK-NL---QYI---PK-G-P-H-C-E-T-QEIIITKKNEQKVC-VNPDAKWVKII---IKS--------
+UniRef90_A0A401SSC2/99-156               ---------RCLC-PK-T-S-SDF--I-H-P-S-T-IK-NL---QYI---PK-G-P-H-C-E-T-QEIIITKKNEQKVC-VNPDAKWVKII---IK---------
+UniRef90_A0A8T0BML0/40-66                ------------------------------------------------------------------VIFTLK-SSRQVC-VDPEVKWVQKH---MEKI-------
+UniRef90_A0A8T0BML0/106-138              ---------------------------------------------------------H-C-S-K-PGVVFTLMNKRQVC-VDPEHEWVQNH---MKKI-------
+UniRef90_A0A650GAB7/25-84                --IAMQS--RCPC-RH-S-R-S----V-Q-P-S-T-IK-KL---DIF----K-Q-V-N-C-P-I-QVIAVLKKTGERVC-VNPKMRWLRQV---TQ---------
+UniRef90_UPI00140FBF4A/71-134            -----EL--RCVC-LG-F-T-S-S--M-S-P-K-M-IT-NL---QVI----P-TGP-H-C-PRV-EVIATLKN-KKEIC-LDPEAPKFKKI---VRKILNR----
+UniRef90_UPI00140FBF4A/152-212           ------L--RCLC-IH-T-I-S-G--I-H-P-S-K-IQ-NL---EVI----R-AGP-H-C-PKV-QVIATLKN-GKELC-LNPEASRIKKI---IQKFL------
+UniRef90_A0A7J8B3B3/54-115               ------L--RCMC-TQ-T-T-S-G--I-H-P-R-N-IQ-TL---KMF----K-AGT-H-C-PNV-EVIATLKN-GKKIC-LDPNAPMIKKI---IQKILE-----
+UniRef90_A0A7J8B3B3/131-191              ------L--RCTC-IQ-T-T-S-G--I-H-P-K-N-IQ-TL---KMF----K-AGP-H-C-PNI-ELIATLKN-GKKIC-LDPNAPMIKKI---IQKIL------
+UniRef90_UPI00081473B6/54-91             -----------------------------------------------------S-S-N-C-P-I-KAVIFQMDNGKTFC-VDPSWDWVQSH---RKKLDQK----
+UniRef90_UPI00081473B6/144-181           -----------------------------------------------------S-S-S-C-P-I-KAVVFQMDNGKSFC-VDPSWDWVQSH---RKKLDQK----
+UniRef90_A0A401RH41/29-96                ---GLNL--RCQC-IK-T-T-SKF--I-H-P-T-N-IN-NI---EII---PS-G-P-H-C-ENT-EIIASLKSKDR-VC-LDPTAHWLKKV---LNKMMKKH---
+UniRef90_A0A401RH41/152-218              ---GVSL--RCQC-IK-T-N-S-K--F-I-H-P-NHME-NI---EII---PS-G-P-H-CPT-V-EIIATLKSG-SPVC-LNPNAVWVKKI---IDIMINS----
+UniRef90_UPI0018866296/29-92             --LAGEL--RCRC-LR-T-V-S-Q--V-IPP-R-R-LA-RV---QLL---AE-G-P-H-C-A-V-PEVIATTKQGQTLC-LDPAAPWVKLI---LTR--------
+UniRef90_UPI0018866296/141-186           ------------------------------------LA-NV---EII---PK-G-P-H-C-ATV-EIIATLKN-SQQIC-LDPQAKWVKML---INKILH-----
+UniRef90_L9L5Z3/32-101                   -PVASEL--RCQC-LQ-T-V-H-G--I-H-P-K-N-IQ-SV---KVT----A-PGA-H-C-AQT-EVIATLKN-GQEAC-LNPAAPMVKRF---MEKMLNKML--
+UniRef90_L9L5Z3/143-210                  -PVASEL--RCQC-LQ-T-V-H-G--I-H-P-K-N-IQ-SV---KVT----A-PGA-H-C-AQT-EVIATLKN-GQEAC-LNPAAPMVKKI---MEKMLNN----
+UniRef90_A0A8M1HN61/33-84                ------------C-FS-Y-H-Q-H--K-I-K-K-D-LI-QS---YIL----T-D-E-R-C-A-K-PGVIVVTVKSRHIC-VDPNLSWVKGI---M----------
+UniRef90_A0A8M1HN61/341-381              --------------------------------------------YIL----T-D-E-R-C-A-K-PGVIFVTAKSRHIC-VDPNLSWVEGI---IK-RLDK----
+UniRef90_UPI00174AF4F5/49-109            ------L--RCVC-LT-P-T-H-R--I-R-P-Q-M-IH-HL---EMV----PAG-P-G-C-PNV-EIIAMLKN-GKEIC-LDPNAPVIKKI---VQKIL------
+UniRef90_UPI00174AF4F5/127-187           ------L--RCTC-TT-T-T-S-G--I-H-P-R-N-FQ-IL---KVS----R-AGP-H-C-PNV-EVIATLKN-GKEIC-LDPNARLLKKI---VQKIL------
+UniRef90_L9L5M9/47-111                   ------L--RCIC-LS-V-T-P-G--I-H-P-K-M-IT-NL---QVI----AAG-P-Q-C-SKV-EVIATLKNGN-EVC-LDPQAPLFKKV---IQKILERRS--
+UniRef90_L9L5M9/258-325                  -PVASEL--RCQC-LQ-T-V-H-G--I-H-P-K-N-IQ-SV---KVT----A-PGA-H-C-AQT-EVIATLKN-GQEAC-LNPAAPMVKRF---VEKMLNK----
+UniRef90_A0A3M0L2T5/127-191              -----EL--RCQC-IS-T-H-S-R--F-I-HPK-F-IQ-NV---NLT---PS-G-P-H-C-KNV-EVIATLRD-GREVC-LEPTAPWVKLI---IKAILDK----
+UniRef90_A0A3M0L2T5/275-335              -----EL--RCQC-IA-T-H-S-R-FI-P-P-K-S-IQ-DV---KLT----Q-SGP-H-C-KNV-EVIATLKD-GREVC-LEPTAPWVQLI---VKA--------
+UniRef90_UPI0018646380/369-423           ----------CCL-KI-S-N-T-R--I-P-A-K-R-FA-YY---RVY----S-A-G-L-C-P-I-NAVAFWTRKGRKLC-YDPDLDWVKKF---MK---------
+UniRef90_A0A498NR19/171-224              --------------------------V-L-V-K-N-IE-KV---EIF---PP-S-P-S-C-R-KHEIIVTLKNGAGRRC-MNPESKFTQNV---IIKTLEKR---
+UniRef90_V9KMB5/24-82                    KPAAVLN--RCIC-RG-G-T-L-H--I-N-V-N-N-IK-AL---QII----P-I-P-N-C-P-L-QLVATLKS-GRRLC-LNSKFKYLWK---------------
+UniRef90_A0A8C9LLU3/36-103               -PVAAEL--RCQC-LQ-T-L-Q-G--I-H-P-K-N-IQ-SV---TVK---AP-G-P-H-C-AET-EVIATLKNG-QKAC-LNPASPMVQKI---IQKILNN----
+UniRef90_A0A8C9LLU3/163-224              ------L--RCSC-LQ-T-T-Q-R--V-Q-P-Q-M-IS-NL---QVF----PIG-P-Q-C-SQV-EVVASLRN-GTEVC-LDPQAPFLKKV---IQKLLD-----
+UniRef90_A0A8T0BIF0/45-70                --------------------------------------------------------------------------TRHVC-VDPELEWVQYHMKSLDQILNE----
+UniRef90_A0A8T0BIF0/121-153              -------------------------------------------------------H-H-C-A-K-PAVIFTLKNSHHVC-LDPELKWVQKH---MKS--------
+UniRef90_A0A835NKA3/116-180              -----EL--RCHC-IS-T-H-S-R--F-I-HPK-F-IQ-NV---NLT---PS-G-P-H-C-KNV-EVIATLRD-GREVC-LEPTAPWVKLI---IKTILDK----
+UniRef90_A0A835NKA3/284-345              ------L--RCQC-IA-T-H-SKF--I-P-P-K-T-IQ-DV---KLT----Q-SGP-H-C-KNV-EVIATLKD-GKEVC-LEPTAPWVQRI---IKAIL------
+UniRef90_UPI0005231BE1/53-88             ---------------------------------------------------E-T-PSH-C-S-H-RAVRVELSGGKKVC-VDPKLSWFQQY---RQQ--------
+UniRef90_UPI0005231BE1/101-120           -------------------------------------------------------------------------GGKKVC-VDPKLSWFQQY---RQQ--------
+UniRef90_UPI0020156D90/141-200           ----------CPCLKT-S-E-T-V--L-S-K-E-D-IK-SY---KIH----K-V-D-T-F-H-I-DAIVFKTVNNLTVC-SNPQMPWVKRA---MEYVDN-----
+UniRef90_A0A673ST21/48-111               ----VEL--RCLC-MN-T-V-S-G--I-H-P-S-N-IQ-NL---QVL----R-AGP-H-C-ANV-EVIATLKNGNK-VC-LDPEAPKIKKI---VQKILE-----
+UniRef90_A0A3Q3QYT3/24-82                KPISLVE--RCYC-RT-T-V-N-R--V-P-R-S-F-IR-DL---KFI----H-T-P-N-C-P-F-QV----------VC-LNPETGWLHHY---LKNAIGRK---
+UniRef90_A0A8C9GYD7/161-228              -PVAAEL--RCQC-LQ-T-L-Q-G--I-H-P-K-N-IQ-SV---TVK---AP-G-P-H-C-AET-EVIATLKNG-QKAC-LNPASPMVQKI---IQKILNN----
+UniRef90_A0A8C9GYD7/288-349              ------L--RCSC-LQ-T-T-Q-R--V-Q-P-Q-M-IS-NL---QVF----PIG-P-Q-C-SQV-EVVASLRN-GTEVC-LDPQAPFLKKV---IQKLLD-----
+UniRef90_UPI0007A6F9F9/243-302           --VNLSH--SCCL-KY-H-E-K-V--L-P-R-K-L-VVGYR---KA---------L-N-C-Y-L-PAIILITKRNREIC-TNPNNKWVQDY---IEN--------
+UniRef90_A0A4U1F5G6/26-87                -----EL--RCSC-VK-T-T-S-G--I-H-P-S-N-IQ-GL---EVI----R-AGP-H-C-TKV-EVIAMLKN-GKKIC-LDPEAPRIKKI---VQKIL------
+UniRef90_UPI0016596392/36-103            -PVVAEL--RCQC-LQ-T-S-Q-G--I-H-P-K-N-IQ-SV---KVT----PPA-P-H-C-AQT-EVIATLKN-GQEVC-LNPEAPMVKKI---INKMLNK----
+UniRef90_UPI001EEB8A30/23-90             ---SVEP--RCRC-SG-F-E-S-R--R-V-G-K-M-ID-RV---ELF---PP-N-P-H-C-THT-EIIATMKHSGQQIC-LDPKAPWVMKV---IEKIMANR---
+UniRef90_A0A8J6B3D2/13-50                ----------------------------------------Y---KRI----T-S-S-K-C-P-K-EAVIFKTKLDKEIC-ADPNVKWVQDY---TK---------
+UniRef90_A0A8J6B3D2/79-134               ------Y--TCCH-HF-T-R-M-K--I-P-R-K-R-LN-DY---RRI----T-S-S-R-C-P-M-EAVIFKTKVGREIC-ANPKLDWVLDA---I----------
+UniRef90_UPI001B3AEFB3/311-347           ---------------------------------------------------T-D-E-R-C-A-M-TGVILVTQKHARVC-ADPSLPWVQDI---M-KALD-----
+UniRef90_A0A8J4TX50/27-90                ---------RCLC-QG-P-L-A-N--V-V-R-IQR-ID-KI---EVY----P-TSA-S-C-ENV-EIIVTLKNGVGKKC-LNPKSEFTQKY---ITTALGK----
+UniRef90_A0A8J4TX50/98-161               ---------RCLC-QG-P-L-A-N--V-V-R-IQR-ID-KI---EVY----P-TSA-S-C-ENV-EIIVTLKNDAGRKC-LNPKSEFTQKY---IKTALEK----
+UniRef90_A0A8B7B1B7/36-104               -PVVSEL--RCQC-LK-T-V-Q-G--I-H-L-K-N-IE-SV---KVT---AP-A-P-H-C-DQT-EVIATLKN-GQEVC-LNPTAPMVKKI---IEKMLNKA---
+UniRef90_UPI00165A0203/36-103            -PVVAEL--RCQC-LQ-T-S-Q-G--I-H-P-K-N-IQ-SV---KVT----PPA-P-H-C-AQT-EVIATLKN-GQEVC-LNPEAPMVKKI---INKMLNK----
+UniRef90_A0A2Y9JUG0/34-102               -PVAAEL--RCQC-LQ-T-V-Q-G--I-H-L-K-N-IQ-NV---VVT---PS-G-P-H-C-EQT-EVIATLKN-GQEVC-LNPEAPLVKKL---INKMLNKM---
+UniRef90_A0A8C2UVS7/31-95                -----EL--RCQC-VK-I-H-S-T--PFH-P-K-F-IK-EL---KVI----E-SGP-R-C-DKS-EIIVKLRD-NRQLC-LDPKKKWVQEV---VAKFLKR----
+UniRef90_A0A3B1JQM9/35-100               -----EP--RCRC-SG-T-E-S-R--R-I-G-K-L-IE-SI---ELF---PP-N-P-H-C-KDT-EIIATLKSNGQEIC-LDPKAPWVTKV---IEKILAKR---
+UniRef90_A0A8C5T2R4/13-57                --------------RH-N-Q-G-H--S-G-R-S-G-VT-HI---PVL------------C-P-D-SIV-TIK--DRKLC-ADPRAAWVQEL---LN---------
+UniRef90_A0A8C5T2R4/70-118               --------------RH-N-Q-G-H--S-G-R-S-G-VT-HI---PVL------------C-P-D-SIV-TIK--DRKLC-ADPRAAWVQEL---LKHFQN-----
+UniRef90_A0A8B9R4X9/29-94                -----EP--RCRC-SG-T-E-S-R--R-I-G-K-L-IE-SI---ELF---PP-N-P-H-C-KDT-EIIATLKSNGQEIC-LDPKAPWVTKV---IEKILAKR---
+UniRef90_UPI0011B0B8EA/32-99             -PVVTEL--RCQC-LQ-T-V-Q-G--I-H-P-K-N-IQ-SV---KVT----Q-SGP-H-C-AHT-EVIATLKNG-HEAC-LNPEAPMVKRV---IEKMLSK----
+UniRef90_A0A401SDV2/24-81                KPTAVLN--RCMC-RG-G-A-I-Q--I-N-M-R-N-IR-GL---QVI----P-I-P-N-C-P-L-QLIATLKTG-KKIC-LHPKFLYLW----------------
+UniRef90_UPI001658C568/36-103            -PVVAEL--RCQC-LQ-T-S-Q-G--I-H-P-K-N-IQ-SV---KVT----PPA-P-H-C-AQT-EVIATLKN-GQEVC-LNPEAPMVKKI---INKMLNK----
+UniRef90_UPI00201409AC/33-91             ------L--RCPCLRT-Y-S-GKP--I-Y-P-K-L-IQ-NI---QMI----P-AGA-Q-C-RNM-QIIATLKQG--QTC-LNPKDEWVKKI---IE---------
+UniRef90_UPI00201409AC/141-203           ---SAGYNTRCMC-LK-L-E-S-R--IIP-H-D-N-LR-RV---EIL---PR-G-P-H-C-KTT-EVIAGLSSG-ERIC-LNPRTPWVKKL---I----------
+UniRef90_UPI00140235C1/24-77             KPTAVLN--RCMC-RG-G-A-A-Q--I-N-V-R-N-IK-GL---QLI----P-I-P-N-C-P-I-QLIATLKN-GRRIC-LHSKF--------------------
+UniRef90_UPI001EE9B415/57-113            ----------CCF-EF-H-K-T-S--I-A-A-A-D-VD-SV---KQT----R---F-D-C-T-L-PGVILTTKKGSQVC-VDPEVDWVKQI---ISKSE------
+UniRef90_UPI001659A85E/36-103            -PVVAEL--RCQC-LQ-T-S-Q-G--I-H-P-K-N-IQ-SV---KVT----PPA-P-H-C-AQT-EVIATLKN-GQEVC-LNPEAPMVKKI---INKMLNK----
+UniRef90_UPI001EEC32CA/63-119            ----------CCF-EF-H-K-T-S--I-A-A-A-Y-IV-SV---KQT----R---F-D-C-T-L-PGVILTTKKGSQVC-VDPEVDWVKQI---ISKSE------
+UniRef90_UPI001EEC32CA/138-190           ----------CCF-EF-H-K-R-P--I-P-A-A-N-IV-SV---EKT------R-S-D-C-T-L-PGVILTTNKGLRVC-ADPEVDWVKQI---I----------
+UniRef90_A0A7J5Y450/11-53                ----------------------------------------L---QPL----T-L-K-H-D-L-L-PPGAKLKN-NREVC-INPETKWLQQY---LKNAINKV---
+UniRef90_A0A7J7FFC4/51-113               ----VEL--RCLC-LQ-T-T-S-G--V-H-P-S-K-IQ-SL---KVM----R-AGP-H-CHK-V-EVIATLLNG-DEIC-LDPEDLRLRKI---IQKIL------
+UniRef90_A0A7J7FFC4/124-186              ------L--RCVC-AK-T-S-S-Q--V-R-P-K-Q-VN-SL---EVI----R-A-GVY-C-R-TPQLIATMR-NGRKTC-VDPQAPVYKKI---IKKILES----
+UniRef90_A0A3B4BR62/30-92                -----EP--RCHC-SG-T-E-S-R--R-I-G-K-L-IK-TV---KFF---PP-N-P-H-C-QEM-EIIAKLKNTGREIC-LDTKALWVMRV---IEKIM------
+UniRef90_UPI001C59201E/267-314           ------------------------------------VV-DY---KVQ----E-T-P-L-C-S-V-RAVPFITVGNKKIC-SSPVEDWVQDY---IQN-LNRRRK-
+UniRef90_UPI001EEA0CEC/31-87             ----------CCF-SY-H-R-S-P--I-P-I-G-N-IT-EY---KVT----D-R-H-C-T-K-P-GVIFTLKKSSRQVC-VDPELKWVQRH---MERL-------
+UniRef90_UPI00156C124F/116-183           -PVVAEL--RCQC-LQ-T-L-Q-G--I-H-F-K-N-IQ-NV---KVT---PR-G-P-H-C-AQT-EVIATLKN-GQEVC-LNPEAPMVKKI---INKMLNK----
+UniRef90_A0A401PB83/24-87                KPAAVLS--RCMC-RG-G-A-M-Q--I-N-V-K-N-IR-GL---QVI----P-I-P-N-C-P-L-QLIATLKT-GRKIC-LHSKFLYLWE------RKLNR----
+UniRef90_A0A5N3VYF3/26-92                ----LST--ELRC-QC-I-K-T-H--S-A-Y-F-H-PK-HI---KELRVIER-G-P-H-C-ENS-EIIVKLT-NGKEVC-LDPKEKWVQKI---VEVFVK-----
+UniRef90_A0A6P7L2X4/29-92                -----EL--HCRC-IK-T-E-S-R--R-I-R-F-I-EK-VE---LIP----P-N-P-H-CDK-L-EVIATLRKSGRQVC-LDPEALWVKEI---IDKITNS----
+#=GC RF                                  xxxxxxx..xxxx.xx.x.x.x.x..x.x.x.x.x.xx.xx...xxx....x.x.x.x.x.x.x.xxxxxxxxxxxxxx.xxxxxxxxxxx...xxxxxxxxxxx
+//

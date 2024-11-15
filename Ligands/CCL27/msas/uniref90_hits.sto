@@ -1,0 +1,944 @@
+# STOCKHOLM 1.0
+
+#=GS UniRef90_H9HA21/25-112         DE [subseq from] C-C motif chemokine ligand 27 n=3 Tax=Nomascus leucogenys TaxID=61853 RepID=H9HA21_NOMLE
+#=GS UniRef90_Q9Y4X3/25-112         DE [subseq from] C-C motif chemokine 27 n=8 Tax=Homininae TaxID=207598 RepID=CCL27_HUMAN
+#=GS UniRef90_A0A0D9RCS2/25-112     DE [subseq from] C-C motif chemokine ligand 27 n=19 Tax=Catarrhini TaxID=9526 RepID=A0A0D9RCS2_CHLSB
+#=GS UniRef90_A0A8D2DKU8/26-112     DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Sciurini TaxID=337752 RepID=A0A8D2DKU8_SCIVU
+#=GS UniRef90_F7C5L0/26-107         DE [subseq from] C-C motif chemokine ligand 27 n=8 Tax=Platyrrhini TaxID=9479 RepID=F7C5L0_CALJA
+#=GS UniRef90_A0A1U7U9P2/32-117     DE [subseq from] C-C motif chemokine 27 n=1 Tax=Carlito syrichta TaxID=1868482 RepID=A0A1U7U9P2_CARSF
+#=GS UniRef90_UPI0003C8D5D9/26-112  DE [subseq from] C-C motif chemokine 27 isoform X1 n=2 Tax=Tupaia chinensis TaxID=246437 RepID=UPI0003C8D5D9
+#=GS UniRef90_A0A6I9JKE2/26-111     DE [subseq from] LOW QUALITY PROTEIN: c-C motif chemokine 27 n=1 Tax=Chrysochloris asiatica TaxID=185453 RepID=A0A6I9JKE2_CHRAS
+#=GS UniRef90_A0A3Q2H9B0/26-112     DE [subseq from] C-C motif chemokine ligand 27 n=3 Tax=Equus TaxID=9789 RepID=A0A3Q2H9B0_HORSE
+#=GS UniRef90_A0A8C9A2Q5/26-112     DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Lemuridae TaxID=9445 RepID=A0A8C9A2Q5_PROSS
+#=GS UniRef90_A0A2Y9FYL3/25-111     DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=1 Tax=Trichechus manatus latirostris TaxID=127582 RepID=A0A2Y9FYL3_TRIMA
+#=GS UniRef90_A0A6P3RM96/26-112     DE [subseq from] C-C motif chemokine 27 n=2 Tax=Pteropus TaxID=9401 RepID=A0A6P3RM96_PTEVA
+#=GS UniRef90_UPI0002C6942B/26-112  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Ceratotherium simum simum TaxID=73337 RepID=UPI0002C6942B
+#=GS UniRef90_A0A8C0WYP7/27-111     DE [subseq from] C-C motif chemokine 27 n=1 Tax=Castor canadensis TaxID=51338 RepID=A0A8C0WYP7_CASCN
+#=GS UniRef90_UPI0004D05B9D/173-257 DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=1 Tax=Galeopterus variegatus TaxID=482537 RepID=UPI0004D05B9D
+#=GS UniRef90_Q68Y87/27-111         DE [subseq from] C-C motif chemokine ligand 27 n=16 Tax=Carnivora TaxID=33554 RepID=Q68Y87_CANLF
+#=GS UniRef90_A0A4X1UUM8/26-107     DE [subseq from] SCY domain-containing protein n=6 Tax=Suina TaxID=35497 RepID=A0A4X1UUM8_PIG
+#=GS UniRef90_A0A6I9INE4/26-112     DE [subseq from] C-C motif chemokine 27 n=4 Tax=Camelidae TaxID=9835 RepID=A0A6I9INE4_VICPA
+#=GS UniRef90_A0A8B7GSB6/26-112     DE [subseq from] C-C motif chemokine 27 n=1 Tax=Microcebus murinus TaxID=30608 RepID=A0A8B7GSB6_MICMU
+#=GS UniRef90_A0A8C7EXN6/38-123     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Neovison vison TaxID=452646 RepID=A0A8C7EXN6_NEOVI
+#=GS UniRef90_UPI0007A701D3/72-158  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Miniopterus natalensis TaxID=291302 RepID=UPI0007A701D3
+#=GS UniRef90_UPI001B34ABFB/26-111  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Ochotona curzoniae TaxID=130825 RepID=UPI001B34ABFB
+#=GS UniRef90_A0A8U0NRR0/68-153     DE [subseq from] C-C motif chemokine 27 n=4 Tax=Mustelidae TaxID=9655 RepID=A0A8U0NRR0_MUSPF
+#=GS UniRef90_A0A7J7VPP8/26-111     DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Rhinolophus ferrumequinum TaxID=59479 RepID=A0A7J7VPP8_RHIFE
+#=GS UniRef90_G1NZB5/26-112         DE [subseq from] C-C motif chemokine ligand 27 n=11 Tax=Vespertilionidae TaxID=9431 RepID=G1NZB5_MYOLU
+#=GS UniRef90_A0A091EIN5/16-97      DE [subseq from] C-C motif chemokine 27 n=2 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091EIN5_FUKDA
+#=GS UniRef90_A0A6G1B1D1/26-111     DE [subseq from] CCL27 protein (Fragment) n=6 Tax=Feliformia TaxID=379583 RepID=A0A6G1B1D1_CROCR
+#=GS UniRef90_A0A452RSQ2/44-128     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Ursus americanus TaxID=9643 RepID=A0A452RSQ2_URSAM
+#=GS UniRef90_A0A8B7PUC0/26-112     DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=1 Tax=Hipposideros armiger TaxID=186990 RepID=A0A8B7PUC0_HIPAR
+#=GS UniRef90_UPI0003CC078B/25-112  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI0003CC078B
+#=GS UniRef90_G1LK27/27-111         DE [subseq from] C-C motif chemokine ligand 27 n=11 Tax=Caniformia TaxID=379584 RepID=G1LK27_AILME
+#=GS UniRef90_A0A2Y9J7B4/66-151     DE [subseq from] C-C motif chemokine 27 n=4 Tax=Mustelidae TaxID=9655 RepID=A0A2Y9J7B4_ENHLU
+#=GS UniRef90_H0XXR7/25-111         DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Otolemur garnettii TaxID=30611 RepID=H0XXR7_OTOGA
+#=GS UniRef90_I3M182/27-113         DE [subseq from] C-C motif chemokine ligand 27 n=9 Tax=Marmotini TaxID=337730 RepID=I3M182_ICTTR
+#=GS UniRef90_UPI000C81281A/22-108  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=1 Tax=Loxodonta africana TaxID=9785 RepID=UPI000C81281A
+#=GS UniRef90_UPI00042C23F7/37-122  DE [subseq from] C-C motif chemokine 27 isoform X1 n=1 Tax=Panthera tigris TaxID=9694 RepID=UPI00042C23F7
+#=GS UniRef90_UPI00189E5D8E/26-112  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Choloepus didactylus TaxID=27675 RepID=UPI00189E5D8E
+#=GS UniRef90_A0A8C5KKP9/28-113     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Jaculus jaculus TaxID=51337 RepID=A0A8C5KKP9_JACJA
+#=GS UniRef90_A0A8C5KR42/39-124     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Jaculus jaculus TaxID=51337 RepID=A0A8C5KR42_JACJA
+#=GS UniRef90_A0A5F9CTF0/26-102     DE [subseq from] SCY domain-containing protein n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=A0A5F9CTF0_RABIT
+#=GS UniRef90_A0A2K6H0S9/26-107     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Propithecus coquereli TaxID=379532 RepID=A0A2K6H0S9_PROCO
+#=GS UniRef90_A0A8C2V456/27-108     DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Chinchilla lanigera TaxID=34839 RepID=A0A8C2V456_CHILA
+#=GS UniRef90_A0A8C2UYN9/23-104     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=A0A8C2UYN9_CHILA
+#=GS UniRef90_A0A1S3G149/26-110     DE [subseq from] C-C motif chemokine 27 n=1 Tax=Dipodomys ordii TaxID=10020 RepID=A0A1S3G149_DIPOR
+#=GS UniRef90_G1SF03/162-238        DE [subseq from] SCY domain-containing protein n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SF03_RABIT
+#=GS UniRef90_S7MGP1/26-111         DE [subseq from] C-C motif chemokine 27 n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MGP1_MYOBR
+#=GS UniRef90_UPI0003F0D13A/27-112  DE [subseq from] c-C motif chemokine 27 n=1 Tax=Elephantulus edwardii TaxID=28737 RepID=UPI0003F0D13A
+#=GS UniRef90_A0A8B7AGV2/26-113     DE [subseq from] C-C motif chemokine 27 n=1 Tax=Orycteropus afer afer TaxID=1230840 RepID=A0A8B7AGV2_ORYAF
+#=GS UniRef90_A0A8C2YLF8/23-101     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=A0A8C2YLF8_CHILA
+#=GS UniRef90_A0A485MQT4/82-160     DE [subseq from] Chemokine (C-c motif) ligand 27 n=1 Tax=Lynx pardinus TaxID=191816 RepID=A0A485MQT4_LYNPA
+#=GS UniRef90_A0A6J2L041/40-126     DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=2 Tax=Phyllostomus TaxID=9422 RepID=A0A6J2L041_9CHIR
+#=GS UniRef90_UPI0018737F8D/25-110  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=2 Tax=Manis TaxID=9973 RepID=UPI0018737F8D
+#=GS UniRef90_UPI0020926DA6/14-86   DE [subseq from] C-C motif chemokine 27-like n=1 Tax=Marmota marmota marmota TaxID=9994 RepID=UPI0020926DA6
+#=GS UniRef90_A0A6P3VAR8/48-129     DE [subseq from] C-C motif chemokine 27 n=1 Tax=Octodon degus TaxID=10160 RepID=A0A6P3VAR8_OCTDE
+#=GS UniRef90_UPI000B4FC107/26-110  DE [subseq from] C-C motif chemokine 27 isoform X4 n=1 Tax=Meriones unguiculatus TaxID=10047 RepID=UPI000B4FC107
+#=GS UniRef90_A0A8C5ZYC6/20-93      DE [subseq from] SCY domain-containing protein n=1 Tax=Marmota marmota marmota TaxID=9994 RepID=A0A8C5ZYC6_MARMA
+#=GS UniRef90_A0A8C5Z3J9/26-99      DE [subseq from] SCY domain-containing protein n=1 Tax=Marmota marmota marmota TaxID=9994 RepID=A0A8C5Z3J9_MARMA
+#=GS UniRef90_A0A7J8IH87/26-105     DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Rousettus aegyptiacus TaxID=9407 RepID=A0A7J8IH87_ROUAE
+#=GS UniRef90_UPI000D17EE88/26-112  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Desmodus rotundus TaxID=9430 RepID=UPI000D17EE88
+#=GS UniRef90_UPI000B4E88B7/66-150  DE [subseq from] C-C motif chemokine 27 isoform X1 n=3 Tax=Meriones unguiculatus TaxID=10047 RepID=UPI000B4E88B7
+#=GS UniRef90_UPI00168CFD2E/68-147  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Rousettus aegyptiacus TaxID=9407 RepID=UPI00168CFD2E
+#=GS UniRef90_Q9Z1X0/28-112         DE [subseq from] C-C motif chemokine 27 n=6 Tax=Murinae TaxID=39107 RepID=CCL27_MOUSE
+#=GS UniRef90_UPI00034FAEDD/16-97   DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=1 Tax=Heterocephalus glaber TaxID=10181 RepID=UPI00034FAEDD
+#=GS UniRef90_A0A5N3XI28/27-112     DE [subseq from] SCY domain-containing protein n=2 Tax=Muntiacus TaxID=9885 RepID=A0A5N3XI28_MUNRE
+#=GS UniRef90_A0A8C6GGH5/37-121     DE [subseq from] SCY domain-containing protein n=1 Tax=Mus spicilegus TaxID=10103 RepID=A0A8C6GGH5_MUSSI
+#=GS UniRef90_Q9Z1X0-2/43-127       DE [subseq from] Isoform 2 of C-C motif chemokine 27 n=11 Tax=Murinae TaxID=39107 RepID=Q9Z1X0-2
+#=GS UniRef90_F1MZ86/27-112         DE [subseq from] C-C motif chemokine ligand 27 n=15 Tax=Pecora TaxID=35500 RepID=F1MZ86_BOVIN
+#=GS UniRef90_UPI0003D71BF6/52-136  DE [subseq from] C-C motif chemokine 27 isoform X2 n=1 Tax=Mus musculus TaxID=10090 RepID=UPI0003D71BF6
+#=GS UniRef90_A0A8J5ZVE1/27-102     DE [subseq from] C-C motif chemokine 27 n=3 Tax=Talpidae TaxID=9373 RepID=A0A8J5ZVE1_GALPY
+#=GS UniRef90_A0A8C2LVI5/27-111     DE [subseq from] C-C motif chemokine ligand 27 n=3 Tax=Cricetinae TaxID=10026 RepID=A0A8C2LVI5_CRIGR
+#=GS UniRef90_A0A1U8CHF3/66-150     DE [subseq from] C-C motif chemokine 27 isoform X1 n=6 Tax=Cricetidae TaxID=337677 RepID=A0A1U8CHF3_MESAU
+#=GS UniRef90_A0A822BKX7/27-111     DE [subseq from] (mimic poison frog) hypothetical protein n=2 Tax=Tetrapoda TaxID=32523 RepID=A0A822BKX7_9NEOB
+#=GS UniRef90_UPI001747A090/26-112  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=1 Tax=Molossus molossus TaxID=27622 RepID=UPI001747A090
+#=GS UniRef90_G3T4P3/26-101         DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Loxodonta africana TaxID=9785 RepID=G3T4P3_LOXAF
+#=GS UniRef90_A0A2U3V0K1/27-113     DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=10 Tax=Cetacea TaxID=9721 RepID=A0A2U3V0K1_TURTR
+#=GS UniRef90_D4AAL6/72-156         DE [subseq from] C-C motif chemokine ligand 27 n=13 Tax=Murinae TaxID=39107 RepID=D4AAL6_RAT
+#=GS UniRef90_G3HN21/35-119         DE [subseq from] C-C motif chemokine 27 n=2 Tax=Cricetinae TaxID=10026 RepID=G3HN21_CRIGR
+#=GS UniRef90_A0A8C6RF55/27-110     DE [subseq from] SCY domain-containing protein n=1 Tax=Nannospalax galili TaxID=1026970 RepID=A0A8C6RF55_NANGA
+#=GS UniRef90_A0A8C6RBD6/37-120     DE [subseq from] SCY domain-containing protein n=2 Tax=Nannospalax galili TaxID=1026970 RepID=A0A8C6RBD6_NANGA
+#=GS UniRef90_A0A3L7I4Y5/36-117     DE [subseq from] CCL27 n=3 Tax=Cricetidae TaxID=337677 RepID=A0A3L7I4Y5_CRIGR
+#=GS UniRef90_UPI00038C4AA4/27-111  DE [subseq from] C-C motif chemokine 27 isoform X7 n=4 Tax=Arvicolinae TaxID=39087 RepID=UPI00038C4AA4
+#=GS UniRef90_UPI0018E303F7/124-208 DE [subseq from] uncharacterized protein LOC119826712 isoform X1 n=8 Tax=Arvicolinae TaxID=39087 RepID=UPI0018E303F7
+#=GS UniRef90_UPI001BB2B15D/127-211 DE [subseq from] uncharacterized protein LOC121458428 isoform X1 n=6 Tax=Microtus TaxID=10053 RepID=UPI001BB2B15D
+#=GS UniRef90_A0A8C8TED4/27-108     DE [subseq from] SCY domain-containing protein n=1 Tax=Peromyscus maniculatus bairdii TaxID=230844 RepID=A0A8C8TED4_PERMB
+#=GS UniRef90_UPI001485EE05/27-111  DE [subseq from] C-C motif chemokine 27 isoform X5 n=2 Tax=Murinae TaxID=39107 RepID=UPI001485EE05
+#=GS UniRef90_UPI00187C9428/26-112  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27 n=2 Tax=Stenodermatinae TaxID=40234 RepID=UPI00187C9428
+#=GS UniRef90_UPI00167FAF17/78-156  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 27-like n=1 Tax=Onychomys torridus TaxID=38674 RepID=UPI00167FAF17
+#=GS UniRef90_A0A286XAH0/27-108     DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Cavia porcellus TaxID=10141 RepID=A0A286XAH0_CAVPO
+#=GS UniRef90_A0A836D4W4/37-109     DE [subseq from] SCY domain-containing protein n=1 Tax=Ovis aries TaxID=9940 RepID=A0A836D4W4_SHEEP
+#=GS UniRef90_UPI00201FC58B/66-150  DE [subseq from] C-C motif chemokine 27-like isoform X3 n=2 Tax=Arvicolinae TaxID=39087 RepID=UPI00201FC58B
+#=GS UniRef90_A0A8C8TCV9/72-148     DE [subseq from] SCY domain-containing protein n=6 Tax=Cricetidae TaxID=337677 RepID=A0A8C8TCV9_PERMB
+#=GS UniRef90_UPI00064F4715/26-95   DE [subseq from] C-C motif chemokine 27 n=1 Tax=Echinops telfairi TaxID=9371 RepID=UPI00064F4715
+#=GS UniRef90_A0A1A6GPH8/86-158     DE [subseq from] SCY domain-containing protein n=1 Tax=Neotoma lepida TaxID=56216 RepID=A0A1A6GPH8_NEOLE
+#=GS UniRef90_UPI00064B3154/27-109  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI00064B3154
+#=GS UniRef90_A0A8C6FC09/27-111     DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Odontoceti TaxID=9722 RepID=A0A8C6FC09_MONMO
+#=GS UniRef90_UPI00186B321C/26-105  DE [subseq from] C-C motif chemokine 27 n=1 Tax=Trichosurus vulpecula TaxID=9337 RepID=UPI00186B321C
+#=GS UniRef90_A0A6P5INF2/175-243    DE [subseq from] uncharacterized protein LOC110194570 n=1 Tax=Phascolarctos cinereus TaxID=38626 RepID=A0A6P5INF2_PHACI
+#=GS UniRef90_UPI0018F287E9/27-93   DE [subseq from] C-C motif chemokine 27-like isoform X1 n=2 Tax=Tachyglossus aculeatus TaxID=9261 RepID=UPI0018F287E9
+#=GS UniRef90_A0A8J6G2Q0/452-523    DE [subseq from] Leukocyte immunoglobulin-like receptor subfamily B member 3 n=1 Tax=Microtus ochrogaster TaxID=79684 RepID=A0A8J6G2Q0_MICOH
+#=GS UniRef90_A0A5F8GGH1/42-109     DE [subseq from] SCY domain-containing protein n=3 Tax=Didelphinae TaxID=126287 RepID=A0A5F8GGH1_MONDO
+#=GS UniRef90_A0A5F8GZJ9/45-112     DE [subseq from] SCY domain-containing protein n=1 Tax=Monodelphis domestica TaxID=13616 RepID=A0A5F8GZJ9_MONDO
+#=GS UniRef90_A0A4V5P9R0/3-46       DE [subseq from] OTU domain-containing protein n=1 Tax=Monodon monoceros TaxID=40151 RepID=A0A4V5P9R0_MONMO
+#=GS UniRef90_A0A4V5P9R0/73-91      DE [subseq from] OTU domain-containing protein n=1 Tax=Monodon monoceros TaxID=40151 RepID=A0A4V5P9R0_MONMO
+#=GS UniRef90_A0A4X2LG02/25-103     DE [subseq from] SCY domain-containing protein n=1 Tax=Vombatus ursinus TaxID=29139 RepID=A0A4X2LG02_VOMUR
+#=GS UniRef90_UPI001CC74CF0/152-216 DE [subseq from] uncharacterized protein LOC122752567 n=1 Tax=Dromiciops gliroides TaxID=33562 RepID=UPI001CC74CF0
+#=GS UniRef90_A0A7J8ECK5/3-62       DE [subseq from] C-C motif chemokine ligand 27 n=1 Tax=Molossus molossus TaxID=27622 RepID=A0A7J8ECK5_MOLMO
+#=GS UniRef90_F7F4F5/31-97          DE [subseq from] SCY domain-containing protein n=3 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=F7F4F5_ORNAN
+#=GS UniRef90_A0A7N4V7T6/25-90      DE [subseq from] SCY domain-containing protein n=2 Tax=Sarcophilus harrisii TaxID=9305 RepID=A0A7N4V7T6_SARHA
+#=GS UniRef90_A0A3L7I412/36-103     DE [subseq from] CCL27 n=1 Tax=Cricetulus griseus TaxID=10029 RepID=A0A3L7I412_CRIGR
+#=GS UniRef90_UPI0004544C2B/66-108  DE [subseq from] C-C motif chemokine 27 isoform X3 n=1 Tax=Cricetulus griseus TaxID=10029 RepID=UPI0004544C2B
+#=GS UniRef90_A0A8J6FJ26/1-66       DE [subseq from] SCY domain-containing protein (Fragment) n=1 Tax=Eleutherodactylus coqui TaxID=57060 RepID=A0A8J6FJ26_ELECQ
+#=GS UniRef90_UPI001CF1882A/26-92   DE [subseq from] C-C motif chemokine 28 isoform X1 n=2 Tax=Bufo TaxID=8383 RepID=UPI001CF1882A
+#=GS UniRef90_UPI001B346CD8/23-94   DE [subseq from] C-C motif chemokine 28 n=2 Tax=Ochotona TaxID=9977 RepID=UPI001B346CD8
+#=GS UniRef90_Q9JIL2/23-94          DE [subseq from] C-C motif chemokine 28 n=2 Tax=Mus TaxID=862507 RepID=CCL28_MOUSE
+#=GS UniRef90_UPI00189D8799/15-85   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Choloepus didactylus TaxID=27675 RepID=UPI00189D8799
+#=GS UniRef90_A0A6P6DTI5/23-89      DE [subseq from] C-C motif chemokine 28 n=1 Tax=Octodon degus TaxID=10160 RepID=A0A6P6DTI5_OCTDE
+#=GS UniRef90_UPI001CF3F6EB/45-111  DE [subseq from] C-C motif chemokine 28 isoform X2 n=1 Tax=Bufo gargarizans TaxID=30331 RepID=UPI001CF3F6EB
+#=GS UniRef90_UPI0003D6F62F/51-122  DE [subseq from] C-C motif chemokine 28 isoform X1 n=2 Tax=Mus musculus TaxID=10090 RepID=UPI0003D6F62F
+#=GS UniRef90_A0A8B7AW71/28-98      DE [subseq from] C-C motif chemokine n=2 Tax=Orycteropus afer afer TaxID=1230840 RepID=A0A8B7AW71_ORYAF
+#=GS UniRef90_UPI000328E742/23-93   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI000328E742
+#=GS UniRef90_UPI000B4EC34C/26-98   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Meriones unguiculatus TaxID=10047 RepID=UPI000B4EC34C
+#=GS UniRef90_UPI0012626A2E/23-94   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Mastomys coucha TaxID=35658 RepID=UPI0012626A2E
+#=GS UniRef90_I3M6J4/23-94          DE [subseq from] C-C motif chemokine n=8 Tax=Marmotini TaxID=337730 RepID=I3M6J4_ICTTR
+#=GS UniRef90_A0A8C0WJ36/23-95      DE [subseq from] C-C motif chemokine n=2 Tax=Castor canadensis TaxID=51338 RepID=A0A8C0WJ36_CASCN
+#=GS UniRef90_A0A8C2V8P5/23-93      DE [subseq from] C-C motif chemokine n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=A0A8C2V8P5_CHILA
+#=GS UniRef90_UPI000C877B14/23-92   DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Cavia porcellus TaxID=10141 RepID=UPI000C877B14
+#=GS UniRef90_A0A2Y9ITV2/23-92      DE [subseq from] C-C motif chemokine n=5 Tax=Mustelidae TaxID=9655 RepID=A0A2Y9ITV2_ENHLU
+#=GS UniRef90_UPI000332F714/23-94   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Jaculus jaculus TaxID=51337 RepID=UPI000332F714
+#=GS UniRef90_G5BCR5/2-71           DE [subseq from] C-C motif chemokine 28 (Fragment) n=1 Tax=Heterocephalus glaber TaxID=10181 RepID=G5BCR5_HETGA
+#=GS UniRef90_UPI0004D0AB6C/8-79    DE [subseq from] C-C motif chemokine 28 n=1 Tax=Galeopterus variegatus TaxID=482537 RepID=UPI0004D0AB6C
+#=GS UniRef90_A0A8C8ZL41/17-88      DE [subseq from] C-C motif chemokine n=1 Tax=Prolemur simus TaxID=1328070 RepID=A0A8C8ZL41_PROSS
+#=GS UniRef90_A0A8C8ZL22/21-92      DE [subseq from] C-C motif chemokine n=1 Tax=Prolemur simus TaxID=1328070 RepID=A0A8C8ZL22_PROSS
+#=GS UniRef90_UPI00148724A0/23-94   DE [subseq from] C-C motif chemokine 28 n=2 Tax=Murinae TaxID=39107 RepID=UPI00148724A0
+#=GS UniRef90_A0A8U0MDK8/22-91      DE [subseq from] C-C motif chemokine 28 isoform X2 n=3 Tax=Mustelidae TaxID=9655 RepID=A0A8U0MDK8_MUSPF
+#=GS UniRef90_A0A6P6HUN3/12-81      DE [subseq from] C-C motif chemokine n=2 Tax=Felidae TaxID=9681 RepID=A0A6P6HUN3_PUMCO
+#=GS UniRef90_Q9NRJ3/23-94          DE [subseq from] C-C motif chemokine 28 n=43 Tax=Simiiformes TaxID=314293 RepID=CCL28_HUMAN
+#=GS UniRef90_A0A6P3QXQ8/56-124     DE [subseq from] C-C motif chemokine n=2 Tax=Pteropus TaxID=9401 RepID=A0A6P3QXQ8_PTEVA
+#=GS UniRef90_A0A0D9RW31/25-96      DE [subseq from] C-C motif chemokine n=1 Tax=Chlorocebus sabaeus TaxID=60711 RepID=A0A0D9RW31_CHLSB
+#=GS UniRef90_A0A7J8EY22/23-91      DE [subseq from] C-C motif chemokine n=1 Tax=Rousettus aegyptiacus TaxID=9407 RepID=A0A7J8EY22_ROUAE
+#=GS UniRef90_A0A6I9M3V6/23-94      DE [subseq from] C-C motif chemokine n=4 Tax=Neotominae TaxID=337963 RepID=A0A6I9M3V6_PERMB
+#=GS UniRef90_A0A5N3XAX2/37-105     DE [subseq from] C-C motif chemokine n=2 Tax=Muntiacus TaxID=9885 RepID=A0A5N3XAX2_MUNRE
+#=GS UniRef90_UPI001E25F8EA/22-91   DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Leopardus geoffroyi TaxID=46844 RepID=UPI001E25F8EA
+#=GS UniRef90_A0A485N426/23-92      DE [subseq from] C-C motif chemokine n=1 Tax=Lynx pardinus TaxID=191816 RepID=A0A485N426_LYNPA
+#=GS UniRef90_G3V896/15-83          DE [subseq from] C-C motif chemokine n=1 Tax=Rattus norvegicus TaxID=10116 RepID=G3V896_RAT
+#=GS UniRef90_A0A2K6U2F9/23-94      DE [subseq from] C-C motif chemokine n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=A0A2K6U2F9_SAIBB
+#=GS UniRef90_Q91Y39/23-91          DE [subseq from] C-C motif chemokine n=4 Tax=Tetrapoda TaxID=32523 RepID=Q91Y39_RAT
+#=GS UniRef90_A0A2I2UIW7/23-92      DE [subseq from] C-C motif chemokine n=6 Tax=Felidae TaxID=9681 RepID=A0A2I2UIW7_FELCA
+#=GS UniRef90_A0A6P7PQM8/3-69       DE [subseq from] C-C motif chemokine 28 n=1 Tax=Mus caroli TaxID=10089 RepID=A0A6P7PQM8_MUSCR
+#=GS UniRef90_UPI000454B125/19-90   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Cricetulus griseus TaxID=10029 RepID=UPI000454B125
+#=GS UniRef90_UPI0014410607/17-85   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Orcinus orca TaxID=9733 RepID=UPI0014410607
+#=GS UniRef90_H0WZW1/2-73           DE [subseq from] C-C motif chemokine n=3 Tax=Otolemur garnettii TaxID=30611 RepID=H0WZW1_OTOGA
+#=GS UniRef90_A0A2U3V8D4/23-91      DE [subseq from] C-C motif chemokine n=9 Tax=Odontoceti TaxID=9722 RepID=A0A2U3V8D4_TURTR
+#=GS UniRef90_UPI0010A2A6C5/37-108  DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Macaca mulatta TaxID=9544 RepID=UPI0010A2A6C5
+#=GS UniRef90_UPI000331896D/23-91   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI000331896D
+#=GS UniRef90_UPI00201A1234/23-94   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Perognathus longimembris pacificus TaxID=214514 RepID=UPI00201A1234
+#=GS UniRef90_UPI000A313ECB/23-94   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Mus pahari TaxID=10093 RepID=UPI000A313ECB
+#=GS UniRef90_A0A7E6DA25/23-94      DE [subseq from] C-C motif chemokine n=1 Tax=Phyllostomus discolor TaxID=89673 RepID=A0A7E6DA25_9CHIR
+#=GS UniRef90_A0A2K6ELC5/23-94      DE [subseq from] C-C motif chemokine n=3 Tax=Lemuriformes TaxID=376915 RepID=A0A2K6ELC5_PROCO
+#=GS UniRef90_A0A8C3FKF7/12-94      DE [subseq from] C-C motif chemokine n=1 Tax=Chrysemys picta bellii TaxID=8478 RepID=A0A8C3FKF7_CHRPI
+#=GS UniRef90_A0A1U7U6A9/23-94      DE [subseq from] C-C motif chemokine n=1 Tax=Carlito syrichta TaxID=1868482 RepID=A0A1U7U6A9_CARSF
+#=GS UniRef90_A0A8C6EIX4/53-124     DE [subseq from] C-C motif chemokine 28 n=1 Tax=Microcebus murinus TaxID=30608 RepID=A0A8C6EIX4_MICMU
+#=GS UniRef90_A0A8C2R790/14-83      DE [subseq from] C-C motif chemokine n=1 Tax=Capra hircus TaxID=9925 RepID=A0A8C2R790_CAPHI
+#=GS UniRef90_A6YT15/25-94          DE [subseq from] C-C motif chemokine n=15 Tax=Pecora TaxID=35500 RepID=A6YT15_BOVIN
+#=GS UniRef90_A0A8U0TBM1/114-183    DE [subseq from] C-C motif chemokine 28 isoform X1 n=4 Tax=Mustelidae TaxID=9655 RepID=A0A8U0TBM1_MUSPF
+#=GS UniRef90_A0A6J1XHN2/183-252    DE [subseq from] C-C motif chemokine n=1 Tax=Acinonyx jubatus TaxID=32536 RepID=A0A6J1XHN2_ACIJB
+#=GS UniRef90_A0A8C9LPH3/118-189    DE [subseq from] C-C motif chemokine n=2 Tax=Piliocolobus tephrosceles TaxID=591936 RepID=A0A8C9LPH3_9PRIM
+#=GS UniRef90_A0A4X1SV21/72-140     DE [subseq from] C-C motif chemokine n=6 Tax=Suidae TaxID=9821 RepID=A0A4X1SV21_PIG
+#=GS UniRef90_UPI0003C12733/29-94   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=UPI0003C12733
+#=GS UniRef90_UPI00189068B0/23-97   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Talpa occidentalis TaxID=50954 RepID=UPI00189068B0
+#=GS UniRef90_A0A2Y9E8R5/23-92      DE [subseq from] C-C motif chemokine n=1 Tax=Trichechus manatus latirostris TaxID=127582 RepID=A0A2Y9E8R5_TRIMA
+#=GS UniRef90_A0A8D1YDH7/66-134     DE [subseq from] C-C motif chemokine n=4 Tax=Sus scrofa TaxID=9823 RepID=A0A8D1YDH7_PIG
+#=GS UniRef90_A0A8B8WVM0/74-142     DE [subseq from] C-C motif chemokine n=2 Tax=Balaenoptera musculus TaxID=9771 RepID=A0A8B8WVM0_BALMU
+#=GS UniRef90_A0A3Q0D7B0/23-91      DE [subseq from] C-C motif chemokine n=3 Tax=Cricetinae TaxID=10026 RepID=A0A3Q0D7B0_MESAU
+#=GS UniRef90_F6VWX6/25-95          DE [subseq from] C-C motif chemokine n=4 Tax=Perissodactyla TaxID=9787 RepID=F6VWX6_HORSE
+#=GS UniRef90_A0A6G1AKI9/2-71       DE [subseq from] C-C motif chemokine (Fragment) n=1 Tax=Crocuta crocuta TaxID=9678 RepID=A0A6G1AKI9_CROCR
+#=GS UniRef90_A0A8C8WBS7/115-184    DE [subseq from] C-C motif chemokine n=3 Tax=Felidae TaxID=9681 RepID=A0A8C8WBS7_PANLE
+#=GS UniRef90_UPI001C53A04B/28-99   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Dipodomys spectabilis TaxID=105255 RepID=UPI001C53A04B
+#=GS UniRef90_UPI001CA9B46C/233-302 DE [subseq from] C-C motif chemokine 28 n=3 Tax=Felinae TaxID=338152 RepID=UPI001CA9B46C
+#=GS UniRef90_UPI001E67EAC4/23-91   DE [subseq from] C-C motif chemokine 28 isoform X1 n=2 Tax=Phyllostomus hastatus TaxID=9423 RepID=UPI001E67EAC4
+#=GS UniRef90_A0A8D2CRR2/23-94      DE [subseq from] C-C motif chemokine n=2 Tax=Sciurini TaxID=337752 RepID=A0A8D2CRR2_SCIVU
+#=GS UniRef90_A0A7L2TA88/23-99      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Pomatostomus ruficeps TaxID=9176 RepID=A0A7L2TA88_POMRU
+#=GS UniRef90_A0A6I9JUV5/23-88      DE [subseq from] C-C motif chemokine n=1 Tax=Chrysochloris asiatica TaxID=185453 RepID=A0A6I9JUV5_CHRAS
+#=GS UniRef90_A0A6I9IAH6/23-91      DE [subseq from] C-C motif chemokine n=4 Tax=Camelidae TaxID=9835 RepID=A0A6I9IAH6_VICPA
+#=GS UniRef90_UPI000A33DBAF/103-172 DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Heterocephalus glaber TaxID=10181 RepID=UPI000A33DBAF
+#=GS UniRef90_A0A8B9XPE3/64-133     DE [subseq from] C-C motif chemokine n=3 Tax=Bos TaxID=9903 RepID=A0A8B9XPE3_BOSMU
+#=GS UniRef90_K9IFY6/23-92          DE [subseq from] C-C motif chemokine n=1 Tax=Desmodus rotundus TaxID=9430 RepID=K9IFY6_DESRO
+#=GS UniRef90_UPI001C6687C3/24-104  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=3 Tax=Testudinoidea TaxID=8486 RepID=UPI001C6687C3
+#=GS UniRef90_A0A6P3GHI3/72-141     DE [subseq from] C-C motif chemokine n=3 Tax=Bison bison bison TaxID=43346 RepID=A0A6P3GHI3_BISBI
+#=GS UniRef90_A0A643CE78/7-75       DE [subseq from] C-C motif chemokine n=1 Tax=Balaenoptera physalus TaxID=9770 RepID=A0A643CE78_BALPH
+#=GS UniRef90_A0A452QXZ8/10-79      DE [subseq from] C-C motif chemokine n=4 Tax=Ursus TaxID=9639 RepID=A0A452QXZ8_URSAM
+#=GS UniRef90_UPI001F125935/259-328 DE [subseq from] uncharacterized protein LOC124510219 n=2 Tax=Lynx TaxID=13124 RepID=UPI001F125935
+#=GS UniRef90_G1SYX0/23-91          DE [subseq from] SCY domain-containing protein n=2 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SYX0_RABIT
+#=GS UniRef90_A0A498NN85/219-271    DE [subseq from] C-C motif chemokine 25-like protein n=1 Tax=Labeo rohita TaxID=84645 RepID=A0A498NN85_LABRO
+#=GS UniRef90_A0A8C3VNS5/23-91      DE [subseq from] C-C motif chemokine n=1 Tax=Catagonus wagneri TaxID=51154 RepID=A0A8C3VNS5_9CETA
+#=GS UniRef90_A0A452C4C2/107-175    DE [subseq from] C-C motif chemokine n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 RepID=A0A452C4C2_BALAS
+#=GS UniRef90_A0A8C6R1A4/1-71       DE [subseq from] C-C motif chemokine n=2 Tax=Nannospalax galili TaxID=1026970 RepID=A0A8C6R1A4_NANGA
+#=GS UniRef90_UPI000273984E/23-93   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=UPI000273984E
+#=GS UniRef90_UPI00187BEDF1/23-92   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Artibeus jamaicensis TaxID=9417 RepID=UPI00187BEDF1
+#=GS UniRef90_A0A7K9XTK7/21-92      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Psophia crepitans TaxID=54359 RepID=A0A7K9XTK7_9GRUI
+#=GS UniRef90_UPI0009482007/10-79   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Ailuropoda melanoleuca TaxID=9646 RepID=UPI0009482007
+#=GS UniRef90_A0A7N5JHB7/23-92      DE [subseq from] C-C motif chemokine n=9 Tax=Caniformia TaxID=379584 RepID=A0A7N5JHB7_AILME
+#=GS UniRef90_G3UCR9/2-70           DE [subseq from] C-C motif chemokine n=1 Tax=Loxodonta africana TaxID=9785 RepID=G3UCR9_LOXAF
+#=GS UniRef90_A0A6P5L9I7/23-93      DE [subseq from] C-C motif chemokine n=2 Tax=Diprotodontia TaxID=38609 RepID=A0A6P5L9I7_PHACI
+#=GS UniRef90_A0A7F8QH34/22-91      DE [subseq from] C-C motif chemokine n=2 Tax=Phocidae TaxID=9709 RepID=A0A7F8QH34_LEPWE
+#=GS UniRef90_UPI0018E37F97/23-90   DE [subseq from] C-C motif chemokine 28 n=4 Tax=Arvicolinae TaxID=39087 RepID=UPI0018E37F97
+#=GS UniRef90_UPI0018796947/23-92   DE [subseq from] C-C motif chemokine 28 isoform X2 n=2 Tax=Manis TaxID=9973 RepID=UPI0018796947
+#=GS UniRef90_A0A673T4J1/23-92      DE [subseq from] C-C motif chemokine n=1 Tax=Suricata suricatta TaxID=37032 RepID=A0A673T4J1_SURSU
+#=GS UniRef90_A0A4X2JV66/23-93      DE [subseq from] C-C motif chemokine n=1 Tax=Vombatus ursinus TaxID=29139 RepID=A0A4X2JV66_VOMUR
+#=GS UniRef90_A0A6J0Z2T4/46-114     DE [subseq from] C-C motif chemokine n=1 Tax=Odocoileus virginianus texanus TaxID=9880 RepID=A0A6J0Z2T4_ODOVR
+#=GS UniRef90_UPI0007A6D06F/53-122  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Miniopterus natalensis TaxID=291302 RepID=UPI0007A6D06F
+#=GS UniRef90_A0A8B7SUJ7/23-92      DE [subseq from] C-C motif chemokine n=1 Tax=Hipposideros armiger TaxID=186990 RepID=A0A8B7SUJ7_HIPAR
+#=GS UniRef90_A0A7N5K5E8/72-141     DE [subseq from] C-C motif chemokine n=2 Tax=Ailuropoda melanoleuca TaxID=9646 RepID=A0A7N5K5E8_AILME
+#=GS UniRef90_A0A8B7SYE0/22-91      DE [subseq from] C-C motif chemokine n=1 Tax=Hipposideros armiger TaxID=186990 RepID=A0A8B7SYE0_HIPAR
+#=GS UniRef90_Q68A91/25-94          DE [subseq from] C-C motif chemokine 28 n=5 Tax=Canidae TaxID=9608 RepID=CCL28_CANLF
+#=GS UniRef90_UPI00196042FD/48-120  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Passer montanus TaxID=9160 RepID=UPI00196042FD
+#=GS UniRef90_UPI001BC9A486/44-113  DE [subseq from] C-C motif chemokine 28 isoform X2 n=1 Tax=Vulpes lagopus TaxID=494514 RepID=UPI001BC9A486
+#=GS UniRef90_A0A8I3MJG7/31-100     DE [subseq from] C-C motif chemokine n=1 Tax=Canis lupus familiaris TaxID=9615 RepID=A0A8I3MJG7_CANLF
+#=GS UniRef90_UPI00101A067C/23-94   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Eptesicus fuscus TaxID=29078 RepID=UPI00101A067C
+#=GS UniRef90_A0A3Q7TSP2/42-111     DE [subseq from] C-C motif chemokine n=1 Tax=Vulpes vulpes TaxID=9627 RepID=A0A3Q7TSP2_VULVU
+#=GS UniRef90_A0A811YCM7/25-94      DE [subseq from] C-C motif chemokine n=1 Tax=Nyctereutes procyonoides TaxID=34880 RepID=A0A811YCM7_NYCPR
+#=GS UniRef90_B3F3P2/23-92          DE [subseq from] C-C motif chemokine n=1 Tax=Notamacropus eugenii TaxID=9315 RepID=B3F3P2_NOTEU
+#=GS UniRef90_UPI001AAC488B/25-99   DE [subseq from] C-C motif chemokine 28 isoform X1 n=2 Tax=Rana temporaria TaxID=8407 RepID=UPI001AAC488B
+#=GS UniRef90_A0A7K7ZID5/23-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Melanocharis versteri TaxID=254552 RepID=A0A7K7ZID5_9PASE
+#=GS UniRef90_A0A7L3KN08/15-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Drymodes brunneopygia TaxID=626378 RepID=A0A7L3KN08_9PASS
+#=GS UniRef90_A0A7K7X6P4/15-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Mohoua ochrocephala TaxID=874463 RepID=A0A7K7X6P4_9PASS
+#=GS UniRef90_A0A7K4WP55/2-72       DE [subseq from] C-C motif chemokine (Fragment) n=2 Tax=Tyrannidae TaxID=28728 RepID=A0A7K4WP55_9TYRA
+#=GS UniRef90_UPI001879B0AE/134-203 DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Manis javanica TaxID=9974 RepID=UPI001879B0AE
+#=GS UniRef90_UPI0014551301/3-67    DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Fukomys damarensis TaxID=885580 RepID=UPI0014551301
+#=GS UniRef90_UPI00156BF510/113-181 DE [subseq from] C-C motif chemokine 28-like n=2 Tax=Mirounga TaxID=9714 RepID=UPI00156BF510
+#=GS UniRef90_UPI001879ACAF/23-91   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Sturnira hondurensis TaxID=192404 RepID=UPI001879ACAF
+#=GS UniRef90_UPI000C813C0C/53-121  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Loxodonta africana TaxID=9785 RepID=UPI000C813C0C
+#=GS UniRef90_UPI00112C416E/28-91   DE [subseq from] C-C motif chemokine 28 isoform X1 n=2 Tax=Rhinatrema bivittatum TaxID=194408 RepID=UPI00112C416E
+#=GS UniRef90_A0A671G154/23-91      DE [subseq from] C-C motif chemokine n=2 Tax=Rhinolophus TaxID=49442 RepID=A0A671G154_RHIFE
+#=GS UniRef90_A0A851YTR9/2-70       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Halcyon senegalensis TaxID=342381 RepID=A0A851YTR9_9AVES
+#=GS UniRef90_L5LHU8/24-95          DE [subseq from] C-C motif chemokine n=1 Tax=Myotis davidii TaxID=225400 RepID=L5LHU8_MYODS
+#=GS UniRef90_A0A7L0QFQ8/15-87      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeroidea TaxID=175121 RepID=A0A7L0QFQ8_SETKR
+#=GS UniRef90_UPI0003EC0EB8/29-100  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Myotis davidii TaxID=225400 RepID=UPI0003EC0EB8
+#=GS UniRef90_A0A7K8FQ40/15-87      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Corvoidea TaxID=192204 RepID=A0A7K8FQ40_9CORV
+#=GS UniRef90_A0A7L0NY68/15-90      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7L0NY68_9PASS
+#=GS UniRef90_A0A7K4XFP0/23-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Regulus satrapa TaxID=13245 RepID=A0A7K4XFP0_REGSA
+#=GS UniRef90_A0A7K4RE59/19-90      DE [subseq from] CCL28 protein (Fragment) n=3 Tax=Passeriformes TaxID=9126 RepID=A0A7K4RE59_9TYRA
+#=GS UniRef90_S7PQ97/50-121         DE [subseq from] C-C motif chemokine n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7PQ97_MYOBR
+#=GS UniRef90_A0A8J6BEN7/27-88      DE [subseq from] SCY domain-containing protein n=1 Tax=Eleutherodactylus coqui TaxID=57060 RepID=A0A8J6BEN7_ELECQ
+#=GS UniRef90_A0A7L0UI85/23-94      DE [subseq from] C-C motif chemokine (Fragment) n=2 Tax=Chordeilinae TaxID=48287 RepID=A0A7L0UI85_CHOAC
+#=GS UniRef90_UPI002015A47A/371-423 DE [subseq from] C-C motif chemokine 25 n=1 Tax=Labeo rohita TaxID=84645 RepID=UPI002015A47A
+#=GS UniRef90_A0A5F8G4G3/66-137     DE [subseq from] SCY domain-containing protein n=1 Tax=Monodelphis domestica TaxID=13616 RepID=A0A5F8G4G3_MONDO
+#=GS UniRef90_A0A7K5DP07/19-90      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7K5DP07_9TYRA
+#=GS UniRef90_A0A851UE84/2-73       DE [subseq from] C-C motif chemokine (Fragment) n=1 Tax=Elachura formosa TaxID=1463973 RepID=A0A851UE84_9PASS
+#=GS UniRef90_A0A1S3W4M3/23-91      DE [subseq from] C-C motif chemokine n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3W4M3_ERIEU
+#=GS UniRef90_UPI0004431C92/71-142  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Monodelphis domestica TaxID=13616 RepID=UPI0004431C92
+#=GS UniRef90_A0A7L0X8S5/19-90      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Tyrannus savana TaxID=137541 RepID=A0A7L0X8S5_TYRSA
+#=GS UniRef90_UPI001CFE5D6F/23-93   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Gracilinanus agilis TaxID=191870 RepID=UPI001CFE5D6F
+#=GS UniRef90_A0A7K6I8M2/15-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Dasyornis broadbenti TaxID=243059 RepID=A0A7K6I8M2_9PASS
+#=GS UniRef90_A0A7K6BLJ3/20-96      DE [subseq from] C-C motif chemokine (Fragment) n=1 Tax=Ptilonorhynchus violaceus TaxID=28724 RepID=A0A7K6BLJ3_PTIVI
+#=GS UniRef90_A0A7K6DTP5/15-91      DE [subseq from] C-C motif chemokine (Fragment) n=1 Tax=Origma solitaria TaxID=720586 RepID=A0A7K6DTP5_9PASS
+#=GS UniRef90_A0A7K7EM17/23-95      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Sylvia TaxID=43162 RepID=A0A7K7EM17_9SYLV
+#=GS UniRef90_A0A7K4VPZ2/23-94      DE [subseq from] CCL28 protein (Fragment) n=5 Tax=Passeriformes TaxID=9126 RepID=A0A7K4VPZ2_9EMBE
+#=GS UniRef90_A0A7L1QWL3/15-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Cisticola juncidis TaxID=52622 RepID=A0A7L1QWL3_9PASS
+#=GS UniRef90_A0A7K8GAK8/22-97      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Orthonyx spaldingii TaxID=38397 RepID=A0A7K8GAK8_ORTSP
+#=GS UniRef90_G1PFR3/23-94          DE [subseq from] C-C motif chemokine n=4 Tax=Myotis TaxID=9434 RepID=G1PFR3_MYOLU
+#=GS UniRef90_A0A7K9UIG2/19-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Chloroceryle aenea TaxID=176938 RepID=A0A7K9UIG2_9AVES
+#=GS UniRef90_A0A7K8LYG5/15-87      DE [subseq from] CCL28 protein (Fragment) n=36 Tax=Passeriformes TaxID=9126 RepID=A0A7K8LYG5_9CORV
+#=GS UniRef90_A0A7L4IEU5/19-93      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Scopus umbretta TaxID=33581 RepID=A0A7L4IEU5_SCOUM
+#=GS UniRef90_A0A7K8JBJ5/23-95      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Rhipiduridae TaxID=1730093 RepID=A0A7K8JBJ5_9PASS
+#=GS UniRef90_A0A7K8I5M0/19-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Aleadryas rufinucha TaxID=461220 RepID=A0A7K8I5M0_9CORV
+#=GS UniRef90_A0A674JC12/85-165     DE [subseq from] C-C motif chemokine n=1 Tax=Terrapene carolina triunguis TaxID=2587831 RepID=A0A674JC12_TERCA
+#=GS UniRef90_A0A7L2J7E9/15-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Cinclus mexicanus TaxID=161649 RepID=A0A7L2J7E9_CINMU
+#=GS UniRef90_UPI0004DDE3DD/23-94   DE [subseq from] C-C motif chemokine 28 n=4 Tax=Corvus TaxID=30420 RepID=UPI0004DDE3DD
+#=GS UniRef90_A0A7L3HRN1/15-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Pardalotus punctatus TaxID=254575 RepID=A0A7L3HRN1_9PASS
+#=GS UniRef90_UPI000521C97D/23-92   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Charadrius vociferus TaxID=50402 RepID=UPI000521C97D
+#=GS UniRef90_A0A7K4RUY9/2-72       DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Columbidae TaxID=8930 RepID=A0A7K4RUY9_COLPI
+#=GS UniRef90_A0A7L1GXF0/14-83      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Indicator maculatus TaxID=545262 RepID=A0A7L1GXF0_9PICI
+#=GS UniRef90_UPI000D722C47/23-102  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Pelodiscus sinensis TaxID=13735 RepID=UPI000D722C47
+#=GS UniRef90_A0A7L3LH22/17-86      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Turnix velox TaxID=2529409 RepID=A0A7L3LH22_9CHAR
+#=GS UniRef90_A0A8C3KIF3/23-99      DE [subseq from] SCY domain-containing protein n=1 Tax=Calidris pygmaea TaxID=425635 RepID=A0A8C3KIF3_9CHAR
+#=GS UniRef90_A0A7L1ARL1/15-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Gymnorhina tibicen TaxID=9132 RepID=A0A7L1ARL1_GYMTI
+#=GS UniRef90_UPI0006D7319E/28-99   DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Myotis lucifugus TaxID=59463 RepID=UPI0006D7319E
+#=GS UniRef90_A0A8B9VTK1/15-87      DE [subseq from] SCY domain-containing protein n=3 Tax=Anatinae TaxID=2068716 RepID=A0A8B9VTK1_9AVES
+#=GS UniRef90_A0A7K6EZE1/15-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Grantiella picta TaxID=266360 RepID=A0A7K6EZE1_9PASS
+#=GS UniRef90_A0A7K5A706/19-88      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Centropus TaxID=57401 RepID=A0A7K5A706_9AVES
+#=GS UniRef90_UPI001CF23F50/25-90   DE [subseq from] C-C motif chemokine 28-like n=2 Tax=Bufo TaxID=8383 RepID=UPI001CF23F50
+#=GS UniRef90_A0A7K6JLZ1/15-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Oreocharis arfaki TaxID=979223 RepID=A0A7K6JLZ1_9PASE
+#=GS UniRef90_A0A6J0GX69/23-94      DE [subseq from] C-C motif chemokine 28 n=7 Tax=Passeriformes TaxID=9126 RepID=A0A6J0GX69_9PASS
+#=GS UniRef90_A0A8C3RK68/20-99      DE [subseq from] C-C motif chemokine n=1 Tax=Chelydra serpentina TaxID=8475 RepID=A0A8C3RK68_CHESE
+#=GS UniRef90_A0A7K7IJV3/23-95      DE [subseq from] CCL28 protein (Fragment) n=9 Tax=Passeriformes TaxID=9126 RepID=A0A7K7IJV3_LOXCU
+#=GS UniRef90_A0A7L1IXW5/23-97      DE [subseq from] CCL28 protein (Fragment) n=12 Tax=Neognathae TaxID=8825 RepID=A0A7L1IXW5_SMUAF
+#=GS UniRef90_A0A8B9QTL7/23-95      DE [subseq from] SCY domain-containing protein n=1 Tax=Anas platyrhynchos TaxID=8839 RepID=A0A8B9QTL7_ANAPL
+#=GS UniRef90_A0A7K5KGI3/21-92      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Mionectes macconnelli TaxID=254557 RepID=A0A7K5KGI3_9TYRA
+#=GS UniRef90_A0A7L0TD75/14-85      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Podilymbus podiceps TaxID=9252 RepID=A0A7L0TD75_PODPO
+#=GS UniRef90_A0A7K9BEZ0/18-89      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Casuariiformes TaxID=8784 RepID=A0A7K9BEZ0_DRONO
+#=GS UniRef90_UPI0004F1222F/73-145  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Serinus canaria TaxID=9135 RepID=UPI0004F1222F
+#=GS UniRef90_A0A8C5X4H1/3-79       DE [subseq from] SCY domain-containing protein n=2 Tax=Malurus TaxID=55806 RepID=A0A8C5X4H1_9PASS
+#=GS UniRef90_A0A7K5E8V3/23-95      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7K5E8V3_POLCE
+#=GS UniRef90_A0A669QWE1/28-97      DE [subseq from] SCY domain-containing protein n=3 Tax=Phasianidae TaxID=9005 RepID=A0A669QWE1_PHACC
+#=GS UniRef90_A0A8J6ALW2/20-86      DE [subseq from] C-C motif chemokine 28 n=1 Tax=Galemys pyrenaicus TaxID=202257 RepID=A0A8J6ALW2_GALPY
+#=GS UniRef90_UPI000350BA96/43-115  DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Anas platyrhynchos TaxID=8839 RepID=UPI000350BA96
+#=GS UniRef90_A0A7K8ACU1/23-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Cnemophilus loriae TaxID=254448 RepID=A0A7K8ACU1_9CORV
+#=GS UniRef90_A0A7K4TWU7/20-92      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Sinosuthora webbiana TaxID=337173 RepID=A0A7K4TWU7_9SYLV
+#=GS UniRef90_A0A7K9T7Z4/15-84      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Galbula dea TaxID=1109041 RepID=A0A7K9T7Z4_9AVES
+#=GS UniRef90_A0A7J7YWR8/23-94      DE [subseq from] C-C motif chemokine n=1 Tax=Pipistrellus kuhlii TaxID=59472 RepID=A0A7J7YWR8_PIPKU
+#=GS UniRef90_A0A8C0UXF1/26-98      DE [subseq from] SCY domain-containing protein n=1 Tax=Cyanistes caeruleus TaxID=156563 RepID=A0A8C0UXF1_CYACU
+#=GS UniRef90_A0A7K6AGK4/19-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Upupa epops TaxID=57439 RepID=A0A7K6AGK4_UPUEP
+#=GS UniRef90_A0A7L2MQG4/15-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Rhadina sibilatrix TaxID=2585818 RepID=A0A7L2MQG4_9PASS
+#=GS UniRef90_A0A7K7A6Z9/1-71       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Nothoprocta pentlandii TaxID=2585814 RepID=A0A7K7A6Z9_9AVES
+#=GS UniRef90_A0A7K4JRH4/18-90      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Geococcyx californianus TaxID=8947 RepID=A0A7K4JRH4_GEOCA
+#=GS UniRef90_UPI0003C1525A/29-92   DE [subseq from] C-C motif chemokine 28-like isoform X1 n=2 Tax=Latimeria chalumnae TaxID=7897 RepID=UPI0003C1525A
+#=GS UniRef90_A0A7K6XW44/23-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Promerops cafer TaxID=254652 RepID=A0A7K6XW44_9PASE
+#=GS UniRef90_A0A7K5HEK8/19-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Crotophaga sulcirostris TaxID=33598 RepID=A0A7K5HEK8_CROSL
+#=GS UniRef90_A0A8C2TIP5/15-84      DE [subseq from] SCY domain-containing protein n=3 Tax=Galliformes TaxID=8976 RepID=A0A8C2TIP5_COTJA
+#=GS UniRef90_A0A7L2PH58/15-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Pycnonotus jocosus TaxID=182897 RepID=A0A7L2PH58_PYCJO
+#=GS UniRef90_G1SU40/26-96          DE [subseq from] SCY domain-containing protein n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SU40_RABIT
+#=GS UniRef90_A0A7L1RXQ3/22-94      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Locustella ochotensis TaxID=187437 RepID=A0A7L1RXQ3_9PASS
+#=GS UniRef90_UPI00193E7419/23-83   DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=UPI00193E7419
+#=GS UniRef90_UPI00193E7419/98-127  DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=UPI00193E7419
+#=GS UniRef90_A0A7K7VTZ5/15-85      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Nothocercus TaxID=1977170 RepID=A0A7K7VTZ5_9AVES
+#=GS UniRef90_A0A8C4JAS7/23-94      DE [subseq from] C-C motif chemokine ligand 28 n=1 Tax=Dromaius novaehollandiae TaxID=8790 RepID=A0A8C4JAS7_DRONO
+#=GS UniRef90_UPI0001CE2ABB/23-93   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=UPI0001CE2ABB
+#=GS UniRef90_A0A452HGT1/28-104     DE [subseq from] C-C motif chemokine n=3 Tax=Gopherus TaxID=38771 RepID=A0A452HGT1_9SAUR
+#=GS UniRef90_A0A7L0V6Z8/19-91      DE [subseq from] CCL28 protein (Fragment) n=3 Tax=Passeriformes TaxID=9126 RepID=A0A7L0V6Z8_9PASE
+#=GS UniRef90_A0A1L8I399/25-88      DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A1L8I399_XENLA
+#=GS UniRef90_UPI0011AF6D5C/23-95   DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=3 Tax=Passeriformes TaxID=9126 RepID=UPI0011AF6D5C
+#=GS UniRef90_A0A7K8Y7R8/19-95      DE [subseq from] CCL28 protein (Fragment) n=3 Tax=Passeriformes TaxID=9126 RepID=A0A7K8Y7R8_9PASS
+#=GS UniRef90_A0A8C0IQD4/28-103     DE [subseq from] C-C motif chemokine n=5 Tax=Durocryptodira TaxID=1579337 RepID=A0A8C0IQD4_CHEAB
+#=GS UniRef90_A0A7K6RTT0/19-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Rhynochetos jubatus TaxID=54386 RepID=A0A7K6RTT0_9GRUI
+#=GS UniRef90_UPI0004F097FB/32-100  DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Merops nubicus TaxID=57421 RepID=UPI0004F097FB
+#=GS UniRef90_A0A851EUD2/18-89      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Pitta sordida TaxID=9163 RepID=A0A851EUD2_PITSO
+#=GS UniRef90_A0A7L0ZUS8/23-94      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Oxyruncus cristatus TaxID=114331 RepID=A0A7L0ZUS8_9PASS
+#=GS UniRef90_UPI001CC570CB/78-147  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Dromiciops gliroides TaxID=33562 RepID=UPI001CC570CB
+#=GS UniRef90_A0A8C3MEU9/24-95      DE [subseq from] SCY domain-containing protein n=1 Tax=Geospiza parvula TaxID=87175 RepID=A0A8C3MEU9_GEOPR
+#=GS UniRef90_A0A7L1V092/18-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Sitta europaea TaxID=50251 RepID=A0A7L1V092_SITEU
+#=GS UniRef90_UPI0007713D28/23-95   DE [subseq from] C-C motif chemokine 28 n=4 Tax=Passeriformes TaxID=9126 RepID=UPI0007713D28
+#=GS UniRef90_A0A851LQZ2/15-90      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Musophagidae TaxID=56302 RepID=A0A851LQZ2_CORCR
+#=GS UniRef90_A0A8B9PQ12/26-97      DE [subseq from] SCY domain-containing protein n=1 Tax=Apteryx owenii TaxID=8824 RepID=A0A8B9PQ12_APTOW
+#=GS UniRef90_A0A7K6RA94/23-99      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Climacteris rufus TaxID=47695 RepID=A0A7K6RA94_9PASS
+#=GS UniRef90_A0A7L4N904/16-84      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Ceyx cyanopectus TaxID=390723 RepID=A0A7L4N904_9AVES
+#=GS UniRef90_A0A7K7B608/25-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Nothoprocta ornata TaxID=83376 RepID=A0A7K7B608_9AVES
+#=GS UniRef90_A0A7K9RY08/20-91      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Zosteropidae TaxID=36297 RepID=A0A7K9RY08_9PASS
+#=GS UniRef90_A0A7K8UEX4/19-88      DE [subseq from] C-C motif chemokine (Fragment) n=18 Tax=Neognathae TaxID=8825 RepID=A0A7K8UEX4_OCEOC
+#=GS UniRef90_A0A7L4EQV7/17-89      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Hirundo rustica TaxID=43150 RepID=A0A7L4EQV7_HIRRU
+#=GS UniRef90_A0A7K5RLL3/19-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Lanius ludovicianus TaxID=28713 RepID=A0A7K5RLL3_LANLU
+#=GS UniRef90_UPI0011D00AFF/23-90   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Strigops habroptila TaxID=2489341 RepID=UPI0011D00AFF
+#=GS UniRef90_A0A7L0A144/23-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Dicrurus megarhynchus TaxID=450177 RepID=A0A7L0A144_9CORV
+#=GS UniRef90_A0A7L3M8D4/15-86      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Sylvioidea TaxID=2116661 RepID=A0A7L3M8D4_9PASS
+#=GS UniRef90_UPI000522D22A/52-120  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Opisthocomus hoazin TaxID=30419 RepID=UPI000522D22A
+#=GS UniRef90_A0A7K5WG56/16-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Hylia prasina TaxID=208073 RepID=A0A7K5WG56_9SYLV
+#=GS UniRef90_A0A7K9J4P2/23-95      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Myiagra hebetior TaxID=381031 RepID=A0A7K9J4P2_9CORV
+#=GS UniRef90_A0A7L0Q0V7/18-87      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Mesembrinibis cayennensis TaxID=1118748 RepID=A0A7L0Q0V7_9AVES
+#=GS UniRef90_A0A7K4KPL1/16-81      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Crypturellus soui TaxID=458187 RepID=A0A7K4KPL1_9AVES
+#=GS UniRef90_A0A7L4JWC3/19-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Ceuthmochares aereus TaxID=1961834 RepID=A0A7L4JWC3_9AVES
+#=GS UniRef90_A0A672TSG4/39-106     DE [subseq from] C-C motif chemokine ligand 28 n=1 Tax=Strigops habroptila TaxID=2489341 RepID=A0A672TSG4_STRHB
+#=GS UniRef90_A0A7L0W2F4/15-86      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Alectura lathami TaxID=81907 RepID=A0A7L0W2F4_ALELA
+#=GS UniRef90_UPI000523E64B/23-92   DE [subseq from] C-C motif chemokine 28-like n=2 Tax=Psittaciformes TaxID=9223 RepID=UPI000523E64B
+#=GS UniRef90_UPI0011CF3EDD/78-154  DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Gopherus evgoodei TaxID=1825980 RepID=UPI0011CF3EDD
+#=GS UniRef90_A0A7L1SYW0/23-92      DE [subseq from] C-C motif chemokine (Fragment) n=2 Tax=Gruiformes TaxID=9108 RepID=A0A7L1SYW0_ARAGA
+#=GS UniRef90_A0A1L8I2F9/26-90      DE [subseq from] C-C motif chemokine 28 n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A1L8I2F9_XENLA
+#=GS UniRef90_A0A8C6JTV5/18-92      DE [subseq from] SCY domain-containing protein n=1 Tax=Melopsittacus undulatus TaxID=13146 RepID=A0A8C6JTV5_MELUD
+#=GS UniRef90_UPI00186425C5/20-81   DE [subseq from] uncharacterized protein LOC118796060 n=1 Tax=Megalops cyprinoides TaxID=118141 RepID=UPI00186425C5
+#=GS UniRef90_UPI00186425C5/109-181 DE [subseq from] uncharacterized protein LOC118796060 n=1 Tax=Megalops cyprinoides TaxID=118141 RepID=UPI00186425C5
+#=GS UniRef90_UPI0013F276A9/67-142  DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Chelonoidis abingdonii TaxID=106734 RepID=UPI0013F276A9
+#=GS UniRef90_A0A7L0B769/18-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Ciconia maguari TaxID=52777 RepID=A0A7L0B769_9AVES
+#=GS UniRef90_UPI0017462286/23-92   DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28 n=1 Tax=Molossus molossus TaxID=27622 RepID=UPI0017462286
+#=GS UniRef90_A0A7L0EM10/18-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Trogon melanurus TaxID=56311 RepID=A0A7L0EM10_TROML
+#=GS UniRef90_A0A8B7K053/52-123     DE [subseq from] C-C motif chemokine 28 n=2 Tax=Apteryx TaxID=8821 RepID=A0A8B7K053_9AVES
+#=GS UniRef90_UPI0004C29AE3/23-99   DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Calypte anna TaxID=9244 RepID=UPI0004C29AE3
+#=GS UniRef90_A0A7L3GEM9/19-93      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Anhinga rufa TaxID=317792 RepID=A0A7L3GEM9_9AVES
+#=GS UniRef90_A0A663F4T5/2-72       DE [subseq from] SCY domain-containing protein n=3 Tax=Aquila chrysaetos chrysaetos TaxID=223781 RepID=A0A663F4T5_AQUCH
+#=GS UniRef90_A0A7K5FNL1/19-88      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Psittaciformes TaxID=9223 RepID=A0A7K5FNL1_PROAR
+#=GS UniRef90_UPI001B7EECA0/23-87   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Polyodon spathula TaxID=7913 RepID=UPI001B7EECA0
+#=GS UniRef90_A0A5F9DK47/21-89      DE [subseq from] C-C motif chemokine n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=A0A5F9DK47_RABIT
+#=GS UniRef90_A0A7L3FUU8/29-98      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Rallidae TaxID=9119 RepID=A0A7L3FUU8_9GRUI
+#=GS UniRef90_A0A7K7Y3Z5/20-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Thryothorus ludovicianus TaxID=74200 RepID=A0A7K7Y3Z5_THRLU
+#=GS UniRef90_UPI0015A6E5C7/23-90   DE [subseq from] C-C motif chemokine 28 isoform X2 n=1 Tax=Oxyura jamaicensis TaxID=8884 RepID=UPI0015A6E5C7
+#=GS UniRef90_A0A7K4YNN3/19-89      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Bucorvus abyssinicus TaxID=153643 RepID=A0A7K4YNN3_BUCAB
+#=GS UniRef90_A0A7L3NEW7/18-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Oreotrochilus melanogaster TaxID=689266 RepID=A0A7L3NEW7_9AVES
+#=GS UniRef90_A0A7K4L3F2/15-79      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Tinamidae TaxID=8803 RepID=A0A7K4L3F2_9AVES
+#=GS UniRef90_A0A7K5SWP2/27-99      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7K5SWP2_9FRIN
+#=GS UniRef90_A0A643BV62/48-80      DE [subseq from] OTU domain-containing protein (Fragment) n=1 Tax=Balaenoptera physalus TaxID=9770 RepID=A0A643BV62_BALPH
+#=GS UniRef90_UPI0004F50114/70-139  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Pygoscelis adeliae TaxID=9238 RepID=UPI0004F50114
+#=GS UniRef90_UPI000E1BBE95/23-90   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Nothoprocta perdicaria TaxID=30464 RepID=UPI000E1BBE95
+#=GS UniRef90_A0A850UXX4/20-90      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Chloropsis hardwickii TaxID=667144 RepID=A0A850UXX4_9CORV
+#=GS UniRef90_A0A852KAT6/21-90      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Urocolius indicus TaxID=458196 RepID=A0A852KAT6_UROIN
+#=GS UniRef90_A0A2I0LR82/23-97      DE [subseq from] SCY domain-containing protein n=1 Tax=Columba livia TaxID=8932 RepID=A0A2I0LR82_COLLI
+#=GS UniRef90_A0A7L1ERG2/23-89      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Oenanthe oenanthe TaxID=279966 RepID=A0A7L1ERG2_OENON
+#=GS UniRef90_UPI0015A53DD8/43-110  DE [subseq from] C-C motif chemokine 28 isoform X1 n=1 Tax=Oxyura jamaicensis TaxID=8884 RepID=UPI0015A53DD8
+#=GS UniRef90_UPI00052E6C9C/23-93   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Tinamus guttatus TaxID=94827 RepID=UPI00052E6C9C
+#=GS UniRef90_A0A850Z5F6/22-92      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Tichodroma muraria TaxID=237442 RepID=A0A850Z5F6_9PASS
+#=GS UniRef90_UPI000854CE87/25-98   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Nanorana parkeri TaxID=125878 RepID=UPI000854CE87
+#=GS UniRef90_A0A7L1XCU7/19-93      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Thinocorus orbignyianus TaxID=161742 RepID=A0A7L1XCU7_9AVES
+#=GS UniRef90_A0A7K9D7T3/2-72       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Hemiprocne comata TaxID=243314 RepID=A0A7K9D7T3_9AVES
+#=GS UniRef90_A0A7L1YCY0/15-86      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Scytalopus superciliaris TaxID=312124 RepID=A0A7L1YCY0_9PASS
+#=GS UniRef90_A0A7L2D542/14-86      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Catharus TaxID=9184 RepID=A0A7L2D542_CATFU
+#=GS UniRef90_A0A8C4VAX5/23-92      DE [subseq from] SCY domain-containing protein n=2 Tax=Falco TaxID=8952 RepID=A0A8C4VAX5_FALTI
+#=GS UniRef90_A0A8C0EWZ2/35-109     DE [subseq from] C-C motif chemokine ligand 28 n=1 Tax=Bubo bubo TaxID=30461 RepID=A0A8C0EWZ2_BUBBB
+#=GS UniRef90_A0A7M4G1H2/17-85      DE [subseq from] SCY domain-containing protein n=1 Tax=Crocodylus porosus TaxID=8502 RepID=A0A7M4G1H2_CROPO
+#=GS UniRef90_A0A7L1WK11/20-91      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Certhia TaxID=73329 RepID=A0A7L1WK11_9PASS
+#=GS UniRef90_A0A851QAK0/19-92      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Pelecaniformes TaxID=9205 RepID=A0A851QAK0_ANHAN
+#=GS UniRef90_A0A7L2AD42/21-86      DE [subseq from] C-C motif chemokine (Fragment) n=1 Tax=Heliornis fulica TaxID=54369 RepID=A0A7L2AD42_9GRUI
+#=GS UniRef90_A0A7K4LYG2/2-72       DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Crypturellus TaxID=48395 RepID=A0A7K4LYG2_9AVES
+#=GS UniRef90_A0A8C8RAU2/25-89      DE [subseq from] C-C motif chemokine n=1 Tax=Pelusios castaneus TaxID=367368 RepID=A0A8C8RAU2_9SAUR
+#=GS UniRef90_A0A8B9G785/17-85      DE [subseq from] SCY domain-containing protein n=1 Tax=Amazona collaria TaxID=241587 RepID=A0A8B9G785_9PSIT
+#=GS UniRef90_A0A7L4GHK3/19-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Podargus strigoides TaxID=8905 RepID=A0A7L4GHK3_PODST
+#=GS UniRef90_A0A7K8JSK4/19-88      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Otididae TaxID=54375 RepID=A0A7K8JSK4_9GRUI
+#=GS UniRef90_A0A7L4IU67/15-87      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Timaliidae TaxID=9173 RepID=A0A7L4IU67_9PASS
+#=GS UniRef90_A0A7K6FU99/15-86      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Daphoenositta chrysoptera TaxID=254528 RepID=A0A7K6FU99_9CORV
+#=GS UniRef90_UPI000523C67F/23-92   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Chaetura pelagica TaxID=8897 RepID=UPI000523C67F
+#=GS UniRef90_UPI0003346A86/8-71    DE [subseq from] C-C motif chemokine 28 n=1 Tax=Condylura cristata TaxID=143302 RepID=UPI0003346A86
+#=GS UniRef90_UPI0014035630/23-92   DE [subseq from] C-C motif chemokine 28 isoform X1 n=2 Tax=Tyto alba TaxID=56313 RepID=UPI0014035630
+#=GS UniRef90_A0A7L2Z0T9/19-89      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Jacana jacana TaxID=54508 RepID=A0A7L2Z0T9_JACJC
+#=GS UniRef90_UPI00051E176E/23-93   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Struthio camelus australis TaxID=441894 RepID=UPI00051E176E
+#=GS UniRef90_A0A7M4FIH3/43-111     DE [subseq from] SCY domain-containing protein n=1 Tax=Crocodylus porosus TaxID=8502 RepID=A0A7M4FIH3_CROPO
+#=GS UniRef90_A0A7L2HLK3/18-87      DE [subseq from] CCL28 protein (Fragment) n=6 Tax=Accipitriformes TaxID=2558200 RepID=A0A7L2HLK3_SAGSE
+#=GS UniRef90_A0A852PL54/14-86      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Atrichornis clamosus TaxID=449594 RepID=A0A852PL54_9PASS
+#=GS UniRef90_UPI00052868E2/23-92   DE [subseq from] C-C motif chemokine 28 n=1 Tax=Buceros rhinoceros silvestris TaxID=175836 RepID=UPI00052868E2
+#=GS UniRef90_UPI001AADBA9B/28-88   DE [subseq from] C-C motif chemokine 27 n=1 Tax=Rana temporaria TaxID=8407 RepID=UPI001AADBA9B
+#=GS UniRef90_UPI00052A0943/55-131  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Colius striatus TaxID=57412 RepID=UPI00052A0943
+#=GS UniRef90_UPI0003C19C6C/25-85   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=UPI0003C19C6C
+#=GS UniRef90_A0A7L1N1E0/2-70       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Rhinopomastus cyanomelas TaxID=113115 RepID=A0A7L1N1E0_RHICY
+#=GS UniRef90_A0A7K7GGA4/2-67       DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7K7GGA4_ERIRU
+#=GS UniRef90_A0A7L0DHA4/19-90      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Rostratulidae TaxID=118791 RepID=A0A7L0DHA4_9CHAR
+#=GS UniRef90_A0A8J1IYX8/29-90      DE [subseq from] C-C motif chemokine 28 n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A8J1IYX8_XENTR
+#=GS UniRef90_UPI001CFBAC02/26-90   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CFBAC02
+#=GS UniRef90_A0A1U7S761/25-93      DE [subseq from] C-C motif chemokine 28 n=4 Tax=Crocodylia TaxID=1294634 RepID=A0A1U7S761_ALLSI
+#=GS UniRef90_UPI0005291C3D/150-219 DE [subseq from] uncharacterized protein LOC104471862 n=1 Tax=Pterocles gutturalis TaxID=240206 RepID=UPI0005291C3D
+#=GS UniRef90_A0A852IN80/14-83      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Piciformes TaxID=9219 RepID=A0A852IN80_9PICI
+#=GS UniRef90_A0A7K5GKH8/15-86      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Chunga burmeisteri TaxID=1352770 RepID=A0A7K5GKH8_9AVES
+#=GS UniRef90_A0A7K8EA57/19-90      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Leucopsar rothschildi TaxID=127929 RepID=A0A7K8EA57_LEURO
+#=GS UniRef90_A0A851NYH6/7-69       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Penelope pileata TaxID=1118817 RepID=A0A851NYH6_9GALL
+#=GS UniRef90_A0A8D0KRT0/20-94      DE [subseq from] SCY domain-containing protein n=3 Tax=Strigidae TaxID=30459 RepID=A0A8D0KRT0_STROC
+#=GS UniRef90_A0A8C3XC20/12-84      DE [subseq from] SCY domain-containing protein n=1 Tax=Cyanoderma ruficeps TaxID=181631 RepID=A0A8C3XC20_9PASS
+#=GS UniRef90_A0A7L2UF92/18-92      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Balaeniceps rex TaxID=33584 RepID=A0A7L2UF92_BALRX
+#=GS UniRef90_A0A850VMH6/19-81      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Fregata magnificens TaxID=37042 RepID=A0A850VMH6_FREMA
+#=GS UniRef90_A0A7K9E1Z5/19-88      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Baryphthengus martii TaxID=176943 RepID=A0A7K9E1Z5_BARMA
+#=GS UniRef90_A0A7K6NMH6/20-89      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Pedionomus torquatus TaxID=227192 RepID=A0A7K6NMH6_PEDTO
+#=GS UniRef90_A0A663N827/135-209    DE [subseq from] Transmembrane protein 267 n=1 Tax=Athene cunicularia TaxID=194338 RepID=A0A663N827_ATHCN
+#=GS UniRef90_A0A7K9V5C6/15-84      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Anseriformes TaxID=8826 RepID=A0A7K9V5C6_ANSSE
+#=GS UniRef90_A0A6P7XEA3/24-88      DE [subseq from] C-C motif chemokine 28 n=1 Tax=Microcaecilia unicolor TaxID=1415580 RepID=A0A6P7XEA3_9AMPH
+#=GS UniRef90_UPI000532735F/37-106  DE [subseq from] C-C motif chemokine 28 n=1 Tax=Balearica regulorum gibbericeps TaxID=100784 RepID=UPI000532735F
+#=GS UniRef90_A0A7K5QVV6/15-79      DE [subseq from] CCL28 protein (Fragment) n=3 Tax=Passeroidea TaxID=175121 RepID=A0A7K5QVV6_9PASE
+#=GS UniRef90_A0A851CL94/2-72       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Calyptomena viridis TaxID=135972 RepID=A0A851CL94_CALVR
+#=GS UniRef90_A0A6P9DLQ2/23-98      DE [subseq from] C-C motif chemokine n=1 Tax=Pantherophis guttatus TaxID=94885 RepID=A0A6P9DLQ2_PANGU
+#=GS UniRef90_UPI0018B03F60/3-47    DE [subseq from] C-C motif chemokine 28 n=1 Tax=Chlorocebus sabaeus TaxID=60711 RepID=UPI0018B03F60
+#=GS UniRef90_A0A8J0QZG4/28-92      DE [subseq from] C-C motif chemokine 27 n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A8J0QZG4_XENTR
+#=GS UniRef90_UPI0007759311/24-94   DE [subseq from] C-C motif chemokine 28 n=2 Tax=Crotalinae TaxID=8710 RepID=UPI0007759311
+#=GS UniRef90_UPI000514FB98/54-119  DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Phalacrocorax carbo TaxID=9209 RepID=UPI000514FB98
+#=GS UniRef90_A0A7L2BU27/15-86      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7L2BU27_9PASS
+#=GS UniRef90_A0A7K8QZQ5/19-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Smithornis capensis TaxID=363769 RepID=A0A7K8QZQ5_9PASS
+#=GS UniRef90_UPI001CFAE6FC/25-90   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CFAE6FC
+#=GS UniRef90_A0A6I9YSG7/24-93      DE [subseq from] C-C motif chemokine n=3 Tax=Thamnophis TaxID=34999 RepID=A0A6I9YSG7_9SAUR
+#=GS UniRef90_UPI0015601589/26-88   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=UPI0015601589
+#=GS UniRef90_A0A7K8TFU7/23-90      DE [subseq from] CCL28 protein (Fragment) n=5 Tax=Neognathae TaxID=8825 RepID=A0A7K8TFU7_9AVES
+#=GS UniRef90_UPI001B7EBDF5/24-85   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Polyodon spathula TaxID=7913 RepID=UPI001B7EBDF5
+#=GS UniRef90_UPI00051193C3/23-94   DE [subseq from] LOW QUALITY PROTEIN: C-C motif chemokine 28-like n=1 Tax=Nipponia nippon TaxID=128390 RepID=UPI00051193C3
+#=GS UniRef90_A0A7L4KW09/23-95      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7L4KW09_9CORV
+#=GS UniRef90_UPI001CFC422C/27-88   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CFC422C
+#=GS UniRef90_A0A7K9HZG1/19-91      DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Bucco capensis TaxID=135168 RepID=A0A7K9HZG1_9AVES
+#=GS UniRef90_A0A7L1CXM9/20-91      DE [subseq from] CCL28 protein (Fragment) n=2 Tax=Passeriformes TaxID=9126 RepID=A0A7L1CXM9_9PASS
+#=GS UniRef90_A0A6P8PG22/25-91      DE [subseq from] C-C motif chemokine 28 n=1 Tax=Geotrypetes seraphini TaxID=260995 RepID=A0A6P8PG22_GEOSA
+#=GS UniRef90_A0A7K9C270/2-61       DE [subseq from] CCL28 protein (Fragment) n=1 Tax=Psilopogon haemacephalus TaxID=2585815 RepID=A0A7K9C270_9PICI
+#=GS UniRef90_A0A6P8P7D0/22-83      DE [subseq from] C-C motif chemokine 27 n=1 Tax=Geotrypetes seraphini TaxID=260995 RepID=A0A6P8P7D0_GEOSA
+#=GS UniRef90_A0A851ACJ6/5-55       DE [subseq from] CCL27 protein (Fragment) n=1 Tax=Sula dactylatra TaxID=56068 RepID=A0A851ACJ6_SULDA
+#=GS UniRef90_UPI00202E4F4A/30-92   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Rhincodon typus TaxID=259920 RepID=UPI00202E4F4A
+#=GS UniRef90_A0A4W3GE07/27-87      DE [subseq from] C-C motif chemokine ligand 27 n=2 Tax=Callorhinchus milii TaxID=7868 RepID=A0A4W3GE07_CALMI
+#=GS UniRef90_A0A8T3DRS1/28-77      DE [subseq from] Uncharacterized protein n=1 Tax=Albula goreensis TaxID=1534307 RepID=A0A8T3DRS1_9TELE
+#=GS UniRef90_V8PI30/23-98          DE [subseq from] C-C motif chemokine n=3 Tax=Elapidae TaxID=8602 RepID=V8PI30_OPHHA
+#=GS UniRef90_UPI0011273B5B/39-98   DE [subseq from] C-C motif chemokine 27-like isoform X1 n=3 Tax=Rhinatrema bivittatum TaxID=194408 RepID=UPI0011273B5B
+#=GS UniRef90_UPI0014902AC9/26-85   DE [subseq from] C-C motif chemokine 27a n=1 Tax=Notolabrus celidotus TaxID=1203425 RepID=UPI0014902AC9
+#=GS UniRef90_A0A401SYK5/30-93      DE [subseq from] SCY domain-containing protein n=2 Tax=Chiloscyllium TaxID=34767 RepID=A0A401SYK5_CHIPU
+#=GS UniRef90_UPI00109FFD33/25-90   DE [subseq from] C-C motif chemokine 28 isoform X2 n=1 Tax=Erpetoichthys calabaricus TaxID=27687 RepID=UPI00109FFD33
+#=GS UniRef90_UPI00145BBC94/39-97   DE [subseq from] C-C motif chemokine 28-like n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=UPI00145BBC94
+
+CCL27[25-112]                          FLLPPSTA-CCTQLYRKPLSDKLLRKVIQVELQEADGDCHLQAFVLH-L-A--Q-RS-ICIH--PQN-PSL-SQWF-E-H-----Q---E-----RK-LHGT-LP-KLNFGMLRKMG
+UniRef90_H9HA21/25-112                 FLLPPSTA-CCTQLYRKPLSDKLLRKVIQVELQEADGDCHLQAFVLH-L-A--Q-RS-ICIH--PQN-PSL-SQWF-E-H-----Q---E-----RK-LHGT-LP-KLNFGMLRKMG
+UniRef90_Q9Y4X3/25-112                 FLLPPSTA-CCTQLYRKPLSDKLLRKVIQVELQEADGDCHLQAFVLH-L-A--Q-RS-ICIH--PQN-PSL-SQWF-E-H-----Q---E-----RK-LHGT-LP-KLNFGMLRKMG
+UniRef90_A0A0D9RCS2/25-112             FLLPPSTA-CCTQLYRKPLSDKLLRKVIRVELQEADGDCHLQAFVLH-L-A--Q-RS-ICIH--PQN-PSL-SQWF-E-H-----Q---E-----RK-LHGT-LP-NLNFGMLRKMG
+UniRef90_A0A8D2DKU8/26-112             -LLPPSTT-CCTQLYRQPLSSKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-H-----Q---G-----KR-LQGT-LP-NLNPGLQGKMG
+UniRef90_F7C5L0/26-107                 -ILPPSTS-CCTQLYRKPLSDKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-SRWF-E-H-----Q---E-----RR-L-GI-LP-NLNLGKM----
+UniRef90_A0A1U7U9P2/32-117             -LLPPSTT-CCTQLYQKPLTNKLLRKVIRVELQEANGDCYLQAFVLH-L-A--K-RS-VCIH--PQN-RSL-ARWF-E-H-----Q---G-----RR-LQGT-LP-NLNLGLLGKM-
+UniRef90_UPI0003C8D5D9/26-112          -LLPPSTT-CCTQLYRQPLSNNLLRKVIRVELQKADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-VQWF-E-H-----Q---G-----RR-HRGT-QP-NLNFGLLGKVG
+UniRef90_A0A6I9JKE2/26-111             -LLPPSST-CCTQLYRQPLPDKLLRKVIRVEVQKADGDCYLQAFVLH-L-A--Q-RS-VCVH--PQN-RSL-AQWF-E-R-----Q---E-----RR-LQGT-LP-NLKYGLLVKM-
+UniRef90_A0A3Q2H9B0/26-112             -LLPPSTS-CCTQLYRQPLSSKLLRKVIRVEVQEADGDCHLQAIVLH-L-S--Q-RS-VCIH--PQN-RSL-AQWF-E-R-----Q---R-----RR-LQGI-LP-NLNLGLTGKMG
+UniRef90_A0A8C9A2Q5/26-112             -LIPPSTT-CCTQLYRQPLSNKLLRKVIRVELQEADGDCHLQAFVLH-M-A--Q-RS-VCVH--PQN-RSL-AQWF-E-R-----Q---G-----RR-LQRT-LP-NMNLGLPGKMG
+UniRef90_A0A2Y9FYL3/25-111             -LLPPSTT-CCTQLYRQPLPNKLLRKVIRVELQQADGDCHLQAFVLH-L-A--Q-RS-ICIH--PQN-RSL-AQXF-E-P-----Q---G-----RS-LLGT-LP-NLNFGLLGKKG
+UniRef90_A0A6P3RM96/26-112             -LLPPSTT-CCTQLYREPLSNKLLKKVIRVELQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-GRWF-Q-H-----Q---G-----RK-HQET-LP-NLNFWLIGKMG
+UniRef90_UPI0002C6942B/26-112          -LLPPSAT-CCTQLYRQPLSTKLLRKVIRVELQKADGDCHLQAFILH-L-S--Q-RS-VCIH--PQN-RSL-AQWF-E-R-----Q---G-----RR-LQGT-PP-NLNLGLTGKMG
+UniRef90_A0A8C0WYP7/27-111             --LSPSTT-CCTQLYRQPLSNKLLRKVIQVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-LQGT-LP-NLNLGLQGKM-
+UniRef90_UPI0004D05B9D/173-257         --MPPSTT-CCTQLYRQHLSNKLLRKVIRVELQEADGDCHLQAYVLH-L-A--R-RS-VCIH--PQN-HSL-ARWI-E-H-----Q---G-----KR-LQGT-LP-NLNFGLLGKM-
+UniRef90_Q68Y87/27-111                 --LPPSIT-CCTQLYRQPLSNKLLRRVIRVELQEANGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-LQGT-LP-NLNLGLTRKM-
+UniRef90_A0A4X1UUM8/26-107             -ILPPSTT-CCTQLYRQPLSSKLLRQIIRVELQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-H-----H---G-----RR-LQGT-LP-KLSLGL-----
+UniRef90_A0A6I9INE4/26-112             -LLPPSTA-CCTQLYRQPLSSKLLRKVVRVELQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-VRWF-E-R-----Q---G-----RT-LQGI-LP-NLSLGPAGKMG
+UniRef90_A0A8B7GSB6/26-112             -LIPSSTT-CCTQLYRQPLSNKLLKKVIRVELQEADGDCHLQAFVLH-M-A--R-RS-VCVH--PQN-RSL-ARWF-E-H-----Q---G-----RR-LQRT-LP-NLKLGLPGKMG
+UniRef90_A0A8C7EXN6/38-123             --LPTSIT-CCTQLYRQPLSNKLLRRVIRVEVQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-LQGT-LP-NLNLGLIGKMG
+UniRef90_UPI0007A701D3/72-158          -LLQPSAT-CCTQLYRQPLSKKLLRRVTRVELQEADGDCHLQAFILH-L-S--Q-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-PQGT-LP-NLNFELIRKMG
+UniRef90_UPI001B34ABFB/26-111          -ILPPSST-CCTQLYRQPLSNKLLRKVIRVELQEVDGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FQGT-LP-NTILGPLRKM-
+UniRef90_A0A8U0NRR0/68-153             --LPTSIT-CCTQLYRQPLSNKLLRRVIRVEVQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-LQGT-LP-NLNLGLIGKMG
+UniRef90_A0A7J7VPP8/26-111             -LLPPSTT-CCTQLYRQLLSNKLLRKVIQVELQEADGDCHLQAFVLH-L-S--Q-R--VCIH--AKN-LSL-AWWF-E-R-----Q---G-----RR-LQGT-LP-NLNFGLIEKMG
+UniRef90_G1NZB5/26-112                 -LLPSSTT-CCTQLYRQPLSRKLLRKVTQVELQEADGDCHLQAFVLH-L-S--G-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-FQGT-LP-NLNVDLIGKMG
+UniRef90_A0A091EIN5/16-97              -LLPPSTT-CCTQLYRQPLPSKILRKVIWVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-LQGT-LP-NLNLEL-----
+UniRef90_A0A6G1B1D1/26-111             -LLSPSIT-CCTQLYRQPLSNKLLRKVIRVELQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-FQGT-LP-NLNLELIGKM-
+UniRef90_A0A452RSQ2/44-128             --LPTSIT-CCTQLYRQPLSNKLLRRVIRVEVQEADGDCHLQAFVLH-L-T--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RM-LQGT-LP-NLNLGLIGKM-
+UniRef90_A0A8B7PUC0/26-112             -ILPPSTT-CCTQLYRQPLSNKLLRKVIQVELQEADGDCRVQAFVLH-L-S--X-HR-VCIH--PQN-HSV-AQWF-E-R-----Q---G-----RR-LQGT-LP-NLNSRLIEKVG
+UniRef90_UPI0003CC078B/25-112          WLLPSSTT-CCTQRYQQSLSNKLLRKIIWVELQEADGDCHLQAFVLH-L-D--Q-RS-VCIH--PQN-RSL-VRWF-Q-R-----Q---E-----KR-LLGT-LP-NFNFGQLGKMG
+UniRef90_G1LK27/27-111                 --LPTSIT-CCTQLYRQPLSNKLLRRVIRVEVQEADGDCHLQAFVLH-L-T--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RM-LQGT-LP-NLNLGLIGKM-
+UniRef90_A0A2Y9J7B4/66-151             --LPTSIT-CCTQLYRQPLSNKLLRRVIRVEVQEADGDCHLQAFVLY-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-LRGT-LP-NLNLGLIGKMG
+UniRef90_H0XXR7/25-111                 -LIPASAT-CCTQLYRHQLSNKLLRKVIRVELQEADGDCYLQAFVLH-L-A--R-RS-ICIH--PQN-HSL-AQWF-K-Q-----Q---G-----RR-LQGT-LP-NLNLELLGKMG
+UniRef90_I3M182/27-113                 -LLPPSTT-CCTQLYRQPLSKKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KK-FPGK-AP-CLNLMLQGKMG
+UniRef90_UPI000C81281A/22-108          -LSPPSIT-CCTQLYQQPLPNKLLRKVIRVDLQKADGDCHLQAFVLH-L-A--Q-HS-VCIH--PQN-HSL-AQWF-K-R-----Q---G-----KR-IQGT-PP-XLNFGLLGKIG
+UniRef90_UPI00042C23F7/37-122          -LLSPSIT-CCTQLYRQPLSNKLLRKVIRVELQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-FQGI-LP-NLNLELIEKM-
+UniRef90_UPI00189E5D8E/26-112          -LLPSVTT-CCTELYKKTPSNKLLRKVIRVELQEADGDCHLRALVLH-L-G--E-RS-VCIH--PQN-CSL-IQWF-Q-R-----Q---G-----RR-LQGT-FP-NLNFGQLRKMG
+UniRef90_A0A8C5KKP9/28-113             --LSPSNT-CCTQLYRQPLSSKLLKKIIQVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-PQGT-QP-SLNLALQRKMG
+UniRef90_A0A8C5KR42/39-124             --LSPSNT-CCTQLYRQPLSSKLLKKIIQVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-PQGT-QP-SLNLALQRKMG
+UniRef90_A0A5F9CTF0/26-102             -ILPPSTT-CCTQLYRQPLSNKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-LQGT-QP-D----------
+UniRef90_A0A2K6H0S9/26-107             -LIAPSTT-CCTQLYRQPLSNKLLRKVIRVELQQADGDCHLQAFVLH-M-A--R-RS-ICVH--PQN-RSL-ARWF-E-R-----H---G-----RR-LQRT-LP-NLNLGL-----
+UniRef90_A0A8C2V456/27-108             -LLPRSTT-CCTQLYRQPLPNKILRKVIRIELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FQGT-LP-NLHLGL-----
+UniRef90_A0A8C2UYN9/23-104             -LLPRSTT-CCTQLYRQPLPNKILRKVIRIELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FQGT-LP-NLHLGL-----
+UniRef90_A0A1S3G149/26-110             --LSPSTT-CCTQLYRQPLSNKLLRKVIHVELQEADGDCHLQAVVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-V-R-----Q---G-----KR-LQGN-LP-NLNLTLKRKM-
+UniRef90_G1SF03/162-238                -ILPPSTT-CCTQLYRQPLSNKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-LQGT-QP-D----------
+UniRef90_S7MGP1/26-111                 -LLPSSTT-CCTQLYRQPLSRKLLRKVTQVELQEADGDCHLQAFVLH-L-P--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-FQRT-LP-NLNVDLIGKM-
+UniRef90_UPI0003F0D13A/27-112          -LLSLSAS-CCTQLYREPLPNKMLRKVIRVEIQEADGDCHLQAVVLH-L-A--Q-RS-VCIH--PQN-RSL-VQWF-K-R-----Q---K-----RR-PQGT-LP-DLNFELLESM-
+UniRef90_A0A8B7AGV2/26-113             FLQPPALT-CCTELYQRPLSDKLLRKVTRVELQMADGDCHLQAFVLH-L-A--R-RS-VCIH--PKN-RSL-AQWF-A-N-----Q---G-----RG-PRGT-LS-NLNLGLLGKRG
+UniRef90_A0A8C2YLF8/23-101             ----ASTT-CCTQLYRQPLPNKILRKVIRIELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FQGT-LP-NLHLGL-----
+UniRef90_A0A485MQT4/82-160             -LLSPSIT-CCTQLYRQPLSNKLLRKVIRVELQEADGDCHLQAFVLH-L-S--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----RR-FQGI-LP-NLN--------
+UniRef90_A0A6J2L041/40-126             -LLPSSTT-CCTQLYRQPLSNTLLRKVXRVXLQEADGDCHLQVYMLH-L-S--R-RS-TCTH--PQN-RSL-APWF-E-R-----Q---G-----RK-LQGT-LP-NLNSGLVGKVG
+UniRef90_UPI0018737F8D/25-110          -LLPPSTT-CCTQLCRKPLXDNMLRKVIQVELQEANGDCHLQAFVLH-L-S--Q-CN-ICIQ--PQN-HSL-ALWF-K-H-----X---G-----KR-FQET-LP-NLNWGLTEKM-
+UniRef90_UPI0020926DA6/14-86           -LLPPSTT-CCAQLYRQPLSSKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FPG----------------
+UniRef90_A0A6P3VAR8/48-129             -LLPSGTT-CCTQLYRQPLPNKILRKVIRVELQVADEDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-TRWF-E-R-----Q---G-----KR-LQGT-LP-ILNPGL-----
+UniRef90_UPI000B4FC107/26-110          --LPSSTT-CCTQLYRQPLPSRLLRRIVQVELQEADGDCHLKAVVLH-L-A--R-RS-VCVH--PQN-RSL-ARWF-E-R-----H---G-----KR-LQGT-VP-NLNLVLQKKM-
+UniRef90_A0A8C5ZYC6/20-93              -LLPPSTT-CCAQLYRQPLSSKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FPGK---------------
+UniRef90_A0A8C5Z3J9/26-99              -LLPPSTT-CCAQLYRQPLSSKLLRKVIRVELQEADGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FPGK---------------
+UniRef90_A0A7J8IH87/26-105             -LLSLGTT-CCTQLYRQPLSNKLLKEVIRVELQEADGDCHLQAFVLH-L-S--Q-RS-VCIH--PQN-RSL-ARWF-Q-H-----Q---G-----RR-HQET-LP-NLKF-------
+UniRef90_UPI000D17EE88/26-112          -LLPSSTT-CCTQLYRQPLSNTLLRKVTRVELQEADRDCHPRASVLH-L-S--R-RS-VCIH--PQN-LSL-ARWF-E-R-----Q---G-----RK-LQGT-LS-NLNSGLVGKVG
+UniRef90_UPI000B4E88B7/66-150          --LPSSTT-CCTQLYRQPLPSRLLRRIVQVELQEADGDCHLKAVVLH-L-A--R-RS-VCVH--PQN-RSL-ARWF-E-R-----H---G-----KR-LQGT-VP-NLNLVLQKKM-
+UniRef90_UPI00168CFD2E/68-147          -LLSLGTT-CCTQLYRQPLSNKLLKEVIRVELQEADGDCHLQAFVLH-L-S--Q-RS-VCIH--PQN-RSL-ARWF-Q-H-----Q---G-----RR-HQET-LP-NLKF-------
+UniRef90_Q9Z1X0/28-112                 --LPSSTS-CCTQLYRQPLPSRLLRRIVHMELQEADGDCHLQAVVLH-L-A--R-RS-VCVH--PQN-RSL-ARWL-E-R-----Q---G-----KR-LQGT-VP-SLNLVLQKKM-
+UniRef90_UPI00034FAEDD/16-97           -LLPPSTS-CCTQLYRQPLPNKILRKVIXVELQEAAGDCHLQAFVLH-L-A--R-RS-VCIH--PQN-RSL-AWWS-E-C-----Q---G-----KR-LQRS-LP-NLNLEL-----
+UniRef90_A0A5N3XI28/27-112             --LPISPA-CCTQLYRQPLPNKLLRRVIRVELQEADGDCHLQAFVLY-L-S--Q-RK-VCIH--PQN-RSL-IRWF-E-R-----Q---G-----KR-LQGT-QP-NQSLELIGKMG
+UniRef90_A0A8C6GGH5/37-121             --LPSSTS-CCTQLYRQPLPSRLLRRIVHMELQEADGDCHLQAVVLH-L-A--R-RS-VCVH--PQN-RSL-ARWL-E-R-----Q---G-----KR-LQGT-VP-SLNLVLQKKM-
+UniRef90_Q9Z1X0-2/43-127               --LPSSTS-CCTQLYRQPLPSRLLRRIVHMELQEADGDCHLQAVVLH-L-A--R-RS-VCVH--PQN-RSL-ARWL-E-R-----Q---G-----KR-LQGT-VP-SLNLVLQKKM-
+UniRef90_F1MZ86/27-112                 --LALSTA-CCTQLYRQPLPNKLLRRVIRVELQEADGDCHLQAFVLH-L-S--Q-RR-VCIH--PQN-RSL-IRWF-E-R-----Q---G-----KM-LQGT-QP-NQSLELKGKMG
+UniRef90_UPI0003D71BF6/52-136          --LPSSTS-CCTQLYRQPLPSRLLRRIVHMELQEADGDCHLQAVVLH-L-A--R-RS-VCVH--PQN-RSL-ARWL-E-R-----Q---G-----KR-LQGT-VP-SLNLVLQKKM-
+UniRef90_A0A8J5ZVE1/27-102             --LPSSTN-CCTQLYRQPLPNKLLRKVIRVEMQKADGDCHLQAFVLH-L-P--R-RS-VCIH--PQN-RSL-ARWF-E-R-----Q---G-----KR-FRGT-LP-K----------
+UniRef90_A0A8C2LVI5/27-111             --LPSSTT-CCTQLYRQPLPNKLLRKITHVELQEADGDCHLQAIVLH-L-A--Q-RS-VCVH--PQN-RSL-ARWF-E-R-----H---R-----KR-LQET-IS-NLNLELQMKM-
+UniRef90_A0A1U8CHF3/66-150             --LPSSTT-CCTQLYRKPLPNKLLRKIIHVDLQEADGDCHLQAIVLH-L-A--R-RS-VCVH--PQN-HSL-ARWF-E-R-----H---G-----KR-LQET-IS-NLNLELQMKM-
+UniRef90_A0A822BKX7/27-111             --LPSSTS-CCTQLYRQPLPTRLLRRIVRVELQEADGDCHLQAVVLH-L-T--R-RS-VCVH--PQN-RSL-ARWL-E-R-----H---G-----KR-LQGT-LP-SLNPVLQKKM-
+UniRef90_UPI001747A090/26-112          -LLSPSTT-CYTQLYXQPLSKKLLRKVTXVELQEADEDCHLKAFSLH-L-S--R-QN-ICTY--PQN-HSL-ARWF-E-R-----Q---G-----RR-LQGT-LP-NLNFELIEKMG
+UniRef90_G3T4P3/26-101                 -LSPPSIT-CCTQLYQQPLPNKLLRKVIRVDLQKADGDCHLQAFVLH-L-A--Q-HS-VCIH--PQN-HSL-AQWF-K-R-----Q---G-----KR-IQGT-PP------------
+UniRef90_A0A2U3V0K1/27-113             -LAPSTTS-CCTQFYRQPLSSKPLRKVIRVEFQEADGDCHLQAFVFH-L-S--R-RS-ICIH--PQN-RSL-TLXF-D-C-----Q---G-----KR-LQGT-LP-XLSLEMIGKMG
+UniRef90_D4AAL6/72-156                 --LPSSTS-CCTQLYRQPLPTRLLRRIVRVELQEADGDCHLQAVVLH-L-T--R-RS-VCVH--PQN-RSL-ARWL-E-R-----H---G-----KR-LQGT-LP-SLNPVLQKKM-
+UniRef90_G3HN21/35-119                 --LPSSTT-CCTQLYRQPLPNKLLRKITHVQMQEADGDCHLQAIVLH-L-A--Q-RS-VCVH--PQN-RSL-ARWF-E-R-----H---R-----KR-LQET-IS-NLNLELQMKM-
+UniRef90_A0A8C6RF55/27-110             --LSASTS-CCTQLYRQPLPNKLLRKIIYVEVQKADAECHLQAFVLH-L-A--R-RS-VCIH--PKN-RSL-ARWL-D-R-----Q---G-----KK-LQGT-LP-NLNPILQRK--
+UniRef90_A0A8C6RBD6/37-120             --LSASTS-CCTQLYRQPLPNKLLRKIIYVEVQKADAECHLQAFVLH-L-A--R-RS-VCIH--PKN-RSL-ARWL-D-R-----Q---G-----KK-LQGT-LP-NLNPILQRK--
+UniRef90_A0A3L7I4Y5/36-117             -----STT-CCTQLYRQPLPNKLLRKITHVELQEADGDCHLQAIVLH-L-A--Q-RS-VCVH--PQN-RSL-ARWF-E-R-----H---R-----KR-LQET-IS-NLNLELQMKM-
+UniRef90_UPI00038C4AA4/27-111          --LPSSST-CCTQLYRQPLPNRLLRKILHVELQEADGDCHLQAIVLH-L-P--R-RT-VCVH--PQN-GSL-ARWF-E-R-----H---G-----KS-LQGT-LS-NLNLELQMKM-
+UniRef90_UPI0018E303F7/124-208         --LPSSST-CCTQLYRQPLPNRLLRKILRVELQEADGDCHLQAIVLH-L-P--R-RT-VCVH--PQN-GSL-ARWF-E-R-----H---G-----KS-LQGT-LS-NLNLELQMKM-
+UniRef90_UPI001BB2B15D/127-211         --LPSSST-CCTQLYRQPLPNRLLRKILHVELQEADGDCHLQAIVLH-L-P--R-RT-VCVH--PQN-GSL-ARWF-E-R-----H---G-----KS-LQGT-LS-NLNLELQMKM-
+UniRef90_A0A8C8TED4/27-108             --LPSSTT-CCTQLYRQPLPNKLLRKIIHVELQEADGDCHLQAIVLH-L-A--R-RS-VCVH--PQN-RSL-ARWF-E-R-----H---G-----KR-VQRT--P-NLKLELQM---
+UniRef90_UPI001485EE05/27-111          --LPSSTS-CCTQLYRQPLPNRLLRRIVRVELQEADGDCHLQAVVLH-L-A--R-RS-VCVH--PEN-RSL-ARWL-E-R-----K---G-----KR-LQVT-VP-SFNPILQKKM-
+UniRef90_UPI00187C9428/26-112          -LLPSSTT-CCTQLSXQLLSNTLLRKVTQLELQEADXDCHLWAYVLH-L-S--R-CS-ICIH--PKN-SSL-AHWF-E-R-----Q---G-----RK-LQGS-LP-NLNSGLVGKVG
+UniRef90_UPI00167FAF17/78-156          --LPSSTT-CCTQLYRQPLPNKLLRKIIHVELQEADGDCHLQAIVLH-L-A--R-RS-VCVH--PQN-RSL-ARWF-E-R-----H---G-----RR-IQRTTXM-KLQ--------
+UniRef90_A0A286XAH0/27-108             -LLQPITT-CCTQLYRRPLPNKILRKVIWVELQEADGDCHLQAFVLY-L-T--E-RS-VCVH--PKN-RSL-IQWL-E-R-----H---G-----KR-FQGT-LR-NPNLGL-----
+UniRef90_A0A836D4W4/37-109             --LALSTA-CCTQLYRQPLPNKLLRRVIRVELQEADGDCHLQAFVLH-L-S--Q-RR-VCIH--PQN-RSL-IRWI-E-R-----Q---G-----KR-LQGT---------------
+UniRef90_UPI00201FC58B/66-150          --LPSSST-CCTQLYRQPLPSRLLRKILHVELQEADGDCHLQAIVLH-L-P--R-RT-VCVH--PQN-GSL-ARWL-E-R-----H---G-----KR-LQGT-LS-NLNLELQMKM-
+UniRef90_A0A8C8TCV9/72-148             --LPSSTT-CCTQLYRQPLPNKLLRKIIHVELQEADGDCHLQAIVLH-L-A--R-RS-VCVH--PQN-RSL-ARWF-E-R-----H---G-----KR-VQRP-NL-KL---------
+UniRef90_UPI00064F4715/26-95           -LMPPSTA-CCTQLYRGPLPNELLKKVLHIALQEADRDCYLQAFVLH-L-A--H-RS-ICVH--PQN-RSL-ARWL-E-H-----Q---G-----RK--------------------
+UniRef90_A0A1A6GPH8/86-158             --LPSSTT-CCTQLYRQPLPNKLLRKIIHVELQEADGDCHLQAIVLH-L-A--R-RS-VCVH--PQN-RSL-ARWF-A-R-----H---G-----KR-LQRT---------------
+UniRef90_UPI00064B3154/27-109          --LQPVTT-CCTQLYRQPLSAKLLKKVVRVEVQKVDGNCHLQAFVLH-L-S--H-RT-VCIH--PQN-RSL-ARWF-E-R-----R---G-----KR-LQGA-PT-TLKLGLKG---
+UniRef90_A0A8C6FC09/27-111             -LAPSTTS-CCTPFYRQPLSSKLLRNIIQVEFQEADGNCHLQAFVFH-L-S--R-RS-VCIH--PQN-RSL-T-LF-D-C-----Q---G-----KR-LQGT-LP--LSLEMIGKMG
+UniRef90_UPI00186B321C/26-105          ---DPSIS-CCTQVFRKNLPSKLLRNIIQVELQEANGDCHIQAYVLH-R-N--HGLP-VCIH--PKN-RSL-ARWL-S-R-----N---KI---RQK-DHGP-RP-RLN--------
+UniRef90_A0A6P5INF2/175-243            --LDPSIS-CCTQVYRKNLPSKVLRNVIQVELQEANGDCHIQAYVLH-RKG--G-RP-VCVH--PKN-RSL-VQWL-S-R-----N---K-----M---------------------
+UniRef90_UPI0018F287E9/27-93           ----PMAS-CCTELSRHLLKPQLLNKVIGVNLQEAGGDCHLQAFVLH-L-K--R-RS-LCVH--PKN-RSL-THWF-K-------Q---L-----RK-L------------------
+UniRef90_A0A8J6G2Q0/452-523            ---------------RGP-QERLLRKILHVELQEADGYCHLQAIVLH-L-P--R-RT-VCVH--PQN-GSL-ARWF-E-R-----H---G-----KS-LQGT-LS-NLNLELQMKM-
+UniRef90_A0A5F8GGH1/42-109             ---DPSIS-CCTQVYRKNLPNKLLRNVIRVDLQEANGDCHIKAYVLH-R-NHHR-RP-VCVH--PNN-RSL-ARWL-Y-R-----N---N---------------------------
+UniRef90_A0A5F8GZJ9/45-112             ---DPSIS-CCTQVYRKNLPNKLLRNVIRVDLQEANGDCHIKAYVLH-R-NHHR-RP-VCVH--PNN-RSL-ARWL-Y-R-----N---N---------------------------
+UniRef90_A0A4V5P9R0/3-46               -LAPSTTS-CCTPFYRQPLSSKLLRNIIQVEFQEADGNCHLQAFVF-----------------------------------------------------------------------
+UniRef90_A0A4V5P9R0/73-91              --------------------------------------------RFH-L-S--R-RS-VCIH--PQN-RSL-T--------------------------------------------
+UniRef90_A0A4X2LG02/25-103             --LDPSIS-CCTQVYRKNLPGKVFWNVIQVERQEANGDCHLQAYVLH-R-K--NGRP-VCVH--PKN-RSL-ARWL-S-R-----N---KM---RQK-NYGH-TT-R----------
+UniRef90_UPI001CC74CF0/152-216         --LDPSIS-CCTQVYRRNLPSKLLRNVFKVELQEANGDCHIQAYVLH-R-N--HGRP-VCVH--PKN-RSL-ARWV-V---------------------------------------
+UniRef90_A0A7J8ECK5/3-62               -----------------------------KDTQEADEDCHLKAFSLH-L-S--R-QN-ICTY--PQN-HSL-ARWF-E-R-----Q---G-----RR-LQGT-LP-NLNFELIEKMG
+UniRef90_F7F4F5/31-97                  ----PAAS-CCTELSRHLLKPQLLKKVTGVKLQETGGGCHLRAIVLH-L-G--R-RF-LCIH--PKN-RSL-TRWF-E-Q-----L---------RK-L------------------
+UniRef90_A0A7N4V7T6/25-90              --LSPSIS-CCTQVYQKNLPIKLLRNVNRVDLQEANGDCHIKAYVLH-R-K--H-GSPVCVH--PKN-RSL-ARWL-S-R-------------------------------------
+UniRef90_A0A3L7I412/36-103             -----STT-CCTQLYRQPLPNKLLRKITHVELQEADGDCHLQAI----------------------N-RSL-ARWF-E-R-----H---R-----KR-LQET-IS-NLNLELQMKM-
+UniRef90_UPI0004544C2B/66-108          --LPSSTT-CCTQLYRQPLPNKLLRKITHVELQEADGDCHLQAIVT-----------------------------------------------------------------------
+UniRef90_A0A8J6FJ26/1-66               ---------CCTQLG-EHVSKTLLRKVKSYEIQKQDGTCHLQAVLLH-L-Q--H-KT-LCVS--PEN-KLL-QQWI-K-G-----E---E-----QK-SSGN---------------
+UniRef90_UPI001CF1882A/26-92           -----STR-CCTQLGE-NISKTFLKKVKSYEIQKRDGTCHLQAVLLH-L-K--H-RT-LCIS--PKN-KRV-QQWI-V-T-----Q---H-----KK-SS-----------------
+UniRef90_UPI001B346CD8/23-94           -ILPFASS-CCTKVS-PHVSRRLLRAAHACHLQRADGDCDLDAIVLH-V-R--H-RK-YCIS--PEN-PAL-GEWM-K-E-----Q---T-----AK-GNG----------------
+UniRef90_Q9JIL2/23-94                  -ILPMASS-CCTEVSH-HVSGRLLERVSSCSIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-RTL-KQWM-R-A-----S---E-----VK-KNG----------------
+UniRef90_UPI00189D8799/15-85           -ILPIASS-CCTQLSH-HISRRLLERVNICRIQRADGDCDLAAIILH-I-K--R-RR-ICVS--PHN-HTI-QQWL-K-E-----Q---A-----AK-KN-----------------
+UniRef90_A0A6P6DTI5/23-89              -ILPIAAS-CCTEVSH-HLSRRLLERVTACHIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-PTV-KQWI-K-T-----Y---T---------------------------
+UniRef90_UPI001CF3F6EB/45-111          -----GTR-CCTQLGE-NISKTFLKKVKSYEIQKRDGTCHLQAVLLH-L-K--H-RT-LCIS--PKN-KRV-QQWI-V-T-----Q---H-----KK-SS-----------------
+UniRef90_UPI0003D6F62F/51-122          -ILPMASS-CCTEVSH-HVSGRLLERVSSCSIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-RTL-KQWM-R-A-----S---E-----VK-KNG----------------
+UniRef90_A0A8B7AW71/28-98              -ILPIASS-CCTEVSH-HISRRLLERVTMCRIQRADGDCDLAAVILH-V-R--R-RR-VCVS--PHN-HTV-KQWM-K-A-----Q---E-----AK-KN-----------------
+UniRef90_UPI000328E742/23-93           -ILPIASS-CCTQVSH-HISRRLLERVNTCRIQRADGDCDLAAIILH-I-K--H-RR-ICVS--PHN-HTI-KQWL-K-E-----Q---A-----AK-KN-----------------
+UniRef90_UPI000B4EC34C/26-98           -ILPIASS-CCTEVSH-HISRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-HTL-KQWM-R-A-----S---E-----VK-KNGK---------------
+UniRef90_UPI0012626A2E/23-94           -ILPIAAS-CCTELSH-HVSRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-RTL-KQWM-R-A-----S---E-----VK-KNG----------------
+UniRef90_I3M6J4/23-94                  -ILPIASS-CCTEVSH-HISRRLLERVNSCRIQRADGDCDLAAVILH-I-K--R-RR-ICVS--PHN-HTI-KQWI-R-A-----Q---A-----AK-KNG----------------
+UniRef90_A0A8C0WJ36/23-95              -ILPIASS-CCTEVSH-HISRRLLERVNVCRIQRADGDCDLAAVILH-V-R--R-RK-ICVS--PHN-HTI-KQWM-K-A-----Q---A-----AK-KNGE---------------
+UniRef90_A0A8C2V8P5/23-93              -ILPIASS-CCTEVSH-HVSRRLLERVTMCRIQRADGDCDLAALILH-V-K--R-RR-ICVS--PHN-HTV-KQWM-K-T-----Q---A-----AK-KN-----------------
+UniRef90_UPI000C877B14/23-92           -ILPIASS-CCTEVSHR-ISRRLLERVTVCRIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-HTV-NQWM-K-A-----Q---A-----AK-K------------------
+UniRef90_A0A2Y9ITV2/23-92              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PRS-PVI-KQWI-K-E-----Q---A-----AK-K------------------
+UniRef90_UPI000332F714/23-94           -VLPLASS-CCTEVS-QHISRRLLGRVNSCRIQRADGDCDLSAVILH-I-R--R-RR-VCVS--PHN-HVL-KQWM-K-A-----Q---A-----AK-KRG----------------
+UniRef90_G5BCR5/2-71                   -ILPIASS-CCTEVSH-HVSRRLLERVTTCRIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-HTV-KQWM-N-A-----Q---A-----AK-K------------------
+UniRef90_UPI0004D0AB6C/8-79            -ILPIASS-CCTEVSH-HISGRLLERVTACRIQRADGDCDLAAVILR-V-K--R-RR-ICVS--PRN-HTL-QRWV-Q-A-----Q---A-----AK-GHG----------------
+UniRef90_A0A8C8ZL41/17-88              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTI-KQWM-K-A-----Q---A-----AK-KNG----------------
+UniRef90_A0A8C8ZL22/21-92              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTI-KQWM-K-A-----Q---A-----AK-KNG----------------
+UniRef90_UPI00148724A0/23-94           -ILPIASS-CCTEVSH-HISRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-RTL-KQWM-K-A-----S---K-----VK-KNG----------------
+UniRef90_A0A8U0MDK8/22-91              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-PVI-KQWL-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A6P6HUN3/12-81              -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_Q9NRJ3/23-94                  -ILPIASS-CCTEVSH-HISRRLLERVNMCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTV-KQWM-K-V-----Q---A-----AK-KNG----------------
+UniRef90_A0A6P3QXQ8/56-124             -ILPIASS-CCTEVSR-HISRRLLERVTTCRIQRADGDCDLAAVILH-D-K--H-RR-ICAS--PHN-PII-KQWM-K-K-----Q---A-----AK--------------------
+UniRef90_A0A0D9RW31/25-96              -ILPIASS-CCTEVSH-HISRRLLERVNMCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTV-KQWM-K-V-----Q---A-----AK-KNG----------------
+UniRef90_A0A7J8EY22/23-91              -ILPIASS-CCTEVSR-HISRRLLERVNTCRIQRADGDCDLAAVILH-D-K--H-RR-ICVS--PHN-PII-KRWM-K-K-----Q---A-----AK--------------------
+UniRef90_A0A6I9M3V6/23-94              -ILPIASS-CCTEVSH-HISRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-RTL-KRWM-R-A-----S---E-----AK-KEG----------------
+UniRef90_A0A5N3XAX2/37-105             -ILPIASS-CCTEVSH-HISRRLLERVMTCRIQRADGDCDLAAVILH-V-K--R-RR-VCVS--PHN-HVI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_UPI001E25F8EA/22-91           -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_A0A485N426/23-92              -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_G3V896/15-83                  -ILPIASS-CCTEVSH-HIPRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-PTL-KRWM-S-A-----S---E-----MK--------------------
+UniRef90_A0A2K6U2F9/23-94              -ILPIPSS-CCTEVSH-HISRRLLERVNMCHIQRADGDCDLSAVILH-V-K--R-RR-ICVS--PHN-RTV-KQWI-K-V-----Q---A-----TK-KNG----------------
+UniRef90_Q91Y39/23-91                  -ILPIASS-CCTEVSH-HIPRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-PTL-KRWM-S-A-----S---E-----MK--------------------
+UniRef90_A0A2I2UIW7/23-92              -ILPIASS-CCTEVSR-HVSRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_A0A6P7PQM8/3-69               ------SS-CCTEVSH-HVSRRLLERVSSCSIQKADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-RTL-KQWM-R-A-----S---E-----VK-KNG----------------
+UniRef90_UPI000454B125/19-90           -ILPIASS-CCTEVSH-HISRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-RTL-KHWM-R-A-----S---E-----VK-KNG----------------
+UniRef90_UPI0014410607/17-85           -ILPIASS-CCTEVSH-HISRRLLERVTTCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HVI-KQWM-K-E-----Q---S-----GK--------------------
+UniRef90_H0WZW1/2-73                   -ILPIASS-CCTEVSH-HISRRLLERVNMCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTI-EQWM-K-A-----A---R-----KN-GKG----------------
+UniRef90_A0A2U3V8D4/23-91              -ILPIASS-CCTEVSH-HISRRLLERVTTCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HVI-KQWM-K-E-----Q---S-----GK--------------------
+UniRef90_UPI0010A2A6C5/37-108          -ILPIASS-CCTEVSH-HISRRLLERVNTCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTV-KQWM-K-V-----Q---A-----AK-KNG----------------
+UniRef90_UPI000331896D/23-91           -ILPIASS-CCTEVSH-HISKRLLQRVTMCRVQKVDGDCDLAAVILH-I-K--H-RR-ICVS--PRN-RIL-KQWM-K-E-----R---A-----AK--------------------
+UniRef90_UPI00201A1234/23-94           -ILPIASS-CCTEVS-QHISRRLLERVNACRIQRADGDCDLAAVVLH-V-K--H-RR-ICVS--PHS-HTI-KQWL-R-A-----E---A-----AK-EHG----------------
+UniRef90_UPI000A313ECB/23-94           -ILPIAAS-CCTEVSH-HVSRRLLERVSSCSIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-RTL-KHWM-R-A-----S---E-----VK-KNG----------------
+UniRef90_A0A7E6DA25/23-94              -ILPIASS-CCTEVS-QHISRRLLQRVSVCHIQRADGDCDLAAVILH-I-K--R-RR-ICVS--PHS-RTV-KQWM-K-E-----Q---A-----GK-RNA----------------
+UniRef90_A0A2K6ELC5/23-94              -ILPIASS-CCTEVSH-HISRRLLGRVNICRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-RTI-KQWM-K-A-----Q---A-----AK-KNG----------------
+UniRef90_A0A8C3FKF7/12-94              -LLPISFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--SHN-KTI-KQWM-K-R-----N---T-----IK-NHGR-NG-NLHSGKKR---
+UniRef90_A0A1U7U6A9/23-94              -ILPIASS-CCTEVSH-HISRRLLERVNTCRIQRVDGDCDLAAVILH-I-K--R-RR-ICVS--PHN-HTV-KQWM-K-A-----Q---A-----AK-KNG----------------
+UniRef90_A0A8C6EIX4/53-124             -ILPIASS-CCTEVSR-HISRGLLERVNSCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HAI-KKWM-K-A-----Q---T-----TK-KNG----------------
+UniRef90_A0A8C2R790/14-83              -ILPIASS-CCTEVSH-HVSRRLLERVTTCRIQRADGDCDLAAVILH-V-K--R-RR-VCVS--PHN-HII-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A6YT15/25-94                  -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-K--R-RR-VCVS--PHN-HVI-KQWM-N-E-----Q---A-----AK-K------------------
+UniRef90_A0A8U0TBM1/114-183            -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-PVI-KQWL-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A6J1XHN2/183-252            -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_A0A8C9LPH3/118-189            -ILPIASS-CCTEVSH-HISRRLLERVNMCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTV-KQWM-K-V-----Q---A-----AK-KNG----------------
+UniRef90_A0A4X1SV21/72-140             -ILPIASS-CCTEVSH-HISRRLLERVNTCRLQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HLI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_UPI0003C12733/29-94           -------N-CCTQVSN-SVTKSLLRKVERVQIQDHDGICHMKAMVLH-I-K--G-RK-LCVN--PRN-KLL-LKWL-R-K---------N-----AK-LQGR---------------
+UniRef90_UPI00189068B0/23-97           -ILPIASS-CCTEVSH-HISRRLLDRVNICRIQRADGDCNLAAVILH-I-K--Q-RR-FCVS--PHS-HII-KQWM-R-E-----Q---V-----KKNVHGN-I-------------
+UniRef90_A0A2Y9E8R5/23-92              -ILPIASS-CCTEVSH-HISRRLLERVTTCHIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHN-HTI-KRWM-K-A-----Q---A-----AK-K------------------
+UniRef90_A0A8D1YDH7/66-134             -ILPIASS-CCTEVSH-HISRRLLERVNTCRLQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HLI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_A0A8B8WVM0/74-142             -ILPIASS-CCTEVSH-HISRRLLERVTTCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HVI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_A0A3Q0D7B0/23-91              -ILPIASS-CCTEVSH-HISRRLLERVNSCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-QTL-KHWM-R-V-----S---E-----EK--------------------
+UniRef90_F6VWX6/25-95                  -ILPIASS-CCTEVSH-HISRRLLEKVNSCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHS-HNI-KKWM-K-E-----Q---A-----AK-KN-----------------
+UniRef90_A0A6G1AKI9/2-71               -ILPIASS-CCTEVSR-HISRRLLERVNLCRIQRADGDCDLAAVILH-I-R--R-RR-LCVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A8C8WBS7/115-184            -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HVI-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_UPI001C53A04B/28-99           -VLPMASS-CCTEVSH-HVSRRLLERVNTCHIQRADGDCDLAAVVLH-V-K--R-RR-VCVS--PHS-LTI-KQWM-R-A-----E---A-----AK-EHG----------------
+UniRef90_UPI001CA9B46C/233-302         -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_UPI001E67EAC4/23-91           -ILPIASS-CCTEVSQR-ISRRLLQRVNVCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHS-RTV-KQWM-K-E-----Q---A-----GK--------------------
+UniRef90_A0A8D2CRR2/23-94              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTI-KRWM-R-A-----Q---A-----AK-KNG----------------
+UniRef90_A0A7L2TA88/23-99              -LFPGAFD-CCTKISDK-IPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PQN-RKV-KKMM-K-K-----M---K-----HK-IHRS-KP-NV---------
+UniRef90_A0A6I9JUV5/23-88              -ILPIATS-CCTEVSH-HISRRLLERVTMCHIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-HTI-KQWM-K-A-----L-------------------------------
+UniRef90_A0A6I9IAH6/23-91              -ILPIASS-CCTEVSH-HISRRLLERVNVCRIQRADGDCDLAAVILH-V-K--H-RR-ICVS--PHN-HVI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_UPI000A33DBAF/103-172         -ILPIASS-CCTEVSH-HVSRRLLERVTTCRIQRADGDCDLAAVILH-V-K--R-RR-ICIS--PHN-HTV-KQWM-N-A-----Q---A-----AK-K------------------
+UniRef90_A0A8B9XPE3/64-133             -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-K--R-RR-VCVS--PHN-HVI-KQWM-N-E-----Q---A-----AK-K------------------
+UniRef90_K9IFY6/23-92                  -ILPIASS-CCTEVSQ-HVSRRLLGKVNVCRIQRADGDCDLAAIILH-V-K--R-RR-ICVS--PHS-RTV-KQWM-K-E-----Q---A-----GK-K------------------
+UniRef90_UPI001C6687C3/24-104          -LLPISFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--SHN-KTI-KQWM-K-R-----N---T-----IK-NHGR-NG-NLHSGX-----
+UniRef90_A0A6P3GHI3/72-141             -ILPIASS-CCTEVSH-HISRRLLERVTMCRIQRADGDCDLAAVILH-V-K--R-RR-VCVS--PHN-HVI-KQWM-N-E-----Q---A-----AK-K------------------
+UniRef90_A0A643CE78/7-75               -ILPIASS-CCTEVSH-HISRRLLERVTTCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_A0A452QXZ8/10-79              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQKADGDCDLAAVILH-I-R--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_UPI001F125935/259-328         -ILPIASS-CCTEVSR-HISRRLLERVNICRIQRADGDCDLAAVILH-I-R--R-RR-VCVS--PHS-HII-KQWM-K-E-----Q---E-----AK-K------------------
+UniRef90_G1SYX0/23-91                  -ILPFASS-CCTKVS-PHVSRKLLKVVRACHLQRADGDCNLDAVILH-V-R--H-RR-YCIA--PEN-HTL-KEWM-K-A-----Q---A-----VK--------------------
+UniRef90_A0A498NN85/219-271            -----EET-CCLQ-YVSEVALSIKKRVISYRKQELDGRCNISAVVFT-L-D--HGRV-FCTD--PTE--------------------------------------------------
+UniRef90_A0A8C3VNS5/23-91              -ILPIASS-CCTEVSH-HISRRLLERVHTCRIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HLI-KQWM-R-E-----Q---A-----AK--------------------
+UniRef90_A0A452C4C2/107-175            -ILPIASS-CCTEVSH-HISRRLLERVCTCSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HVI-KQWM-K-E-----Q---G-----AK--------------------
+UniRef90_A0A8C6R1A4/1-71               -ILPIASS-CCTEVSH-HISRRLLERVNFCRIQRADGDCDLTAVILH-I-K--R-RR-ICVS--PHN-RIL-EQWM-R-A-----S---A-----VK-KN-----------------
+UniRef90_UPI000273984E/23-93           -ILPAASN-CCTEMSH-QISRRLLAKVKRCHIQKADGDCDLPAVILY-V-H--H-RK-YCVS--PHN-HTL-KKWM-K-T-----Q---K-----NK-KN-----------------
+UniRef90_UPI00187BEDF1/23-92           -ILPIASS-CCTEVS-QHISRRLLERVNVCRIQRADGDCDLAAVILH-F-K--R-RR-ICVS--PHS-RTV-KQWM-K-D-----Q---A-----GK-R------------------
+UniRef90_A0A7K9XTK7/21-92              -LFPGAFS-CCTEISD-EIPGRILQRVQRFEIQKADGLCHLEAAILY-I-K--G-RK-FCVN--PRN-RKF-KKWR-Q-K-----N---K-----HK-IHR----------------
+UniRef90_UPI0009482007/10-79           -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A7N5JHB7/23-92              -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_G3UCR9/2-70                   -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-R--R-RR-ICAS--PHS-HTV-KQWM-K-A-----Q---A-----VK--------------------
+UniRef90_A0A6P5L9I7/23-93              -ILPVASN-CCTEVSH-QISRRLLAKVKRCHIQRADGVCDLPAVILH-V-H--H-RK-FCVS--PQN-HTL-KTWM-K-M-----Q---R-----NK-KN-----------------
+UniRef90_A0A7F8QH34/22-91              -ILPIASS-CCTEVSH-HVSRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---T-----AK-K------------------
+UniRef90_UPI0018E37F97/23-90           -ILPIASS-CCTEVSH-HVSRRLLERVNACSIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTL-RHWM-R-A-----S---Q-----V---------------------
+UniRef90_UPI0018796947/23-92           -ILPIASS-CCTEVSH-HISRRLLERVNICRIQKADGDCDLAAVILH-V-K--H-RR-ICVS--PHN-HVM-KRWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A673T4J1/23-92              -ILPIASS-CCTEVSR-HISRRLLDRVNVCRIQRADGDCDLAAVILH-I-R--H-RR-VCVS--PHS-HII-KRWM-K-E-----Q---R-----AK-K------------------
+UniRef90_A0A4X2JV66/23-93              -ILPVASS-CCTEVSH-QISRRLLAKVKRCHIQRADGVCDLPAVILH-I-H--H-RK-FCVS--PHN-HTL-KTWM-K-T-----Q---K-----NK-KN-----------------
+UniRef90_A0A6J0Z2T4/46-114             -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-K--R-RR-VCVS--AHN-HVI-KQWM-K-E-----Q---A-----AK--------------------
+UniRef90_UPI0007A6D06F/53-122          -ILPIASS-CCTQVSQ-HVPRRLLERVNVCRVQRADGDCDLAAVILH-I-K--H-RR-ICVS--PHS-HTI-KQWM-K-K-----Q---A-----AK-K------------------
+UniRef90_A0A8B7SUJ7/23-92              -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-K--H-RR-ICVS--PHS-RII-KRWM-K-Q-----Q---A-----AK-K------------------
+UniRef90_A0A7N5K5E8/72-141             -ILPIASS-CCTEVSH-HISRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A8B7SYE0/22-91              -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-K--H-RR-ICVS--PHS-RII-KRWM-K-Q-----Q---A-----AK-K------------------
+UniRef90_Q68A91/25-94                  -ILPIASS-CCTEVSH-HISRRLLERVNICRIQRADGDCDLAAVILH-V-R--R-RR-LCVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_UPI00196042FD/48-120          -LFPEVFS-CCTKIS-DEISKGILRRVERYEIQKADGLCHLEAVILH-M-K--G-RK-FCVN--PWN-RKV-EKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_UPI001BC9A486/44-113          -ILPIASS-CCTEVSH-HISRRLLERVNICRIQRADGDCDLAAVILH-V-R--R-RR-LCVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A8I3MJG7/31-100             -ILPIASS-CCTEVSH-HISRRLLERVNICRIQRADGDCDLAAVILH-V-R--R-RR-LCVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_UPI00101A067C/23-94           -ILPIASS-CCTAVSH-HVPRRLLDRVSMCRLQRADGDCDLAAVILH-V-K--H-RR-ICVS--PHS-HAV-KQWM-R-K-----Q---A-----AK-KHA----------------
+UniRef90_A0A3Q7TSP2/42-111             -ILPIASS-CCTEVSH-HISRRLLERVNICRIQRADGDCDLAAVILH-V-R--R-RR-LCVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_A0A811YCM7/25-94              -ILPIASS-CCTEVSH-HISRRLLERVNICRIQRADGDCDLAAVILH-V-R--R-RR-LCVS--PHS-HVI-KQWM-K-E-----Q---A-----AK-K------------------
+UniRef90_B3F3P2/23-92                  -ILPVASN-CCTEVSH-QVSRRLLAKVKRCHFQRADGVCDLPAVILH-V-H--H-RK-FCVS--PHN-HTL-KTWM-E-T-----Q---K-----NK-K------------------
+UniRef90_UPI001AAC488B/25-99           -----SSS-CCTELGER-ISKNTLKKVIRYKIQRRDGLCHLQAFVLY-T-K--E-KT-LCVS--PKS-KRV-RTWI-A-K-----K------------VNVK-SPSKLNHSL-----
+UniRef90_A0A7K7ZID5/23-95              -LFPGAFD-CCTKISD-EIPKGILRRVVRFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-KKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7L3KN08/15-87              -LFPGAFD-CCTEISD-EIPKGILRRVERFEIQEADGLCHLEAVILH-L-K--G-KK-FCVN--PHN-RKV-KRMM-K-K-----M---K-----HR-IHRS---------------
+UniRef90_A0A7K7X6P4/15-88              -LFPGAFH-CCTKISD-EIPKGTLRRVERFEIQKADGPCHLEAVILH-T-K--G-KK-LCVS--PWN-GKV-KRMM-K-K-----R---K-----HK-IHGS-K-------------
+UniRef90_A0A7K4WP55/2-72               --FPGAFN-CCTMIS-EEIPKRMLRRVERFEIQKADGLCHLGAVILY-I-E--D-KK-FCVS--PQI-KKV-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_UPI001879B0AE/134-203         -ILPIASS-CCTEVSH-HISRRLLERVNICRIQKADGDCDLAAVILH-V-K--H-RR-ICVS--PHN-HVM-KRWM-K-E-----Q---A-----AK-K------------------
+UniRef90_UPI0014551301/3-67            ------SS-CCTEVSH-HISRRLLERVTTCRFQRADGDCNLAAVILH-V-K--R-RR-ICIS--PHS-HTV-KQWM-N-A-----Q---A-----AK-K------------------
+UniRef90_UPI00156BF510/113-181         -ILPIASS-CCTEVSH-HVSRRLLERVNLCRIQRADGDCDLAAVILH-V-R--R-RR-ICVS--PHS-HVI-KQWM-K-E-----Q---T-----AK--------------------
+UniRef90_UPI001879ACAF/23-91           -ILPIASS-CCTEVS-QHISRRLLERVNVCRIQRADGDCDLAAVILH-V-K--R-RR-ICAS--PHS-RIV-KQWM-K-E-----Q---A-----GK--------------------
+UniRef90_UPI000C813C0C/53-121          -ILPIASS-CCTEVSH-HISRRLLERVTTCRIQRADGDCDLAAVILH-V-R--R-RR-ICAS--PHS-HTV-KQWM-K-A-----Q---A-----VK--------------------
+UniRef90_UPI00112C416E/28-91           -----TSD-CCTQLAN-HISKKILRRVLRFDMQRADGLCAVSALVLH-T-R--H-KK-LCVN--PKI-QSI-NKWR-K-R-----N---S-----K---------------------
+UniRef90_A0A671G154/23-91              -ILPIASS-CCTEVSH-HISRRLLERVTVCHIQRADGDCDLAAVILH-V-K--R-RR-ICAS--PHS-HII-KQWM-K-K-----Q---A-----AK--------------------
+UniRef90_A0A851YTR9/2-70               --FPGAFN-CCTKISE-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-KKL-KKWM-K-K-----N---K-----HK----T---------------
+UniRef90_L5LHU8/24-95                  -ILPIASS-CCTAVSH-HVPRRLLDRVHACRIQRADGDCDLAAVILH-V-R--H-RR-ICVS--PHS-HTV-KQWM-K-K-----Q---A-----AK-KHA----------------
+UniRef90_A0A7L0QFQ8/15-87              -LFPGAFS-CCTKIS-DEISKGILRRVERFEIQKAGGLCHLEAVILH-I-K--G-RK-FCVN--PWN-RKV-EKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_UPI0003EC0EB8/29-100          -ILPIASS-CCTAVSH-HVPRRLLDRVHACRIQRADGDCDLAAVILH-V-R--H-RR-ICVS--PHS-HTV-KQWM-K-K-----Q---A-----AK-KHA----------------
+UniRef90_A0A7K8FQ40/15-87              -LFPGAFD-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILH-I-K--G-KK-FCAN--PQN-RKV-KRMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7L0NY68/15-90              -LFPGAFN-CCTKISE-EIPKGILQRVEQFEVQKADGLCHLEAVILY-V-E--D-KK-FCVS--PRI-KRV-KKWM-K-K-----M---K-----HK-IHRR-KP-H----------
+UniRef90_A0A7K4XFP0/23-95              -LFPGAFN-CCTKISD-EVPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-KKV-KKFM-K-K-----M---K-----HK-IHKS---------------
+UniRef90_A0A7K4RE59/19-90              -LFPGAFN-CCTKISE-EIPKGILRRVERFEIQNADGLCHLEAVILY-I-E--D-KK-FCVS--PRI-KKI-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_S7PQ97/50-121                 -ILPIASS-CCTAVSH-HVPRRLLDRVHTCRIQRADGDCDLAAVILH-V-R--H-RR-ICVS--PHS-HTV-KQWM-K-K-----Q---A-----AK-KHA----------------
+UniRef90_A0A8J6BEN7/27-88              ----SSAS-CCTQLA-KHIPKNLLPRVTKVRLQKKDGICSLQAIVLH-V-E--N-HL-KCMD--PKN-RFL-QQWV-K-R-------------------------------------
+UniRef90_A0A7L0UI85/23-94              -LFPGAFN-CCTKIS-DEIPKRILRRVERYEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-KKL-KKWM-K-K-----N---K-----HK-IPR----------------
+UniRef90_UPI002015A47A/371-423         -----DED-CCLQ-YNKKVTKSMKNRVTSYRKQELDGDCNFPAVVFI-L-E--DGRD-FCTD--PKE--------------------------------------------------
+UniRef90_A0A5F8G4G3/66-137             -ILPVASS-CCTEVSH-HISRTLLPRVKRCHIQRADGVCDLPAVILH-V-H--H-RK-FCVS--PHN-HTL-KKWM-K-M-----Q---K-----NK-QNG----------------
+UniRef90_A0A7K5DP07/19-90              -LFPGAFN-CCTKISE-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--D-KK-FCVS--PRI-KKV-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A851UE84/2-73               --FPGAFN-CCTKVS-DEIPKRILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----YK-IHKS---------------
+UniRef90_A0A1S3W4M3/23-91              -ILPIASS-CCTQVSH-HISRRLLERVTACRIQKADGDCDLAAVILR-V-K--R-RR-ICVS--PHS-HII-KRWMRE-H-----A---V-----K---------------------
+UniRef90_UPI0004431C92/71-142          -ILPVASS-CCTEVSH-HISRTLLPRVKRCHIQRADGVCDLPAVILH-V-H--H-RK-FCVS--PHN-HTL-KKWM-K-M-----Q---K-----NK-QNG----------------
+UniRef90_A0A7L0X8S5/19-90              -LFPGAFN-CCTKISE-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--D-KK-FCVS--PRI-KRV-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_UPI001CFE5D6F/23-93           -ILPVASS-CCTEVSH-HISRTLLPRVKRCHIQRADGVCDLPAVILH-V-H--H-RK-YCVS--PHN-HTL-KKWM-K-M-----Q---K-----KK-KN-----------------
+UniRef90_A0A7K6I8M2/15-91              -LFPGAFD-CCTKIS-DGIPRGILRRVKWFDIQEADGPCHLEAVILY-F-K--G-KK-LCVN--PQI-RKF-RKWM-K-K-----I---K-----HK-THNS-KP-HV---------
+UniRef90_A0A7K6BLJ3/20-96              -LFPGAFN-CCTKIS-DEIPKRILRKVEMFDIQKADGLCRLEAVILY-I-E--S-RK-FCVS--PQN-RKV-KRMM-K-K-----L---K-----HK-MHRS-KP-HV---------
+UniRef90_A0A7K6DTP5/15-91              -LFPGAFD-CCTKIS-KEIPRRILRRVNRFEIQEADGPCHLEAVILY-V-R--G-KK-LCVN--PWI-REV-RKLM-K-K-----I---K-----HK-IHKS-KP-HV---------
+UniRef90_A0A7K7EM17/23-95              -LFPGAFN-CCMKIS-DEIPKAILRRVERFETQKADGPCHLEAIILH-M-K--D-KK-LCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K4VPZ2/23-94              -LFPGAFS-CCMKIS-DEISKGILRRVERFEIQKADGLCHLEAVILH-V-K--G-RK-FCVN--PWN-REV-EKIM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A7L1QWL3/15-87              -LFPGAFN-CCTKISHE-IPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVT--PWN-RKV-KKIM-E-K-----M---K-----HK-IHKS---------------
+UniRef90_A0A7K8GAK8/22-97              -LFPGAFD-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PCN-RKV-KKMM-K-------M---K-----RK-IHRS-KP-HV---------
+UniRef90_G1PFR3/23-94                  -ILPIASS-CCTAVSH-HVPRRLLDRVHTCRIQRADGDCDLAAVILH-V-R--H-RR-ICAS--PHS-HTV-KQWM-K-K-----Q---A-----AK-KHA----------------
+UniRef90_A0A7K9UIG2/19-88              -LFPGAFN-CCTKISD-EIPKGILRKVEMFEIQKADGLCHLEAVILY-I-E--D-RK-FCVS--PQI-RKV-RKWM-K-K-----N---K-----HR-I------------------
+UniRef90_A0A7K8LYG5/15-87              -LFPGAFD-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILH-I-K--G-KK-FCVN--PWN-RRV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7L4IEU5/19-93              -LFPGAFN-CCTKISN-EIPKGILRRVERFEIQKADGLCHLEAVIIY-I-E--G-RK-FCVS--PQI-RKV-KNWM-K-T-----N---K-----HK-IPRT-KP------------
+UniRef90_A0A7K8JBJ5/23-95              -LFPGAFD-CCTEIS-DGISKGILRRVEGFEIQRADGLCHLEAVILH-I-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K8I5M0/19-91              -LFPGAFD-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILH-I-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A674JC12/85-165             -LFPISFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--SHN-KTI-KKWM-K-R-----N---R-----IK-NHRR-NG-NLHSGK-----
+UniRef90_A0A7L2J7E9/15-88              -LFPGAFN-CCTKISD-EIPKGILRRVEGFETQQAGGLCHLEAVILH-M-K--G-KK-FCVN--PRN-RKI-KKMM-K-K-----M---K-----HK-IHGS-K-------------
+UniRef90_UPI0004DDE3DD/23-94           -LFPGAFD-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILH-I-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A7L3HRN1/15-91              -LFPGAFD-CCTKISN-EIPRRILRRVNRFEIQEADGPCHLEAVIVY-V-K--G-KK-FCVN--PRI-RKV-RKLM-E-K-----I---K-----HK-IHKS-KP-HV---------
+UniRef90_UPI000521C97D/23-92           -LFPGAFS-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-RRV-KKWM-K-K-----N---K-----HK-T------------------
+UniRef90_A0A7K4RUY9/2-72               --FPGAFN-CCTKISH-GIPKGILQRVERFEMQKADGLCHLEAVILY-I-G--G-RK-FCVS--PQI-RKL-KKWM-K-K-----N---K-----HK-IPK----------------
+UniRef90_A0A7L1GXF0/14-83              -LFPGAFS-CCTKMSD-EIPRGILRRVERFEIQKADGLCHLEAVILY-I-G--R-KK-FCVS--PQI-RKV-KTWM-K-K-----N---K-----HK-I------------------
+UniRef90_UPI000D722C47/23-102          -LFPVSFN-CCTEIAP-HVPRRLLRKVKRFEVQKDDGVCNLPAVILH-V-E--N-KK-LCIS--SHN-KTI-KKWM-K-R-----N---N-----IK-NCGR-NA-KLHCG------
+UniRef90_A0A7L3LH22/17-86              -LFPGVFS-CCTKISD-EIPKGILRRVERFEMQRADGLCHLEAVILY-I-E--R-RK-FCVS--PRI-SKV-KKWM-K-R-----N---K-----QK-I------------------
+UniRef90_A0A8C3KIF3/23-99              -LFPGAFN-CCTKISD-EIPKGTLRRVEWFEMQKADGLCHLEAVILY-I-E--G-KK-FCVS--PQI-RKF-KKWM-K-K-----N---K-----HK-IHRR-KP-HI---------
+UniRef90_A0A7L1ARL1/15-87              -LFPRAFD-CCMKISH-GIPKGILRRVERFEIQKSDGLCHLEAVILH-I-T--G-KK-FCVN--PQN-RKV-KKMM-R-R-----M---K-----HK-VHRS---------------
+UniRef90_UPI0006D7319E/28-99           -ILPIASS-CCTAVSH-HVPRRLLDRVHTCRIQRADGDCDLAAVILH-V-R--H-RR-ICAS--PHS-HTV-KQWM-K-K-----Q---A-----AK-KHA----------------
+UniRef90_A0A8B9VTK1/15-87              -LFPGAFN-CCTKISD-EIPKGILPRVERFEIQKADGLCHLEAVILY-I-G--D-RK-FCVS--PQI-KRV-KKWM-K-K-----K---K-----HK-IAGK---------------
+UniRef90_A0A7K6EZE1/15-87              -LFPGAFD-CCTKIS-DEIPRRILRRVNRFEIQEADGPCHLEAAILY-V-K--G-KK-FCVN--PRI-RKV-RKFM-E-K-----I---K-----HK-IHKS---------------
+UniRef90_A0A7K5A706/19-88              -LFPGSFN-CCTKISD-EIPKGILRRVERFDLQKADGLCHLEAVILY-I-E--S-RK-FCVS--PRI-KKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_UPI001CF23F50/25-90           --LPPSSASCCTQV-AKHIPRNMLQQVTKVQLQKKDGICNIKAIVLH-V-D--N-QL-KCMD--PTN-RLL-QKWV-R-K-----H-------------------------------
+UniRef90_A0A7K6JLZ1/15-88              -LFPGAFD-CCTEISD-EIHRGILRRVERFEIQEADGPCHLEAVILH-V-K--G-KK-FCVN--RWN-KKV-KKMM-K-I-----K---K-----PK-IHRT-K-------------
+UniRef90_A0A6J0GX69/23-94              -LFPGAFN-CCTKITE-EIPKGILRRVEKFEIQTADGLCHLEAVILY-I-E--G-KK-FCVS--PRI-KKV-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A8C3RK68/20-99              -LFPVSFN-CCTEASQ-HVPRRLLRKVIKFEIQKDDGMCNIPAVILY-V-K--H-KK-LCVS--SHN-KTI-KKWM-K-R-----N---R-----IK-NHRR-NG-NLHSG------
+UniRef90_A0A7K7IJV3/23-95              -LFPGAFS-CCMKIS-NEISKGILRRVERFEIQKAGGLCHLEAVILH-M-K--G-RK-FCVN--PWN-RKV-EKMM-R-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7L1IXW5/23-97              -LFPGAFS-CCTKISD-EIPKGILRRVERFEMQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-IPRR-KP------------
+UniRef90_A0A8B9QTL7/23-95              -LFPGAFN-CCTKISD-EIPKGILPRVERFEIQKADGLCHLEAVILY-I-G--D-RK-FCVS--PQI-KRV-KKWM-K-K-----K---K-----HK-IAGK---------------
+UniRef90_A0A7K5KGI3/21-92              -LFPGAFN-CCTKIS-EVIPKGILRRVERFEIQKADGLCHLEAVIVY-I-E--D-KK-FCVS--PRI-KKV-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A7L0TD75/14-85              -LFPGAFD-CCTKISD-EIPKGILQRVERFEIQKADGLCHLEAIILY-I-K--G-RK-FCVS--PQI-KKV-KRWM-K-K-----N---K-----HK-IPR----------------
+UniRef90_A0A7K9BEZ0/18-89              -LFPGAFS-CCTKISD-EIPKGILQRVEKFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-RKV-KKWM-K-K-----K---R-----FK-IHR----------------
+UniRef90_UPI0004F1222F/73-145          -LFPGAFS-CCMKIS-NEISKGILRRVERFEIQKAGGLCHLEAVILH-M-K--G-RK-LCVN--PWN-RKV-EKMM-R-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A8C5X4H1/3-79               -LFPGAFD-CCTKISD-EIPKGILRRVRRFEIQEADGLCHLEAVILH-V-K--G-KK-FCVN--PWI-RKV-QKMI-R-K-----I---K-----HK-IHRS-RP-HV---------
+UniRef90_A0A7K5E8V3/23-95              -LFPGAFD-CCIKISD-EIPKGILRRVKRFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PRN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A669QWE1/28-97              -LFPEAFN-CCTKISE-EIPKGILRRVERFEIQKHDGLCHLHAVILH-I-E--G-RK-FCVS--PRI-KRL-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A8J6ALW2/20-86              -ILPTASN-CCTEVSH-HISRRLLERVNTYCIQRTDGDCNLAAVILH-V-K--H-RR-ICMS--PHS-HII-KQWM-S-E-----E---A---------------------------
+UniRef90_UPI000350BA96/43-115          -LFPGAFN-CCTKISD-EIPKGILPRVERFEIQKADGLCHLEAVILY-I-G--D-RK-FCVS--PQI-KRV-KKWM-K-K-----K---K-----HK-IAGK---------------
+UniRef90_A0A7K8ACU1/23-95              -LFPGAFD-CCTKISDR-IPKGILRRVERFEIQTADGVCHLEAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----I---K-----HK-IHRS---------------
+UniRef90_A0A7K4TWU7/20-92              -LFPGAFN-CCMKIS-DEIPKVILRRVERFETQKADGPCHLEAIILH-M-K--G-KK-FCAN--PWN-RKV-KKMM-K-K-----M---E-----HK-IHRS---------------
+UniRef90_A0A7K9T7Z4/15-84              -LFPGAFN-CCTKISA-EIPKGILRRVERFEIQRVDGLCHLEAVILY-I-E--R-RK-FCVS--PRI-RKL-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7J7YWR8/23-94              -ILPIASS-CCTLV-SHHVPRRLLDRVSACRIQRADGDCDLAAVILH-V-R--H-RR-ICAS--PHS-HTV-KQWL-R-K-----Q---A-----AR-KHA----------------
+UniRef90_A0A8C0UXF1/26-98              -LFPGAFN-CCMKISN-EIPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKI-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K6AGK4/19-88              -LFPGAFN-CCTKISD-EIPKGILRRVEKFEIQKTDGLCHLEAVILY-I-E--N-RK-FCVS--PQI-RRV-TKWM-K-K-----H---K-----HK-I------------------
+UniRef90_A0A7L2MQG4/15-87              -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQKADGPCHLEAVILH-M-K--G-KK-FCVT--PWN-RNV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K7A6Z9/1-71               -LFPVAFS-CCTKVSE-EIPKGILRRVERFDIQKADGLCHLEAVILY-I-Q--G-RK-FCVS--PRI-KKV-KKWM-K-K-----K---R-----LN-IH-----------------
+UniRef90_A0A7K4JRH4/18-90              -LFPGAFN-CCMKIS-DEIPKRILRRVEKFELQKADSLCHLEAVILY-I-E--S-RK-FCVS--PQI-KKV-KKWM-K-K-----N---K-----HK-MPRR---------------
+UniRef90_UPI0003C1525A/29-92           ------VN-CCTEVA-SVFPAKLLRKVKSFKLQKADGVCDICAVVLH-Y-K--D-RQ-FCVD--PKN-KHL-KAWM-R-Q-----N---H-----QK--------------------
+UniRef90_A0A7K6XW44/23-95              -LFPGAFN-CCTKIS-DDISKGILGRVERFEIQKADGLCHLEAVILH-V-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K5HEK8/19-88              -LFPGAFN-CCMKIS-DEIPRGILRRVEKFELQKADGLCHLEAVILY-I-E--S-RK-FCVS--PQI-KKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A8C2TIP5/15-84              -LFPEAFN-CCTKISE-EIPRGILRRVERFEIQKHDGLCHLHAVILH-I-E--G-RK-FCVS--PRI-KRL-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7L2PH58/15-87              -LFPRAFD-CCMKIS-DEIPKGILRRVERFEIQKADGLCHLEAIILH-V-K--G-KK-FCVN--PWN-TKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_G1SU40/26-96                  -ILPFFSS-CCTEVS-PHLSRRLLKMVHTCHLQRADGDCDLDAVALY-F-G--R-RR-FCVT--TEN-HML-KEWM-K-A-----Q---A-----AK-KI-----------------
+UniRef90_A0A7L1RXQ3/22-94              -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQEADGVCHLGAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_UPI00193E7419/23-83           -ILPIPSS-CCTEVSH-HISRRLLERVNMCHIQRADGDCDLSAVILE-C-S--G--T-ISAHLQPPP-PGF-K--------------------------------------------
+UniRef90_UPI00193E7419/98-127          ---------------------------------------------LH-V-K--R-RR-ICVS--PHN-RTV-KQWI-K-V-----Q---A-----TK-KNG----------------
+UniRef90_A0A7K7VTZ5/15-85              -LFPVAFS-CCTKISE-EIPKGILRRVERFDVQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-KKV-KKWM-K-K-----K---R-----LH-VH-----------------
+UniRef90_A0A8C4JAS7/23-94              -LFPGAFS-CCTKISD-EIPKGILQRVEKFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-RKV-KKWM-K-K-----K---R-----FK-IHR----------------
+UniRef90_UPI0001CE2ABB/23-93           -ILPFFSS-CCTEVS-PHLSRRLLKMVHTCHLQRADGDCDLDAVALY-F-G--R-RR-FCVT--TEN-HML-KEWM-K-A-----Q---A-----AK-KI-----------------
+UniRef90_A0A452HGT1/28-104             -----SFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--AHN-KTV-KKWM-K-R-----N---R-----IK-DHRR-NG-NLHSGK-----
+UniRef90_A0A7L0V6Z8/19-91              -LFPGAFD-CCMKIS-DEISKGILRRVERFEIQKAGGLCHLEAVILH-M-K--G-RK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A1L8I399/25-88              ------AH-CCTEVARR-IPQNLLPRVTGVQIQKSDGICNIRAVVLQ-V-N--N-KK-ICMD--PKN-RSL-QKWM-K-K-----R---H-----PK--------------------
+UniRef90_UPI0011AF6D5C/23-95           -LFPGAFN-CCMKIS-DEISKGILRRVERFEIQKAGGLCHLEAVILH-M-K--G-RK-FCVN--PWN-KKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K8Y7R8/19-95              -LFPGAFN-CCTKISE-EIPKGILQRVERFAIQKADGLCHLEAVILY-I-E--H-KK-FCVS--PRI-KRV-KKWM-K-K-----M---K-----HK-IHRR-KP-HV---------
+UniRef90_A0A8C0IQD4/28-103             -----SFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--SHN-KTV-KKWM-K-R-----S---R-----IK-NHRR-NG-NLHSG------
+UniRef90_A0A7K6RTT0/19-87              -LFPGAFN-CCTKISD-EIPNGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HE--------------------
+UniRef90_UPI0004F097FB/32-100          -LFPGAFN-CCTEISY-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK--------------------
+UniRef90_A0A851EUD2/18-89              -LFPGAFN-CCTKISD-EIPKGILRRVERFEIQKGHGLCHLEAVILY-I-E--N-KK-FCVS--PQI-KKL-KKWM-K-K-----M---K-----DK-IHR----------------
+UniRef90_A0A7L0ZUS8/23-94              -LFPGAFN-CCTKISE-EIPKGILRRVERFEIQKANGLCHLEAVILY-I-E--D-KK-FCVS--PRI-KKV-KKWI-K-K-----M---K-----HK-THR----------------
+UniRef90_UPI001CC570CB/78-147          --LPVASN-CCTEVSH-HXSRRLLAKVKSCHTQRADGVCDLPAVVLH-V-H--H-RK-FCVS--PHN-HTL-KTWM-K-R-----Q---K-----NK-KN-----------------
+UniRef90_A0A8C3MEU9/24-95              -LFPGAFS-CCMKIS-DEISKGILRRVERFEIQKAGGLCHLEAVILH-M-K--G-RK-FCVN--PWN-REV-EKIM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A7L1V092/18-88              -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PQN-RKV-KKIM-K-K-----M---K-----HK-IY-----------------
+UniRef90_UPI0007713D28/23-95           -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKI-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A851LQZ2/15-90              -LFPGAFN-CCMKIS-DVIPKGILRRVERFEIQKADGLCHLEAVILF-I-Q--G-RK-FCVS--PQI-RKV-KKWM-K-K-----N---K-----HK-IIGE-KP-H----------
+UniRef90_A0A8B9PQ12/26-97              -LFPGAFS-CCTKISD-EIPKGILRRVERFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RRV-KKWM-K-K-----K---M-----FK-IHR----------------
+UniRef90_A0A7K6RA94/23-99              -LFPGAFN-CCTKISD-EVPKGILRRVERFEIQKADGLCHLEAVIIY-I-K--G-KK-FCVS--PRN-RKV-KKIM-K-K-----M---K-----HK-MHRR-KP-HI---------
+UniRef90_A0A7L4N904/16-84              --FPGVFN-CCTKISD-EIPKGILRRVEMFEIQEADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKF-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7K7B608/25-95              -LFPVAFS-CCTKVSE-EIPKGILRRVERFDVQKADGLCHLEAVILY-I-Q--G-RK-FCVS--PRI-KKV-KKWM-K-K-----K---R-----LN-IH-----------------
+UniRef90_A0A7K9RY08/20-91              --FPGTFN-CCMKI-SDDIPKVILRRVEKFETQKADGPCHLEAIILH-M-K--D-KK-LCAN--PWN-RKV-QKIM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K8UEX4/19-88              -LFPGAFN-CCTKISG-EIPKRILRRVERFEIQKADGLCHLGAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7L4EQV7/17-89              -LLPGAFN-CCMKISDK-IPKGILRRVEYFEFQKADGVCHLEAVILH-M-K--G-KK-FCVN--PWD-RKI-KKMM-K-K-----R---K-----HK-IHRS---------------
+UniRef90_A0A7K5RLL3/19-91              -LFPGAFD-CCMKIS-DEIPKGILRRVERFEIQQADGLCHLEAVILH-I-K--G-KK-FCVN--PWN-RKV-KKIM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_UPI0011D00AFF/23-90           -LFPGAFN-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-N-----K---H-----R---------------------
+UniRef90_A0A7L0A144/23-95              -LFPGAFD-CCRKIS-DEIPKGILRRVERFEIQKADGLCHLEAVILH-I-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----I---Q-----QK-IHRS---------------
+UniRef90_A0A7L3M8D4/15-86              -LFPRAIN-CCMKIS-EEIPKGILRRVERFDIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHR----------------
+UniRef90_UPI000522D22A/52-120          -LFPGAFN-CCTTIS-DEIPKGILRRVKRFEIQKADGLCHLEAVILY-I-E--S-RK-FCVS--PRI-RKV-EKWM-K-K-----S---K-----HK--------------------
+UniRef90_A0A7K5WG56/16-88              -LFPGAFN-CCVKNSH-EIPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K9J4P2/23-95              -LFPGAFD-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILH-I-K--G-KK-FCGN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7L0Q0V7/18-87              -LFPGAFN-CCTKNS-DEIPKGILRRVEKFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKL-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7K4KPL1/16-81              -LFPVAFS-CCTKISE-EIPKGILRRVERFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-KKV-KKWM-K-K-----R-------------------------------
+UniRef90_A0A7L4JWC3/19-88              -LFPGAFN-CCMKIS-DEIPKGILRRVKRFELQKADGLCHLEAVILY-I-E--S-RK-FCVS--PRI-KKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A672TSG4/39-106             -LFPGAFN-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-N-----K---H-----R---------------------
+UniRef90_A0A7L0W2F4/15-86              -LFPGAFN-CCTKISE-EIPKGILRRVERFEIQKDDGLCHLEAVILY-I-E--G-KK-FCVS--PRI-KRV-KKWM-K-N-----N---K-----QK-IPG----------------
+UniRef90_UPI000523E64B/23-92           -LFPGAFN-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HR-I------------------
+UniRef90_UPI0011CF3EDD/78-154          -----SFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--AHN-KTV-KKWM-K-R-----N---R-----IK-DHRR-NG-NLHSGK-----
+UniRef90_A0A7L1SYW0/23-92              -LFPGAFN-CCTEISD-EIPRRILQRVERFDIQKADGPCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-N-K-----N---K-----HK-I------------------
+UniRef90_A0A1L8I2F9/26-90              -----SIS-CCTEH-SDKVSQGLLQRVRKFEIQQNNGICNIRAVVLY-T-K--H-KA-LCVN--PNN-VLL-NEWI-E-K-----Q---K-----GK--------------------
+UniRef90_A0A8C6JTV5/18-92              -LFPGAFN-CCTKISE-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--H-RK-FCVT--QDS-QKE-TPWK-E-T-----K---Q-----DK-ASST-MK------------
+UniRef90_UPI00186425C5/20-81           FTLQAESA-CCTKYSRAELPKNLIKG---FSVQNIGGKCNINAVVFHTL-G--G-RK-VCAD--PAK-PWV-MDM------------------------------------------
+UniRef90_UPI00186425C5/109-181         FTLQAESA-CCTKYSRAELSKNLIKG---FSIQTIGGRCNINAVVFHTL-G--G-RK-VCAD--PAK------SWV-M-D-----M---I-----QE-LRST-VQ-KM---------
+UniRef90_UPI0013F276A9/67-142          -----SFN-CCTEVSH-HVPRRLLRKVLKFEIQKDDGVCNIPAVILH-V-K--H-KK-LCVS--SHN-KTV-KKWM-K-R-----S---R-----IK-NHRR-NG-NLHSG------
+UniRef90_A0A7L0B769/18-88              -LFPGAFN-CCTKIS-DSIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVR--PWI-RKV-KKWM-K-K-----N---K-----HK-IP-----------------
+UniRef90_UPI0017462286/23-92           -ILPIASS-CCTEVSHH-TPRRLLDRVNACRIQRADGVCDLPAVILH-V-K--H-RR-LCVS--PHS-HTV-KQWM-K-R-----Q---A-----AK-K------------------
+UniRef90_A0A7L0EM10/18-88              -LFPGAFN-CCTKMSG-EIPKGILRRVKGFEIQTADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKL-KKWM-K-K-----N---K-----HK-IP-----------------
+UniRef90_A0A8B7K053/52-123             -LFPGAFS-CCTKISD-EIPKGILRRVERFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RRV-KKWM-K-K-----K---M-----FK-IHR----------------
+UniRef90_UPI0004C29AE3/23-99           -LFPGAFS-CCMKIS-DEIPKALLRRVERFEIQKVDGLCHLEAVILY-I-E--S-KK-FCVS--PWI-RKL-KKWM-K-RNKHKTQ---R-----KK-LHG----------------
+UniRef90_A0A7L3GEM9/19-93              -LFPGAFN-CCMKIS-DEIPKGILQRVERFEIQKADGLCHLEAVILH-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-IPRK-KP------------
+UniRef90_A0A663F4T5/2-72               -LFPGAFN-CCTKVSD-EIPKGILRRVERFEIQKAAGLCHLEAIILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----RK-IP-----------------
+UniRef90_A0A7K5FNL1/19-88              -LFPGAFN-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----S---N-----HR-I------------------
+UniRef90_UPI001B7EECA0/23-87           ------AS-CCSQTG-TSIPMRLLKKINKFDIQKSDGICDIKAVILH-Y-R--R-KK-FCAD--PEN-STL-KKWI-R-H-----K---S-----GR-V------------------
+UniRef90_A0A5F9DK47/21-89              -ILSPDFS-CCTQVL-PHLAKRFLKMVHTCHLQRADGNCDLDAVILY-S-G--G-IR-FCVN--PKN-RTL-NRWM-K-E-----Q---A-----AN--------------------
+UniRef90_A0A7L3FUU8/29-98              -------N-CCTEIST-EIPRGILQRVEKFEIQEADGLCHLEAIILY-V-R--G-RK-FCVS--PRMTGTV-ERWM-K-M-----N---K-----HK-IHRK-KP------------
+UniRef90_A0A7K7Y3Z5/20-91              -LFPGAFN-CCMSIS-DEIPKGILRRVERFEIQKADGPCHLEAVILH-T-K--G-KK-FCVN--PWN-RKV-KKII-K-K-----M---K-----HK-IHN----------------
+UniRef90_UPI0015A6E5C7/23-90           -LFPGAFN-CCTRISD-EIPKGILPRVERFEIQKADGLCHLEAVILY-I-G--D-RK-FCVS--PQI-RRV-KKWM-K-K-----K---H-----K---------------------
+UniRef90_A0A7K4YNN3/19-89              -LFPGAFN-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVIIY-I-E--D-KK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-IP-----------------
+UniRef90_A0A7L3NEW7/18-88              -LFPGVFS-CCMKIS-DEIPKALLRRVERFEIQRADGLCHLEAVILY-I-E--S-KK-FCVS--PWI-RKL-KKWM-K-R-----N---K-----HK-TQ-----------------
+UniRef90_A0A7K4L3F2/15-79              -LFPVAFS-CCTKISE-EIPKGILRRVERFDVQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-KKV-KKWM-K-K-------------------------------------
+UniRef90_A0A7K5SWP2/27-99              -LFPGAFS-CCMKIS-DEISKGILRRVEKFEIQKAGGLCYLEAVILH-M-K--G-RK-FCVN--PWN-RKV-EKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A643BV62/48-80              ------------MLY-SPLSSKLLRNVIRVEFQEADGDCHLQAFVY-----------------------------------------------------------------------
+UniRef90_UPI0004F50114/70-139          -LFPGAFN-CCTKVSD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-K--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_UPI000E1BBE95/23-90           -LFPVAFS-CCTKVSE-EIPKGILRRVERFDIQKADGLCHLEAVILY-I-Q--G-RK-FCVS--PRI-KKV-KKWM-K-K-----K---K-----R---------------------
+UniRef90_A0A850UXX4/20-90              -LFPGAFS-CCMKIS-DEISKGILRRVERFEIQKAGGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKV-QKMM-K-K-----M---K-----HR-IH-----------------
+UniRef90_A0A852KAT6/21-90              -LFPGAFN-CCTKISD-QIPKGILRRAERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PEI-RKV-KKWM-K-K-----N---K-----HK-T------------------
+UniRef90_A0A2I0LR82/23-97              -LFPGAFN-CCMKISH-GIPKGILQRVERFEVQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-RKL-KKWM-K-K-----N---K-----HK-IPRN-KP------------
+UniRef90_A0A7L1ERG2/23-89              -LFPGAFD-CCTKISD-EIPKGILRRVQRFDIQEAHGPCHLEAIILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K---------------------------
+UniRef90_UPI0015A53DD8/43-110          -LFPGAFN-CCTRISD-EIPKGILPRVERFEIQKADGLCHLEAVILY-I-G--D-RK-FCVS--PQI-RRV-KKWM-K-K-----K---H-----K---------------------
+UniRef90_UPI00052E6C9C/23-93           -LFPVAFS-CCTKISE-EIPKGILQRVERFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-KKV-KKWM-K-K-----K---R-----LS-IH-----------------
+UniRef90_A0A850Z5F6/22-92              -LFPGAFN-CCMKIS-DEIPKGILRKVQRFEIQKADGLCHLDAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IN-----------------
+UniRef90_UPI000854CE87/25-98           -----SSK-CCTQLGER-ISKNVLNKVIDHKIQRRDGICDLQAFVFY-T-K--E-RT-FCMS--TKS-KRA-RAWI-V-K-----Q---K-----KK-DVRR-PN-KLN--------
+UniRef90_A0A7L1XCU7/19-93              -LFPGAFN-CCTKISD-EIPKGILRRVEGFEMQKADSLCHLEAVILY-I-K--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----QN-VHRR-KP------------
+UniRef90_A0A7K9D7T3/2-72               --FPGAFN-CCMKIS-DEIPKRILRRVERFEIQKADGLCHLEAVILY-I-E--G-KK-FCVS--PRI-RKV-RKWI-K-K-----N---K-----HK-IPR----------------
+UniRef90_A0A7L1YCY0/15-86              -LFPGVFT-CCRQVS-EEIPKGILQRVEWFEIQKADGLCNLEAVILH-I-E--D-KK-FCVS--PHI-KRV-KKWM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A7L2D542/14-86              -LFPGAFN-CCMKISH-DIPKGILRRVERFEIQKADGVCHREAVILH-M-K--G-KK-FCVN--PWN-RKV-KKMM-K-T---------K-----HK-IHGS-K-------------
+UniRef90_A0A8C4VAX5/23-92              -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQRADGLCHLEAVILY-I-G--G-RK-FCVS--PRI-RKV-KKWM-K-K-----K---K-----HK-I------------------
+UniRef90_A0A8C0EWZ2/35-109             -LFPGAFN-CCTKVSD-EIPKGILRRVERFEIQTADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----HKIPR-----KK-THG----------------
+UniRef90_A0A7M4G1H2/17-85              --FPVSFN-CCTEVSHY-VPRSLLRQVQMFEIQKEDGVCHLPAVILY-V-R--Y-EW-LCAS--PHN-KNV-RKWL-Q-R-----K---K-----SK-I------------------
+UniRef90_A0A7L1WK11/20-91              -LFPGAFN-CCMKIS-DEIPKGILRRVEKFETQKDDGLCHLEAVILH-I-K--G-KK-FCVN--PRN-TKV-KKMM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A851QAK0/19-92              -LFPGAFN-CCMKIS-DEIPKRILQRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----T---K-----HK-IPRK-N-------------
+UniRef90_A0A7L2AD42/21-86              ------FS-CCTEIS-NGIPRRILQRVEKFEIQKADGLCHLEAIILH-V-K--G-RK-FCVS--PRV-HQLVENWM-K-I-----K---H-----KN-L------------------
+UniRef90_A0A7K4LYG2/2-72               -LFPVAFS-CCMKIA-KEIPKGILQRVERFDVQKADGLCHLEAVILY-I-E--S-RK-FCVS--PWI-KNV-KKWM-K-K-----K---R-----LN-SH-----------------
+UniRef90_A0A8C8RAU2/25-89              --FPVVFN-CCTEVSQ-HVPRRLLQKVQKFEIQKDDGVCNLQAVILY-V-N--H-KR-LCVS--TQN-KNI-KKWM-K-R-----N-------------------------------
+UniRef90_A0A8B9G785/17-85              -LFPGAFN-CCTKISD-EIPKGILQRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HR--------------------
+UniRef90_A0A7L4GHK3/19-88              -LFPGAFN-CCIKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-L-E--G-KK-FCVS--PRI-RKV-TKWM-K-R-----N---K-----HK-I------------------
+UniRef90_A0A7K8JSK4/19-88              -LFPGAFN-CCTKISD-EIPKGILQRVERFETQKADGLCHLEAVILY-I-G--G-RK-FCVS--PRI-KKV-KKWM-K-K-----N---K-----HK-V------------------
+UniRef90_A0A7L4IU67/15-87              -LFPGAFN-CCMKIS-DEIPKVILRRVERFEIQKADGPCRLEAIILH-T-K--G-KK-FCVN--PCN-RKV-KKKM-E-K-----M---K-----HK-IHRS---------------
+UniRef90_A0A7K6FU99/15-86              -LFPGAFD-CCMKIS-DEISKGTLRTVEKFEMQKADGPCYLEAIILH-I-K--G-KR-YCVN--PWN-RKV-KKMM-K-K-----M---K-----HK-IHR----------------
+UniRef90_UPI000523C67F/23-92           -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVN--PWI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_UPI0003346A86/8-71            -ILPIVSS-CCTEVSH-NIPRKLLKRVNMFCIQRADGDCNLEAVIFH-T-K--H-RR-FCVS--P-N-RHV-RQWM-R-K-------------------------------------
+UniRef90_UPI0014035630/23-92           -LFPGAFN-CCTKISD-EIPKGILRRVEKFEIQKGDGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-F------------------
+UniRef90_A0A7L2Z0T9/19-89              -LFPGAFN-CCTKISD-EIPKGTLRQVEGFEMQKADGLCRLEAVILH-I-K--G-RK-FCVS--PQI-RKV-KKWI-K-K-----I---K-----HK-IP-----------------
+UniRef90_UPI00051E176E/23-93           -LFPGAFS-CCMKIS-EEIPKGILRRVERFGIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-RKV-KNWM-K-K-----K---R-----FR-IH-----------------
+UniRef90_A0A7M4FIH3/43-111             --FPVSFN-CCTEVSHY-VPRSLLRQVQMFEIQKEDGVCHLPAVILY-V-R--Y-EW-LCAS--PHN-KNV-RKWL-Q-R-----K---K-----SK-I------------------
+UniRef90_A0A7L2HLK3/18-87              -LFPGAFN-CCTKLSD-EIPKGILRRVERFEIQKADGLCRLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A852PL54/14-86              -LFPGAYN-CCMKIS-DEIPKRILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RRV-KKMM-K-K-----M---K-----HK-IHRS---------------
+UniRef90_UPI00052868E2/23-92           -LFPGAFN-CCTEISD-EIPKGILRRVERFEIQQADGLCRLEAVIIY-I-E--D-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_UPI001AADBA9B/28-88           -----TVS-CCTKLA-KHIPKNLLKNVMKVRFQKRDGLCNLRAIVLY-V-G--R-QQ-KCVD--PNN-KAL-IGWI-K-K-------------------------------------
+UniRef90_UPI00052A0943/55-131          -LFPGAFN-CCTKISD-QIPKGILQRAERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PEI-RKV-KKWM-K-K-----N---KHKTPRKK-LHG----------------
+UniRef90_UPI0003C19C6C/25-85           -------K-CCTETS-SNISKRLLEKVKTFKIQKQDGVCDIEAVVLY-V-A--N-RE-LCAD--PRN-KLL-KDWI-K-Q-----R---K---------------------------
+UniRef90_A0A7L1N1E0/2-70               --FPGAFN-CCMKIS-DEIPKGILRRVERFEIQKTDGLCHLEAVILY-I-E--K-RK-FCVS--PWI-RRV-TKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7K7GGA4/2-67               --FPGAFN-CCTKISD-EIPKGILRRVERFEIQKAHGLCHLEAIILH-M-K--G-KK-FCVN--PWN-RKV-KNMM-K-K-----K---K---------------------------
+UniRef90_A0A7L0DHA4/19-90              -LFPGAFN-CCTKISE-EIPKGILRRVEGFEMQKADGLCRLEAVILY-I-K--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-IPR----------------
+UniRef90_A0A8J1IYX8/29-90              ------AH-CCTEVARR-IPRNLLPHVTGMRIQKNNGICNIRAVVLH-V-N--N-KQ-ICLD--PKN-RSL-QKWI-Q-K-----R---H---------------------------
+UniRef90_UPI001CFBAC02/26-90           -----SAN-CCTEVS-KDATKTLLRRVKEYQIQKQDGICDIKAVVLH-H-K--S-KM-YCVD--PEG-KNI-RKWL-K-K-----Q---N-----GK--------------------
+UniRef90_A0A1U7S761/25-93              --FPVSFN-CCTKVSHH-VPRSLLRQVQMFEIQKEDGVCHLPAVILY-V-R--H-EW-LCAS--PHN-KNV-RKWL-Q-K-----N---T-----SK-I------------------
+UniRef90_UPI0005291C3D/150-219         -LFPGAFN-CCTKVSD-EIPKGILRRVERFDIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A852IN80/14-83              -LFPGAFN-CCTRISD-EIPTGILRRVERFEIQKADGLCHLEAVILY-V-E--G-KK-FCVS--PWI-RKV-KTWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7K5GKH8/15-86              -LFPGAFN-CCMKIT-DEIPKGILRRVERFEIQKANGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RRV-KKWM-K-N-----N---K-----HK-IPR----------------
+UniRef90_A0A7K8EA57/19-90              -LFPGAFN-CCIKISD-EIPKGILRRVERFEIQKAHGLCHLEAVILH-M-K--G-KK-FCVN--PWN-RKI-KKMM-K-K-----I---K-----HK-IHR----------------
+UniRef90_A0A851NYH6/7-69               -------N-CCTKIS-EDIPKGILRRVERFEIQKDDGLCHLEAVILY-I-E--G-RK-FCVS--PRI-KRV-KKWM-K-K-----N---K-----HK--------------------
+UniRef90_A0A8D0KRT0/20-94              -LFPGAFN-CCTKVSD-EIPKGILRRVERFEIQTADALCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----HKIPR-----KK-THG----------------
+UniRef90_A0A8C3XC20/12-84              -LFPGAFN-CCMKIS-DEIPQVILRRVERFEIQKADGPCRLEAIILH-T-K--G-KK-FCVN--PCN-RKV-KKMM-K-K-----M---K-----HK-THRS---------------
+UniRef90_A0A7L2UF92/18-92              -LFPGAFN-CCTEISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKLM-K-A-----N---K-----YK-IPRT-KP------------
+UniRef90_A0A850VMH6/19-81              -LFPGAFS-CCTKISD-EIPKGILRRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKLM-----------------------------------------
+UniRef90_A0A7K9E1Z5/19-88              -LFPGAFN-CCMKIS-DEIPKGILRRVEMFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KIWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7K6NMH6/20-89              -LFPGAFN-CCTKISD-EIPKGILRRVEGFEIQKSDGLCHLEAVILY-I-E--G-KK-FCVS--PRI-RKV-KKWM-K-K-----K---K-----HN-I------------------
+UniRef90_A0A663N827/135-209            -LFPGAFN-CCTKVSD-EIPKGILRRVERFEIQTADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKF-KKWM-K-K-----HKIPR-----KK-PHG----------------
+UniRef90_A0A7K9V5C6/15-84              -LFPGAFN-CCMKISDE-IPKGILLRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RRV-KKWM-K-K-----H---K-----HK-L------------------
+UniRef90_A0A6P7XEA3/24-88              ----SSSS-CCTEVA-NHVSKKLLRRVLRFEMQRAVGICPLPAIVLY-T-R--H-KK-LCAN--PKI-QLI-KKWR-K-K-----N---D-----K---------------------
+UniRef90_UPI000532735F/37-106          -LFPGAFN-CCTEISD-EIPGRILQRVERFDIQKAAGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_A0A7K5QVV6/15-79              -LFPGAFS-CCMKIS-DEISKGILRRVERFEIQKAGGLCHLEAVILY-M-K--G-RK-FCVN--PWN-RKV-GKMM-K-M-------------------------------------
+UniRef90_A0A851CL94/2-72               --FPGAFN-CCMKIS-DEIPKGILRRVETFEIQKAHGLCNLEAVILY-I-E--N-KK-FCVS--PQI-RKV-KKWM-K-K-----M---K-----HK-MHR----------------
+UniRef90_A0A6P9DLQ2/23-98              --FPAFFD-CCTEVAQ-HIPKRWLRRVVKFEIQKSGDLCRIPAVILH-T-R--R-KK-LCVS--SLN-KTV-KRWM-K-H-----M---T-----RC-CQNS-DP-KI---------
+UniRef90_UPI0018B03F60/3-47            ------------------------------RIQRADGDCDLAAVILH-V-K--R-RR-ICVS--PHN-HTV-KQWM-K-V-----Q---A-----AK-KNG----------------
+UniRef90_A0A8J0QZG4/28-92              -----SIS-CCTE-HSDQISRGLLQRVRKFEIQQNNGLCNIRAVVLY-T-K--H-KV-LCAN--PDN-VLL-NQWI-E-K-----R---K-----GK--------------------
+UniRef90_UPI0007759311/24-94           ---PVFFD-CCTEVAN-HIPRRWLRRVVKFEIQKSDDLCRIPAVILH-T-R--R-KK-LCVS--PLN-KNV-KRWM-K-Q-----M---T-----RC-CQRS---------------
+UniRef90_UPI000514FB98/54-119          -LFPGAFN-CCRKIS-DEIPKGILQRVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PQI-TKV-KKWM-M-K-----K-------------------------------
+UniRef90_A0A7L2BU27/15-86              -LFPGAFN-CCMKTS-DEIPKGILRRVERFEIQKADGLCHLEAVILH-M-K--G-KK-FCVN--PWI-RKV-KTMM-K-K-----M---K-----HK-IHR----------------
+UniRef90_A0A7K8QZQ5/19-91              -LFPGAFN-CCMKIS-DEIPKGILRRVETFEIQKAHGLCNLEAVILY-T-G--N-KK-FCVS--PQI-RKV-KKWM-K-K-----M---K-----HK-MHRS---------------
+UniRef90_UPI001CFAE6FC/25-90           ----VSTN-CCTEVS-KDAPKKLLRHVKEYQIQKQDGICEIKAVVLH-H-K--T-KL-YCVD--LEG-KNV-KKWL-K-R-----K---Q-----RG--------------------
+UniRef90_A0A6I9YSG7/24-93              ---PVFFD-CCTEVAQ-HIPKRWLRRVVKYERQKSDDLCRIPAVILH-T-R--R-KK-VCVS--PLN-ENV-KRWI-K-Q-----M---T-----RC-CQK----------------
+UniRef90_UPI0015601589/26-88           -------S-CCTETAS-YIPLNILRKVTRIEIQKEDGLCDIKAAVIH-V-N--G-KK-LCLD--PDI-KTI-KKWI-K-M-----K---N-----QR--------------------
+UniRef90_A0A7K8TFU7/23-90              -LFPGAFN-CCMKIS-DEIPKGILRRVERFEIQKANGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----H---------------------
+UniRef90_UPI001B7EBDF5/24-85           -------S-CCSQTGTR-IPMRLLKRVNKFEIQKSNGICDIKAVILH-Y-R--R-KK-FCAD--PEN-NTL-KKWI-R-Q-----K---S-----G---------------------
+UniRef90_UPI00051193C3/23-94           -LFPGAFN-CCMNIS-DEIPKGILRRVEKFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKVKKKWM-K-K-----N---K-----HK-IP-----------------
+UniRef90_A0A7L4KW09/23-95              -LFPGAFD-CCMKIS-DEIPKGILRRVERFEIQKADGLCHLEAVILH-T-K--G-KK-FCVN--LWN-RKV-KKMM-K-I-----M---K-----HK-IHRS---------------
+UniRef90_UPI001CFC422C/27-88           ------IS-CCTQVA-KDFNPMQLRHVKQYEIQKQDGICDIKAVVLH-Y-K--T-KF-YCVD--PEG-KHV-KKWL-K-K-----K---Q---------------------------
+UniRef90_A0A7K9HZG1/19-91              -LFPGAFN-CCTKISD-EIPKGILQRVERFKIQKADDLCRLEAIILY-I-E--G-RK-FCVS--PQI-RKV-KKWM-K-K-----H---K-----HK-IPRK---------------
+UniRef90_A0A7L1CXM9/20-91              -LFPGAFN-CCTKISD-EIPKGILRRVERLEIQKAHGLCHLEAVILY-V-E--N-KK-FCVS--PRI-RKV-KKLM-K-K-----M---K-----YK-IHR----------------
+UniRef90_A0A6P8PG22/25-91              ----SSPS-CCTEVA-NHISKKILRRVLRYEKQTADGICVLSAIILY-T-R--H-KK-LCAK--PKI-QLI-KQLR-K-R-----N---D-----KK-Y------------------
+UniRef90_A0A7K9C270/2-61               --FPGAFN-CCTRISE-EIPRGILQRVERFEMQKADGLCHLEAVILY-V-E--D-KK-FCVS--PWN-RKV-RA-------------------------------------------
+UniRef90_A0A6P8P7D0/22-83              ----PVVS-CCTER-AKSIPRNMFKLVKEVYFQPSDGICDLQAVVLI-L-E--K-QK-KCLH--PKN-KDF-RKWL-K-W-------------------------------------
+UniRef90_A0A851ACJ6/5-55               ----------------------ILRSVERFEIQKADGLCHLEAVILY-I-E--G-RK-FCVS--PRI-RKV-KKWM-K-K-----N---K-----HK-I------------------
+UniRef90_UPI00202E4F4A/30-92           -------N-CCTRVSNK-INLRMLKSVKSFEIQHQ-RACTIKAVILH-M-A--R-CI-ICID--PNN-AAL-QKWM-QNH-----Q---H-----KK--------------------
+UniRef90_A0A4W3GE07/27-87              ----PPIS-CCTRVVN-YFTKHLGKRVTKVEIQKTN-HCTIKAVVLH-I-R--K-RK-LCVD--PNN-KVL-KKWL-K-A-------------------------------------
+UniRef90_A0A8T3DRS1/28-77              -------K-CCVT-TSKNIDPAVLRKVVSVKFQSAGGVCEVDALVLH-V-K--R-RR-ICAH--PAV--------------------------------------------------
+UniRef90_V8PI30/23-98                  --FPAFFD-CCTEVAQ-HIPKRWLRRVVKFEIQKSGDLCRIPAVILH-T-R--R-KK-LCVS--SSN-KNV-KRWL-K-Q-----M---T-----RC-CQRS-DP-KI---------
+UniRef90_UPI0011273B5B/39-98           ------QA-CCTEVARA-VPRRMFTRVKKVTFQLNDGVCKVEAAVLT-L-K--K-QT-LCID--PKN-KDL-MKWL-Q-R-------------------------------------
+UniRef90_UPI0014902AC9/26-85           -------K-CCVKT-RRDISMRILRNVIRWEVQQNNGQCDIEALILH-V-RDHQ-RP-ICAH--PKL-KRV-IVRM-K---------------------------------------
+UniRef90_A0A401SYK5/30-93              -------N-CCTRVSNK-VNTKMLKRVKSFQMQH-DRFCAIKAVLLQ-I-A--H-HT-VCID--PNN-AHL-QRWM-KKH-----Q---N-----KK-Q------------------
+UniRef90_UPI00109FFD33/25-90           ------RK-CCTQVAVK-IQREMLNRVKCYEVLKNNGVCDLNAIMLH-I-K--N-KK-YCVD--PEN-KKV-RKWL-K-Q-----I---E-----KE-I-----P------------
+UniRef90_UPI00145BBC94/39-97           ------AS-CCSQTGTR-IHMRLLKRVNRFDIQKSDGICDIKAVILH-Y-R--R-KK-FCAD--PEN-NIL-KKWI-R---------------------------------------
+#=GC RF                                xxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.x.x..x.xx.xxxx..xxx.xxx.xxxx.x.x.....x...x.....xx.xxxx.xx.xxxxxxxxxxx
+//

@@ -1,0 +1,10 @@
+# STOCKHOLM 1.0
+
+#=GS MGYP000197256106/40-68  DE [subseq from] PL=00 UP=0 BIOMES=0000000011000
+#=GS MGYP000057221520/68-102 DE [subseq from] PL=00 UP=0 BIOMES=0000000011000
+
+CXCL12[22-93]                   KPVSLSYRCPCRFFESHVARANVKHLKILNTPNCALQIVARLKNNNRQVCIDPKLKWIQEYLEKALNKRFKM
+MGYP000197256106/40-68          ---------------------------------------ARLKNNNRQVCIDPKLKWIQEYLEKALNK----
+MGYP000057221520/68-102         ---------------------------------LSFVLSAKLKNSDREVCINPKTKWLQQYLRNAINK----
+#=GC RF                         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

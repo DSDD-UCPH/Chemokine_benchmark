@@ -1,0 +1,18 @@
+# STOCKHOLM 1.0
+
+#=GS MGYP000070436616/34-180  DE [subseq from] PL=10 UP=0 BIOMES=0000000011000
+#=GS MGYP000788735855/152-280 DE [subseq from] PL=01 UP=0 BIOMES=0000000011000
+#=GS MGYP000156259238/82-125  DE [subseq from] PL=00 UP=0 BIOMES=1000000000000
+
+CXCL16[30-254]                   NEGSVTGSCYCGKRISSDSPPSVQFMNRLRKHLRAYHRCLYYTRFQLLSWSVCGGNKDPWVQELMSCLDLKECGHAYSGIVAHQKHLLPTSPPISQASEGASSDIHTPAQMLLSTLQSTQRPTLPVGSLSSDKELTRPNETTIHTAGHSLAAGPEAGENQKQPEKNAGPTARTSATVPVLCLLAIIFILTAALSYVLCKR
+MGYP000070436616/34-180          ----------------------------------------------------------------SSFLSFPECGHAYSGIVAHQKHLLPTSPPTSQASEGASSDIHTPAQMLLSTLQSTQRPTLPVGSLSSDKELTRPNETTIHTAGHSLAVGPEAGENQKQPEKNAGPTARTSATVPVLCLLAIIFILTAALSYVLCKR
+MGYP000788735855/152-280         NEGSVTGSCYCGKRISSDSPPSVQFMNRLRKHLRAYHRCLYYTRFQLLSWSVCGGNKDPWVQELMSCLDLKECGHAYSGIVAHQKHLLPTSPPISQASEGASSDIHTPAQMLLSTLQSTQRPTLPVGSQ-----------------------------------------------------------------------
+MGYP000156259238/82-125          NEGSVTGSCYCGKRISSDSPPSVQFMNRLRKHLRAYHRCLYYTR------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CXCL16[30-254]                   RRGQSPQSSPDLPVHYIPVAPDSNT
+MGYP000070436616/34-180          RRGQSPQSSPG--------------
+MGYP000788735855/152-280         -------------------------
+MGYP000156259238/82-125          -------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxx
+//

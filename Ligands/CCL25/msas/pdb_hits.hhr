@@ -1,0 +1,1403 @@
+Query         CCL25[24-150] 
+Match_columns 127
+No_of_seqs    172 out of 545
+Neff          4.30443
+Searched_HMMs 92111
+Date          Tue Aug  1 15:30:33 2023
+Command       /scratch/alphafold/alphafold-conda/bin/hhsearch -i /tmp/tmpypsmajs3/query.a3m -o /tmp/tmpypsmajs3/output.hhr -maxseq 1000000 -d /scratch/alphafold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KUM_A C-C motif chemokine 27;  99.5 7.8E-18 8.5E-23  113.5   0.0   69    2-72      4-73  (88)
+  2 6CWS_A C-C motif chemokine 28;  99.4 4.7E-17 5.1E-22  115.8   0.0   70    2-73      6-75  (108)
+  3 5UR7_B C-C motif chemokine 20;  99.4 1.4E-16 1.5E-21  101.5   0.0   65    3-71      2-67  (70)
+  4 5EKI_E C-C motif chemokine 21;  99.4 2.1E-16 2.3E-21  103.9   0.0   69    1-73      2-73  (79)
+  5 1M8A_A Small inducible cytokin  99.4 3.7E-16 4.1E-21   99.3   0.0   65    3-71      2-67  (70)
+  6 2JYO_A C-C motif chemokine 20   99.4 3.7E-16 4.1E-21   99.3   0.0   65    3-71      2-67  (70)
+  7 1HA6_A MACROPHAGE INFLAMMATORY  99.4 4.5E-16 4.9E-21   99.2   0.0   66    3-72      2-68  (70)
+  8 2MP1_A C-C motif chemokine 19;  99.4   5E-16 5.4E-21  100.1   0.0   68    2-73      3-71  (77)
+  9 2L4N_A Chemokine (C-C motif) l  99.3 8.2E-16 8.9E-21  110.1   0.0   69    1-73      2-73  (113)
+ 10 7JNY_A CXCL13; Chemokine, CXCL  99.3   1E-15 1.1E-20  101.9   0.0   67    2-72      7-75  (88)
+ 11 1EIG_A chemokine, chemotactic   99.3 1.1E-15 1.2E-20   97.8   0.0   66    2-72      2-68  (73)
+ 12 1MI2_A MIP-2, CHEMOKINE, CYTOK  99.3 2.7E-15 2.9E-20   95.8   0.0   66    3-72      5-71  (73)
+ 13 3N52_A C-X-C motif chemokine 2  99.3 2.7E-15 2.9E-20   95.8   0.0   66    3-72      5-71  (73)
+ 14 6VGJ_A C-X-C motif chemokine 1  99.3 2.8E-15   3E-20   99.0   0.0   67    2-72      5-73  (86)
+ 15 7STA_C CCL19, Chemokine, SIGNA  99.3 3.2E-15 3.5E-20   92.5   0.0   61    6-70      1-62  (64)
+ 16 7STA_D CCL19, Chemokine, SIGNA  99.3 3.2E-15 3.5E-20   92.5   0.0   61    6-70      1-62  (64)
+ 17 2MGS_B C-X-C motif chemokine 5  99.3 3.7E-15   4E-20   96.8   0.0   67    2-72      8-75  (78)
+ 18 1DON_B HOMODIMER, HIGH RESOLUT  99.3 4.8E-15 5.2E-20   96.3   0.0   66    2-72      6-72  (76)
+ 19 1O7Z_A SMALL INDUCIBLE CYTOKIN  99.2 5.5E-15   6E-20   95.5   0.0   67    2-72      4-73  (77)
+ 20 1O80_A SMALL INDUCIBLE CYTOKIN  99.2 5.5E-15   6E-20   95.5   0.0   67    2-72      4-73  (77)
+ 21 1PFM_B CYTOKINE; NMR {Homo sap  99.2 6.5E-15 7.1E-20   91.8   0.0   64    2-69      3-67  (68)
+ 22 5L7M_A C-X-C motif chemokine 1  99.2 6.8E-15 7.4E-20   98.3   0.0   68    1-72      5-74  (88)
+ 23 7S5A_A CC Chemokine, CYTOKINE;  99.2 8.1E-15 8.8E-20   95.0   0.0   66    2-72      6-72  (76)
+ 24 7S5A_B CC Chemokine, CYTOKINE;  99.2 8.1E-15 8.8E-20   95.0   0.0   66    2-72      6-72  (76)
+ 25 2MPM_A Eotaxin, CCR3; Chemokin  99.2 8.8E-15 9.5E-20   94.2   0.0   66    2-72      4-70  (74)
+ 26 1G2T_A beta-beta-beta-alpha he  99.2 9.4E-15   1E-19   93.6   0.0   64    2-71      5-69  (71)
+ 27 1MSH_A CYTOKINE (CHEMOTACTIC);  99.2   1E-14 1.1E-19   92.7   0.0   66    2-71      4-70  (72)
+ 28 1QNK_A GROB[5-73]; CHEMOKINE,   99.2   1E-14 1.1E-19   91.7   0.0   64    4-71      2-66  (69)
+ 29 1ZXT_C functional macrophage i  99.2 1.2E-14 1.3E-19   96.3   0.0   65    1-71      5-70  (76)
+ 30 1F9Q_D PLATELET FACTOR 4; plat  99.2 1.2E-14 1.3E-19   92.1   0.0   64    2-69      5-69  (70)
+ 31 4R9W_A Platelet factor 4; PF4,  99.2 1.2E-14 1.3E-19   92.1   0.0   64    2-69      5-69  (70)
+ 32 7JH1_A XCL1 ancestor; metamorp  99.2 1.3E-14 1.4E-19   90.1   0.0   62    3-69      1-63  (64)
+ 33 1VMP_A VMIP-II, CHEMOKINE, MON  99.2 1.4E-14 1.5E-19   92.0   0.0   64    2-71      6-70  (71)
+ 34 2FHT_A Viral macrophage inflam  99.2 1.4E-14 1.5E-19   92.0   0.0   64    2-71      6-70  (71)
+ 35 4XT1_B US28, CX3CL1, nanobody   99.2 1.5E-14 1.7E-19   97.8   0.0   67    1-73      2-71  (91)
+ 36 6EHZ_A Stromal cell-derived fa  99.2 1.5E-14 1.7E-19  100.2   0.0   66    2-73      4-71  (98)
+ 37 5WK3_D M116 LIGHT CHAIN, M116   99.2 1.6E-14 1.7E-19   92.1   0.0   64    2-71      5-69  (71)
+ 38 1DOK_B MONOCYTE CHEMOATTRACTAN  99.2 1.8E-14   2E-19   93.9   0.0   66    2-72      7-73  (77)
+ 39 1EL0_A chemokine fold, IMMUNE   99.2 1.9E-14   2E-19   91.9   0.0   61    5-71      9-70  (74)
+ 40 4OIJ_A C-C motif chemokine 1,   99.2 1.9E-14   2E-19   91.9   0.0   61    5-71      9-70  (74)
+ 41 4OIK_B C-C motif chemokine 1,   99.2 1.9E-14   2E-19   91.9   0.0   61    5-71      9-70  (74)
+ 42 1F9P_A CONNECTIVE TISSUE ACTIV  99.2 1.9E-14 2.1E-19   95.3   0.0   67    2-72     15-82  (85)
+ 43 4ZLT_L protein R17, C-C motif   99.2   2E-14 2.2E-19   92.3   0.0   62    2-70      7-69  (70)
+ 44 5COY_B C-C motif chemokine 5;   99.2 2.1E-14 2.3E-19   89.9   0.0   61    3-69      3-64  (65)
+ 45 5DNF_B C-C motif chemokine 5;   99.2 2.1E-14 2.3E-19   89.9   0.0   61    3-69      3-64  (65)
+ 46 2FIN_B protein-protein complex  99.2 2.2E-14 2.3E-19   91.3   0.0   62    2-69      6-68  (69)
+ 47 6WZK_F LY3041658 Fab heavy cha  99.2 2.2E-14 2.4E-19   93.7   0.0   66    3-72      5-71  (78)
+ 48 2HCC_A CHEMOKINE, HUMAN, HCC-2  99.2 2.2E-14 2.4E-19   89.8   0.0   63    2-70      1-64  (66)
+ 49 1G91_A chemokine, cytokine, MP  99.2 2.3E-14 2.5E-19   93.1   0.0   66    2-73      5-72  (77)
+ 50 1TVX_B NEUTROPHIL ACTIVATING P  99.2 2.4E-14 2.6E-19   91.9   0.0   68    1-72      4-72  (75)
+ 51 5COR_C C-C motif chemokine 3;   99.2 2.4E-14 2.6E-19   90.5   0.0   63    2-70      6-69  (70)
+ 52 1A15_A CHEMOKINE, HUMAN STROMA  99.2 2.7E-14   3E-19   89.8   0.0   61    2-68      4-66  (67)
+ 53 1RJT_A chemokine, CYTOKINE; NM  99.2 2.8E-14   3E-19   90.6   0.0   65    2-70      4-71  (73)
+ 54 3FPU_B protein:protein complex  99.2 2.8E-14 3.1E-19   90.7   0.0   63    2-70      6-69  (70)
+ 55 4HCS_A Uncharacterized protein  99.2 3.1E-14 3.4E-19   93.6   0.0   66    2-73     10-76  (81)
+ 56 4HED_A Uncharacterized protein  99.2 3.1E-14 3.4E-19   93.6   0.0   66    2-73     10-76  (81)
+ 57 4XDX_A Human Interleukin 8; Cy  99.2 3.3E-14 3.5E-19   89.7   0.0   64    4-71      2-67  (70)
+ 58 5D14_A Interleukin-8; cytokine  99.2 3.3E-14 3.5E-19   89.7   0.0   64    4-71      2-67  (70)
+ 59 2RA4_A .; CCL13, MCP-4, CC che  99.2 3.3E-14 3.6E-19   92.4   0.0   64    2-71      7-71  (76)
+ 60 1NR4_E Thymus and activation-r  99.1 3.7E-14   4E-19   90.4   0.0   64    2-71      5-69  (71)
+ 61 5OB5_A C-X-C motif chemokine 2  99.1 3.7E-14 4.1E-19   87.2   0.0   60    5-68      2-62  (63)
+ 62 2Q8R_E CCL14; common CC chemok  99.1 3.8E-14 4.1E-19   88.7   0.0   62    2-69      3-65  (66)
+ 63 2Q8R_H CCL14; common CC chemok  99.1 3.8E-14 4.1E-19   88.7   0.0   62    2-69      3-65  (66)
+ 64 6WZL_E LY3041658 Fab heavy cha  99.1 4.7E-14 5.1E-19   88.9   0.0   65    4-72      2-67  (70)
+ 65 4XT3_B US28, CX3CL1; GPCR, che  99.1 6.2E-14 6.7E-19   94.9   0.0   67    1-73      2-71  (91)
+ 66 4RWS_C C-X-C chemokine recepto  99.1 6.9E-14 7.5E-19   91.2   0.0   66    2-73      6-72  (80)
+ 67 4MHE_B C-C motif chemokine 18;  99.1 7.1E-14 7.7E-19   88.6   0.0   62    3-70      7-69  (70)
+ 68 4MHE_C C-C motif chemokine 18;  99.1 7.1E-14 7.7E-19   88.6   0.0   62    3-70      7-69  (70)
+ 69 2R3Z_A Small-inducible cytokin  99.1 7.2E-14 7.8E-19   88.4   0.0   62    2-67      4-68  (68)
+ 70 2R3Z_B Small-inducible cytokin  99.1 7.2E-14 7.8E-19   88.4   0.0   62    2-67      4-68  (68)
+ 71 6N2U_A Interleukin-8; IL-8, IM  99.1 7.2E-14 7.8E-19   93.4   0.0   65    3-71     30-96  (99)
+ 72 1F2L_D FRACTALKINE; CHEMOATTRA  99.1 7.3E-14   8E-19   91.0   0.0   65    2-72      3-70  (76)
+ 73 3GV3_A SDF, CXCL12, chemokine,  99.1 7.5E-14 8.1E-19   86.9   0.0   59    4-68      2-62  (63)
+ 74 3ONA_B Tumour necrosis factor   99.1 8.3E-14   9E-19   91.4   0.0   64    4-73      9-75  (80)
+ 75 1CM9_A VIRAL MACROPHAGE INFLAM  99.1 8.8E-14 9.5E-19   89.8   0.0   63    2-70      9-72  (74)
+ 76 4UAI_A CXCL12; CXCL12, inhibit  99.1   9E-14 9.8E-19   87.5   0.0   62    2-69      4-67  (68)
+ 77 4UAI_B CXCL12; CXCL12, inhibit  99.1   9E-14 9.8E-19   87.5   0.0   62    2-69      4-67  (68)
+ 78 1B53_A CHEMOKINE, CYTOKINE, CH  99.1   9E-14 9.8E-19   87.7   0.0   63    2-70      5-68  (69)
+ 79 1J9O_A CHEMOKINE, CYTOKINE; NM  99.1 9.9E-14 1.1E-18   94.5   0.0   65    1-73      4-69  (93)
+ 80 2NYZ_E Hypothetical protein GA  99.1 9.9E-14 1.1E-18   94.5   0.0   65    1-73      4-69  (93)
+ 81 3TN2_A C-C motif chemokine 4;   99.1 1.5E-13 1.7E-18   87.1   0.0   61    2-68      6-67  (68)
+ 82 6SHR_A Stromal cell-derived fa  99.1 1.7E-13 1.9E-18   84.8   0.0   60    4-69      2-63  (64)
+ 83 5LTL_A C-C motif chemokine 16;  99.0 1.9E-13 2.1E-18   94.6   0.0   64    2-72     12-76  (100)
+ 84 5LTL_B C-C motif chemokine 16;  99.0 1.9E-13 2.1E-18   94.6   0.0   64    2-72     12-76  (100)
+ 85 1B2T_A CHEMOKINE; NMR {Homo sa  99.0 2.9E-13 3.2E-18   88.6   0.0   64    3-72      5-71  (77)
+ 86 2Q8T_A CCL14; common CC chemok  99.0 3.1E-13 3.4E-18   87.0   0.0   61    3-69     12-73  (74)
+ 87 2Q8T_B CCL14; common CC chemok  99.0 3.1E-13 3.4E-18   87.0   0.0   61    3-69     12-73  (74)
+ 88 2HDL_A Small inducible cytokin  98.9 3.4E-12 3.7E-17   85.1   0.0   63    5-71      2-70  (78)
+ 89 7F1T_A C-C motif chemokine 3,C  91.9   0.065   7E-07   44.1   0.0   61    2-68      5-66  (491)
+ 90 7KBB_D HCMV pentamer, Fab, com  22.8      84 0.00091   27.2   0.0   50   21-72     44-94  (189)
+ 91 7M22_D HCMV pentamer, NRP2, cy  22.8      84 0.00091   27.2   0.0   50   21-72     44-94  (189)
+ 92 5VOB_D Envelope glycoprotein H  20.2   1E+02  0.0011   27.7   0.0   50   21-72     69-119 (252)
+ 93 5VOC_D Envelope glycoprotein H  20.2   1E+02  0.0011   27.7   0.0   50   21-72     69-119 (252)
+
+No 1
+>2KUM_A C-C motif chemokine 27; CCL27, CTACK, Chemokine, Cytokine, Disulfide; NMR {Homo sapiens}
+Probab=99.51  E-value=7.8e-18  Score=113.45  Aligned_cols=69  Identities=22%  Similarity=0.460  Sum_probs=61.8  Template_Neff=9.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++.+||+.|.. .|+..++++|++|++|++++.|+.+||||++ + ++.+|+||++.||+.+|+.++.+..
+T Consensus         4 ~~~~~CC~~~~~~~ip~~~~~~i~~y~~q~~~~~C~~~avi~~~-k-~~~~C~~p~~~wv~~~~~~l~~~~~   73 (88)
+T 2KUM_A            4 PPSTACCTQLYRKPLSDKLLRKVIQVELQEADGDCHLQAFVLHL-A-QRSICIHPQNPSLSQWFEHQERKLH   73 (88)
+T ss_dssp             CTTCCCCSSCCCSCCCHHHHTTCCEEEEECTTTTSSSCEEEEEE-T-TEEEEECSSCHHHHHHHHHHHHCGG
+T ss_pred             CCCCCCchhhcCCCCCHHHHhccEEEEEEeCCCCCCccEEEEEE-C-CceEEeCCCCHHHHHHHHHHHHHhc
+Confidence            467899999995 8997656779999999999999999999998 6 8999999999999999999987654
+
+
+No 2
+>6CWS_A C-C motif chemokine 28; CCL28, Chemokine, Antifungal activity, CYTOKINE; NMR {Homo sapiens}
+Probab=99.45  E-value=4.7e-17  Score=115.79  Aligned_cols=70  Identities=30%  Similarity=0.561  Sum_probs=61.5  Template_Neff=8.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~edCCL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      +++.+||+.|...|+..++..|.+|++|++++.|+.+||||++ + ++.+|+||++.||+.+|+.++.+...
+T Consensus         6 ~~~~~CC~~~~~~Ip~~~~~~i~~y~~q~t~~~C~~~avif~~-k-~~~iC~dP~~~Wv~~~i~~l~~~~~~   75 (108)
+T 6CWS_A            6 PIASSCCTEVSHHISRRLLERVNMCRIQRADGDCDLAAVILHV-K-RRRICVSPHNHTVKQWMKVQAAKKNG   75 (108)
+T ss_dssp             TCSSSSCSCCCCSCCHHHHTTEEEEEEECTTTTCSSCEEEEEE-S-SCEEEECTTCHHHHHHHHHHHTCSSC
+T ss_pred             ccccCCcccccccCCHHHHHhheEEEEEeCCCCCCCcEEEEEE-C-CceEEeCCCCHHHHHHHHHHHHHhcC
+Confidence            5678999999987775555789999999999999999999998 6 89999999999999999999876543
+
+
+No 3
+>5UR7_B C-C motif chemokine 20; CCL20, chemokine, Macrophage Inflammatory Protein-3; HET: ACT; 2.0004A {Homo sapiens}
+Probab=99.40  E-value=1.4e-16  Score=101.49  Aligned_cols=65  Identities=29%  Similarity=0.447  Sum_probs=56.4  Template_Neff=9.800
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      .+.+||+.|.. .|+.   ..|.+|.+|++++.|+.+||||++ ++++.+|+||++.||+..|+.++.+.
+T Consensus         2 ~~~~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~vi~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   67 (70)
+T 5UR7_B            2 SNFDCCLGYTDRILHP---KFIVGFTRQLANEGCDINAIIFHT-KKKLSVCANPKQTWVKYIVRLLCKKV   67 (70)
+T ss_dssp             ---CCCCSCCSSCCCG---GGEEEEEEECBTTTBSSCEEEEEE-TTSCCEEECTTSHHHHHHHHHHHHHH
+T ss_pred             CCCCCCcccCCCcCCH---HHeeEEEEecCCCCCCceEEEEEE-CCCeeEEeCCCCHHHHHHHHHHHHHH
+Confidence            46789999996 7885   789999999999999999999999 66889999999999999999998765
+
+
+No 4
+>5EKI_E C-C motif chemokine 21; Cytokine, Chemokine, Chemotaxis, Inflammation, IMMUNE; HET: SO4; 1.9A {Homo sapiens}
+Probab=99.39  E-value=2.1e-16  Score=103.91  Aligned_cols=69  Identities=35%  Similarity=0.617  Sum_probs=59.0  Template_Neff=9.400
+
+Q CCL25[24-150]     1 QGVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRH--RKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         1 QG~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~--r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      |+.+..||+.|.. .|+.   ..|.+|++|++++.|+.+||||++ +++  +.+|+||++.||+..|+.++.+...
+T Consensus         2 ~~~~~~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~~~~C~~p~~~wv~~~~~~~~~~~~~   73 (79)
+T 5EKI_E            2 DGGAQDCCLKYSQRKIPA---KVVRSYRKQEPSLGCSIPAILFLP-RKRSQAELCADPKELWVQQLMQHLDKTPSP   73 (79)
+T ss_dssp             ---CCCBCCSCCSSCCCG---GGEEEEEEECCCSSCCSCEEEEEE-SSTTSCCEEECTTSHHHHHHHHHHTTSCCC
+T ss_pred             CCCcccCCccccCCcCCH---HHeeEEEEecCCCCCCCCEEEEEe-CCCCcceeEeCCCCHHHHHHHHHhhcCCCC
+Confidence            4678899999996 8886   789999999999999999999999 656  6999999999999999999876543
+
+
+No 5
+>1M8A_A Small inducible cytokine A20; CC-chemokine, IL-8 type dimer, CYTOKINE; HET: IPA; 1.7A {N/A} SCOP: d.9.1.1
+Probab=99.37  E-value=3.7e-16  Score=99.30  Aligned_cols=65  Identities=29%  Similarity=0.466  Sum_probs=55.3  Template_Neff=9.900
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ++++||+.|.. .|+.   ..|.+|++|++++.|+.+||||++ ++++.+|+||++.|++..|+.++.+.
+T Consensus         2 ~~~~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   67 (70)
+T 1M8A_A            2 SNFDCCLGYTDRILHP---KFIVGFTRQLANEGCDINAIIFHT-KKKLSVCANPKQTWVKYIVRLLSKKV   67 (70)
+T ss_dssp             ---CCCCSCCCSCCCG---GGEEEEEEECTTTTSSSCEEEEEE-TTCCEEEECTTSHHHHHHHHHHTC--
+T ss_pred             CCCCCCCccCCCCCCH---HHeeEEEEecCCCCCCceEEEEEE-CCCceEEeCCCCHHHHHHHHHHHHHH
+Confidence            46789999996 7885   789999999999999999999999 66889999999999999999987764
+
+
+No 6
+>2JYO_A C-C motif chemokine 20 (Small-inducible; Protein, Chemokine, Cytokine, Alternative splicing; NMR {N/A} SCOP: d.9.1.1
+Probab=99.37  E-value=3.7e-16  Score=99.30  Aligned_cols=65  Identities=29%  Similarity=0.466  Sum_probs=58.3  Template_Neff=9.900
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ++++||+.|.. .|+.   ..|.+|++|++++.|+.+||||++ ++++.+|+||++.|++..|+.++.+.
+T Consensus         2 ~~~~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   67 (70)
+T 2JYO_A            2 SNFDCCLGYTDRILHP---KFIVGFTRQLANEGCDINAIIFHT-KKKLSVCANPKQTWVKYIVRLLSKKV   67 (70)
+T ss_dssp             CSCCCCSSCCCCCCCT---TTEEEEEEECTTTTCSSCEEEEEE-TTSCEEEECTTSHHHHHHHHHHHCCC
+T ss_pred             CCCCCCCccCCCCCCH---HHeeEEEEecCCCCCCceEEEEEE-CCCceEEeCCCCHHHHHHHHHHHHHH
+Confidence            46789999996 7885   789999999999999999999999 66889999999999999999987764
+
+
+No 7
+>1HA6_A MACROPHAGE INFLAMMATORY PROTEIN 3 ALPHA; IMMUNE SYSTEM, CHEMIOKINE, MOUSE, CCL20/MIP-3A; NMR {N/A} SCOP: d.9.1.1
+Probab=99.36  E-value=4.5e-16  Score=99.18  Aligned_cols=66  Identities=36%  Similarity=0.632  Sum_probs=58.3  Template_Neff=9.800
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      .+.+||+.|.. .|+.   ..|.+|++|++++.|+.+||||++ +++..+|+||++.|++..++.++.+..
+T Consensus         2 ~~~~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~vi~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~~   68 (70)
+T 1HA6_A            2 SNYDCCLSYIQTPLPS---RAIVGFTRQMADEACDINAIIFHT-KKRKSVCADPKQNWVKRAVNLLSLRVK   68 (70)
+T ss_dssp             CCCCCSSSBCSSCCCG---GGEEEEEEECSSSSCSSCEEEEEE-SSSSSEEECTTSHHHHHHHHHHHHHTS
+T ss_pred             CcCCCCccccCCcCCH---HHeeEEEEeeCCCCCCceEEEEEE-CCCeEEEeCCCCHHHHHHHHHHhHHhh
+Confidence            46799999996 7885   789999999999999999999999 668899999999999999999876543
+
+
+No 8
+>2MP1_A C-C motif chemokine 19; chemokines, chemokine receptors, CCL19, CCL21; NMR {Homo sapiens}
+Probab=99.35  E-value=5e-16  Score=100.06  Aligned_cols=68  Identities=26%  Similarity=0.497  Sum_probs=60.3  Template_Neff=10.000
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      +++.+||+.|.. .|+.   ..|.+|++|++++.|+.+||||++ ++++.+|+||++.||+..|..++.+...
+T Consensus         3 ~~~~~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~~C~~p~~~wv~~~~~~~~~~~~~   71 (77)
+T 2MP1_A            3 NDAEDCCLSVTQKPIPG---YIVRNFHYLLIKDGCRVPAVVFTT-LRGRQLCAPPDQPWVERIIQRLQRTSAK   71 (77)
+T ss_dssp             SCSSSSCCCCCSSCSCT---TSEEEEEEECTTTSCSSCEEEEEE-TTSCEEEECSSSHHHHHHHHHHHHHHTT
+T ss_pred             CCcCCCCccccCCcCCH---HHeeEEEEEeCCCCCCCceEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHHHHh
+Confidence            467899999997 8885   779999999889999999999999 6688999999999999999998776543
+
+
+No 9
+>2L4N_A Chemokine (C-C motif) ligand 21; SLC, 6Ckine, Exodus-2, CCR7, Chemokine; NMR {Homo sapiens}
+Probab=99.33  E-value=8.2e-16  Score=110.05  Aligned_cols=69  Identities=35%  Similarity=0.617  Sum_probs=60.1  Template_Neff=8.200
+
+Q CCL25[24-150]     1 QGVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRH--RKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         1 QG~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~--r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      |+++++||+.|.. .|+.   ..|.+|++|++++.|+.+||||++ +.+  +.+|+||++.||+.+|+.++.....
+T Consensus         2 ~~~~~~CC~~~~~~~Ip~---~~I~~~~~q~~~~~C~~~aii~~~-k~g~~~~vC~~P~~~Wv~~~i~~l~~~~~~   73 (113)
+T 2L4N_A            2 DGGAQDCCLKYSQRKIPA---KVVRSYRKQEPSLGCSIPAILFLP-RKRSQAELCADPKELWVQQLMQHLDKTPSP   73 (113)
+T ss_dssp             TTSCCSSCSCCCSSCCCT---TTEEEEEECCTTTTCSSCCEEEEE-SSCSSCCEEECTTSHHHHHHHHHHHCC---
+T ss_pred             CCCcCCCCccccCCCCCH---HHeeEEEEeCCCCCCCCCEEEEEe-CCCCcceEEeCCCCHHHHHHHHHHhcCCCC
+Confidence            5678999999996 8886   789999999999999999999998 656  7999999999999999999877643
+
+
+No 10
+>7JNY_A CXCL13; Chemokine, CXCL13, CYTOKINE; 1.88A {Homo sapiens}
+Probab=99.32  E-value=1e-15  Score=101.90  Aligned_cols=67  Identities=24%  Similarity=0.326  Sum_probs=59.4  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ++..+| |+.|.. .|+.   ..|.+|++|+.++.|..+||||.+ ++++.+|+||++.||+..++.++.+..
+T Consensus         7 ~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~l~~~~~   75 (88)
+T 7JNY_A            7 YTSLRCRCVQESSVFIPR---RFIDRIQILPRGNGCPRKEIIVWK-KNKSIVCVDPQAEWIQRMMEVLRKRSS   75 (88)
+T ss_dssp             CCCCCCCCSCCBCCCCCG---GGEEEEEEECCCSSCSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHTSS
+T ss_pred             CCCCCeeeeeeecceeCH---HHeEEEEEEcCCCCCCCceEEEEE-cCCeEEEeCCCCHHHHHHHHHHHHhhc
+Confidence            466799 999996 6885   779999999889999999999999 668899999999999999999887654
+
+
+No 11
+>1EIG_A chemokine, chemotactic cytokine, eosinophil chemoattractant; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.32  E-value=1.1e-15  Score=97.80  Aligned_cols=66  Identities=33%  Similarity=0.583  Sum_probs=58.2  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      .++.+||+.|.. .|+.   +.|.+|++|+ ++.|+.+||||++ ++++.+|+||++.||+..|+.++.+..
+T Consensus         2 ~~~~~CC~~~~~~~ip~---~~i~~~~~~~-~~~C~~~~ii~~~-~~~~~~C~~p~~~wvk~~~~~~~~~~~   68 (73)
+T 1EIG_A            2 VIPSPCCMFFVSKRIPE---NRVVSYQLSS-RSTCLKAGVIFTT-KKGQQSCGDPKQEWVQRYMKNLDAKQK   68 (73)
+T ss_dssp             CCCSCCCSSCCSSCCCT---TTEEEEEECC-CSSSSSCCEEEEE-TTSCCEEECTTSHHHHHHHHHHHHHSS
+T ss_pred             CCCCCccccccCCCCCH---HHeEEEEEeC-CCCCCceEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHHhh
+Confidence            467899999996 7885   7899999986 7999999999998 668899999999999999999987654
+
+
+No 12
+>1MI2_A MIP-2, CHEMOKINE, CYTOKINE; NMR {Mus musculus} SCOP: d.9.1.1
+Probab=99.28  E-value=2.7e-15  Score=95.81  Aligned_cols=66  Identities=21%  Similarity=0.357  Sum_probs=57.9  Template_Neff=10.000
+
+Q CCL25[24-150]     3 VFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         3 ~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....| |+.+...|+.   ..|.+|++|++++.|+.+||||++ ++++++|+||+..||+..++.++.+..
+T Consensus         5 ~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   71 (73)
+T 1MI2_A            5 SELRCQCLKTLPRVDF---KNIQSLSVTPPGPHCAQTEVIATL-KGGQKVCLDPEAPLVQKIIQKILNKGK   71 (73)
+T ss_dssp             SSSSCSSSCCBSSTTG---GGCCBEEEECCCTTTCSCEEEEEE-TTTEEEEESSSCSTTHHHHHHHHSTTC
+T ss_pred             cccCcEecccCCCcCH---HHceEEEEECCCCCCCccEEEEEE-CCCeEEEeCCCCHHHHHHHHHHHhhcc
+Confidence            45789 9999877774   779999999999999999999999 668899999999999999999887643
+
+
+No 13
+>3N52_A C-X-C motif chemokine 2; MIP-2 Structure, macrophage inflammatory protein; 1.9A {Mus musculus}
+Probab=99.28  E-value=2.7e-15  Score=95.81  Aligned_cols=66  Identities=21%  Similarity=0.357  Sum_probs=57.9  Template_Neff=10.000
+
+Q CCL25[24-150]     3 VFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         3 ~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....| |+.+...|+.   ..|.+|++|++++.|+.+||||++ ++++++|+||+..||+..++.++.+..
+T Consensus         5 ~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   71 (73)
+T 3N52_A            5 SELRCQCLKTLPRVDF---KNIQSLSVTPPGPHCAQTEVIATL-KGGQKVCLDPEAPLVQKIIQKILNKGK   71 (73)
+T ss_dssp             CEECCCBSCCBSCCCG---GGEEEEEEECSCSSCSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHTCCC
+T ss_pred             cccCcEecccCCCcCH---HHceEEEEECCCCCCCccEEEEEE-CCCeEEEeCCCCHHHHHHHHHHHhhcc
+Confidence            45789 9999877774   779999999999999999999999 668899999999999999999887643
+
+
+No 14
+>6VGJ_A C-X-C motif chemokine 13; Chemokine, Agonist, CYTOKINE; 2.52A {Homo sapiens}
+Probab=99.28  E-value=2.8e-15  Score=98.96  Aligned_cols=67  Identities=24%  Similarity=0.326  Sum_probs=56.6  Template_Neff=9.800
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ++...| |+.|.. .|+.   ..|.+|++|+.++.|..+||||++ ++++.+|+||+..||+..|+.++....
+T Consensus         5 ~~~~~C~C~~~~~~~ip~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~~C~~p~~~wvk~~~~~~~~~~~   73 (86)
+T 6VGJ_A            5 YTSLRCRCVQESSVFIPR---RFIDRIQILPRGNGCPRKEIIVWK-KNKSIVCVDPQAEWIQRMMEVLRKRSS   73 (86)
+T ss_dssp             ECCSSCSCCEEECCCCCG---GGEEEEEEEC---CCSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHHTT
+T ss_pred             cCcCCceeceeeccccCH---HHeeEEEEEcCCCCCCCceEEEEE-cCCeEEEeCCCCHHHHHHHHHHHHhcc
+Confidence            456789 999996 7885   779999998889999999999999 668899999999999999999887654
+
+
+No 15
+>7STA_C CCL19, Chemokine, SIGNALING PROTEIN; 2.5A {Homo sapiens}
+Probab=99.27  E-value=3.2e-15  Score=92.52  Aligned_cols=61  Identities=28%  Similarity=0.567  Sum_probs=54.6  Template_Neff=10.300
+
+Q CCL25[24-150]     6 DCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         6 dCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +||+.+.. .|+.   ..|.+|++|++++.|+.+||||++ ++++.+|+||+..||+..|+.++.+
+T Consensus         1 ~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~   62 (64)
+T 7STA_C            1 DCCLSVTQKPIPG---YIVRNFHYLLIKDGCRVPAVVFTT-LRGRQLCAPPDQPWVERIIQRLQRT   62 (64)
+T ss_dssp             CCSSCBCSSCCCG---GGEEEEEEECGGGTCSSCEEEEEE-TTCCEEEECTTCHHHHHHHHHHHHH
+T ss_pred             CCcccccCCCCCH---HHeeEEEEEecCCCCCCcEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHhh
+Confidence            59999996 7885   789999999889999999999998 6688999999999999999988654
+
+
+No 16
+>7STA_D CCL19, Chemokine, SIGNALING PROTEIN; 2.5A {Homo sapiens}
+Probab=99.27  E-value=3.2e-15  Score=92.52  Aligned_cols=61  Identities=28%  Similarity=0.567  Sum_probs=54.0  Template_Neff=10.300
+
+Q CCL25[24-150]     6 DCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         6 dCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +||+.+.. .|+.   ..|.+|++|++++.|+.+||||++ ++++.+|+||+..||+..|+.++.+
+T Consensus         1 ~CC~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~   62 (64)
+T 7STA_D            1 DCCLSVTQKPIPG---YIVRNFHYLLIKDGCRVPAVVFTT-LRGRQLCAPPDQPWVERIIQRLQRT   62 (64)
+T ss_dssp             -CCSCBCSSCCCG---GGEEEEEEECGGGTCSSCEEEEEE-SSCCEEEECTTCHHHHHHHHHHHHC
+T ss_pred             CCcccccCCCCCH---HHeeEEEEEecCCCCCCcEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHhh
+Confidence            59999996 7885   789999999889999999999998 6688999999999999999988654
+
+
+No 17
+>2MGS_B C-X-C motif chemokine 5; chemokine, ENA78, Neutrophil activating chemokine; NMR {Homo sapiens}
+Probab=99.26  E-value=3.7e-15  Score=96.79  Aligned_cols=67  Identities=12%  Similarity=0.239  Sum_probs=58.5  Template_Neff=9.800
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +...+| |+.+...|+.   ..+.+|++|++++.|+..+|||++ +.+.++|+||+..|++.+|+.++.+..
+T Consensus         8 ~~~~~C~C~~~~~~ip~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~~C~~p~~~w~~~~~~~~~~~~~   75 (78)
+T 2MGS_B            8 LRELRCVCLQTTQGVHP---KMISNLQVFAIGPQCSKVEVVASL-KNGKEICLDPEAPFLKKVIQKILDGGN   75 (78)
+T ss_dssp             CCCCCCSCSSCCCCCCG---GGEEEEEEECCCSSCSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHTTS
+T ss_pred             cccCCeEeccccCCCCH---HHceEEEEEeCCCCCCeEEEEEEe-cCCeEEEcCCCCHHHHHHHHHHHhcCC
+Confidence            345789 9999876774   779999999999999999999998 668899999999999999999877654
+
+
+No 18
+>1DON_B HOMODIMER, HIGH RESOLUTION STRUCTURE, CHEMOATTRACTANT; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.25  E-value=4.8e-15  Score=96.34  Aligned_cols=66  Identities=29%  Similarity=0.512  Sum_probs=56.8  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      .++..||+.|.. .|+.   ..|.+|++++ ++.|+..||||++ ++++.+|+||++.||+..|+.++.+..
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~~~~-~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   72 (76)
+T 1DON_B            6 NAPVTCCYNFTNRKISV---QRLASYRRIT-SSKCPKEAVIFKT-IVAKEICADPKQKWVQDSMDHLDKQTQ   72 (76)
+T ss_dssp             SCCEEECSCCCCSCCCT---TTCCEECCBC-CTTCSSCBEEEEC-SSCCEEEECTTSSSHHHHHHHHHTSSS
+T ss_pred             cCCCCCCcccCCCCCCH---HHceEEEEEc-CCCCCCceEEEEE-cCCcEEEeCCCCHHHHHHHHHHHHhcc
+Confidence            356789999996 7885   6799997776 8999999999998 668899999999999999999876543
+
+
+No 19
+>1O7Z_A SMALL INDUCIBLE CYTOKINE B10; CHEMOKINE, INTERFERON INDUCTION, CHEMOTAXIS, INFLAMMATORY; 1.92A {N/A} SCOP: d.9.1.1
+Probab=99.25  E-value=5.5e-15  Score=95.51  Aligned_cols=67  Identities=22%  Similarity=0.360  Sum_probs=52.7  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPK-RHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~k-r~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +.+..| |+.+.. .|+.   ..|.+|++|++++.|..+||||++ + .++.+|+||+..||+..++.++.+..
+T Consensus         4 ~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~~C~~p~~~wvk~~~~~~~~~~~   73 (77)
+T 1O7Z_A            4 SRTVRCTCISISNQPVNP---RSLEKLEIIPASQFCPRVEIIATM-KKKGEKRCLNPESKAIKNLLKAVSKEMS   73 (77)
+T ss_dssp             -----CCCSSCBCSCCCT---TTEEEEEEECCCSSCSSCEEEEEE-TTTSCEEEECSSSHHHHHHHHHC-----
+T ss_pred             CCCCCceeeceecCcCCH---HHceEEEEEcCCCCCCceEEEEEE-ccCCeEEEeCCCCHHHHHHHHHHHHHhh
+Confidence            456789 999996 7885   779999999999999999999998 6 68899999999999999999887654
+
+
+No 20
+>1O80_A SMALL INDUCIBLE CYTOKINE B10; CHEMOKINE, INTERFERON INDUCTION, CHEMOTAXIS, INFLAMMATORY; 2.0A {N/A} SCOP: d.9.1.1
+Probab=99.25  E-value=5.5e-15  Score=95.51  Aligned_cols=67  Identities=22%  Similarity=0.360  Sum_probs=59.3  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPK-RHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~k-r~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +.+..| |+.+.. .|+.   ..|.+|++|++++.|..+||||++ + .++.+|+||+..||+..++.++.+..
+T Consensus         4 ~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~~C~~p~~~wvk~~~~~~~~~~~   73 (77)
+T 1O80_A            4 SRTVRCTCISISNQPVNP---RSLEKLEIIPASQFCPRVEIIATM-KKKGEKRCLNPESKAIKNLLKAVSKEMS   73 (77)
+T ss_dssp             CCCCSCCCSSCBCSCCCG---GGEEEEEEECCBTTBSSCEEEEEE-SSTTCEEEECTTSHHHHHHHHHHHHTTC
+T ss_pred             CCCCCceeeceecCcCCH---HHceEEEEEcCCCCCCceEEEEEE-ccCCeEEEeCCCCHHHHHHHHHHHHHhh
+Confidence            456789 999996 7885   779999999999999999999998 6 68899999999999999999887654
+
+
+No 21
+>1PFM_B CYTOKINE; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.24  E-value=6.5e-15  Score=91.82  Aligned_cols=64  Identities=19%  Similarity=0.262  Sum_probs=56.3  Template_Neff=10.400
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      +....| |+.+...|+.   ..+.+|++|++++.|+..++||.+ ++++.+|+||++.||+..++.++.
+T Consensus         3 ~~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~l~~   67 (68)
+T 1PFM_B            3 AKELRCQCVKTTSQVRP---RHITSLEVIKAGPHCPTAQLIATL-KNGRKICLDLQAPLYKKIIKKLLE   67 (68)
+T ss_dssp             CSCCCCSSCSCBTTSCS---SSCCEEEEECCCSSCCSCEEEEEC-SBSCCCEECSSSHHHHHHHHHHHC
+T ss_pred             CCCCCceecccCCCCCH---HHceEEEEEeCCCCCCccEEEEEE-CCCcEEEeCCCCHHHHHHHHHHhc
+Confidence            567889 9999876664   779999999899999999999998 668899999999999999998764
+
+
+No 22
+>5L7M_A C-X-C motif chemokine 13; Chemokine structure, N-terminal domain, Signaling; NMR {Mus musculus}
+Probab=99.23  E-value=6.8e-15  Score=98.25  Aligned_cols=68  Identities=15%  Similarity=0.346  Sum_probs=59.6  Template_Neff=9.500
+
+Q CCL25[24-150]     1 QGVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         1 QG~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ++...+| |+.+.. .|+.   ..|.+|++|++++.|+.++|||++ +.+..+|+||++.||+..+..++....
+T Consensus         5 ~~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~~C~~p~~~wv~~~~~~l~~~~~   74 (88)
+T 5L7M_A            5 HYTNLKCRCSGVISTVVGL---NIIDRIQVTPPGNGCPKTEVVIWT-KMKKVICVNPRAKWLQRLLRHVQSKSL   74 (88)
+T ss_dssp             CCCCCCCCCSCCCSSCCCS---SSEEEEEEECTTSSCSSCEEEEEE-TTCCEEEECTTCTTTHHHHHHSSCCCC
+T ss_pred             CCCCCCCceeeeecCeeCH---HHeEEEEEECCCCCCCcceEEEEE-cCCeEEEeCCCcHHHHHHHHHHHHhcC
+Confidence            3567899 999997 6885   779999999999999999999998 668899999999999999999876554
+
+
+No 23
+>7S5A_A CC Chemokine, CYTOKINE; 1.37A {Homo sapiens}
+Probab=99.23  E-value=8.1e-15  Score=95.01  Aligned_cols=66  Identities=30%  Similarity=0.475  Sum_probs=57.0  Template_Neff=9.700
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++.+||+.+.. .|+.   ..|.+|. +++++.|+.+||||++ ++++.+|+||++.||+..|+.++.+..
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~-~~~~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   72 (76)
+T 7S5A_A            6 SIPITCCFNVINRKIPI---QRLESYT-RITNIQCPKEAVIFKT-QRGKEVCADPKERWVRDSMKHLDQIFQ   72 (76)
+T ss_dssp             GSCEEECSSCCSSCCCG---GGEEEEE-EECCTTSSSCEEEEEE-TTSCEEEECTTSHHHHHHHHHHTTCCC
+T ss_pred             CCCCCCCccccCCCCCH---HHeeEEE-EeCCCCCCCCEEEEEe-CCCcEEecCCCCHHHHHHHHHHHHHHh
+Confidence            456789999996 6885   7889997 6689999999999998 668899999999999999999877643
+
+
+No 24
+>7S5A_B CC Chemokine, CYTOKINE; 1.37A {Homo sapiens}
+Probab=99.23  E-value=8.1e-15  Score=95.01  Aligned_cols=66  Identities=30%  Similarity=0.475  Sum_probs=57.0  Template_Neff=9.700
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++.+||+.+.. .|+.   ..|.+|. +++++.|+.+||||++ ++++.+|+||++.||+..|+.++.+..
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~-~~~~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   72 (76)
+T 7S5A_B            6 SIPITCCFNVINRKIPI---QRLESYT-RITNIQCPKEAVIFKT-QRGKEVCADPKERWVRDSMKHLDQIFQ   72 (76)
+T ss_dssp             TSCEEECSSCCSSCCCG---GGEEEEE-EECCTTSSSCEEEEEE-TTSCEEEECTTSHHHHHHHHHHHHHHT
+T ss_pred             CCCCCCCccccCCCCCH---HHeeEEE-EeCCCCCCCCEEEEEe-CCCcEEecCCCCHHHHHHHHHHHHHHh
+Confidence            456789999996 6885   7889997 6689999999999998 668899999999999999999877643
+
+
+No 25
+>2MPM_A Eotaxin, CCR3; Chemokine CCL11, Chemokine Receptor CCR3; HET: TYS; NMR {Homo sapiens}
+Probab=99.22  E-value=8.8e-15  Score=94.18  Aligned_cols=66  Identities=35%  Similarity=0.592  Sum_probs=57.1  Template_Neff=9.800
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++.+||+.|.. .|+.   ..|.+|++++ ++.|+.+||||++ ++++.+|+||++.||+..++.++.+..
+T Consensus         4 ~~~~~CC~~~~~~~i~~---~~i~~~~~~~-~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~~   70 (74)
+T 2MPM_A            4 SVPTTCCFNLANRKIPL---QRLESYRRIT-SGKCPQKAVIFKT-KLAKDICADPKKKWVQDSMKYLDQKSP   70 (74)
+T ss_dssp             CCSSCCCSSCCSSCCCT---TTCCBCCBCC-TTSSSSSCEEEBC-SSSSCEEECTTSHHHHHHHHHHHHSCC
+T ss_pred             CCCCCCCccccCCCCCH---HHceEEEEEc-CCCCCCceEEEEE-cCCeEEecCCCCHHHHHHHHHHHhcCC
+Confidence            567899999996 7885   7799997775 8999999999998 668899999999999999999876543
+
+
+No 26
+>1G2T_A beta-beta-beta-alpha helix, CYTOKINE; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.22  E-value=9.4e-15  Score=93.63  Aligned_cols=64  Identities=34%  Similarity=0.738  Sum_probs=55.4  Template_Neff=9.700
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      .++.+||+.+.. .|+.   +.|.+|++  +++.|+.+||||.+ ++++.+|+||++.||+..|+.++.+.
+T Consensus         5 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~   69 (71)
+T 1G2T_A            5 DISKTCCFQYSHKPLPW---TWVRSYEF--TSNSCSQRAVIFTT-KRGKKVCTHPRKKWVQKYISLLKTPK   69 (71)
+T ss_dssp             CCCCCCCCCBCCSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-SSSCEEEECSSSHHHHHHHHHSCCCC
+T ss_pred             cCCCCCCccccCCCCCH---HHeEEEEE--CCCCCCCcEEEEEE-CCCcEEEeCCCcHHHHHHHHHhhccc
+Confidence            456889999996 7885   77899987  48999999999998 66889999999999999999987654
+
+
+No 27
+>1MSH_A CYTOKINE (CHEMOTACTIC); NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.22  E-value=1e-14  Score=92.71  Aligned_cols=66  Identities=23%  Similarity=0.314  Sum_probs=57.7  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +....| |+.+...|+.   ..+.+|+++++++.|+.++|||++ ++++.+|+||+..||+..++.++.+.
+T Consensus         4 ~~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   70 (72)
+T 1MSH_A            4 ATELRCQCLQTLQGIHP---KNIQSVNVKSPGPHCAQTEVIATL-KNGRKACLNPASPIVKKIIEKMLNSD   70 (72)
+T ss_dssp             CCSCCCCCSSCBSCCCC---SSCCEEEEECCCSTTCSCCCEEEC-TTSCEEEBCTTSHHHHHHHHHHHCCC
+T ss_pred             ccccCceecccCCCCCH---HhceEEEEECCCCCCCccEEEEEE-cCCcEEEeCCCCHHHHHHHHHHHhhc
+Confidence            456789 9999876775   679999999899999999999998 66889999999999999999987754
+
+
+No 28
+>1QNK_A GROB[5-73]; CHEMOKINE, CHEMOKINE 15-O, HUMAN CHEMOKINE; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.21  E-value=1e-14  Score=91.70  Aligned_cols=64  Identities=22%  Similarity=0.336  Sum_probs=56.3  Template_Neff=10.200
+
+Q CCL25[24-150]     4 FEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         4 ~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ...| |+.+...|+.   ..|.+|++|++++.|+.+|+||++ +.++.+|+||+..|++..+..++.+.
+T Consensus         2 ~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   66 (69)
+T 1QNK_A            2 ELRCQCLQTLQGIHL---KNIQSVKVKSPGPHCAQTEVIATL-KNGQKACLNPASPMVKKIIEKMLKNG   66 (69)
+T ss_dssp             CCCCSCSCCBSSCCT---TTEEEEEEECCCSSCSSCEEEEEE-TTSCEEEECTTCSSTTTSSTTTTTCC
+T ss_pred             CCCeEecccCCCccH---HHccEEEEECCCCCCCcceEEEEE-cCCeEEEeCCCCHHHHHHHHHHHHcc
+Confidence            4689 9999876775   679999999899999999999998 66899999999999999999887653
+
+
+No 29
+>1ZXT_C functional macrophage inflammatory protein 1-alpha; chemokine fold, greek key motif; 1.7A {Human herpesvirus 8}
+Probab=99.21  E-value=1.2e-14  Score=96.35  Aligned_cols=65  Identities=25%  Similarity=0.439  Sum_probs=56.2  Template_Neff=8.800
+
+Q CCL25[24-150]     1 QGVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         1 QG~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ++++.+||+.|.. .|+.   ..|.+|++  +++.|+.+||||.+ ++++.+|+||+..||++.|+.++...
+T Consensus         5 ~~~~~~CC~~~~~~~ip~---~~i~~~~~--~~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~l~~~~   70 (76)
+T 1ZXT_C            5 SYTPNSCCYGFQQHPPPV---QILKEWYP--TSPACPKPGVILLT-KRGRQICADPSKNWVRQLMQRLPAIA   70 (76)
+T ss_dssp             CCCCEEECSSCCCSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTCCEEEECTTSHHHHHHHHTSCBCC
+T ss_pred             CCCCCCCCCcccCCCCCH---HHceEEEE--CCCCCCCCeEEEEE-CCCeEEEeCCCCHHHHHHHHhccccc
+Confidence            3567889999996 7885   67899987  68899999999998 66889999999999999999987654
+
+
+No 30
+>1F9Q_D PLATELET FACTOR 4; platelet factor 4, BLOOD CLOTTING; 2.0A {Homo sapiens} SCOP: d.9.1.1
+Probab=99.20  E-value=1.2e-14  Score=92.11  Aligned_cols=64  Identities=19%  Similarity=0.254  Sum_probs=56.1  Template_Neff=10.000
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      +...+| |+.|...|+.   ..|.+|+++++++.|+.+++||++ ++++.+|+||++.||+..|+.++.
+T Consensus         5 ~~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~vC~~p~~~wv~~~~~~~~~   69 (70)
+T 1F9Q_D            5 DGDLQCLCVKTTSQVRP---RHITSLEVIKAGPHCPTAQLIATL-KNGRKICLDLQAPLYKKIIKKLLE   69 (70)
+T ss_dssp             CCSBCCSBSSCBCCCCG---GGEEEEEEECCBTTBSSCEEEEEE-TTSCEEEBCCCHHHHHHHHHHHHT
+T ss_pred             cCCCCceeccccCcCCH---HHceEEEEEeCCCCCCCcEEEEEE-CCCcEEEeCCCcHHHHHHHHHHhc
+Confidence            356789 9999876774   779999999999999999999998 668899999999999999988764
+
+
+No 31
+>4R9W_A Platelet factor 4; PF4, fondaparinux, CXC chemokine, platelet; HET: ZDO, SUS, BDP, SGN, IDS; 2.5A {Homo sapiens}
+Probab=99.20  E-value=1.2e-14  Score=92.11  Aligned_cols=64  Identities=19%  Similarity=0.254  Sum_probs=54.6  Template_Neff=10.000
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      +...+| |+.|...|+.   ..|.+|+++++++.|+.+++||++ ++++.+|+||++.||+..|+.++.
+T Consensus         5 ~~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-k~~~~vC~~p~~~wv~~~~~~~~~   69 (70)
+T 4R9W_A            5 DGDLQCLCVKTTSQVRP---RHITSLEVIKAGPHCPTAQLIATL-KNGRKICLDLQAPLYKKIIKKLLE   69 (70)
+T ss_dssp             ---CCCSCSSCBCCCCG---GGEEEEEEECCCSSCSSCEEEEEE-TTSCEEEBCCCHHHHHHHHHHHCC
+T ss_pred             cCCCCceeccccCcCCH---HHceEEEEEeCCCCCCCcEEEEEE-CCCcEEEeCCCcHHHHHHHHHHhc
+Confidence            356789 9999876774   779999999999999999999998 668899999999999999988764
+
+
+No 32
+>7JH1_A XCL1 ancestor; metamorphic protein, chemokine, ancestral reconstruction; NMR {synthetic construct}
+Probab=99.20  E-value=1.3e-14  Score=90.13  Aligned_cols=62  Identities=44%  Similarity=0.803  Sum_probs=54.1  Template_Neff=10.200
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++.+||+.+.. .|+.   +.+.+|++++ .+.|+.+|+||++ ++++++|+||++.|++..++.++.
+T Consensus         1 ~~~~CC~~~~~~~i~~---~~i~~~~~~~-~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~   63 (64)
+T 7JH1_A            1 ARKSCCLKYTKRPLPL---KRIKSYTIQS-NEACNIKAIIFTT-KKGRKICANPNEKWVQKAMKHLDK   63 (64)
+T ss_dssp             CCCSSCSCCCSSCCCG---GGEEEEECCC-TTTSSSCCEEEEE-TTCCEEEECTTSHHHHHHHHHHHT
+T ss_pred             CCCCCCcccCCCCCCH---HHeeEEEEeC-CCCCCceEEEEEE-CCCcEEEeCCCCHHHHHHHHhhhc
+Confidence            46889999996 7885   7899999875 4899999999998 668899999999999999998765
+
+
+No 33
+>1VMP_A VMIP-II, CHEMOKINE, MONOMER, SARCOMA, HERPESVIRUS; NMR {Human herpesvirus 8} SCOP: d.9.1.1
+Probab=99.20  E-value=1.4e-14  Score=92.04  Aligned_cols=64  Identities=28%  Similarity=0.496  Sum_probs=55.2  Template_Neff=10.000
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +++.+||+.|.. .|+.   +.+.+|++  +++.|+.+|+||++ +.++++|+||+..||+..|+.++.+.
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~vi~~~-~~~~~~C~~p~~~w~k~~~~~~~~~~   70 (71)
+T 1VMP_A            6 HRPDKCCLGYQKRPLPQ---VLLSSWYP--TSQLCSKPGVIFLT-KRGRQVCADKSKDWVKKLMQQLPVTA   70 (71)
+T ss_dssp             CCCCCCCSSCCCSCCCG---GGEEEEEE--ECTTSSSCEEEEEE-TTCCEECCBTTSHHHHHHHHHSCCCC
+T ss_pred             CCCCCCCCCCCCCCCCH---HHeEEEEE--CCCCCCCCEEEEEE-CCCeEEEeCCCCHHHHHHHHhCCccc
+Confidence            467899999996 6885   77899987  58899999999998 66889999999999999999887653
+
+
+No 34
+>2FHT_A Viral macrophage inflammatory protein-II; chemokine, herpesvirus, anti-HIV; 1.7A {N/A} SCOP: d.9.1.1
+Probab=99.20  E-value=1.4e-14  Score=92.04  Aligned_cols=64  Identities=28%  Similarity=0.496  Sum_probs=55.2  Template_Neff=10.000
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +++.+||+.|.. .|+.   +.+.+|++  +++.|+.+|+||++ +.++++|+||+..||+..|+.++.+.
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~vi~~~-~~~~~~C~~p~~~w~k~~~~~~~~~~   70 (71)
+T 2FHT_A            6 HRPDKCCLGYQKRPLPQ---VLLSSWYP--TSQLCSKPGVIFLT-KRGRQVCADKSKDWVKKLMQQLPVTA   70 (71)
+T ss_dssp             CCCCCCCSSCCCSCCCG---GGEEEEEE--CCTTSSSCEEEEEE-TTSCEEEEETTSHHHHHHHHHSCBCC
+T ss_pred             CCCCCCCCCCCCCCCCH---HHeEEEEE--CCCCCCCCEEEEEE-CCCeEEEeCCCCHHHHHHHHhCCccc
+Confidence            467899999996 6885   77899987  58899999999998 66889999999999999999887653
+
+
+No 35
+>4XT1_B US28, CX3CL1, nanobody 7; GPCR, chemokine, membrane protein, complex; HET: UNL, CLR, OLC; 2.886A {Cytomegalovirus}
+Probab=99.19  E-value=1.5e-14  Score=97.84  Aligned_cols=67  Identities=27%  Similarity=0.437  Sum_probs=55.1  Template_Neff=9.200
+
+Q CCL25[24-150]     1 QGVFEDC---CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         1 QG~~edC---CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      |+.+++|   |+.|...|+.   ..|.+|+  ++++.|+.+||||++ ++++.+|+||++.||+..|+.++.+...
+T Consensus         2 ~~~~~~C~~CC~~~~~~i~~---~~i~~~~--~~~~~C~~~avi~~~-~~~~~~C~~P~~~wv~~~~~~~~~~~~~   71 (91)
+T 4XT1_B            2 HHGVTKCAITCSKMTSKIPV---ALLIHYQ--QNQASCGKRAIILET-RQHRLFCADPKEQWVKDAMQHLDRQAAA   71 (91)
+T ss_dssp             CTTSCCCCEECSCCCCCCCT---TSEEEEE--ECCGGGCSCCEEEEE-TTSCEEEECTTCHHHHHHHHHHHHC---
+T ss_pred             CCCCCcCccCCccccCCCCH---HHeeEEE--ECcccCCCcEEEEEE-CCCcEEEeCCCcHHHHHHHHHHHHHHHH
+Confidence            3566778   9998867775   6789998  478999999999998 6688999999999999999998876543
+
+
+No 36
+>6EHZ_A Stromal cell-derived factor 1; Stromall cell derived factor 1; NMR {Mus musculus}
+Probab=99.19  E-value=1.5e-14  Score=100.19  Aligned_cols=66  Identities=20%  Similarity=0.327  Sum_probs=57.4  Template_Neff=8.700
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-HRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      ++..+| |+.|...|+.   ..|.+|++ ++++.|+ +||||++ .. ++.+|+||++.||+..|..++.....
+T Consensus         4 ~~~~~C~C~~~~~~I~~---~~I~~~~~-~~~~~C~-~aiI~~~-~~~g~~iC~~P~~~wvk~~i~~l~~~~~~   71 (98)
+T 6EHZ_A            4 SLSYRCPCRFFESHIAR---ANVKHLKI-LNTPNCA-LQIVARL-KNNNRQVCIDPKLKWIQEYLEKALNKGRR   71 (98)
+T ss_dssp             CSSCCCSSCSCBTTCCG---GGEEEEEE-ECCSSCS-CEEEEEE-TTTCCEEEECTTSTTHHHHHHHHHHHSCC
+T ss_pred             CCCCCCcceecccccCH---HHccEEEE-cCCCCCC-CeEEEEE-ccCCeEEEeCCCcHHHHHHHHHHHHHcch
+Confidence            467899 9999955875   77999998 8899999 9999998 66 78999999999999999999877654
+
+
+No 37
+>5WK3_D M116 LIGHT CHAIN, M116 HEAVY; IMMUNE SYSTEM; HET: GOL; 1.9A {Homo sapiens}
+Probab=99.19  E-value=1.6e-14  Score=92.07  Aligned_cols=64  Identities=30%  Similarity=0.618  Sum_probs=55.4  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +++.+||+.|.. .|+.   ..+.+|+  ++++.|+.+||||++ ++++.+|+||+..||+.+|+.++.+.
+T Consensus         5 ~~~~~CC~~~~~~~i~~---~~i~~~~--~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~   69 (71)
+T 5WK3_D            5 NVTRECCLEYFKGAIPL---RKLKTWY--QTSEDCSRDAIVFVT-VQGRAICSDPNNKRVKNAVKYLQSLE   69 (71)
+T ss_pred             CCCCCCcccccCCccCH---HHeEEEE--ECCCCCCCCeEEEEE-cCCcEEeeCCCCHHHHHHHHHHHHhh
+Confidence            467899999996 6885   6788887  488999999999998 66889999999999999999987654
+
+
+No 38
+>1DOK_B MONOCYTE CHEMOATTRACTANT PROTEIN 1; CHEMOATTRACTANT, CYTOKINE; HET: SO4; 1.85A {Homo sapiens} SCOP: d.9.1.1
+Probab=99.18  E-value=1.8e-14  Score=93.86  Aligned_cols=66  Identities=29%  Similarity=0.512  Sum_probs=56.5  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      .++.+||+.+.. .|+.   ..|.+|.++. ++.|+.+||||.+ ++++.+|+||++.||+..++.++.+..
+T Consensus         7 ~~~~~CC~~~~~~~ip~---~~i~~~~~~~-~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~l~~~~~   73 (77)
+T 1DOK_B            7 NAPVTCCYNFTNRKISV---QRLASYRRIT-SSKCPKEAVIFKT-IVAKEICADPKQKWVQDSMDHLDKQTQ   73 (77)
+T ss_dssp             GSCEEECSSCCCSCCCT---TSEEEEEECC-CTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHHHCC-
+T ss_pred             cCCCCCCcccCCCCCCH---HHeeEEEEEC-CCCCCCeEEEEEE-cCCeEEEeCCCCHHHHHHHHHHHHhcc
+Confidence            356889999996 7885   7799997775 8899999999998 668899999999999999999877553
+
+
+No 39
+>1EL0_A chemokine fold, IMMUNE SYSTEM; NMR {N/A} SCOP: d.9.1.1
+Probab=99.18  E-value=1.9e-14  Score=91.91  Aligned_cols=61  Identities=31%  Similarity=0.488  Sum_probs=53.1  Template_Neff=10.100
+
+Q CCL25[24-150]     5 EDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         5 edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +.||+.|.. .|+.   +.|.+|+.  +++.|+.+||||.+ ++++.+|++|+..|++..++.++...
+T Consensus         9 ~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~aii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   70 (74)
+T 1EL0_A            9 SRCCFSFAEQEIPL---RAILCYRN--TSSICSNEGLIFKL-KRGKEACALDTVGWVQRHRKMLRHCP   70 (74)
+T ss_dssp             CCCCSSCSCSCCCT---TTEEEEEE--CCGGGSSCCEEEEE-SSSSEEEECSCSSHHHHHHHHSCBCC
+T ss_pred             cccCccccCCcCCH---HHeeEEEE--CCCCCCCceEEEEE-CCCcEEEeCCCCHHHHHHHHHHhcCc
+Confidence            789999996 7885   77899954  77999999999998 66888999999999999999887654
+
+
+No 40
+>4OIJ_A C-C motif chemokine 1, D-Ser-CCL1; Chemical protein synthesis, racemic protein; HET: DVA, DGL, DAS, DCY, DSG, DIL, DTH, DAL, DAR, DSN, MED, DTY, DGN, DPN, SO4, DLE, DPR, DTR, DHI, DLY; 2.0A {Homo sapiens}
+Probab=99.18  E-value=1.9e-14  Score=91.91  Aligned_cols=61  Identities=31%  Similarity=0.488  Sum_probs=53.1  Template_Neff=10.100
+
+Q CCL25[24-150]     5 EDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         5 edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +.||+.|.. .|+.   +.|.+|+.  +++.|+.+||||.+ ++++.+|++|+..|++..++.++...
+T Consensus         9 ~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~aii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   70 (74)
+T 4OIJ_A            9 SRCCFSFAEQEIPL---RAILCYRN--TSSICSNEGLIFKL-KRGKEACALDTVGWVQRHRKMLRHCP   70 (74)
+T ss_dssp             EEECSBCCCSCCCG---GGEEEEEE--CCGGGCTTEEEEEE-STTCEEEEETTSHHHHHHHHTSCBCC
+T ss_pred             cccCccccCCcCCH---HHeeEEEE--CCCCCCCceEEEEE-CCCcEEEeCCCCHHHHHHHHHHhcCc
+Confidence            789999996 7885   77899954  77999999999998 66888999999999999999887654
+
+
+No 41
+>4OIK_B C-C motif chemokine 1, D-Ser-CCL1; Chemical protein synthesis, quasi-racemic protein; HET: NAG, DVA, DGL, DAS, DCY, DSG, DIL, DTH, DAL, DAR, DSN, MED, DTY, DGN, DPN, SO4, CIT, DLE, DPR, DTR, DHI, DLY; 2.1A {Homo sapiens}
+Probab=99.18  E-value=1.9e-14  Score=91.91  Aligned_cols=61  Identities=31%  Similarity=0.488  Sum_probs=53.1  Template_Neff=10.100
+
+Q CCL25[24-150]     5 EDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         5 edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +.||+.|.. .|+.   +.|.+|+.  +++.|+.+||||.+ ++++.+|++|+..|++..++.++...
+T Consensus         9 ~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~aii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~   70 (74)
+T 4OIK_B            9 SRCCFSFAEQEIPL---RAILCYRN--TSSICSNEGLIFKL-KRGKEACALDTVGWVQRHRKMLRHCP   70 (74)
+T ss_dssp             EEECSSCCCSCCCG---GGEEEEEE--CCTTSCTTEEEEEE-STTCEEEEETTSHHHHHHHTTSCBCC
+T ss_pred             cccCccccCCcCCH---HHeeEEEE--CCCCCCCceEEEEE-CCCcEEEeCCCCHHHHHHHHHHhcCc
+Confidence            789999996 7885   77899954  77999999999998 66888999999999999999887654
+
+
+No 42
+>1F9P_A CONNECTIVE TISSUE ACTIVATING PEPTIDE-III; chemokine-heparin analog complex, BLOOD CLOTTING; HET: ESA; 1.93A {Homo sapiens} SCOP: d.9.1.1
+Probab=99.18  E-value=1.9e-14  Score=95.31  Aligned_cols=67  Identities=19%  Similarity=0.291  Sum_probs=58.0  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +....| |+.+...|+.   ..|.+|++|++++.|..++|||++ +.+..+|+||+..||+..++.++.+..
+T Consensus        15 ~~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wvk~~~~~l~~~~~   82 (85)
+T 1F9P_A           15 YAELRCMCIKTTSGIHP---KNIQSLEVIGKGTHCNQVEVIATL-KDGRKICLDPDAPRIKKIVQKKLAGDE   82 (85)
+T ss_dssp             GGGTTCSCSCCCCSCCG---GGEEEEEEECCBTTBCSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHCCC-
+T ss_pred             cccCCcEeeeccCCCCH---HHccEEEEEcCCCCCCeeEEEEEe-CCCeEEEeCCCCHHHHHHHHHHHhcCc
+Confidence            456789 9999955774   679999999999999999999998 668899999999999999999887654
+
+
+No 43
+>4ZLT_L protein R17, C-C motif chemokine; RHVP chemokine binding protein in; HET: NAG; 3.0A {Cricetid herpesvirus 2}
+Probab=99.18  E-value=2e-14  Score=92.34  Aligned_cols=62  Identities=29%  Similarity=0.513  Sum_probs=53.4  Template_Neff=9.500
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      .++.+||+.| . .|+.   ..|.+|+.  +++.|+..|+||.+ +.++.+|+||++.||+..++.++.+
+T Consensus         7 ~~~~~CC~~~-~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~   69 (70)
+T 4ZLT_L            7 DTPTACCFSY-SRKIPR---QFIVAYFE--TSSLCSQPGVIFLT-KRNRQICADSKETWVQEYITDLELN   69 (70)
+T ss_dssp             ECCCEEESSC-BCCCCG---GGEEEEEE--CCTTBSSCEEEEEE-TTSCEEEEETTBHHHHHHHHHHHTC
+T ss_pred             CCCCCCCccC-CccCCH---HHeEEEEE--CCCCCCCCEEEEEE-cCCeEEeeCCCcHHHHHHHHHhhhc
+Confidence            4568899999 6 8885   67889864  78999999999998 6688999999999999999998654
+
+
+No 44
+>5COY_B C-C motif chemokine 5; CC chemokine, CCL5, dimer, SIGNALING; HET: PEG, PO4, GLC, Z9N; 1.443A {Homo sapiens}
+Probab=99.18  E-value=2.1e-14  Score=89.87  Aligned_cols=61  Identities=31%  Similarity=0.641  Sum_probs=53.5  Template_Neff=10.000
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++++||+.|+. .|+.   +.|.+|++  +++.|..+||||++ ++++.+|+||+..|++..|+.++.
+T Consensus         3 ~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~   64 (65)
+T 5COY_B            3 DTTPCCFAYIARPLPR---AHIKEYFY--TSGKCSNPAVVFVT-RKNRQVCANPEKKWVREYINSLEM   64 (65)
+T ss_dssp             CCEEECSSCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTCCEEEECTTSHHHHHHHHHHHT
+T ss_pred             CCCCCCcccCCCCCCH---HHeEEEEE--CCCCCCCCeEEEEe-cCCcEEEeCCCcHHHHHHHHHhcc
+Confidence            57899999996 7885   77899988  58999999999998 668899999999999999988764
+
+
+No 45
+>5DNF_B C-C motif chemokine 5; CC chemokine, high oligomer, CYTOKINE; HET: CL, GLA, SGN, IDS, BGC, SO4; 2.549A {Homo sapiens}
+Probab=99.18  E-value=2.1e-14  Score=89.87  Aligned_cols=61  Identities=31%  Similarity=0.641  Sum_probs=53.5  Template_Neff=10.000
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++++||+.|+. .|+.   +.|.+|++  +++.|..+||||++ ++++.+|+||+..|++..|+.++.
+T Consensus         3 ~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~   64 (65)
+T 5DNF_B            3 DTTPCCFAYIARPLPR---AHIKEYFY--TSGKCSNPAVVFVT-RKNRQVCANPEKKWVREYINSLEM   64 (65)
+T ss_dssp             BCEEECSCCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTCCEEEECTTSHHHHHHHHHHHC
+T ss_pred             CCCCCCcccCCCCCCH---HHeEEEEE--CCCCCCCCeEEEEe-cCCcEEEeCCCcHHHHHHHHHhcc
+Confidence            57899999996 7885   77899988  58999999999998 668899999999999999988764
+
+
+No 46
+>2FIN_B protein-protein complex, Chemokine, pox virus; NMR {Rabbitpox virus}
+Probab=99.17  E-value=2.2e-14  Score=91.27  Aligned_cols=62  Identities=24%  Similarity=0.415  Sum_probs=53.4  Template_Neff=9.800
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      +++.+||+.+.. .|+.   +.|.+|+.  +++.|..+||||++ ++++.+|+||+..||+..|+.++.
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~~~~   68 (69)
+T 2FIN_B            6 DPPTACCFSYTARKLPR---NFVVDYYE--TSSLCSQPAVVFQT-AASAQVCADPSESWVQEYVYDLEL   68 (69)
+T ss_dssp             CCCCCCCSCCCSSCCCG---GGCCCEEE--CCSSSSSCCEEEEC-SSSCEEEECTTSHHHHHHHHHHHH
+T ss_pred             CCCCCCCCccCCCCCCH---HHeEEEEE--CCCCCCCCeEEEEe-CCCCeEEeCCCcHHHHHHHHHhhc
+Confidence            356889999996 7885   67889854  78999999999998 668899999999999999998764
+
+
+No 47
+>6WZK_F LY3041658 Fab heavy chain, LY3041658; CXCR1, CXCR2, neutrophil, GRO-gamma, IMMUNE; HET: EDO; 1.8A {Homo sapiens}
+Probab=99.17  E-value=2.2e-14  Score=93.68  Aligned_cols=66  Identities=23%  Similarity=0.290  Sum_probs=56.4  Template_Neff=9.600
+
+Q CCL25[24-150]     3 VFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         3 ~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....| |+.+...|+.   ..|.+|++|++++.|+.++|||++ +.++.+|+||+..|++..+..++.+..
+T Consensus         5 ~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~vC~~p~~~wv~~~~~~~~~~~~   71 (78)
+T 6WZK_F            5 TELRCQCLQTLQGIHP---KNIQSVIVKAPGPHCAETEVIATL-KNGQKACLNPASPMVQKIIEKILNKGS   71 (78)
+T ss_dssp             -CCSCCCSSCBSCCCG---GGEEEEEEECCBTTBSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHTC--
+T ss_pred             ccCCcEeceecCCCCH---HHceEEEEECCCCCCCceEEEEEE-cCCeEEEeCCCCHHHHHHHHHHHhcCC
+Confidence            46789 9999877775   779999999899999999999998 668899999999999999999877554
+
+
+No 48
+>2HCC_A CHEMOKINE, HUMAN, HCC-2, MIP-5, LEUKOTACTIN-1; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.17  E-value=2.2e-14  Score=89.75  Aligned_cols=63  Identities=33%  Similarity=0.557  Sum_probs=54.1  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +++.+||+.|.. .|+.   ..|.+|+.  +++.|+..||||++ +.++.+|++|++.||+..|+.++.+
+T Consensus         1 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~   64 (66)
+T 2HCC_A            1 HFAADCCTSYISQSIPC---SLMKSYFE--TSSECSKPGVIFLT-KKGRQVCAKPSGPGVQDCMKKLKPY   64 (66)
+T ss_dssp             CCCCCCCSSCCSSSCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTTEEEEECSSCTTHHHHHHHTSCC
+T ss_pred             CCccccCccccCCCCCH---HHceeeEE--CCCCCCCCeEEEEE-CCCcEEEeCCCCHHHHHHHHhhccc
+Confidence            356899999996 7885   67888884  78999999999998 6688999999999999999988754
+
+
+No 49
+>1G91_A chemokine, cytokine, MPIF-1, CKb8, CCL23; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.17  E-value=2.3e-14  Score=93.08  Aligned_cols=66  Identities=29%  Similarity=0.625  Sum_probs=55.9  Template_Neff=9.700
+
+Q CCL25[24-150]     2 GVF-EDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~-edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      +.+ ..||+.|.. .|+.   ..|.+|++  +++.|+.+||||++ +.++.+|+||++.||+..|+.++.+...
+T Consensus         5 ~~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~aii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~~   72 (77)
+T 1G91_A            5 HATSADCCISYTPRSIPC---SLLESYFE--TNSECSKPGVIFLT-KKGRRFCANPSDKQVQVCMRMLKLDTRI   72 (77)
+T ss_dssp             SSSCCCSCCCBCCSCCCG---GGCCEEEE--CCTTSSSCCEEEEC-TTSCEEEECTTCHHHHHHHHHHSSCTTT
+T ss_pred             ccccccCCcCCCCCCCCH---HHeeeeEE--CCCCCCCCeEEEEE-cCCcEEEeCCCCHHHHHHHHHhhhhhhh
+Confidence            345 789999997 8886   67888876  78899999999998 6678899999999999999998776543
+
+
+No 50
+>1TVX_B NEUTROPHIL ACTIVATING PEPTIDE 2 VARIANT; CYTOKINE; 1.75A {Homo sapiens} SCOP: d.9.1.1
+Probab=99.17  E-value=2.4e-14  Score=91.90  Aligned_cols=68  Identities=19%  Similarity=0.279  Sum_probs=58.4  Template_Neff=10.000
+
+Q CCL25[24-150]     1 QGVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         1 QG~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++..+| |+.+...|+.   ..+.+|+++++++.|..++|||.+ +.++.+|+||...|++..|+.++.+..
+T Consensus         4 ~~~~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~vC~~p~~~w~~~~~~~~~~~~~   72 (75)
+T 1TVX_B            4 LYAELRCLCIKTTSGIHP---KNIQSLEVIGKGTHCNQVEVIATL-KDGRKICLDPDAPRIKKIVQKKLAGDE   72 (75)
+T ss_dssp             CTTEECCCCSSCBSCCCG---GGEEEEEEECCBTTBSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHTC-
+T ss_pred             ccccCCceecccCCCCCH---HHccEEEEEcCCCCCCeEEEEEEe-CCCeEEEeCCCCHHHHHHHHHHHhcCc
+Confidence            3567899 9999855774   789999998899999999999998 668899999999999999999887653
+
+
+No 51
+>5COR_C C-C motif chemokine 3; CC chemokine, CCL3, OLIGOMER, SIGNALING; HET: HEZ, ACT; 2.548A {Homo sapiens}
+Probab=99.17  E-value=2.4e-14  Score=90.54  Aligned_cols=63  Identities=32%  Similarity=0.551  Sum_probs=54.4  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +++.+||+.++. .|+.   +.|.+|+  .+++.|+.+||||.+ +.++.+|++|+..|++..|+.++.+
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~--~~~~~C~~~aii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~   69 (70)
+T 5COR_C            6 DTPTACCFSYTSRQIPQ---NFIADYF--ETSSQCSKPGVIFLT-KRSRQVCADPSEEWVQKYVSDLELS   69 (70)
+T ss_dssp             SCCEEECSSCCSSCCCG---GGEEEEE--ECCTTSSSCCEEEEE-TTCCEEEECTTSHHHHHHHHHHHHT
+T ss_pred             CCCCCCCcccCCCCCCH---HHeEEEE--ECCCCCCCCEEEEEE-CCCcEEEeCCCcHHHHHHHHHhhcC
+Confidence            567899999996 7885   6788885  488999999999998 6688899999999999999998764
+
+
+No 52
+>1A15_A CHEMOKINE, HUMAN STROMAL CELL-DERIVED FACTOR-1ALPHA; 2.2A {N/A} SCOP: d.9.1.1
+Probab=99.16  E-value=2.7e-14  Score=89.84  Aligned_cols=61  Identities=21%  Similarity=0.372  Sum_probs=52.8  Template_Neff=10.000
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-HRKVCGNPKSREVQRAMKLLD   68 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-~r~vCanP~~~WVq~~mk~ld   68 (127)
+                      ++...| |+.|....+.   +.|.+|++| +++.|+. ++||++ +. ++.+|+||++.||+..|+.++
+T Consensus         4 ~~~~~C~C~~~~~~~~~---~~i~~~~~~-~~~~C~~-~ii~~~-~~~~~~~C~~p~~~wvk~~~~~~~   66 (67)
+T 1A15_A            4 SLSYRCPCRFFESHVAR---ANVKHLKIL-NTPACAL-QIVARL-KNNNRQVCIDPKLKWIQEYLEKAL   66 (67)
+T ss_dssp             SSSSCCSCSSCBCCCCG---GGEEEEEEE-EETTTEE-EEEEEE-TTTCCEEEECTTCHHHHHHHHHTT
+T ss_pred             ccCCCCcceeccCccCH---HHceEEEEE-cCCCCCc-eEEEEE-eeCCeEEEeCCCCHHHHHHHHHHh
+Confidence            457899 9999973354   789999998 8999999 999998 66 899999999999999998764
+
+
+No 53
+>1RJT_A chemokine, CYTOKINE; NMR {N/A} SCOP: d.9.1.1
+Probab=99.16  E-value=2.8e-14  Score=90.64  Aligned_cols=65  Identities=22%  Similarity=0.326  Sum_probs=57.0  Template_Neff=10.200
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHR-KVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r-~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      ++...| |+.+.. .|+.   +.|.+|+++++++.|+.+||||++ +.+. ++|+||+..||+..++.++.+
+T Consensus         4 ~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~~C~~p~~~w~~~~~~~~~~~   71 (73)
+T 1RJT_A            4 FKRGRCLCIGPGVKAVKV---ADIEKASIMYPSNNCDKIEVIITL-KENKGQRCLNPKSKQARLIIKKVERK   71 (73)
+T ss_dssp             CCSCTTCCSCSSCSSCCB---TTBCCBCCCBCTTTSSSCBCCBCC-SSSCCCCCCCSSCCCHHHHHHHHTSC
+T ss_pred             CCCCcceecCCCCCccCH---HHceEEEEECCCCCCCcEEEEEEE-cCCCceEeeCCCCHHHHHHHHHHHhh
+Confidence            456789 999985 8885   789999999899999999999998 6577 999999999999999988764
+
+
+No 54
+>3FPU_B protein:protein complex, chemokine, Glycoprotein, Secreted; 1.76A {Rhipicephalus sanguineus}
+Probab=99.16  E-value=2.8e-14  Score=90.70  Aligned_cols=63  Identities=32%  Similarity=0.553  Sum_probs=53.1  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +++.+||+.+.. .|+.   +.+.+|.  .+++.|..+||||++ +.++.+|+||++.|++..++.++.+
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~--~~~~~C~~~aii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~   69 (70)
+T 3FPU_B            6 DTPTTCCFSYTSRQIPQ---NFIADYF--ETSSQCSKPGVIFLT-KRSRQVCADPSEEWVQKYVSDLELS   69 (70)
+T ss_dssp             GSBCEECSSCCSSCCCG---GGEEEEE--ECCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHCC--
+T ss_pred             CCCCCCCcccCCCCCCH---HHeEEEE--ECCCCCCCCeEEEEE-CCCeEEEeCCCCHHHHHHHHHhhcC
+Confidence            567899999996 7885   6788885  478999999999998 6678999999999999999988654
+
+
+No 55
+>4HCS_A Uncharacterized protein; novel chemokine subfamily CX, chemokine; 1.28A {Danio rerio}
+Probab=99.16  E-value=3.1e-14  Score=93.56  Aligned_cols=66  Identities=14%  Similarity=0.161  Sum_probs=52.8  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      +++.+||+.|.. .|+.   ..+.+| ++..++.| .+||||.+ ++++.+|+||+..||+..|+.++.+...
+T Consensus        10 ~~~~~CC~~~~~~~ip~---~~i~~~-~~~~~~~C-~~avi~~t-~~g~~~C~~p~~~wv~~~~~~~~~~~~~   76 (81)
+T 4HCS_A           10 NRPGVCFKVLTTKEPKA---NIKRCY-NLPKTNNC-LKCVLFVD-ASNRMKCIDPNASWLAERLYRLKEKGVT   76 (81)
+T ss_dssp             --CCCCCSSCBCSCCCS---CEEEEE-EECCCSSS-CCEEEEEE-TTSCEEEECTTCTTHHHHHHHHHHTTCC
+T ss_pred             CCCCCCccccCCCCCCh---hhEEEE-EECCCCCc-ceeEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHhCCC
+Confidence            467899999996 8874   344444 55558899 99999998 6688999999999999999998877653
+
+
+No 56
+>4HED_A Uncharacterized protein; chemokine fold, chemotaxis, new chemokine; 1.62A {Danio rerio}
+Probab=99.16  E-value=3.1e-14  Score=93.56  Aligned_cols=66  Identities=14%  Similarity=0.161  Sum_probs=52.8  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      +++.+||+.|.. .|+.   ..+.+| ++..++.| .+||||.+ ++++.+|+||+..||+..|+.++.+...
+T Consensus        10 ~~~~~CC~~~~~~~ip~---~~i~~~-~~~~~~~C-~~avi~~t-~~g~~~C~~p~~~wv~~~~~~~~~~~~~   76 (81)
+T 4HED_A           10 NRPGVCFKVLTTKEPKA---NIKRCY-NLPKTNNC-LKCVLFVD-ASNRMKCIDPNASWLAERLYRLKEKGVT   76 (81)
+T ss_dssp             --CCCCCSSCBCSCCCS---CEEEEE-EECCCSSS-CCEEEEEE-TTCCEEEECTTCTTHHHHHHHHHHTTCC
+T ss_pred             CCCCCCccccCCCCCCh---hhEEEE-EECCCCCc-ceeEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHhCCC
+Confidence            467899999996 8874   344444 55558899 99999998 6688999999999999999998877653
+
+
+No 57
+>4XDX_A Human Interleukin 8; Cytokine, alpha beta protein, IL8; 0.95A {Homo sapiens}
+Probab=99.15  E-value=3.3e-14  Score=89.66  Aligned_cols=64  Identities=25%  Similarity=0.347  Sum_probs=56.6  Template_Neff=10.200
+
+Q CCL25[24-150]     4 FEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         4 ~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ...| |+.+.. .|+.   ..|.+|++|++++.|+.+|+||++ ++++.+|+||+..||+..|+.++.+.
+T Consensus         2 ~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~   67 (70)
+T 4XDX_A            2 ELRCQCIKTYSKPFHP---KFIKELRVIESGPHCANTEIIVKL-SDGRELCLDPKENWVQRVVEKFLKRA   67 (70)
+T ss_dssp             CCSCCCSCCCCSCCCG---GGEEEEEEECCBTTBSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHHH
+T ss_pred             CCcceeeecccCccCH---HHceEEEEEcCCCCCCCceEEEEe-cCCcEEEeCCCCHHHHHHHHHHHHHh
+Confidence            3579 999996 7885   779999999999999999999998 66889999999999999999987754
+
+
+No 58
+>5D14_A Interleukin-8; cytokine, chemokine, IL8-like fold, inflammation; 1.0A {Homo sapiens}
+Probab=99.15  E-value=3.3e-14  Score=89.66  Aligned_cols=64  Identities=25%  Similarity=0.347  Sum_probs=56.6  Template_Neff=10.200
+
+Q CCL25[24-150]     4 FEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         4 ~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ...| |+.+.. .|+.   ..|.+|++|++++.|+.+|+||++ ++++.+|+||+..||+..|+.++.+.
+T Consensus         2 ~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~   67 (70)
+T 5D14_A            2 ELRCQCIKTYSKPFHP---KFIKELRVIESGPHCANTEIIVKL-SDGRELCLDPKENWVQRVVEKFLKRA   67 (70)
+T ss_dssp             CCSCCCSCCCCSCCCG---GGEEEEEEECCBTTBSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHHH
+T ss_pred             CCcceeeecccCccCH---HHceEEEEEcCCCCCCCceEEEEe-cCCcEEEeCCCCHHHHHHHHHHHHHh
+Confidence            3579 999996 7885   779999999999999999999998 66889999999999999999987754
+
+
+No 59
+>2RA4_A .; CCL13, MCP-4, CC chemokine family; HET: SO4; 1.7A {Homo sapiens}
+Probab=99.15  E-value=3.3e-14  Score=92.42  Aligned_cols=64  Identities=30%  Similarity=0.544  Sum_probs=53.6  Template_Neff=9.600
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +++..||+.|.. .|+.   ..|.+|+  ++++.|+..+|||++ ++++.+|+||++.||+.+|+.++.+.
+T Consensus         7 ~~~~~CC~~~~~~~ip~---~~i~~~~--~~~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~   71 (76)
+T 2RA4_A            7 NVPSTCCFTFSSKKISL---QRLKSYV--ITTSRCPQKAVIFRT-KLGKEICADPKEKWVQNYMKHLGRKA   71 (76)
+T ss_dssp             CCCEEECSSCCSSCCCG---GGEEEEE--ECCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHC---
+T ss_pred             CCCCCCCccccCCccCH---HHeeEEE--ECCCCCCCeEEEEEE-CCCeEEEeCCCCHHHHHHHHHHhHhh
+Confidence            356789999996 7885   6788888  478999999999998 66889999999999999999987654
+
+
+No 60
+>1NR4_E Thymus and activation-regulated chemokine; TARC, chemokine, cytokine, CC-chemokine, chemotaxis; HET: SO4; 1.72A {N/A} SCOP: d.9.1.1
+Probab=99.15  E-value=3.7e-14  Score=90.38  Aligned_cols=64  Identities=30%  Similarity=0.603  Sum_probs=55.0  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      +++.+||+.+.. .|+.   +.+.+|+  ++++.|+.++|||++ ++++.+|+||+..||+..|+.++.+.
+T Consensus         5 ~~~~~CC~~~~~~~i~~---~~i~~~~--~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~   69 (71)
+T 1NR4_E            5 NVGRECCLEYFKGAIPL---RKLKTWY--QTSEDCSRDAIVFVT-VQGRAICSDPNNKRVKNAVKYLQSLE   69 (71)
+T ss_dssp             SBTCEEESSCCCSCCCG---GGEEEEE--ECCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHHHHH
+T ss_pred             cCCCCCCccccCCCcCH---HHceEEE--ECCCCCCCCeEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHhc
+Confidence            467899999996 7885   6788886  478999999999998 66889999999999999999987654
+
+
+No 61
+>5OB5_A C-X-C motif chemokine 2, fAb; fAb complex, AbVance project, Pistoia; HET: GOL, SO4; 1.65A {Homo sapiens}
+Probab=99.14  E-value=3.7e-14  Score=87.24  Aligned_cols=60  Identities=23%  Similarity=0.378  Sum_probs=53.0  Template_Neff=10.400
+
+Q CCL25[24-150]     5 EDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLD   68 (127)
+Q Consensus         5 edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld   68 (127)
+                      ..| |+.+...|+.   ..+.+|++|++++.|+.+|+||++ ++++.+|+||+..|++..+..++
+T Consensus         2 ~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~   62 (63)
+T 5OB5_A            2 LRCQCLQTLQGIHL---KNIQSVKVKSPGPHCAQTEVIATL-KNGQKACLNPASPMVKKIIEKML   62 (63)
+T ss_dssp             CSCSCSSCCSCCCG---GGEEEEEEECSBTTBSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHH
+T ss_pred             CCceeccccCCCCH---HHceEEEEECCCCCCCccEEEEEE-cCCeEEEeCCCCHHHHHHHHHHh
+Confidence            479 9999876775   679999999999999999999998 66889999999999999988764
+
+
+No 62
+>2Q8R_E CCL14; common CC chemokine fold, CYTOKINE; 1.82A {Homo sapiens}
+Probab=99.14  E-value=3.8e-14  Score=88.70  Aligned_cols=62  Identities=29%  Similarity=0.535  Sum_probs=53.5  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      +++..||+.|.. .|+.   ..+.+|+.  +++.|+.+||||++ ++++.+|+||++.||+..|+.++.
+T Consensus         3 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~avi~~~-~~~~~~C~~p~~~wvk~~~~~~~~   65 (66)
+T 2Q8R_E            3 YHPSECCFTYTTYKIPR---QRIMDYYE--TNSQCSKPGIVFIT-KRGHSVCTNPSDKWVQDYIKDMKE   65 (66)
+T ss_dssp             TCCEEECSSCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHCC
+T ss_pred             CCCCcCCCCcCCCcCCH---HHeEEEEE--CCCCCCCCeEEEEE-CCCcEEEeCCCCHHHHHHHHHhhc
+Confidence            467899999996 7885   67888874  78999999999998 668899999999999999988764
+
+
+No 63
+>2Q8R_H CCL14; common CC chemokine fold, CYTOKINE; 1.82A {Homo sapiens}
+Probab=99.14  E-value=3.8e-14  Score=88.70  Aligned_cols=62  Identities=29%  Similarity=0.535  Sum_probs=53.5  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      +++..||+.|.. .|+.   ..+.+|+.  +++.|+.+||||++ ++++.+|+||++.||+..|+.++.
+T Consensus         3 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~avi~~~-~~~~~~C~~p~~~wvk~~~~~~~~   65 (66)
+T 2Q8R_H            3 YHPSECCFTYTTYKIPR---QRIMDYYE--TNSQCSKPGIVFIT-KRGHSVCTNPSDKWVQDYIKDMKE   65 (66)
+T ss_dssp             TCCEEECSSCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHCC
+T ss_pred             CCCCcCCCCcCCCcCCH---HHeEEEEE--CCCCCCCCeEEEEE-CCCcEEEeCCCCHHHHHHHHHhhc
+Confidence            467899999996 7885   67888874  78999999999998 668899999999999999988764
+
+
+No 64
+>6WZL_E LY3041658 Fab heavy chain, LY3041658; CXCR1, CXCR2, neutrophil, NAP-2, IMMUNE; HET: PG6; 2.29A {Homo sapiens}
+Probab=99.13  E-value=4.7e-14  Score=88.94  Aligned_cols=65  Identities=20%  Similarity=0.302  Sum_probs=55.7  Template_Neff=10.200
+
+Q CCL25[24-150]     4 FEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         4 ~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ...| |+.+...|+.   ..|.+|++|++++.|+.+++||.+ +.++.+|+||+..||+..++.++.+..
+T Consensus         2 ~~~C~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   67 (70)
+T 6WZL_E            2 ELRCLCMKTTSGIHP---KNIQSLEVIGKGIHCNQVEVIATL-KDGRKICLDPDAPRIKKIVQKKLAGDE   67 (70)
+T ss_dssp             CCSCCCSSCBCCCCG---GGEEEEEEECCCSSCSSCEEEEEE-TTSCEEEECCCHHHHHHHHHHHSCC--
+T ss_pred             CCCceecccCCCCCH---HHccEEEEEcCCCCCCceEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHhCCc
+Confidence            4679 9999855775   789999999899999999999998 668899999999999999999877543
+
+
+No 65
+>4XT3_B US28, CX3CL1; GPCR, chemokine, membrane protein, complex; HET: NAG; 3.801A {Cytomegalovirus}
+Probab=99.12  E-value=6.2e-14  Score=94.91  Aligned_cols=67  Identities=27%  Similarity=0.437  Sum_probs=55.3  Template_Neff=9.200
+
+Q CCL25[24-150]     1 QGVFEDC---CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         1 QG~~edC---CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      |+.++.|   |+.|...|+.   ..|.+|+  ++++.|+.+||||++ ++++.+|+||++.||+..|+.++.....
+T Consensus         2 ~~~~~~C~~CC~~~~~~i~~---~~i~~~~--~~~~~C~~~avi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~~   71 (91)
+T 4XT3_B            2 HHGVTKCNITCSKMTSKIPV---ALLIHYQ--QNQASCGKRAIILET-RQHRLFCADPKEQWVKDAMQHLDRQAAA   71 (91)
+T ss_dssp             CSSSCCCCEECSSCCCSCCS---SSEEEEE--ECCGGGCSCCEEEEE-TTSCEEEECSSCTTHHHHHHHHHHHC--
+T ss_pred             CCCCCcCCcCCccccCCCCH---HHeeeEE--ECcccCCCcEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHHHHh
+Confidence            3567788   9998877775   6788888  478999999999998 6688899999999999999998775543
+
+
+No 66
+>4RWS_C C-X-C chemokine receptor type 4/Endolysin; Human chemokine-chemokine receptor complex, GPCR; 3.1A {Homo sapiens}
+Probab=99.11  E-value=6.9e-14  Score=91.22  Aligned_cols=66  Identities=27%  Similarity=0.489  Sum_probs=56.2  Template_Neff=9.800
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      .++++||+.+.. .|+.   ..+.+|++  +++.|+.++|||.+ ++++.+|+||+..||+..|+.++.+...
+T Consensus         6 ~~~~~CC~~~~~~~ip~---~~i~~~~~--~~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~~   72 (80)
+T 4RWS_C            6 HRPDKCCLGYQKRPLPQ---VLLSSWYP--TSQLCSKPGVIFLT-KRGRQVCADKSKDWVKKLMQQLPVTARY   72 (80)
+T ss_dssp             TSCSCBCSSCCCSCCCT---TTEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHSCBCC--
+T ss_pred             CCCCCCCCCccCCCCCH---HHeeEEEE--CCCCCCCCeEEEEE-CCCcEEecCCCCHHHHHHHHhcccccCC
+Confidence            567899999996 7885   67899987  48999999999998 6688999999999999999998876543
+
+
+No 67
+>4MHE_B C-C motif chemokine 18; Greek key shape, IMMUNE SYSTEM; 2.1A {Homo sapiens}
+Probab=99.11  E-value=7.1e-14  Score=88.62  Aligned_cols=62  Identities=31%  Similarity=0.513  Sum_probs=53.6  Template_Neff=10.000
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      ++.+||+.|.. .|+.   .+|.+|+.  +++.|+.+||||.+ ++++.+|+||++.||+..|+.++.+
+T Consensus         7 ~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~   69 (70)
+T 4MHE_B            7 NKELCCLVYTSWQIPQ---KFIVDYSE--TSPQCPKPGVILLT-KRGRQICADPNKKWVQKYISDLKLN   69 (70)
+T ss_dssp             HHHHSCSSCCSSCCCG---GGEEEEEE--CCTTCSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHHHC
+T ss_pred             CCCCCCcccCCCCCCH---HHeeEEEE--CCCCCCCCcEEEEe-cCCeEEEeCCCcHHHHHHHHHHhhc
+Confidence            45789999995 7885   67888874  78999999999998 6688999999999999999988764
+
+
+No 68
+>4MHE_C C-C motif chemokine 18; Greek key shape, IMMUNE SYSTEM; 2.1A {Homo sapiens}
+Probab=99.11  E-value=7.1e-14  Score=88.62  Aligned_cols=62  Identities=31%  Similarity=0.513  Sum_probs=52.6  Template_Neff=10.000
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      ++.+||+.|.. .|+.   .+|.+|+.  +++.|+.+||||.+ ++++.+|+||++.||+..|+.++.+
+T Consensus         7 ~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~   69 (70)
+T 4MHE_C            7 NKELCCLVYTSWQIPQ---KFIVDYSE--TSPQCPKPGVILLT-KRGRQICADPNKKWVQKYISDLKLN   69 (70)
+T ss_dssp             -CCSCBSSCCCSCCCG---GGEEEEEE--CCTTCSSCCEEEEE-TTCCEEEECTTSHHHHHHHHHTTC-
+T ss_pred             CCCCCCcccCCCCCCH---HHeeEEEE--CCCCCCCCcEEEEe-cCCeEEEeCCCcHHHHHHHHHHhhc
+Confidence            45789999995 7885   67888874  78999999999998 6688999999999999999988764
+
+
+No 69
+>2R3Z_A Small-inducible cytokine B10; IP-10/CXCL10, chemokine, chemotaxis, inflammatory response; 2.5A {Mus musculus}
+Probab=99.11  E-value=7.2e-14  Score=88.40  Aligned_cols=62  Identities=26%  Similarity=0.404  Sum_probs=54.5  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPK-RHRKVCGNPKSREVQRAMKLL   67 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~k-r~r~vCanP~~~WVq~~mk~l   67 (127)
+                      +....| |+.+.. .|+.   ..|.+|++|++++.|+..++||++ + .++.+|+||++.||++.|+.+
+T Consensus         4 ~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~~C~~p~~~wv~~~~~~l   68 (68)
+T 2R3Z_A            4 ARTVRCNCIHIDDGPVRM---RAIGKLEIIPASLSCPRVEIIATM-KKNDEQRCLNPESKTIKNLMKAF   68 (68)
+T ss_dssp             CEEEEESCSSCCCCCCCS---SSCCEEEEECCCSSSSSCEEEEEC-TTTSCEEEECTTCHHHHHHHTTC
+T ss_pred             CCCCCceecccCCCcccH---HHceEEEEEcCCCCCCcEEEEEEE-eeCCeEEEeCCCCHHHHHHHhhC
+Confidence            456789 999996 7885   789999999899999999999998 6 689999999999999998753
+
+
+No 70
+>2R3Z_B Small-inducible cytokine B10; IP-10/CXCL10, chemokine, chemotaxis, inflammatory response; 2.5A {Mus musculus}
+Probab=99.11  E-value=7.2e-14  Score=88.40  Aligned_cols=62  Identities=26%  Similarity=0.404  Sum_probs=54.1  Template_Neff=9.900
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPK-RHRKVCGNPKSREVQRAMKLL   67 (127)
+Q Consensus         2 G~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~k-r~r~vCanP~~~WVq~~mk~l   67 (127)
+                      +....| |+.+.. .|+.   ..|.+|++|++++.|+..++||++ + .++.+|+||++.||++.|+.+
+T Consensus         4 ~~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~~C~~p~~~wv~~~~~~l   68 (68)
+T 2R3Z_B            4 ARTVRCNCIHIDDGPVRM---RAIGKLEIIPASLSCPRVEIIATM-KKNDEQRCLNPESKTIKNLMKAF   68 (68)
+T ss_dssp             CEEEEESCSSCCCSCCCT---TTEEEEEEECCCSSSSSCEEEEEE-TTTTEEEEECTTSHHHHHHHCC-
+T ss_pred             CCCCCceecccCCCcccH---HHceEEEEEcCCCCCCcEEEEEEE-eeCCeEEEeCCCCHHHHHHHhhC
+Confidence            456789 999996 7885   789999999899999999999998 6 689999999999999998753
+
+
+No 71
+>6N2U_A Interleukin-8; IL-8, IMMUNE SYSTEM; 1.254A {Homo sapiens}
+Probab=99.11  E-value=7.2e-14  Score=93.36  Aligned_cols=65  Identities=25%  Similarity=0.333  Sum_probs=57.5  Template_Neff=10.200
+
+Q CCL25[24-150]     3 VFEDC-CLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         3 ~~edC-CL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ...+| |..+.. .|+.   .++.+|++|++++.|..+||||++ ++++.+|++|+..|+++.++.++.+.
+T Consensus        30 ~~~~C~C~~~~~~~i~~---~~i~~~~~~~~~~~C~~~aii~~~-~~~~~~C~~p~~~~~~~~~~~~~~~~   96 (99)
+T 6N2U_A           30 KELRCQCIKTYSKPFHP---KFIKELRVIESGPHCANTEIIVKL-SDGRELCLDPKENWVQRVVEKFLKRA   96 (99)
+T ss_dssp             CCCSCCCSCCCCSCCCG---GGEEEEEEECCBTTBSSCEEEEEE-TTSCEEEECTTCHHHHHHHHHHHHHH
+T ss_pred             cCCCceeeeeecCccCH---HHeeEEEEEcCCCCCCceEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHhh
+Confidence            45689 999996 6885   789999999999999999999999 66889999999999999999887654
+
+
+No 72
+>1F2L_D FRACTALKINE; CHEMOATTRACTANT, Fractalkine, neurotactin, CYTOKINE; 2.0A {Homo sapiens} SCOP: d.9.1.1
+Probab=99.11  E-value=7.3e-14  Score=91.05  Aligned_cols=65  Identities=28%  Similarity=0.444  Sum_probs=54.2  Template_Neff=9.500
+
+Q CCL25[24-150]     2 GVFEDC---CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edC---CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +.+++|   |+.+...|+.   ..|.+|+  ++++.|+.+||||.+ +++..+|++|+..||+..|+.++.+..
+T Consensus         3 ~~~~~C~~CC~~~~~~i~~---~~i~~~~--~~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~~~   70 (76)
+T 1F2L_D            3 HGVTKCNITCSKMTSKIPV---ALLIHYQ--QNQASCGKRAIILET-RQHRLFCADPKEQWVKDAMQHLDRQAA   70 (76)
+T ss_dssp             --CCCCCEEESSCCCCCCG---GGEEEEE--ECCGGGSSCCEEEEE-TTCCEEEECTTSHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCcccccccCCCCCH---HHeeeEE--ECcccCCCcEEEEEE-CCCcEEeeCCCCHHHHHHHHHHHHHHH
+Confidence            556777   9998877775   7789998  478999999999998 668899999999999999999987654
+
+
+No 73
+>3GV3_A SDF, CXCL12, chemokine, Disulfide bond; 1.6A {Homo sapiens}
+Probab=99.11  E-value=7.5e-14  Score=86.91  Aligned_cols=59  Identities=24%  Similarity=0.393  Sum_probs=50.9  Template_Neff=10.000
+
+Q CCL25[24-150]     4 FEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-HRKVCGNPKSREVQRAMKLLD   68 (127)
+Q Consensus         4 ~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-~r~vCanP~~~WVq~~mk~ld   68 (127)
+                      ...| |+.|...|+.   ..+.+|++++ ++.|+. ++||++ +. ++++|+||++.||+..|+.++
+T Consensus         2 ~~~C~C~~~~~~i~~---~~i~~~~~~~-~~~C~~-~ii~~~-~~~~~~~C~~p~~~wv~~~~~~~~   62 (63)
+T 3GV3_A            2 SYRCPCRFFESHIAR---ANVKHLKILN-TPNCAL-QIVARL-KNNNRQVCIDPKLKWIQEYLEKAL   62 (63)
+T ss_dssp             TTSCSCSSCBSCCCG---GGEEEEEECC-CTTCSC-CEEEEE-TTTCCEEEBCTTCTTHHHHHHHHC
+T ss_pred             CCCCcccccccccCH---HHceEEEEEC-CCCCCC-eEEEEE-eeCCeEEEeCCCcHHHHHHHHHHh
+Confidence            4689 9999855775   7799999875 899999 999988 66 899999999999999998765
+
+
+No 74
+>3ONA_B Tumour necrosis factor receptor, CX3CL1; beta-sandwich, chemokine fold, vTNFR-chemokine complex; 2.6A {Ectromelia virus}
+Probab=99.10  E-value=8.3e-14  Score=91.35  Aligned_cols=64  Identities=28%  Similarity=0.475  Sum_probs=52.6  Template_Neff=9.600
+
+Q CCL25[24-150]     4 FEDC---CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         4 ~edC---CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      +..|   |+.+...|+.   +.|.+|+  ++++.|+.+||||++ +.++.+|+||++.||+..|+.++.+...
+T Consensus         9 ~~~C~~CC~~~~~~i~~---~~i~~~~--~~~~~C~~~~vi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~~   75 (80)
+T 3ONA_B            9 VTKCNITCSKMTSKIPV---ALLIHYQ--QNQASCGKRAIILET-RQHRLFCADPKEQWVKDAMQHLDRQAAA   75 (80)
+T ss_dssp             ---CCCCCCSCCCCCCG---GGEEEEE--ECCTTTSSSCEEEEE-TTTEEEEECTTSHHHHHHHHHHHHHHTT
+T ss_pred             cCCCCcCCccCCCCCCH---HHeeeEE--ECCcCCCCCEEEEEE-CCCCEEEeCCCCHHHHHHHHHHHHHHHh
+Confidence            4456   9998866775   6789998  478999999999998 6688999999999999999998876543
+
+
+No 75
+>1CM9_A VIRAL MACROPHAGE INFLAMMATORY PROTEIN-II; CHEMOKINE, HERPESVIRUS-8, KARPOSI'S SARCOMA; HET: MSE; 2.1A {Human herpesvirus 8} SCOP: d.9.1.1
+Probab=99.10  E-value=8.8e-14  Score=89.79  Aligned_cols=63  Identities=29%  Similarity=0.506  Sum_probs=54.6  Template_Neff=9.700
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +++.+||+.|.. .|+.   +.|.+|++  +++.|+.+||||.+ ++++.+|+||+..||+..|+.++.+
+T Consensus         9 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~~~~~   72 (74)
+T 1CM9_A            9 HRPDKCCLGYQKRPLPQ---VLLSSWYP--TSQLCSKPGVIFLT-KRGRQVCADKSKDWVKKLMQQLPVT   72 (74)
+T ss_dssp             CCCEEECSSCCCSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHSCBC
+T ss_pred             CCCCCCCCcccCCcCCH---HHeeEEEE--CCCCCCCCEEEEEE-CCCcEEEeCCCCHHHHHHHHhCccc
+Confidence            345789999996 7885   78999998  48899999999998 6678899999999999999998754
+
+
+No 76
+>4UAI_A CXCL12; CXCL12, inhibitor, complex, chemokine, CYTOKINE-CYTOKINE; HET: SO4, 3GG; 1.9A {Homo sapiens}
+Probab=99.09  E-value=9e-14  Score=87.47  Aligned_cols=62  Identities=21%  Similarity=0.380  Sum_probs=52.8  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-HRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++..+| |..+...++.   ..|.+|++|+ ++.|.. ++||++ ++ ++.+|+||++.||+..|+.++.
+T Consensus         4 ~~~~~C~C~~~~~~~~~---~~i~~~~~~~-~~~C~~-~ii~~~-~~~~~~~C~~p~~~wv~~~~~~~~~   67 (68)
+T 4UAI_A            4 SLSYRCPCRFFESHVAR---ANVKHLKILN-TPNCAL-QIVARL-KNNNRQVCIDPKLKWIQEYLEKALN   67 (68)
+T ss_dssp             GGCCSCSCSCCBSCCCG---GGEEEEEEEC-CTTSSC-CEEEEE-TTTCCEEEBCTTCTTHHHHHHHHHC
+T ss_pred             CcCCCCcccccccccCH---HHccEEEEEC-CCCCCC-eEEEEE-eeCCEEEEeCCCcHHHHHHHHHHhc
+Confidence            567899 9877765653   7899999987 899997 999988 66 8899999999999999988754
+
+
+No 77
+>4UAI_B CXCL12; CXCL12, inhibitor, complex, chemokine, CYTOKINE-CYTOKINE; HET: SO4, 3GG; 1.9A {Homo sapiens}
+Probab=99.09  E-value=9e-14  Score=87.47  Aligned_cols=62  Identities=21%  Similarity=0.380  Sum_probs=52.8  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-HRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         2 G~~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++..+| |..+...++.   ..|.+|++|+ ++.|.. ++||++ ++ ++.+|+||++.||+..|+.++.
+T Consensus         4 ~~~~~C~C~~~~~~~~~---~~i~~~~~~~-~~~C~~-~ii~~~-~~~~~~~C~~p~~~wv~~~~~~~~~   67 (68)
+T 4UAI_B            4 SLSYRCPCRFFESHVAR---ANVKHLKILN-TPNCAL-QIVARL-KNNNRQVCIDPKLKWIQEYLEKALN   67 (68)
+T ss_dssp             CSSCCCSCCSCBSCCCG---GGEEEEEEES-CTTSSC-CEEEEE-TTTCCEEEBCTTCHHHHHHHHHHHC
+T ss_pred             CcCCCCcccccccccCH---HHccEEEEEC-CCCCCC-eEEEEE-eeCCEEEEeCCCcHHHHHHHHHHhc
+Confidence            567899 9877765653   7899999987 899997 999988 66 8899999999999999988754
+
+
+No 78
+>1B53_A CHEMOKINE, CYTOKINE, CHEMOTAXIS; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.09  E-value=9e-14  Score=87.69  Aligned_cols=63  Identities=30%  Similarity=0.521  Sum_probs=54.4  Template_Neff=10.100
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDAR   70 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r   70 (127)
+                      +++.+||+.++. .|+.   ..|.+|+.  +++.|+.+|+||.+ ++++.+|+||+..|++..|+.++.+
+T Consensus         5 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~w~~~~~~~~~~~   68 (69)
+T 1B53_A            5 DTPTACCFSYTSRQIPQ---NFIAAYFE--TSSQCSKPGVIFLT-KRSRQVCADPSEEWVQKYVSDLELS   68 (69)
+T ss_dssp             CCCCCCCCSCCSSCCCG---GGCCCCCC--CCTTSCCSSCCCCC-TTSCCCCCCTTCTTHHHHHHTTSSC
+T ss_pred             CCCCCCCccccCCCCCH---HHeEEEEE--CCCCCCCCeEEEEE-CCCcEEEeCCCcHHHHHHHHHhhhc
+Confidence            567899999996 7885   67888864  78999999999999 6678999999999999999988754
+
+
+No 79
+>1J9O_A CHEMOKINE, CYTOKINE; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.09  E-value=9.9e-14  Score=94.47  Aligned_cols=65  Identities=26%  Similarity=0.412  Sum_probs=55.3  Template_Neff=9.100
+
+Q CCL25[24-150]     1 QGVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         1 QG~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      |+++..||+.|.. .|+.   +.|.+|+++    .|+.+||||.+ ++++++|+||+..||+..|+.++.+...
+T Consensus         4 ~~~~~~CC~~~~~~~i~~---~~i~~~~~~----~C~~~aii~~~-~~g~~~C~~p~~~wv~~~~~~~~~~~~~   69 (93)
+T 1J9O_A            4 EVSDKRTCVSLTTQRLPV---SRIKTYTIT----EGSLRAVIFIT-KRGLKVCADPQATWVRDVVRSMDRKSNT   69 (93)
+T ss_dssp             CCSSCSSCSSBCCSCCCT---TTEEEEEEC----CSTTCCEEEEE-TTSCEEEECTTCHHHHHHHHHHHHHTSS
+T ss_pred             cccCCCCccccCCCcCCH---HHceEEEEc----cCCceEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHhhcc
+Confidence            4678899999996 7885   779999873    39999999999 6688999999999999999998776543
+
+
+No 80
+>2NYZ_E Hypothetical protein GAMMAHV.M3, Lymphotactin; Viral Decoy Receptor, Chemokine, Protein-Protein; 2.6A {Murid herpesvirus 4}
+Probab=99.09  E-value=9.9e-14  Score=94.47  Aligned_cols=65  Identities=26%  Similarity=0.412  Sum_probs=54.8  Template_Neff=9.100
+
+Q CCL25[24-150]     1 QGVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNKV   73 (127)
+Q Consensus         1 QG~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k~   73 (127)
+                      |+++..||+.|.. .|+.   +.|.+|+++    .|+.+||||.+ ++++++|+||+..||+..|+.++.+...
+T Consensus         4 ~~~~~~CC~~~~~~~i~~---~~i~~~~~~----~C~~~aii~~~-~~g~~~C~~p~~~wv~~~~~~~~~~~~~   69 (93)
+T 2NYZ_E            4 EVSDKRTCVSLTTQRLPV---SRIKTYTIT----EGSLRAVIFIT-KRGLKVCADPQATWVRDVVRSMDRKSNT   69 (93)
+T ss_dssp             -ECCCEECSSCCSSCCCG---GGEEEEECC----CSTTCCEEEEE-TTSCEEEECTTCHHHHHHHHHHHTTSST
+T ss_pred             cccCCCCccccCCCcCCH---HHceEEEEc----cCCceEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHhhcc
+Confidence            4678899999996 7885   779999873    39999999999 6688999999999999999998776543
+
+
+No 81
+>3TN2_A C-C motif chemokine 4; CYTOKINE; 1.6A {Homo sapiens}
+Probab=99.06  E-value=1.5e-13  Score=87.13  Aligned_cols=61  Identities=28%  Similarity=0.502  Sum_probs=52.9  Template_Neff=9.800
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLD   68 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld   68 (127)
+                      .++.+||+.|.. .|+.   +.+.+|+.  +++.|+.+||||++ +.++.+|++|++.||+..|+.++
+T Consensus         6 ~~~~~CC~~~~~~~i~~---~~i~~~~~--~~~~C~~~~ii~~~-~~~~~~C~~p~~~wv~~~~~~l~   67 (68)
+T 3TN2_A            6 DPATACCFSYTARKLPR---NFVVDYYE--TSSLCSQPAVVFQT-KRSKQVCADPSESWVQEYVYDLE   67 (68)
+T ss_dssp             CTTTCBCSSCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHHH
+T ss_pred             CCCCCCCCCccCCCCCH---HHeEEEEE--CCCCCCCCeEEEEe-CCCeEEEeCCCCHHHHHHHHhhc
+Confidence            356889999995 8885   77899975  68999999999998 66889999999999999998875
+
+
+No 82
+>6SHR_A Stromal cell-derived factor 1; CYTOKINE, CELL-FREE PROTEIN SYNTHESIS (CFPS); 1.745A {Homo sapiens}
+Probab=99.06  E-value=1.7e-13  Score=84.79  Aligned_cols=60  Identities=22%  Similarity=0.380  Sum_probs=50.7  Template_Neff=10.300
+
+Q CCL25[24-150]     4 FEDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-HRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         4 ~edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ...| |..+...++.   ..|.+|++|+ ++.|.. |+||++ +. ++.+|+||+..||+..|..++.
+T Consensus         2 ~~~C~C~~~~~~~~~---~~i~~~~~~~-~~~C~~-~ii~~~-~~~~~~~C~~p~~~wv~~~~~~~~~   63 (64)
+T 6SHR_A            2 SYRCPCRFFESHVAR---ANVKHLKILN-TPNCAL-QIVARL-KNNNRQVCIDPKLKWIQEYLEKALN   63 (64)
+T ss_dssp             TTSCSCSSCBSCCCG---GGEEEEEECC-CTTSSC-CEEEEE-TTTCCEEEBCTTCHHHHHHHHHHTC
+T ss_pred             CCCCcCcccccccCH---HHccEEEEEC-CCCCCc-eEEEEE-ccCCEEEEeCCCcHHHHHHHHHHhc
+Confidence            3579 9887765553   7899999986 899997 999988 66 8999999999999999998764
+
+
+No 83
+>5LTL_A C-C motif chemokine 16; Chemokine, CC-type, Chemotaxis, cytokine; 1.45A {Homo sapiens}
+Probab=99.05  E-value=1.9e-13  Score=94.63  Aligned_cols=64  Identities=36%  Similarity=0.526  Sum_probs=54.7  Template_Neff=8.900
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++.+||+.|.. .|+.   +.|.+|+++.  . |+.+||||++ ++++.+|+||++.||+..|+.++.+..
+T Consensus        12 ~~~~~CC~~~~~~~i~~---~~i~~~~~~~--~-C~~~~vi~~~-k~~~~~C~~p~~~wv~~~~~~~~~~~~   76 (100)
+T 5LTL_A           12 NTPSTCCLKYYEKVLPR---RLVVGYRKAL--N-CHLPAIIFVT-KRNREVCTNPNDDWVQEYIKDPNLPLL   76 (100)
+T ss_dssp             CSCEEECSSCCCSCCCG---GGEEEEEEEC--S-SSSCEEEEEE-TTSCEEEECTTSHHHHHHHHSTTSCBC
+T ss_pred             CCCCCccccccCCcCCH---HHeeEEEEcc--C-CCCCEEEEEe-CCCeEEEeCCCCHHHHHHHhCCCCCCC
+Confidence            356889999986 7885   7799999864  3 9999999999 668899999999999999999877654
+
+
+No 84
+>5LTL_B C-C motif chemokine 16; Chemokine, CC-type, Chemotaxis, cytokine; 1.45A {Homo sapiens}
+Probab=99.05  E-value=1.9e-13  Score=94.63  Aligned_cols=64  Identities=36%  Similarity=0.526  Sum_probs=54.7  Template_Neff=8.900
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      +++.+||+.|.. .|+.   +.|.+|+++.  . |+.+||||++ ++++.+|+||++.||+..|+.++.+..
+T Consensus        12 ~~~~~CC~~~~~~~i~~---~~i~~~~~~~--~-C~~~~vi~~~-k~~~~~C~~p~~~wv~~~~~~~~~~~~   76 (100)
+T 5LTL_B           12 NTPSTCCLKYYEKVLPR---RLVVGYRKAL--N-CHLPAIIFVT-KRNREVCTNPNDDWVQEYIKDPNLPLL   76 (100)
+T ss_dssp             CSCEEECSSCCSSCCCG---GGEEEEEEET--T-SSSCEEEEEE-TTSCEEEECTTSHHHHHHHTCTTCCBC
+T ss_pred             CCCCCccccccCCcCCH---HHeeEEEEcc--C-CCCCEEEEEe-CCCeEEEeCCCCHHHHHHHhCCCCCCC
+Confidence            356889999986 7885   7799999864  3 9999999999 668899999999999999999877654
+
+
+No 85
+>1B2T_A CHEMOKINE; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=99.02  E-value=2.9e-13  Score=88.65  Aligned_cols=64  Identities=28%  Similarity=0.439  Sum_probs=54.3  Template_Neff=9.400
+
+Q CCL25[24-150]     3 VFEDC---CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus         3 ~~edC---CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      .+..|   |+.|...|+.   ..|.+|+.  +++.|+.+||||++ +++.++|++|+..||+..|+.++.+..
+T Consensus         5 ~~~~C~~CC~~~~~~i~~---~~i~~~~~--~~~~C~~~avi~~~-~~~~~~C~~p~~~wv~~~~~~~~~~~~   71 (77)
+T 1B2T_A            5 GVTKCNITCSKMTSKIPV---ALLIHYQQ--NQASCGKRAIILET-RQHRLFCADPKEQWVKDAMQHLDRQAA   71 (77)
+T ss_dssp             CCCCSSSCCSSCCCCCCG---GGEEEEEE--CCTTTSSSCEEEEE-TTTEEEEECTTSHHHHHHHHHHTTTST
+T ss_pred             CCCCCcccccccCCCCCH---HHeeeEEE--CCCCCCCCEEEEEE-CCCcEEEeCCCCHHHHHHHHHHHHHHH
+Confidence            35566   9998877775   67899984  78999999999998 668899999999999999999877654
+
+
+No 86
+>2Q8T_A CCL14; common CC chemokine fold, CYTOKINE; 2.23A {Homo sapiens}
+Probab=99.02  E-value=3.1e-13  Score=87.00  Aligned_cols=61  Identities=30%  Similarity=0.566  Sum_probs=51.6  Template_Neff=9.800
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++.+||+.|.. .|+.   ..|.+|+.  +++.|+.+||||.+ ++++.+|+||+..||++.|+.++.
+T Consensus        12 ~~~~CC~~~~~~~ip~---~~i~~~~~--~~~~C~~~avi~~~-~~~~~~C~~p~~~wv~~~~~~~~~   73 (74)
+T 2Q8T_A           12 HPSECCFTYTTYKIPR---QRIMDYYE--TNSQCSKPGIVFIT-KRGHSVCTNPSDKWVQDYIKDMKE   73 (74)
+T ss_dssp             SCEEECSSCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHC--
+T ss_pred             CCCCCCccccCCcCCH---HHeeEEEE--CCCCCCCCeEEEEE-CCCcEEEeCCCCHHHHHHHHHHhh
+Confidence            45789999996 7886   67888874  78999999999998 668899999999999999998764
+
+
+No 87
+>2Q8T_B CCL14; common CC chemokine fold, CYTOKINE; 2.23A {Homo sapiens}
+Probab=99.02  E-value=3.1e-13  Score=87.00  Aligned_cols=61  Identities=30%  Similarity=0.566  Sum_probs=52.7  Template_Neff=9.800
+
+Q CCL25[24-150]     3 VFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDA   69 (127)
+Q Consensus         3 ~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~   69 (127)
+                      ++.+||+.|.. .|+.   ..|.+|+.  +++.|+.+||||.+ ++++.+|+||+..||++.|+.++.
+T Consensus        12 ~~~~CC~~~~~~~ip~---~~i~~~~~--~~~~C~~~avi~~~-~~~~~~C~~p~~~wv~~~~~~~~~   73 (74)
+T 2Q8T_B           12 HPSECCFTYTTYKIPR---QRIMDYYE--TNSQCSKPGIVFIT-KRGHSVCTNPSDKWVQDYIKDMKE   73 (74)
+T ss_dssp             CCEEECSSCCCSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-TTSCEEEECTTSHHHHHHHHHTCC
+T ss_pred             CCCCCCccccCCcCCH---HHeeEEEE--CCCCCCCCeEEEEE-CCCcEEEeCCCCHHHHHHHHHHhh
+Confidence            45789999996 7886   67888874  78999999999998 668899999999999999998764
+
+
+No 88
+>2HDL_A Small inducible cytokine B14; CXCL14, Brak, chemokine, CYTOKINE; NMR {Homo sapiens}
+Probab=98.85  E-value=3.4e-12  Score=85.06  Aligned_cols=63  Identities=21%  Similarity=0.332  Sum_probs=55.4  Template_Neff=8.800
+
+Q CCL25[24-150]     5 EDC-CLAYHYPIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKR-----HRKVCGNPKSREVQRAMKLLDARN   71 (127)
+Q Consensus         5 edC-CL~Y~~~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr-----~r~vCanP~~~WVq~~mk~ld~r~   71 (127)
+                      ..| |+.+...|+.   +.|.+|++++.++.|..+||||++ +.     ++.+|+||+..||+..|..++...
+T Consensus         2 ~rC~C~~~~~~i~~---~~i~~~~~~~~~~~C~~~~ii~~~-~~~~~~~g~~~C~~p~~~wv~~~~~~~~~~~   70 (78)
+T 2HDL_A            2 SKCKCSRKGPKIRY---SDVKKLEMKPKYPHCEEKMVIITT-KSVSRYRGQEHCLHPKLQSTKRFIKWYNAWN   70 (78)
+T ss_dssp             CCCCCCSSSSCCCG---GGEEEEEECCSSTTSSSCCEEEEE-CSSSTTTTSEEEECTTSHHHHHHHHHHHHHH
+T ss_pred             CCccccCCCCCCCH---HHceEEEEecCCCCCCCeEEEEEE-ccccccCCeeEEeCCCcHHHHHHHHHHHHHH
+Confidence            469 9999955775   789999999888999999999998 76     799999999999999999987654
+
+
+No 89
+>7F1T_A C-C motif chemokine 3,C-C chemokine; G protein-coupled Receptor, Chemokine receptor; 2.6A {Homo sapiens}
+Probab=91.88  E-value=0.065  Score=44.05  Aligned_cols=61  Identities=31%  Similarity=0.537  Sum_probs=47.6  Template_Neff=11.800
+
+Q CCL25[24-150]     2 GVFEDCCLAYHY-PIGWAVLRRAWTYRIQEVSGSCNLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLD   68 (127)
+Q Consensus         2 G~~edCCL~Y~~-~i~~~~lr~~~~Yr~Qe~sG~CNipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld   68 (127)
+                      .+|.+||+.|.. .++.   ..+.+|..  +.+.|..+++++.. ++....|.++...|.........
+T Consensus         5 ~~~~~~~~~~~~~~~~~---~~~~~~~~--~~~~~~~~~~~~l~-~~~~~~~~~~~~~~~~~~~~~~~   66 (491)
+T 7F1T_A            5 DTPTACCFSYCSRQIPQ---NFIADYFE--TSSQCSKPGVIFLT-KRSRQVCADPSEEWVQKYVSDLE   66 (491)
+T ss_dssp             CCCSEECSSCCSSCCCG---GGEEEEEE--CCTTSSSCCEEEEE-SSSCEEEECTTSHHHHHHHHHHH
+T ss_pred             CCCCcccceecccCCCH---hhhhheee--ccccCCCCeEEEEE-eccceeccCCCChhhhhccchhh
+Confidence            468899999985 5664   55677765  78999999998877 55778999999888888765543
+
+
+No 90
+>7KBB_D HCMV pentamer, Fab, complex, VIRAL;{Homo sapiens}
+Probab=22.75  E-value=84  Score=27.16  Aligned_cols=50  Identities=16%  Similarity=0.256  Sum_probs=37.5  Template_Neff=2.700
+
+Q CCL25[24-150]    21 RRAWTYRIQEVSGSC-NLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus        21 r~~~~Yr~Qe~sG~C-NipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....+|+...++..| +..-++|++ +.++-+-..| ..||.+++..+..++.
+T Consensus        44 ~lF~sY~~~~t~~~C~n~tLyvl~t-~~gQtLIerp-S~Wv~kli~YLsGrn~   94 (189)
+T 7KBB_D           44 LQFSGFQQVSTGPECRNETLYLLYN-REGQTLVERS-STWVKKVIWYLSGRNQ   94 (189)
+T ss_dssp             GGEEEEEEEECCGGGTTCEEEEEEE-TTSCEEEEEC-CHHHHHHHHHHHHHTC
+T ss_pred             hheeeeEeecCCCcccceeEEEEEe-CCCCeEEEcC-CHHHHHHHHHHhccCc
+Confidence            557889887789999 555566666 5466665565 6899999999988764
+
+
+No 91
+>7M22_D HCMV pentamer, NRP2, cytomegalovirus, host; HET: NAG; 3.65A {Human cytomegalovirus}
+Probab=22.75  E-value=84  Score=27.16  Aligned_cols=50  Identities=16%  Similarity=0.256  Sum_probs=37.5  Template_Neff=2.700
+
+Q CCL25[24-150]    21 RRAWTYRIQEVSGSC-NLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus        21 r~~~~Yr~Qe~sG~C-NipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....+|+...++..| +..-++|++ +.++-+-..| ..||.+++..+..++.
+T Consensus        44 ~lF~sY~~~~t~~~C~n~tLyvl~t-~~gQtLIerp-S~Wv~kli~YLsGrn~   94 (189)
+T 7M22_D           44 LQFSGFQQVSTGPECRNETLYLLYN-REGQTLVERS-STWVKKVIWYLSGRNQ   94 (189)
+T ss_pred             hheeeeEeecCCCcccceeEEEEEe-CCCCeEEEcC-CHHHHHHHHHHhccCc
+Confidence            557889887789999 555566666 5466665565 6899999999988764
+
+
+No 92
+>5VOB_D Envelope glycoprotein H, Envelope glycoprotein; HCMV, neutralizing epitope, immunogen, viral; HET: BMA, NAG; 3.02A {Human cytomegalovirus}
+Probab=20.17  E-value=1e+02  Score=27.70  Aligned_cols=50  Identities=16%  Similarity=0.253  Sum_probs=37.7  Template_Neff=2.500
+
+Q CCL25[24-150]    21 RRAWTYRIQEVSGSC-NLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus        21 r~~~~Yr~Qe~sG~C-NipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....+|+...++..| +..-++|++ +.++.+-..| ..||.+.+..+..++.
+T Consensus        69 ~lF~SY~~~~t~~~C~n~tLYvl~t-~~gQtLIErp-S~Wv~Kli~YLsGRn~  119 (252)
+T 5VOB_D           69 LQFSGFQRVSTGPECRNETLYLLYN-REGQTLVERS-STWVKKVIWYLSGRNQ  119 (252)
+T ss_dssp             GGEEEEEEEECCGGGTTCEEEEEEE-TTSCEEEEEC-CHHHHHHHHHHHHHTC
+T ss_pred             hhcceeEEecCCCcccceeEEEEEe-CCCCeEEEcC-CHHHHHHHHHHhccCC
+Confidence            557888887789999 555566776 5466666665 6899999999988764
+
+
+No 93
+>5VOC_D Envelope glycoprotein H, Envelope glycoprotein; HCMV, neutralizing epitope, immunogen, viral; HET: BMA, NAG; 3.99A {Human cytomegalovirus}
+Probab=20.17  E-value=1e+02  Score=27.70  Aligned_cols=50  Identities=16%  Similarity=0.253  Sum_probs=37.7  Template_Neff=2.500
+
+Q CCL25[24-150]    21 RRAWTYRIQEVSGSC-NLPAAIFYLPKRHRKVCGNPKSREVQRAMKLLDARNK   72 (127)
+Q Consensus        21 r~~~~Yr~Qe~sG~C-NipAVIF~l~kr~r~vCanP~~~WVq~~mk~ld~r~k   72 (127)
+                      ....+|+...++..| +..-++|++ +.++.+-..| ..||.+.+..+..++.
+T Consensus        69 ~lF~SY~~~~t~~~C~n~tLYvl~t-~~gQtLIErp-S~Wv~Kli~YLsGRn~  119 (252)
+T 5VOC_D           69 LQFSGFQRVSTGPECRNETLYLLYN-REGQTLVERS-STWVKKVIWYLSGRNQ  119 (252)
+T ss_dssp             GGEEEEEEEECCGGGTTCEEEEEEE-TTSCEEEEEC-CHHHHHHHHHHHHHTC
+T ss_pred             hhcceeEEecCCCcccceeEEEEEe-CCCCeEEEcC-CHHHHHHHHHHhccCC
+Confidence            557888887789999 555566776 5466666665 6899999999988764
+
+

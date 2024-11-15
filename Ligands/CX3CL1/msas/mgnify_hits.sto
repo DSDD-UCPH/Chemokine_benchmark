@@ -1,0 +1,24 @@
+# STOCKHOLM 1.0
+
+#=GS MGYP000197220544/54-387 DE [subseq from] PL=00 UP=0 BIOMES=0000000011000
+#=GS MGYP000082386992/6-190  DE [subseq from] PL=10 UP=0 BIOMES=0101000000000
+#=GS MGYP000707561028/1-85   DE [subseq from] PL=00 UP=0 BIOMES=0000000010100
+#=GS MGYP001087795021/1-57   DE [subseq from] PL=01 UP=0 BIOMES=0000000011000
+#=GS MGYP000678197515/10-46  DE [subseq from] PL=00 UP=0 BIOMES=1000000000000
+
+CX3CL1[25-397]                  QHHGVTKCNITCSKMTSKIPVALLIHYQQNQASCGKRAIILETRQHRLFCADPKEQWVKDAMQHLDRQAAALTRNGGTFEKQIGEVKPRTTPAAGGMDESVVLEPEATGESSSLEPTPSSQEAQRALGTSPELPTGVTGSSGTRLPPTPKAQDGGPVGTELFRVPPVSTAATWQSSAPHQPGPSLWAEAKTSEAPSTQDP
+MGYP000197220544/54-387         ---------------------------------------SLETRQHRLFCADPKEQWVKDAMQHLDRQAAALTRNGGTFEKQIGEVKPRTTPAAGGMDESVVLEPEATGESSSLEPTPSSQEAQRALGTSPELPTGVTGSSGTRLPPTPKAQDGGPVGTELFRVPPVSTAATWQSSAPHQPGPSLWAEAKTSEAPSTQDP
+MGYP000082386992/6-190          -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SLVPSTPDP
+MGYP000707561028/1-85           --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP001087795021/1-57           ----------------------------------------------------------------------ALTRNGGTFEKQIGEVKPRTTPAAGGMDESVVLEPEATGESSSLEPTPSSQEAQRET-------------------------------------------------------------------------
+MGYP000678197515/10-46          -----------------------------------------------------------------GRQAAALTRNGGTFEKQIGEVKPRTTPAAGGMDLSLI--------------------------------------------------------------------------------------------------
+#=GC RF                         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CX3CL1[25-397]                  STQASTASSPAPEENAPSEGQRVWGQGQSPRPENSLEREEMGPVPAHTDAFQDWGPGSMAHVSVVPVSSEGTPSREPVASGSW------TPKAEEPIHATMDPQRLGVLITPVPDAQAATRRQAVGLLAFLGLLFCLGVAMFTYQSLQGCPRKMAGEMAEGLRYIPRSCGSNSYVLVPV
+MGYP000197220544/54-387         STQASTASSPAPEENAPSEGQRVWGQGQSPRPENSLEREEMGPVPAHTDAFQDWGPGSMAHVSVVPVSSEGTPSREPVASGSW------TPKAEEPIHATMDPQRLGVLITPVPDAQAATRRQAVGLLAFLGLLFCLGVAMFTYQSLQGCPRKMAGEMAEGLRYIPRSCGSNSYVLVPV
+MGYP000082386992/6-190          STQAPTLSYAVLED-SSGPGSLTVGIKVQDSSKNSLGSKEMSPSSAHTDAFL--GSATVSSIFEVTVASEGTPSMDALASGSWGPETEELPKAKEPILTTAGPRSLGILMTSVPDSQVATRRQAVGLLAFLGLLFCLGVAMFAYQRLQSCPHKMVGDVVEGICYVPRSCGSNSYVLVPV
+MGYP000707561028/1-85           -------------------------------------------MPAHTDAFQDWGPGSMAHVSVVPVSSEGTPSREPVASGSW------TPKAEEPIHATMDPQRLGVLITPVPDAQAATRRQAVGLLAFLGLC---------------------------------------------
+MGYP001087795021/1-57           -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000678197515/10-46          -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC RF                         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
