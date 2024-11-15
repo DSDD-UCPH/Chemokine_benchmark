@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+
+#=GS MGYP000079281603/9-338   DE [subseq from] PL=00 UP=1 BIOMES=0000000011000
+#=GS MGYP000176745462/21-173  DE [subseq from] PL=01 UP=0 BIOMES=0101000000000
+#=GS MGYP000087218406/52-141  DE [subseq from] PL=01 UP=0 BIOMES=0000000010100
+#=GS MGYP000047157559/14-92   DE [subseq from] PL=01 UP=0 BIOMES=1000000000000
+#=GS MGYP000344979384/1-44    DE [subseq from] PL=01 UP=0 BIOMES=1000000000000
+#=GS MGYP000266681161/181-227 DE [subseq from] PL=11 UP=0 BIOMES=0100000000000
+#=GS MGYP000266681161/233-276 DE [subseq from] PL=11 UP=0 BIOMES=0100000000000
+#=GS MGYP000220563059/7-97    DE [subseq from] PL=00 UP=0 BIOMES=0000000000001
+
+ACKR1[1-336]                     MGNCLHRAELSPSTENSSQLDFEDVWNSSYGVNDSFPDGDYGANLEAAAPCHSCNLLDDSALPFFILTSVLGILASSTVLFMLFRPLFRWQLCPGWPVLAQLAVGSALFSIVVPVLAPGLGSTRSSALCSLGYCVWYGSAFAQALLLGCHASLGHRLGAGQVPGLTLGLTVGIWGVAALLTLPVTLASGASGGLCTLIYS
+MGYP000079281603/9-338           ------QAELSPSTENSSQLDFEDVWNSSYGVNDSFPDGDYGANLEAAAPCHSCNLLDDSALPFFILTSVLGILASSTVLFMLFRPLFRWQLCPGWPVLAQLAVGSALFSIVVPVLAPGLGSTRSSALCSLGYCVWYGSAFAQALLLGCHASLGHRLGAGQVPGLTLGLTVGIWGVAALLTLPVTLASGASGGLCTLIYS
+MGYP000176745462/21-173          --------------------------------EDYYPDYN-ETDVEAAAPCHSCSLLNYSSLPFFILVSILGILASGTILYALLRPLFRWQLYQDRSTLVQLAVGSALFSIVVPILARGLSGALITSLCHLAHLVAYGSAFAQALLIGYHACLGPQLGAGQVPGLRLGVTVGLWGVAALLSLPVVL--------------
+MGYP000087218406/52-141          ------QAELSPSTENSSQLDFEDVWNSSYGVNDSFPDGDYGANLEAAAPCHSCNLLDDSALPFFILTSVLGILASSTVLFMLFRPLFRWQLCPGW--------------------------------------------------------------------------------------------------------
+MGYP000047157559/14-92           -----------------------------------------------------------------------------------------------------LAVGSALFSIVVPVLAPGLGSTRSSALCSLGYCVWYGSAFAQALLLGCHASLGHRLGAGQVPGLTLGLTVGIWGCL-LYT-------------------
+MGYP000344979384/1-44            -----------------SQLDFEDVWNSSYGVNDSFPDGDYDANLEAAAPCHSCNLLDDSA-------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000266681161/181-227         ------REALRFRTPEAAPLDYAATQNNLGAAYRSLPTGDRAANLEAAIACYR---------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000266681161/233-276         ------------RTPEAAPLDYAATQNNLGLAYADLPTGDRAANLEAAIACYTAAL------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000220563059/7-97            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ACKR1[1-336]                     TELKALQATHTVACLAIFVLLPLGLFGAKGLKKALGMGPGPWMNILWA---WFIFWWPHGVVLGLDFLVRSKLLLLSTCLAQQALDLLLNLAEALAILHCVATPLLLALFCHQATRTLLPSLPLPEGWSSHLDTLGSKS
+MGYP000079281603/9-338           TELKALQATHTVACLAIFVLLPLGLFGAKGLKKALGMGPGPWMNILWA---WFIFWWPHGVVLGLDFLVRSKLLLLSTCLAQQALDLLLNLAEALAILHCVATPLLLALFCHQATRTLLPSLPLPEGWSSHLDTLGSKS
+MGYP000176745462/21-173          -------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000087218406/52-141          -------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000047157559/14-92           -------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000344979384/1-44            -------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000266681161/181-227         -------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000266681161/233-276         -------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000220563059/7-97            ------------------------------------VGAKLWVTAVWAVVAFFVLWFPYNLTLFLHTLLD--LQVFGNCEVSQHLDYALQVTESIAFLHCCFSPILYAFSSHRFRQYLKAFLAAVLGWH----------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
