@@ -6,7 +6,7 @@
 
 
 
-| Symbol | Meaning                   |
+| Color  | structure                 |
 |--------|---------------------------|
 | 🟡     | Experimental pdb chain A  |
 | 🟠     | Experimental pdb chain B  |
